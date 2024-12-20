@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "53b40feb-8b9e-4e17-a3a8-cefeb796a355",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          72.86393847182046,
+          18.93782205247954,
+          -65.8115329648643
+        ],
+        [
+          72.81815838979,
+          18.949793957724435,
+          -65.80826920860291
+        ],
+        [
+          72.80558552446625,
+          18.906230321984122,
+          -65.8110412813633
+        ],
+        [
+          72.85135464295247,
+          18.894261461842223,
+          -65.80826597622514
+        ],
+        [
+          72.86393847182046,
+          18.93782205247954,
+          -65.8115329648643
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    72.80558552446625,
+    18.894261461842223,
+    72.86393847182046,
+    18.949793957724435
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:07.794229Z",
+    "updated": "2024-12-17T09:54:07.794229Z",
+    "start_datetime": "2024-03-09T16:22:35Z",
+    "end_datetime": "2024-03-09T16:22:40.738130Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.8389473927485,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599996232194826,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.9999999999999988,
+    "sar:resolution_azimuth": 0.25,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 4,
+    "sar:observation_direction": "left",
+    "datetime": "2024-03-09T16:22:35Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-03-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Mumbai_IN_GatewayofIndia/69f20435-8fee-4091-9b4f-af31eec80a89/2024-03-09-16-22-34_UMBRA-04/2024-03-09-16-22-34_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mumbai_IN_GatewayofIndia/69f20435-8fee-4091-9b4f-af31eec80a89/2024-03-09-16-22-34_UMBRA-04/2024-03-09-16-22-34_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mumbai_IN_GatewayofIndia/69f20435-8fee-4091-9b4f-af31eec80a89/2024-03-09-16-22-34_UMBRA-04/2024-03-09-16-22-34_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mumbai_IN_GatewayofIndia/69f20435-8fee-4091-9b4f-af31eec80a89/2024-03-09-16-22-34_UMBRA-04/2024-03-09-16-22-34_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mumbai_IN_GatewayofIndia/69f20435-8fee-4091-9b4f-af31eec80a89/2024-03-09-16-22-34_UMBRA-04/2024-03-09-16-22-34_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mumbai_IN_GatewayofIndia/69f20435-8fee-4091-9b4f-af31eec80a89/2024-03-09-16-22-34_UMBRA-04/2024-03-09-16-22-34_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "9640edf3-dca2-47fd-867a-18e750218dce",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.77033967767288,
+          38.50254473504454,
+          -10.010866990099418
+        ],
+        [
+          -121.74690841772828,
+          38.54365832317401,
+          -10.013721368604875
+        ],
+        [
+          -121.79926870331627,
+          38.56205899809064,
+          -10.010556012115693
+        ],
+        [
+          -121.82267613170063,
+          38.520935069436064,
+          -10.013720528672819
+        ],
+        [
+          -121.77033967767288,
+          38.50254473504454,
+          -10.010866990099418
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -121.82267613170063,
+    38.50254473504454,
+    -121.74690841772828,
+    38.56205899809064
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:16.187667Z",
+    "updated": "2024-12-17T09:52:16.187667Z",
+    "start_datetime": "2024-07-01T05:33:17Z",
+    "end_datetime": "2024-07-01T05:33:24.843891Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 18.182775794937854,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800004838965835,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4906513426214278,
+    "sar:resolution_azimuth": 0.16109467467141436,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-07-01T05:33:17Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-07-01"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC%20Davis%20Ag%20Plot/106b265b-3e16-42f1-9432-2662e2dbcaa8/2024-07-01-05-33-16_UMBRA-04/2024-07-01-05-33-16_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC Davis Ag Plot/106b265b-3e16-42f1-9432-2662e2dbcaa8/2024-07-01-05-33-16_UMBRA-04/2024-07-01-05-33-16_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC Davis Ag Plot/106b265b-3e16-42f1-9432-2662e2dbcaa8/2024-07-01-05-33-16_UMBRA-04/2024-07-01-05-33-16_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC Davis Ag Plot/106b265b-3e16-42f1-9432-2662e2dbcaa8/2024-07-01-05-33-16_UMBRA-04/2024-07-01-05-33-16_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC Davis Ag Plot/106b265b-3e16-42f1-9432-2662e2dbcaa8/2024-07-01-05-33-16_UMBRA-04/2024-07-01-05-33-16_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC Davis Ag Plot/106b265b-3e16-42f1-9432-2662e2dbcaa8/2024-07-01-05-33-16_UMBRA-04/2024-07-01-05-33-16_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

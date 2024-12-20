@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "45007c57-ba40-4f4f-9d14-f7e67f395a11",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.02386742754251,
+          40.733193162097706,
+          8.314430880360305
+        ],
+        [
+          -74.02344727012324,
+          40.72870227884963,
+          8.176968846470118
+        ],
+        [
+          -74.02303028322613,
+          40.72421209549937,
+          8.07888869382441
+        ],
+        [
+          -74.02261174149778,
+          40.71971819307151,
+          8.020013292320073
+        ],
+        [
+          -74.02219168416231,
+          40.71522807192011,
+          8.000424355268478
+        ],
+        [
+          -74.02177478751476,
+          40.71073862741413,
+          8.020181170664728
+        ],
+        [
+          -74.02135635116237,
+          40.70624544016598,
+          8.079229866154492
+        ],
+        [
+          -74.02093637528867,
+          40.701756003162025,
+          8.177456088364124
+        ],
+        [
+          -74.02051487233555,
+          40.6972628058339,
+          8.315044462680817
+        ],
+        [
+          -74.01461620468204,
+          40.69758255459007,
+          8.178054545074701
+        ],
+        [
+          -74.00871313890325,
+          40.69789905608144,
+          8.080233487300575
+        ],
+        [
+          -74.00281502839357,
+          40.698217386256204,
+          8.021526060067117
+        ],
+        [
+          -73.9969124962591,
+          40.6985362192026,
+          8.001900739967823
+        ],
+        [
+          -73.99101023689308,
+          40.69885246031283,
+          8.021511533297598
+        ],
+        [
+          -73.98510822709189,
+          40.69916986342138,
+          8.080221934244037
+        ],
+        [
+          -73.97920647445122,
+          40.69948466683602,
+          8.178152509965003
+        ],
+        [
+          -73.97330494113609,
+          40.69980439150133,
+          8.315050420351326
+        ],
+        [
+          -73.97372023284612,
+          40.7042950130699,
+          8.177576358430088
+        ],
+        [
+          -73.97413863212941,
+          40.70878628482661,
+          8.079286212101579
+        ],
+        [
+          -73.97455547580161,
+          40.71327755934639,
+          8.020330665633082
+        ],
+        [
+          -73.97497076410124,
+          40.717768846617496,
+          8.000707648694515
+        ],
+        [
+          -73.97538449731702,
+          40.72226015663851,
+          8.020415441133082
+        ],
+        [
+          -73.97580134943448,
+          40.726752148555384,
+          8.07934654969722
+        ],
+        [
+          -73.97621665060773,
+          40.73124418049209,
+          8.17762157972902
+        ],
+        [
+          -73.97663504138518,
+          40.73573313566626,
+          8.315009434707463
+        ],
+        [
+          -73.98253822725404,
+          40.735419105542036,
+          8.178065730258822
+        ],
+        [
+          -73.98844162823646,
+          40.735102462650204,
+          8.080155516974628
+        ],
+        [
+          -73.99434525217542,
+          40.73478321280112,
+          8.021288567222655
+        ],
+        [
+          -74.00025383616033,
+          40.73446577787898,
+          8.001637414097786
+        ],
+        [
+          -74.00615800646483,
+          40.734148858431254,
+          8.021173718385398
+        ],
+        [
+          -74.01206242310954,
+          40.733829342015646,
+          8.079775364138186
+        ],
+        [
+          -74.01796242591277,
+          40.73351034127054,
+          8.177454289980233
+        ],
+        [
+          -74.02386742754251,
+          40.733193162097706,
+          8.314430880360305
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.02386742754251,
+    40.6972628058339,
+    -73.97330494113609,
+    40.73573313566626
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:09.027112Z",
+    "updated": "2024-12-17T09:54:09.027112Z",
+    "start_datetime": "2023-04-10T15:09:48.458121Z",
+    "end_datetime": "2023-04-10T15:09:51.088441Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 36.798822695743446,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599980851053262,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.45202164742988765,
+    "sar:resolution_azimuth": 0.4550009689358158,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-04-10T15:09:48.458121Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-04-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/NYC%20Manhattan%20Mosaic/Lower%20Manhattan/2023-04-10-15-09-41_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Lower Manhattan/2023-04-10-15-09-41_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Lower Manhattan/2023-04-10-15-09-41_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Lower Manhattan/2023-04-10-15-09-41_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Lower Manhattan/2023-04-10-15-09-41_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

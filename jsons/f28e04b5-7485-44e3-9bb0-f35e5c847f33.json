@@ -1,0 +1,142 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "f28e04b5-7485-44e3-9bb0-f35e5c847f33",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.01795894456411,
+          37.42987268548093,
+          -21.59217219107158
+        ],
+        [
+          -122.12971027041836,
+          37.44321922966206,
+          -21.589568076746346
+        ],
+        [
+          -122.13804191718914,
+          37.39865861216589,
+          -21.591915148970276
+        ],
+        [
+          -122.02635528508088,
+          37.385319870761485,
+          -21.58964384134344
+        ],
+        [
+          -122.01795894456411,
+          37.42987268548093,
+          -21.59217219107158
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.13804191718914,
+    37.385319870761485,
+    -122.01795894456411,
+    37.44321922966206
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:35.433878Z",
+    "updated": "2024-12-17T09:53:35.433878Z",
+    "start_datetime": "2024-09-13T18:35:18Z",
+    "end_datetime": "2024-09-13T18:35:57.273283Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_07",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 39.55879771957395,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799940418452024,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.1999996927267532,
+    "sar:resolution_azimuth": 0.030120611594481532,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 8,
+    "sar:observation_direction": "right",
+    "datetime": "2024-09-13T18:35:18Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-09-13"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

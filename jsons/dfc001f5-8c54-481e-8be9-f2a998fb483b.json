@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "dfc001f5-8c54-481e-8be9-f2a998fb483b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          116.09893194809088,
+          39.383026792841534,
+          26.440291050821543
+        ],
+        [
+          116.10229860090858,
+          39.37935827078896,
+          26.303530077449977
+        ],
+        [
+          116.10566391849349,
+          39.375690384291254,
+          26.206046120263636
+        ],
+        [
+          116.10902940012608,
+          39.37202149396598,
+          26.147794847376645
+        ],
+        [
+          116.11239355754807,
+          39.36835323094306,
+          26.128801179118454
+        ],
+        [
+          116.1157578848399,
+          39.36468395511862,
+          26.149056234396994
+        ],
+        [
+          116.1191208988572,
+          39.361015298324325,
+          26.208550272509456
+        ],
+        [
+          116.12248855562505,
+          39.35734704526969,
+          26.30720504373312
+        ],
+        [
+          116.12585192131289,
+          39.35367633829164,
+          26.445263603702188
+        ],
+        [
+          116.13057962206739,
+          39.356288641881285,
+          26.30802791006863
+        ],
+        [
+          116.13530608784295,
+          39.35889966546702,
+          26.210048754699528
+        ],
+        [
+          116.14002984591355,
+          39.36151104749955,
+          26.151213482953608
+        ],
+        [
+          116.14475832368964,
+          39.36412093082236,
+          26.1316495873034
+        ],
+        [
+          116.14948856163888,
+          39.36673259450503,
+          26.151269738562405
+        ],
+        [
+          116.15421164786743,
+          39.36934319266756,
+          26.20994125958532
+        ],
+        [
+          116.1589439218845,
+          39.37195370949956,
+          26.308040301315486
+        ],
+        [
+          116.16366905800271,
+          39.37456315943109,
+          26.445106866769493
+        ],
+        [
+          116.16030823761687,
+          39.37823299621144,
+          26.3078075312078
+        ],
+        [
+          116.15694613490611,
+          39.38190344979119,
+          26.209711771458387
+        ],
+        [
+          116.15357829033141,
+          39.38557309559318,
+          26.15071129053831
+        ],
+        [
+          116.15021509344282,
+          39.389243149501496,
+          26.131107911467552
+        ],
+        [
+          116.1468520921901,
+          39.392912189714046,
+          26.150734147056937
+        ],
+        [
+          116.1434877870399,
+          39.396581863251775,
+          26.20959942229092
+        ],
+        [
+          116.14012216996971,
+          39.40025217387991,
+          26.307730585336685
+        ],
+        [
+          116.13675673734117,
+          39.40392148387874,
+          26.445084490813315
+        ],
+        [
+          116.13202597446353,
+          39.4013098602009,
+          26.307287437841296
+        ],
+        [
+          116.1272984784386,
+          39.39869837260887,
+          26.208703350275755
+        ],
+        [
+          116.12256828852968,
+          39.396087224578686,
+          26.149346077814698
+        ],
+        [
+          116.11784135914627,
+          39.393476214336346,
+          26.129159309901297
+        ],
+        [
+          116.11311322808918,
+          39.39086390630499,
+          26.14815056975931
+        ],
+        [
+          116.10838388767306,
+          39.38825030202529,
+          26.206362508237362
+        ],
+        [
+          116.10365629466524,
+          39.38563847598985,
+          26.303783525712788
+        ],
+        [
+          116.09893194809088,
+          39.383026792841534,
+          26.440291050821543
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    116.09893194809088,
+    39.35367633829164,
+    116.16366905800271,
+    39.40392148387874
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:08.156215Z",
+    "updated": "2024-12-17T09:54:08.156215Z",
+    "start_datetime": "2023-07-25T13:44:11Z",
+    "end_datetime": "2023-07-25T13:44:17.494610Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.44880793322023,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599998193210922,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4473576476313388,
+    "sar:resolution_azimuth": 0.23860510067191595,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2023-07-25T13:44:11Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/N%20China%20Flooding/0d85ca87-d253-4274-b9b5-02fbf5017436/2023-07-25-13-44-10_UMBRA-05/2023-07-25-13-44-10_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/N China Flooding/0d85ca87-d253-4274-b9b5-02fbf5017436/2023-07-25-13-44-10_UMBRA-05/2023-07-25-13-44-10_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/N China Flooding/0d85ca87-d253-4274-b9b5-02fbf5017436/2023-07-25-13-44-10_UMBRA-05/2023-07-25-13-44-10_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/N China Flooding/0d85ca87-d253-4274-b9b5-02fbf5017436/2023-07-25-13-44-10_UMBRA-05/2023-07-25-13-44-10_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

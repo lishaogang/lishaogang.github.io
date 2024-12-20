@@ -1,0 +1,135 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "1f7926b5-3a44-4f81-9ffa-c28beb19fb2f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.275145034677902,
+          51.4374953528949,
+          178.85540397185736
+        ],
+        [
+          12.204749363718769,
+          51.44669015827482,
+          178.8565151430388
+        ],
+        [
+          12.190082626922322,
+          51.4026918215821,
+          178.85557719639544
+        ],
+        [
+          12.26041369471182,
+          51.39350576993691,
+          178.85651832877298
+        ],
+        [
+          12.275145034677902,
+          51.4374953528949,
+          178.85540397185736
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    12.190082626922322,
+    51.39350576993691,
+    12.275145034677902,
+    51.44669015827482
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:56.308026Z",
+    "updated": "2024-12-17T09:53:56.308026Z",
+    "start_datetime": "2024-07-18T20:13:34Z",
+    "end_datetime": "2024-07-18T20:13:54.920684Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 25.25013009681153,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79998577362858,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.28915484982323875,
+    "sar:resolution_azimuth": 0.04165775187831003,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 5,
+    "sar:observation_direction": "left",
+    "datetime": "2024-07-18T20:13:34Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-07-18"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Kursdorf_Schkeuditz_Saxony_Germany/cd161db4-744f-4c7d-bf17-eb6631f8ac2f/2024-07-18-20-13-33_UMBRA-04/2024-07-18-20-13-33_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kursdorf_Schkeuditz_Saxony_Germany/cd161db4-744f-4c7d-bf17-eb6631f8ac2f/2024-07-18-20-13-33_UMBRA-04/2024-07-18-20-13-33_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kursdorf_Schkeuditz_Saxony_Germany/cd161db4-744f-4c7d-bf17-eb6631f8ac2f/2024-07-18-20-13-33_UMBRA-04/2024-07-18-20-13-33_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kursdorf_Schkeuditz_Saxony_Germany/cd161db4-744f-4c7d-bf17-eb6631f8ac2f/2024-07-18-20-13-33_UMBRA-04/2024-07-18-20-13-33_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

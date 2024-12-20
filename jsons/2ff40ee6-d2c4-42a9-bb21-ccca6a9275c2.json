@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "2ff40ee6-d2c4-42a9-bb21-ccca6a9275c2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.882254106925195,
+          44.53613435260161,
+          0.14512236136943102
+        ],
+        [
+          11.876663735538722,
+          44.538201462387605,
+          0.007838288322091103
+        ],
+        [
+          11.871085471970936,
+          44.54027632478038,
+          -0.0897922245785594
+        ],
+        [
+          11.865495080610634,
+          44.54234540060963,
+          -0.1486555989831686
+        ],
+        [
+          11.859910754586986,
+          44.54441391602439,
+          -0.16825373750180006
+        ],
+        [
+          11.854327886323047,
+          44.54648548407202,
+          -0.1485982807353139
+        ],
+        [
+          11.848735890680343,
+          44.54855541490337,
+          -0.08986696880310774
+        ],
+        [
+          11.843149907116674,
+          44.55062477028387,
+          0.008036709390580654
+        ],
+        [
+          11.837562346839473,
+          44.55269301216448,
+          0.14505836181342602
+        ],
+        [
+          11.834673980271816,
+          44.548700043795215,
+          0.007773928344249725
+        ],
+        [
+          11.83177929809742,
+          44.544704023364574,
+          -0.09032693319022655
+        ],
+        [
+          11.82888586443446,
+          44.54070547535118,
+          -0.14925031270831823
+        ],
+        [
+          11.825992085354718,
+          44.53671217858474,
+          -0.16878699325025082
+        ],
+        [
+          11.82309954048729,
+          44.532716339136236,
+          -0.14915801025927067
+        ],
+        [
+          11.820208240439488,
+          44.528717954478715,
+          -0.09031347930431366
+        ],
+        [
+          11.817316538546368,
+          44.524724788435876,
+          0.007790793664753437
+        ],
+        [
+          11.814426067599145,
+          44.52072906213416,
+          0.14510067831724882
+        ],
+        [
+          11.820009942280697,
+          44.518659674616146,
+          0.008531066589057446
+        ],
+        [
+          11.825599782043907,
+          44.516589714627884,
+          -0.08902124129235744
+        ],
+        [
+          11.831183480550267,
+          44.51452225669298,
+          -0.14732513949275017
+        ],
+        [
+          11.836765644591718,
+          44.51245369411948,
+          -0.1664498606696725
+        ],
+        [
+          11.842353825887896,
+          44.51038457391111,
+          -0.14646806754171848
+        ],
+        [
+          11.84793295897676,
+          44.50831381626254,
+          -0.08722209744155407
+        ],
+        [
+          11.853521050673203,
+          44.506246645767206,
+          0.011028497479856014
+        ],
+        [
+          11.859097191428976,
+          44.50417370680657,
+          0.14861002378165722
+        ],
+        [
+          11.861991195980504,
+          44.508170565890126,
+          0.010769259184598923
+        ],
+        [
+          11.864886509887768,
+          44.51216488451748,
+          -0.0877061765640974
+        ],
+        [
+          11.867778475316653,
+          44.516160253579315,
+          -0.14704114384949207
+        ],
+        [
+          11.870671739914947,
+          44.52015309286009,
+          -0.16708111763000488
+        ],
+        [
+          11.873569257767633,
+          44.524147546262085,
+          -0.14783636573702097
+        ],
+        [
+          11.876463447277043,
+          44.52814307612858,
+          -0.08944520261138678
+        ],
+        [
+          11.879361929209814,
+          44.53214023981605,
+          0.008325058035552502
+        ],
+        [
+          11.882254106925195,
+          44.53613435260161,
+          0.14512236136943102
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    11.814426067599145,
+    44.50417370680657,
+    11.882254106925195,
+    44.55269301216448
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:12.920893Z",
+    "updated": "2024-12-17T09:54:12.920893Z",
+    "start_datetime": "2023-06-06T20:01:23.402220Z",
+    "end_datetime": "2023-06-06T20:01:26.108181Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.671735403722636,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599994276941288,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5722221898452313,
+    "sar:resolution_azimuth": 0.5738870961445699,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-06-06T20:01:23.402220Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Northeastern%20Italy%20Floods/Conselice/b1b03a53-123a-4b3b-a5b9-6e31900fe2f4/2023-06-06-20-01-21_UMBRA-05/2023-06-06-20-01-21_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Northeastern Italy Floods/Conselice/b1b03a53-123a-4b3b-a5b9-6e31900fe2f4/2023-06-06-20-01-21_UMBRA-05/2023-06-06-20-01-21_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Northeastern Italy Floods/Conselice/b1b03a53-123a-4b3b-a5b9-6e31900fe2f4/2023-06-06-20-01-21_UMBRA-05/2023-06-06-20-01-21_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Northeastern Italy Floods/Conselice/b1b03a53-123a-4b3b-a5b9-6e31900fe2f4/2023-06-06-20-01-21_UMBRA-05/2023-06-06-20-01-21_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Northeastern Italy Floods/Conselice/b1b03a53-123a-4b3b-a5b9-6e31900fe2f4/2023-06-06-20-01-21_UMBRA-05/2023-06-06-20-01-21_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

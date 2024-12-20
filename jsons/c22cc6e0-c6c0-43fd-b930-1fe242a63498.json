@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c22cc6e0-c6c0-43fd-b930-1fe242a63498",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.72358171941318,
+          40.68870976959579,
+          23.235922062769532
+        ],
+        [
+          -73.71928661246828,
+          40.69180103047218,
+          23.098687049932778
+        ],
+        [
+          -73.71498452379497,
+          40.69489182011833,
+          23.000677671283484
+        ],
+        [
+          -73.71068336993987,
+          40.697982853651716,
+          22.94185460265726
+        ],
+        [
+          -73.70637883129397,
+          40.701076304798576,
+          22.92222949769348
+        ],
+        [
+          -73.70207594006065,
+          40.70416493135687,
+          22.941916229203343
+        ],
+        [
+          -73.6977739774659,
+          40.70725379966958,
+          23.000753628090024
+        ],
+        [
+          -73.69346862556766,
+          40.71034508342111,
+          23.09885471407324
+        ],
+        [
+          -73.68916851765898,
+          40.713434435863896,
+          23.23599160835147
+        ],
+        [
+          -73.6932285116687,
+          40.716711252521385,
+          23.09878600295633
+        ],
+        [
+          -73.69728907543139,
+          40.719984622525764,
+          23.000774793326855
+        ],
+        [
+          -73.70134950877146,
+          40.72325962205938,
+          22.94200353231281
+        ],
+        [
+          -73.70541413194182,
+          40.726534075340616,
+          22.922363223508
+        ],
+        [
+          -73.70947501008868,
+          40.72980726491643,
+          22.94199329521507
+        ],
+        [
+          -73.71354008184547,
+          40.73307991017119,
+          23.00076116528362
+        ],
+        [
+          -73.71760504152667,
+          40.73635419345808,
+          23.098829241469502
+        ],
+        [
+          -73.72166989645956,
+          40.7396301180604,
+          23.236224648542702
+        ],
+        [
+          -73.72597519423965,
+          40.73653785854782,
+          23.09833432547748
+        ],
+        [
+          -73.73027346785635,
+          40.73344512207725,
+          22.999613899737597
+        ],
+        [
+          -73.73458061201514,
+          40.73035332591933,
+          22.940229083411396
+        ],
+        [
+          -73.73888073605941,
+          40.72726105518188,
+          22.91997036524117
+        ],
+        [
+          -73.7431817873884,
+          40.724169017705556,
+          22.938943590037525
+        ],
+        [
+          -73.74748376707154,
+          40.7210772132669,
+          22.99716082215309
+        ],
+        [
+          -73.75178667620199,
+          40.71798564168678,
+          23.094634148292243
+        ],
+        [
+          -73.75608688922398,
+          40.714891418146514,
+          23.231236272491515
+        ],
+        [
+          -73.75202045888065,
+          40.711621325710176,
+          23.094478835351765
+        ],
+        [
+          -73.74796255693678,
+          40.70834850577484,
+          22.99719084519893
+        ],
+        [
+          -73.7438966161125,
+          40.705076619486384,
+          22.93885338306427
+        ],
+        [
+          -73.73983127243636,
+          40.70180129931169,
+          22.919831104576588
+        ],
+        [
+          -73.7357694300028,
+          40.69853049666447,
+          22.939985341392457
+        ],
+        [
+          -73.7317081808785,
+          40.6952562582087,
+          22.999447325244546
+        ],
+        [
+          -73.727646812065,
+          40.691983646461196,
+          23.098055415786803
+        ],
+        [
+          -73.72358171941318,
+          40.68870976959579,
+          23.235922062769532
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -73.75608688922398,
+    40.68870976959579,
+    -73.68916851765898,
+    40.7396301180604
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:30.236771Z",
+    "updated": "2024-12-17T09:53:30.236771Z",
+    "start_datetime": "2023-06-06T02:33:12.969594Z",
+    "end_datetime": "2023-06-06T02:33:17.775539Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 64.00196822716974,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600005521264393,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.47582645615547625,
+    "sar:resolution_azimuth": 0.48871779257261017,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-06T02:33:12.969594Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Belmont%20Stakes/6db968b1-2822-4c0d-a593-38605b71fc95/2023-06-06-02-33-10_UMBRA-05/2023-06-06-02-33-10_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belmont Stakes/6db968b1-2822-4c0d-a593-38605b71fc95/2023-06-06-02-33-10_UMBRA-05/2023-06-06-02-33-10_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belmont Stakes/6db968b1-2822-4c0d-a593-38605b71fc95/2023-06-06-02-33-10_UMBRA-05/2023-06-06-02-33-10_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belmont Stakes/6db968b1-2822-4c0d-a593-38605b71fc95/2023-06-06-02-33-10_UMBRA-05/2023-06-06-02-33-10_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belmont Stakes/6db968b1-2822-4c0d-a593-38605b71fc95/2023-06-06-02-33-10_UMBRA-05/2023-06-06-02-33-10_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

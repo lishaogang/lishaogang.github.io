@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c8eb50f8-fecf-457a-903d-52177f928d82",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.82288930181964,
+          -33.38486339872803,
+          508.0137213440612
+        ],
+        [
+          -70.81984498410719,
+          -33.38857779135676,
+          507.87662062235177
+        ],
+        [
+          -70.8167998553618,
+          -33.392292508426976,
+          507.77878118120134
+        ],
+        [
+          -70.8137543707488,
+          -33.39600572286568,
+          507.720208295621
+        ],
+        [
+          -70.81070805568194,
+          -33.3997192594651,
+          507.70089709665626
+        ],
+        [
+          -70.80766090334555,
+          -33.40343311758526,
+          507.7208631001413
+        ],
+        [
+          -70.80461661397717,
+          -33.4071475297784,
+          507.78018825221807
+        ],
+        [
+          -70.80156984404712,
+          -33.41086123212678,
+          507.8787331180647
+        ],
+        [
+          -70.79852058389311,
+          -33.414574222403616,
+          508.0165113788098
+        ],
+        [
+          -70.79409483121809,
+          -33.41201911400208,
+          507.87895423267037
+        ],
+        [
+          -70.78966543065036,
+          -33.40946363106729,
+          507.7805901579559
+        ],
+        [
+          -70.78523977393317,
+          -33.40690824176335,
+          507.72143072262406
+        ],
+        [
+          -70.78081253650757,
+          -33.40435167223415,
+          507.7014607973397
+        ],
+        [
+          -70.77638487607685,
+          -33.40179677843771,
+          507.7207705974579
+        ],
+        [
+          -70.77195770042172,
+          -33.39923990031455,
+          507.7792502772063
+        ],
+        [
+          -70.767532154372,
+          -33.396683896784644,
+          507.8769231121987
+        ],
+        [
+          -70.76310501309123,
+          -33.39412669304462,
+          508.0138612333685
+        ],
+        [
+          -70.76615390014152,
+          -33.39041488079178,
+          507.876679985784
+        ],
+        [
+          -70.76920032488503,
+          -33.386702353109776,
+          507.77884932700545
+        ],
+        [
+          -70.77224797349058,
+          -33.38298935577196,
+          507.7202489003539
+        ],
+        [
+          -70.77529318082915,
+          -33.37927564640113,
+          507.7009983807802
+        ],
+        [
+          -70.77834123471419,
+          -33.37556250310325,
+          507.72094482555985
+        ],
+        [
+          -70.78138846532157,
+          -33.37184968296287,
+          507.78017898183316
+        ],
+        [
+          -70.78443328153627,
+          -33.36813615426196,
+          507.8787464071065
+        ],
+        [
+          -70.7874788867925,
+          -33.364423982840535,
+          508.01650976389647
+        ],
+        [
+          -70.79190467775331,
+          -33.36697900102851,
+          507.878938741982
+        ],
+        [
+          -70.79633050230123,
+          -33.36953384566707,
+          507.7805794933811
+        ],
+        [
+          -70.80075588594545,
+          -33.372090344760515,
+          507.72136112023145
+        ],
+        [
+          -70.80518179977535,
+          -33.37464485599331,
+          507.7014187015593
+        ],
+        [
+          -70.80960937924084,
+          -33.37720023618632,
+          507.7206875151023
+        ],
+        [
+          -70.81403541022031,
+          -33.37975443100925,
+          507.77915519382805
+        ],
+        [
+          -70.81846312647723,
+          -33.382309502579396,
+          507.8768569063395
+        ],
+        [
+          -70.82288930181964,
+          -33.38486339872803,
+          508.0137213440612
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -70.82288930181964,
+    -33.414574222403616,
+    -70.76310501309123,
+    -33.364423982840535
+  ],
+  "properties": {
+    "created": "2024-12-17T09:47:26.335054Z",
+    "updated": "2024-12-17T09:47:26.335054Z",
+    "start_datetime": "2023-10-16T14:06:43Z",
+    "end_datetime": "2023-10-16T14:06:51Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.73303963285594,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799980579467958,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2074892512595444,
+    "sar:resolution_azimuth": 0.20366169860534003,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-16T14:06:43Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-16"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David%20Fuentes%20Airbase%2C%20Chile/39bed9e1-8c47-4200-a1d3-d5ee33a4e840/2023-10-16-14-06-42_UMBRA-04/2023-10-16-14-06-42_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/39bed9e1-8c47-4200-a1d3-d5ee33a4e840/2023-10-16-14-06-42_UMBRA-04/2023-10-16-14-06-42_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/39bed9e1-8c47-4200-a1d3-d5ee33a4e840/2023-10-16-14-06-42_UMBRA-04/2023-10-16-14-06-42_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/39bed9e1-8c47-4200-a1d3-d5ee33a4e840/2023-10-16-14-06-42_UMBRA-04/2023-10-16-14-06-42_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/39bed9e1-8c47-4200-a1d3-d5ee33a4e840/2023-10-16-14-06-42_UMBRA-04/2023-10-16-14-06-42_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

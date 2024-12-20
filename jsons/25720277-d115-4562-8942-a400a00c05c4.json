@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "25720277-d115-4562-8942-a400a00c05c4",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.28110300959627,
+          -6.827626082458653,
+          6.530062806792557
+        ],
+        [
+          39.27744368118331,
+          -6.830284225770146,
+          6.587971716187894
+        ],
+        [
+          39.27378594314516,
+          -6.832941526661152,
+          6.685111786238849
+        ],
+        [
+          39.27012343939352,
+          -6.83559857911907,
+          6.821739047765732
+        ],
+        [
+          39.27278404645054,
+          -6.839257028287619,
+          6.683867951855063
+        ],
+        [
+          39.27543977341546,
+          -6.842913952463426,
+          6.585568289272487
+        ],
+        [
+          39.27809781309069,
+          -6.8465721552071015,
+          6.526532050222158
+        ],
+        [
+          39.28076093009742,
+          -6.8502296446131465,
+          6.506703331135213
+        ],
+        [
+          39.283416442909925,
+          -6.853887603504865,
+          6.526467426680028
+        ],
+        [
+          39.286077050449435,
+          -6.857544848671877,
+          6.585450585000217
+        ],
+        [
+          39.288736419655066,
+          -6.861201972572723,
+          6.6838205056265
+        ],
+        [
+          39.29139535103365,
+          -6.864862371859603,
+          6.8217143677175045
+        ],
+        [
+          39.295054029918944,
+          -6.862203949300943,
+          6.684177081100643
+        ],
+        [
+          39.29871431587236,
+          -6.859544695988503,
+          6.585897649638355
+        ],
+        [
+          39.30237425281991,
+          -6.856889998951782,
+          6.527075815014541
+        ],
+        [
+          39.306035007871756,
+          -6.854231064422713,
+          6.507411372847855
+        ],
+        [
+          39.30969463361945,
+          -6.851573282259716,
+          6.527057520113885
+        ],
+        [
+          39.31335314577842,
+          -6.848916648975064,
+          6.585973674431443
+        ],
+        [
+          39.31701328818776,
+          -6.8462591565327475,
+          6.684207332320511
+        ],
+        [
+          39.320675058014984,
+          -6.843600797749575,
+          6.82180623523891
+        ],
+        [
+          39.318013539560425,
+          -6.839942334092372,
+          6.684902332723141
+        ],
+        [
+          39.315354345353136,
+          -6.836285141945835,
+          6.587479494512081
+        ],
+        [
+          39.31269392375613,
+          -6.83262783361579,
+          6.529376711696386
+        ],
+        [
+          39.310038537830046,
+          -6.828969793751084,
+          6.510803977027535
+        ],
+        [
+          39.30737562913398,
+          -6.825312251401611,
+          6.531377583742142
+        ],
+        [
+          39.304717738856986,
+          -6.82165397789988,
+          6.591469193808734
+        ],
+        [
+          39.30206215194724,
+          -6.8179969749578255,
+          6.6908994391560555
+        ],
+        [
+          39.29940171740375,
+          -6.814338465308537,
+          6.829687346704304
+        ],
+        [
+          39.295739864737534,
+          -6.81699692428609,
+          6.691145789809525
+        ],
+        [
+          39.29207961333587,
+          -6.8196545098518735,
+          6.5919546047225595
+        ],
+        [
+          39.28842096601967,
+          -6.822311229211321,
+          6.532065968960524
+        ],
+        [
+          39.284761189161614,
+          -6.824969082979682,
+          6.511431219987571
+        ],
+        [
+          39.28110300959627,
+          -6.827626082458653,
+          6.530062806792557
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    39.27012343939352,
+    -6.864862371859603,
+    39.320675058014984,
+    -6.814338465308537
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:19.874426Z",
+    "updated": "2024-12-17T09:54:19.874426Z",
+    "start_datetime": "2023-08-13T06:58:41Z",
+    "end_datetime": "2023-08-13T06:58:44.865659Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 35.528051255594,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599986971938051,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.40090864536930043,
+    "sar:resolution_azimuth": 0.40326267795392945,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-08-13T06:58:41Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-13"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Port%20of%20Dar%20es%20Salaam%2C%20Tanzania/17ead3e1-6395-4ea0-8721-3f27472a0ec2/2023-08-13-06-58-40_UMBRA-04/2023-08-13-06-58-40_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Port of Dar es Salaam, Tanzania/17ead3e1-6395-4ea0-8721-3f27472a0ec2/2023-08-13-06-58-40_UMBRA-04/2023-08-13-06-58-40_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Port of Dar es Salaam, Tanzania/17ead3e1-6395-4ea0-8721-3f27472a0ec2/2023-08-13-06-58-40_UMBRA-04/2023-08-13-06-58-40_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Port of Dar es Salaam, Tanzania/17ead3e1-6395-4ea0-8721-3f27472a0ec2/2023-08-13-06-58-40_UMBRA-04/2023-08-13-06-58-40_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Port of Dar es Salaam, Tanzania/17ead3e1-6395-4ea0-8721-3f27472a0ec2/2023-08-13-06-58-40_UMBRA-04/2023-08-13-06-58-40_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

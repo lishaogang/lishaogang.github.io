@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "ea9647cd-44a3-400c-9aa2-f27760ffcb6c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.33600119682313,
+          -12.42921901383929,
+          249.1460668996551
+        ],
+        [
+          -69.37965618955224,
+          -12.443437650423022,
+          249.1423919883035
+        ],
+        [
+          -69.36518970411234,
+          -12.486342984140924,
+          249.1462378588917
+        ],
+        [
+          -69.32152832339172,
+          -12.472122055248978,
+          249.1423917368236
+        ],
+        [
+          -69.33600119682313,
+          -12.42921901383929,
+          249.1460668996551
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -69.37965618955224,
+    -12.486342984140924,
+    -69.32152832339172,
+    -12.42921901383929
+  ],
+  "properties": {
+    "created": "2024-12-17T09:50:25.951448Z",
+    "updated": "2024-12-17T09:50:25.951448Z",
+    "start_datetime": "2024-02-18T13:46:23Z",
+    "end_datetime": "2024-02-18T13:46:27.704642Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.84144484506829,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799983754637653,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3499999999999993,
+    "sar:resolution_azimuth": 0.35,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-02-18T13:46:23Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-18"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto%20Maldonado%2C%20Peru/ddc4afc4-ddb8-4bbb-a368-9f9827835c69/2024-02-18-13-46-22_UMBRA-05/2024-02-18-13-46-22_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/ddc4afc4-ddb8-4bbb-a368-9f9827835c69/2024-02-18-13-46-22_UMBRA-05/2024-02-18-13-46-22_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/ddc4afc4-ddb8-4bbb-a368-9f9827835c69/2024-02-18-13-46-22_UMBRA-05/2024-02-18-13-46-22_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/ddc4afc4-ddb8-4bbb-a368-9f9827835c69/2024-02-18-13-46-22_UMBRA-05/2024-02-18-13-46-22_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/ddc4afc4-ddb8-4bbb-a368-9f9827835c69/2024-02-18-13-46-22_UMBRA-05/2024-02-18-13-46-22_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/ddc4afc4-ddb8-4bbb-a368-9f9827835c69/2024-02-18-13-46-22_UMBRA-05/2024-02-18-13-46-22_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

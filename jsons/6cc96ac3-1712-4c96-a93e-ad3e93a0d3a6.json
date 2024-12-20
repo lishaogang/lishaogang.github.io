@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "6cc96ac3-1712-4c96-a93e-ad3e93a0d3a6",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -83.48112734732014,
+          42.23658539457067,
+          213.77681973949075
+        ],
+        [
+          -83.48313665986282,
+          42.24083054133816,
+          213.7183006843552
+        ],
+        [
+          -83.48514536815769,
+          42.245077331237624,
+          213.69906712602824
+        ],
+        [
+          -83.48715595655555,
+          42.24932291532973,
+          213.7190432921052
+        ],
+        [
+          -83.48916594036938,
+          42.253570151807246,
+          213.77834073454142
+        ],
+        [
+          -83.49117410607724,
+          42.257816452274305,
+          213.87692331708968
+        ],
+        [
+          -83.49318416472917,
+          42.2620615646563,
+          214.01468569785357
+        ],
+        [
+          -83.49890026682161,
+          42.26056833641218,
+          213.87766406778246
+        ],
+        [
+          -83.50461805978361,
+          42.25907583763384,
+          213.7798221707344
+        ],
+        [
+          -83.51033263852973,
+          42.25758173485609,
+          213.7210910031572
+        ],
+        [
+          -83.51604891659605,
+          42.256088366154295,
+          213.70154759660363
+        ],
+        [
+          -83.52176199066743,
+          42.25459339694444,
+          213.72107678931206
+        ],
+        [
+          -83.52748046668131,
+          42.25309890601601,
+          213.77987189684063
+        ],
+        [
+          -83.53319205295091,
+          42.25160307781022,
+          213.8776552947238
+        ],
+        [
+          -83.53890904613492,
+          42.2501077311827,
+          214.0147596951574
+        ],
+        [
+          -83.5368956697777,
+          42.245862303931474,
+          213.87728831265122
+        ],
+        [
+          -83.53488050533952,
+          42.24161594814715,
+          213.7790190950036
+        ],
+        [
+          -83.5328684604388,
+          42.23737099661196,
+          213.7201098529622
+        ],
+        [
+          -83.53085831209127,
+          42.23312484046799,
+          213.70050697308034
+        ],
+        [
+          -83.52884759287014,
+          42.228880342158895,
+          213.72011720202863
+        ],
+        [
+          -83.52683507297468,
+          42.22463489523739,
+          213.77895237971097
+        ],
+        [
+          -83.52482443676759,
+          42.22038822606661,
+          213.8771245162934
+        ],
+        [
+          -83.52281322681512,
+          42.2161432015889,
+          214.01448602601886
+        ],
+        [
+          -83.51709822508667,
+          42.21763622341768,
+          213.87712810281664
+        ],
+        [
+          -83.51138988722823,
+          42.21913233008486,
+          213.77884680964053
+        ],
+        [
+          -83.5056771074579,
+          42.22062425219889,
+          213.71983200870454
+        ],
+        [
+          -83.49996359273375,
+          42.22211979019451,
+          213.6998378150165
+        ],
+        [
+          -83.49425055959334,
+          42.223613472270934,
+          213.71905298624188
+        ],
+        [
+          -83.48853800713216,
+          42.225105299196585,
+          213.77745014149696
+        ],
+        [
+          -83.48282346588113,
+          42.226598133201726,
+          213.87499885167927
+        ],
+        [
+          -83.47711063204659,
+          42.22809170431873,
+          214.01162584964186
+        ],
+        [
+          -83.47911990848738,
+          42.232339029736174,
+          213.87454962171614
+        ],
+        [
+          -83.48112734732014,
+          42.23658539457067,
+          213.77681973949075
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -83.53890904613492,
+    42.2161432015889,
+    -83.47711063204659,
+    42.2620615646563
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:30.114542Z",
+    "updated": "2024-12-17T09:53:30.114542Z",
+    "start_datetime": "2023-08-11T15:08:12Z",
+    "end_datetime": "2023-08-11T15:08:16.684209Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.351754318609096,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599987518333363,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.333541351378347,
+    "sar:resolution_azimuth": 0.3371504245011521,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-11T15:08:12Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Belleville%2C%20MI%20Air%20Show/ed3de2cf-d4b8-47e1-9a05-7001b5f67f14/2023-08-11-15-08-11_UMBRA-04/2023-08-11-15-08-11_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belleville, MI Air Show/ed3de2cf-d4b8-47e1-9a05-7001b5f67f14/2023-08-11-15-08-11_UMBRA-04/2023-08-11-15-08-11_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belleville, MI Air Show/ed3de2cf-d4b8-47e1-9a05-7001b5f67f14/2023-08-11-15-08-11_UMBRA-04/2023-08-11-15-08-11_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belleville, MI Air Show/ed3de2cf-d4b8-47e1-9a05-7001b5f67f14/2023-08-11-15-08-11_UMBRA-04/2023-08-11-15-08-11_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Belleville, MI Air Show/ed3de2cf-d4b8-47e1-9a05-7001b5f67f14/2023-08-11-15-08-11_UMBRA-04/2023-08-11-15-08-11_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

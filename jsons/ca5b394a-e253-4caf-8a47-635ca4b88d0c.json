@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "ca5b394a-e253-4caf-8a47-635ca4b88d0c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          69.02261939654448,
+          34.4615223439327,
+          1924.0447815346195
+        ],
+        [
+          69.05098973056525,
+          34.499975843797735,
+          1924.0409178477075
+        ],
+        [
+          69.00453365724923,
+          34.523465486162806,
+          1924.0450239203064
+        ],
+        [
+          68.97617669645076,
+          34.4850013527975,
+          1924.0409183936222
+        ],
+        [
+          69.02261939654448,
+          34.4615223439327,
+          1924.0447815346195
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    68.97617669645076,
+    34.4615223439327,
+    69.05098973056525,
+    34.523465486162806
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:54.826618Z",
+    "updated": "2024-12-17T09:53:54.826618Z",
+    "start_datetime": "2024-05-15T16:49:58Z",
+    "end_datetime": "2024-05-15T16:50:15.452265Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.777135802369116,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599970393930562,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4112114819279278,
+    "sar:resolution_azimuth": 0.08050152162895553,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 4,
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-15T16:49:58Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Kabul_Afghanistan/a51a605a-ad66-43ac-9748-7b76fbeb0719/2024-05-15-16-49-57_UMBRA-04/2024-05-15-16-49-57_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kabul_Afghanistan/a51a605a-ad66-43ac-9748-7b76fbeb0719/2024-05-15-16-49-57_UMBRA-04/2024-05-15-16-49-57_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kabul_Afghanistan/a51a605a-ad66-43ac-9748-7b76fbeb0719/2024-05-15-16-49-57_UMBRA-04/2024-05-15-16-49-57_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kabul_Afghanistan/a51a605a-ad66-43ac-9748-7b76fbeb0719/2024-05-15-16-49-57_UMBRA-04/2024-05-15-16-49-57_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kabul_Afghanistan/a51a605a-ad66-43ac-9748-7b76fbeb0719/2024-05-15-16-49-57_UMBRA-04/2024-05-15-16-49-57_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kabul_Afghanistan/a51a605a-ad66-43ac-9748-7b76fbeb0719/2024-05-15-16-49-57_UMBRA-04/2024-05-15-16-49-57_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

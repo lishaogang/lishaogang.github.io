@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3eb2d6f3-858f-49a3-8bad-c3959859cf58",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.05371810760846,
+          35.026521724167374,
+          1540.2032813383266
+        ],
+        [
+          -111.04976018524331,
+          35.02340833587491,
+          1540.0664166910574
+        ],
+        [
+          -111.04580226858107,
+          35.02029528835396,
+          1539.9687479771674
+        ],
+        [
+          -111.04184074226349,
+          35.0171816819998,
+          1539.910198434256
+        ],
+        [
+          -111.03788505335854,
+          35.01406715706772,
+          1539.8910321025178
+        ],
+        [
+          -111.03392350072293,
+          35.0109542156637,
+          1539.91092851758
+        ],
+        [
+          -111.02996774853334,
+          35.00784034541697,
+          1539.9701558249071
+        ],
+        [
+          -111.02600837052636,
+          35.00472590381656,
+          1540.068587610498
+        ],
+        [
+          -111.0220489425332,
+          35.001611781430476,
+          1540.2062455201522
+        ],
+        [
+          -111.01826784792019,
+          35.004867244552024,
+          1540.0685928668827
+        ],
+        [
+          -111.01448327119711,
+          35.008123915626456,
+          1539.9701136238873
+        ],
+        [
+          -111.0106974525242,
+          35.011379652138956,
+          1539.910910022445
+        ],
+        [
+          -111.00690816299124,
+          35.01463662028562,
+          1539.8909743623808
+        ],
+        [
+          -111.0031233861938,
+          35.01789139975166,
+          1539.9102357663214
+        ],
+        [
+          -110.9993386739361,
+          35.021148311664895,
+          1539.9686698280275
+        ],
+        [
+          -110.99554913766636,
+          35.02440343947863,
+          1540.0665075723082
+        ],
+        [
+          -110.99176185705068,
+          35.02765855673913,
+          1540.2035003406927
+        ],
+        [
+          -110.99572100355635,
+          35.03077526004755,
+          1540.066501321271
+        ],
+        [
+          -110.99967873323897,
+          35.03388925158596,
+          1539.9687815280631
+        ],
+        [
+          -111.00363641263434,
+          35.037003579226386,
+          1539.910292044282
+        ],
+        [
+          -111.00759762337765,
+          35.04011913013099,
+          1539.8909874772653
+        ],
+        [
+          -111.01155524578219,
+          35.04323414176564,
+          1539.9109911797568
+        ],
+        [
+          -111.0155150316203,
+          35.04634734013453,
+          1539.970133752562
+        ],
+        [
+          -111.01947263712101,
+          35.049463050338446,
+          1540.0686194887385
+        ],
+        [
+          -111.02343242793008,
+          35.05257695592533,
+          1540.2062486512586
+        ],
+        [
+          -111.02721990795615,
+          35.04931914787697,
+          1540.0685017881915
+        ],
+        [
+          -111.03100752273245,
+          35.046063509749935,
+          1539.970102689229
+        ],
+        [
+          -111.03479385763264,
+          35.04280698673789,
+          1539.9108992945403
+        ],
+        [
+          -111.0385789230282,
+          35.03954957010082,
+          1539.8908915920183
+        ],
+        [
+          -111.04236634527379,
+          35.03629214521051,
+          1539.9101884774864
+        ],
+        [
+          -111.04615030163056,
+          35.03303596166416,
+          1539.968663801439
+        ],
+        [
+          -111.04993663272481,
+          35.02977975505453,
+          1540.0664455518126
+        ],
+        [
+          -111.05371810760846,
+          35.026521724167374,
+          1540.2032813383266
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.05371810760846,
+    35.001611781430476,
+    -110.99176185705068,
+    35.05257695592533
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:05.630008Z",
+    "updated": "2024-12-17T09:54:05.630008Z",
+    "start_datetime": "2023-11-17T17:23:37Z",
+    "end_datetime": "2023-11-17T17:23:41.127592Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 23.53710810186216,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800001018913465,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2791429705968124,
+    "sar:resolution_azimuth": 0.2659744919124746,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-17T17:23:37Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-17"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Meteor%20Crater%2C%20Arizona/aadeaaf2-f036-4610-8b54-70e7535adf4f/2023-11-17-17-23-36_UMBRA-04/2023-11-17-17-23-36_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Meteor Crater, Arizona/aadeaaf2-f036-4610-8b54-70e7535adf4f/2023-11-17-17-23-36_UMBRA-04/2023-11-17-17-23-36_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Meteor Crater, Arizona/aadeaaf2-f036-4610-8b54-70e7535adf4f/2023-11-17-17-23-36_UMBRA-04/2023-11-17-17-23-36_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Meteor Crater, Arizona/aadeaaf2-f036-4610-8b54-70e7535adf4f/2023-11-17-17-23-36_UMBRA-04/2023-11-17-17-23-36_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Meteor Crater, Arizona/aadeaaf2-f036-4610-8b54-70e7535adf4f/2023-11-17-17-23-36_UMBRA-04/2023-11-17-17-23-36_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3ba37d78-73df-43f6-b0c9-b4f3fc2caf0f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -114.14981587748504,
+          47.959487255054206,
+          883.1072599217296
+        ],
+        [
+          -114.14793241572563,
+          47.963802474427574,
+          882.9697524821386
+        ],
+        [
+          -114.14605269858863,
+          47.96811552037186,
+          882.8714624084532
+        ],
+        [
+          -114.14416934493525,
+          47.97243269993132,
+          882.8123545814306
+        ],
+        [
+          -114.1422897332135,
+          47.9767477245911,
+          882.7924463497475
+        ],
+        [
+          -114.14040905304574,
+          47.98106110684509,
+          882.8117795400321
+        ],
+        [
+          -114.13852599885585,
+          47.98537575299693,
+          882.8703710632399
+        ],
+        [
+          -114.13664055389485,
+          47.989691672684195,
+          882.9682642398402
+        ],
+        [
+          -114.13475887003231,
+          47.99400546736734,
+          883.1052433308214
+        ],
+        [
+          -114.1411855106729,
+          47.99527067730373,
+          882.9683553110808
+        ],
+        [
+          -114.14761424520879,
+          47.99653500079265,
+          882.8705349918455
+        ],
+        [
+          -114.15404640875289,
+          47.99779552793363,
+          882.8117019096389
+        ],
+        [
+          -114.16047453055248,
+          47.99905857053017,
+          882.7921435134485
+        ],
+        [
+          -114.16690477313597,
+          48.00032071887139,
+          882.8116792580113
+        ],
+        [
+          -114.17333581120177,
+          48.0015848834164,
+          882.8704411210492
+        ],
+        [
+          -114.17976551135553,
+          48.00284573371892,
+          882.9682152429596
+        ],
+        [
+          -114.18619735878693,
+          48.00410568194798,
+          883.1051117479801
+        ],
+        [
+          -114.18807501063236,
+          47.99979066028664,
+          882.9678320186213
+        ],
+        [
+          -114.18995511452772,
+          47.995476425667555,
+          882.869838302955
+        ],
+        [
+          -114.19182941698617,
+          47.991161045842574,
+          882.8109171260148
+        ],
+        [
+          -114.19371225965816,
+          47.98684303174152,
+          882.7913763271645
+        ],
+        [
+          -114.19558670472028,
+          47.98252967676267,
+          882.810927497223
+        ],
+        [
+          -114.19746619569034,
+          47.978211258583165,
+          882.8698264053091
+        ],
+        [
+          -114.19934209781826,
+          47.9738969845571,
+          882.9678482282907
+        ],
+        [
+          -114.20122175012544,
+          47.9695805375563,
+          883.1052345819771
+        ],
+        [
+          -114.19479511448652,
+          47.96831892237803,
+          882.9685734482482
+        ],
+        [
+          -114.18836456584883,
+          47.96705980493691,
+          882.8708879146725
+        ],
+        [
+          -114.1819409144263,
+          47.96579928473164,
+          882.8124807393178
+        ],
+        [
+          -114.17551586088791,
+          47.9645354681858,
+          882.7932580281049
+        ],
+        [
+          -114.16909164580339,
+          47.96327365273414,
+          882.8130816565827
+        ],
+        [
+          -114.16266473026691,
+          47.96201144715746,
+          882.8720338894054
+        ],
+        [
+          -114.15623989749017,
+          47.960748349988904,
+          882.9701370121911
+        ],
+        [
+          -114.14981587748504,
+          47.959487255054206,
+          883.1072599217296
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -114.20122175012544,
+    47.959487255054206,
+    -114.13475887003231,
+    48.00410568194798
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:41.310772Z",
+    "updated": "2024-12-17T09:53:41.310772Z",
+    "start_datetime": "2023-08-07T17:15:04Z",
+    "end_datetime": "2023-08-07T17:15:07.611765Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.20522708669924,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79999887297163,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3648260295384214,
+    "sar:resolution_azimuth": 0.36098894695649464,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-08-07T17:15:04Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Flathead%20Lake%20-%20Montana/b2785d19-cd89-4829-bcd5-408b2ea8cf39/2023-08-07-17-15-03_UMBRA-06/2023-08-07-17-15-03_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Flathead Lake - Montana/b2785d19-cd89-4829-bcd5-408b2ea8cf39/2023-08-07-17-15-03_UMBRA-06/2023-08-07-17-15-03_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Flathead Lake - Montana/b2785d19-cd89-4829-bcd5-408b2ea8cf39/2023-08-07-17-15-03_UMBRA-06/2023-08-07-17-15-03_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Flathead Lake - Montana/b2785d19-cd89-4829-bcd5-408b2ea8cf39/2023-08-07-17-15-03_UMBRA-06/2023-08-07-17-15-03_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Flathead Lake - Montana/b2785d19-cd89-4829-bcd5-408b2ea8cf39/2023-08-07-17-15-03_UMBRA-06/2023-08-07-17-15-03_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

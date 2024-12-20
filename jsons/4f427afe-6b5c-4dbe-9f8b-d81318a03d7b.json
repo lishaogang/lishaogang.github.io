@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "4f427afe-6b5c-4dbe-9f8b-d81318a03d7b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -100.00245078617598,
+          16.87769979001104,
+          78.1136355213821
+        ],
+        [
+          -100.00417538097308,
+          16.867280146737016,
+          78.21928081847727
+        ],
+        [
+          -100.00590623893562,
+          16.856863076635978,
+          78.54072991199791
+        ],
+        [
+          -100.00763148159214,
+          16.846443989971956,
+          79.07645636517555
+        ],
+        [
+          -100.0093591438483,
+          16.836025255944257,
+          79.8275034558028
+        ],
+        [
+          -99.99162400707579,
+          16.8332977263515,
+          77.81847280357033
+        ],
+        [
+          -99.97389053291408,
+          16.830567010756955,
+          76.38403084781021
+        ],
+        [
+          -99.95615802706696,
+          16.82783688603749,
+          75.52377936150879
+        ],
+        [
+          -99.938422918428,
+          16.825103366814336,
+          75.23791771195829
+        ],
+        [
+          -99.92068899713426,
+          16.822368653306253,
+          75.52650848869234
+        ],
+        [
+          -99.90295621033437,
+          16.81963278971573,
+          76.38948105741292
+        ],
+        [
+          -99.88522450558405,
+          16.816895820197704,
+          77.82677076943219
+        ],
+        [
+          -99.86749415555238,
+          16.814155901591125,
+          79.83847374189645
+        ],
+        [
+          -99.86575951464206,
+          16.82457404833042,
+          79.08458854071796
+        ],
+        [
+          -99.86402322821215,
+          16.834990448810778,
+          78.54598644468933
+        ],
+        [
+          -99.86228879948908,
+          16.84540920867606,
+          78.22197560500354
+        ],
+        [
+          -99.8605527074631,
+          16.855826312641625,
+          78.11321035586298
+        ],
+        [
+          -99.8588146267214,
+          16.86624369588555,
+          78.21964570786804
+        ],
+        [
+          -99.8570790115203,
+          16.8766597940274,
+          78.54069668333977
+        ],
+        [
+          -99.85534139099248,
+          16.887076261783776,
+          79.07693327311426
+        ],
+        [
+          -99.85360560976753,
+          16.89749529516956,
+          79.82799328118563
+        ],
+        [
+          -99.87134376554174,
+          16.900235246169213,
+          77.81903805490583
+        ],
+        [
+          -99.88908718675648,
+          16.90297395217866,
+          76.38407283555716
+        ],
+        [
+          -99.90682345211553,
+          16.90571058725952,
+          75.5240348605439
+        ],
+        [
+          -99.92456508591845,
+          16.90844588992934,
+          75.23809393774718
+        ],
+        [
+          -99.94230798273261,
+          16.911179555658656,
+          75.52660795673728
+        ],
+        [
+          -99.96004772980471,
+          16.913913149660065,
+          76.38956484850496
+        ],
+        [
+          -99.9777933089028,
+          16.916643408108218,
+          77.82706687226892
+        ],
+        [
+          -99.99553584114426,
+          16.919373503299482,
+          79.83890063501894
+        ],
+        [
+          -99.9972630898864,
+          16.908954332006655,
+          79.08485142327845
+        ],
+        [
+          -99.99899271705182,
+          16.898535770550804,
+          78.54614467918873
+        ],
+        [
+          -100.00072055697991,
+          16.888117516714043,
+          78.22224027384073
+        ],
+        [
+          -100.00245078617598,
+          16.87769979001104,
+          78.1136355213821
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -100.0093591438483,
+    16.814155901591125,
+    -99.85360560976753,
+    16.919373503299482
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:24.665748Z",
+    "updated": "2024-12-17T09:53:24.665748Z",
+    "start_datetime": "2023-10-25T04:30:07Z",
+    "end_datetime": "2023-10-25T04:30:15Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 61.736867425340805,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.60001011332497,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4417663005239169,
+    "sar:resolution_azimuth": 0.22980923379079907,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2023-10-25T04:30:07Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Acapulco%20Flooding/4f3ddf4c-3ccc-44b1-b1d9-508ded241623/2023-10-25-04-30-06_UMBRA-04/2023-10-25-04-30-06_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Acapulco Flooding/4f3ddf4c-3ccc-44b1-b1d9-508ded241623/2023-10-25-04-30-06_UMBRA-04/2023-10-25-04-30-06_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Acapulco Flooding/4f3ddf4c-3ccc-44b1-b1d9-508ded241623/2023-10-25-04-30-06_UMBRA-04/2023-10-25-04-30-06_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Acapulco Flooding/4f3ddf4c-3ccc-44b1-b1d9-508ded241623/2023-10-25-04-30-06_UMBRA-04/2023-10-25-04-30-06_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Acapulco Flooding/4f3ddf4c-3ccc-44b1-b1d9-508ded241623/2023-10-25-04-30-06_UMBRA-04/2023-10-25-04-30-06_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

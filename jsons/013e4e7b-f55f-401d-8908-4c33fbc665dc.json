@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "013e4e7b-f55f-401d-8908-4c33fbc665dc",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -156.68786484881497,
+          20.871014628953795,
+          25.085715539753437
+        ],
+        [
+          -156.68587855783375,
+          20.866901263666335,
+          25.10590487718582
+        ],
+        [
+          -156.68390236193193,
+          20.862784992576394,
+          25.16580077446997
+        ],
+        [
+          -156.68192193905776,
+          20.858670705849427,
+          25.264904230833054
+        ],
+        [
+          -156.67994444749905,
+          20.854555957420946,
+          25.40343995857984
+        ],
+        [
+          -156.6755633412731,
+          20.856417530712804,
+          25.26608870457858
+        ],
+        [
+          -156.67118290153087,
+          20.85827917843238,
+          25.168007081374526
+        ],
+        [
+          -156.66681028683877,
+          20.860138463799707,
+          25.109222468920052
+        ],
+        [
+          -156.66243117598864,
+          20.862000261065933,
+          25.08957238867879
+        ],
+        [
+          -156.6580518406685,
+          20.8638602760483,
+          25.109217362478375
+        ],
+        [
+          -156.65367316697302,
+          20.865720364527967,
+          25.168071060441434
+        ],
+        [
+          -156.64929604244082,
+          20.86758238564499,
+          25.266047379001975
+        ],
+        [
+          -156.64491780035462,
+          20.869440762705977,
+          25.4033441869542
+        ],
+        [
+          -156.64689536917987,
+          20.873557573307234,
+          25.265584509819746
+        ],
+        [
+          -156.64887496763086,
+          20.87767206501268,
+          25.167144618928432
+        ],
+        [
+          -156.6508574861351,
+          20.881786097277338,
+          25.107971485704184
+        ],
+        [
+          -156.65283577490587,
+          20.885902118257178,
+          25.088331313803792
+        ],
+        [
+          -156.65481609302657,
+          20.890015826359846,
+          25.107966953888535
+        ],
+        [
+          -156.65679308223687,
+          20.894133393523976,
+          25.167153572663665
+        ],
+        [
+          -156.65877210300664,
+          20.898248653558323,
+          25.265607865527272
+        ],
+        [
+          -156.66075315291292,
+          20.902361606711505,
+          25.40329480264336
+        ],
+        [
+          -156.66513137636178,
+          20.90050120704051,
+          25.265350655652583
+        ],
+        [
+          -156.66951025528738,
+          20.89864086740424,
+          25.166616884991527
+        ],
+        [
+          -156.6738897907214,
+          20.896780587614288,
+          25.107108645141125
+        ],
+        [
+          -156.67826908562418,
+          20.894918512717755,
+          25.086770229041576
+        ],
+        [
+          -156.68264993754002,
+          20.893058352893142,
+          25.105758701451123
+        ],
+        [
+          -156.68703055170928,
+          20.891196399280297,
+          25.163947549648583
+        ],
+        [
+          -156.69140377587354,
+          20.889335115674065,
+          25.261148842982948
+        ],
+        [
+          -156.6957857132251,
+          20.887473284413918,
+          25.397864131256938
+        ],
+        [
+          -156.69380287619128,
+          20.883358684776976,
+          25.260675496421754
+        ],
+        [
+          -156.6918229806307,
+          20.879243633841064,
+          25.1629747049883
+        ],
+        [
+          -156.68983886697077,
+          20.87513058444002,
+          25.104491361416876
+        ],
+        [
+          -156.68786484881497,
+          20.871014628953795,
+          25.085715539753437
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -156.6957857132251,
+    20.854555957420946,
+    -156.64491780035462,
+    20.902361606711505
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:05.013092Z",
+    "updated": "2024-12-17T09:54:05.013092Z",
+    "start_datetime": "2023-08-11T08:15:44Z",
+    "end_datetime": "2023-08-11T08:15:52.110246Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 61.67473836953249,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600007266621105,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.888309843073119,
+    "sar:resolution_azimuth": 0.22792453367589505,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 4,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-11T08:15:44Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Maui%20Fires/Lahaina/4999a41f-8e62-4bc0-b53b-6dd8eeb23051/2023-08-11-08-15-43_UMBRA-05/2023-08-11-08-15-43_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Maui Fires/Lahaina/4999a41f-8e62-4bc0-b53b-6dd8eeb23051/2023-08-11-08-15-43_UMBRA-05/2023-08-11-08-15-43_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Maui Fires/Lahaina/4999a41f-8e62-4bc0-b53b-6dd8eeb23051/2023-08-11-08-15-43_UMBRA-05/2023-08-11-08-15-43_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Maui Fires/Lahaina/4999a41f-8e62-4bc0-b53b-6dd8eeb23051/2023-08-11-08-15-43_UMBRA-05/2023-08-11-08-15-43_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Maui Fires/Lahaina/4999a41f-8e62-4bc0-b53b-6dd8eeb23051/2023-08-11-08-15-43_UMBRA-05/2023-08-11-08-15-43_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

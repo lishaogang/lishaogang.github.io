@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "6e0d7017-4d8c-4f5c-8594-280ffe58203a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.717296544080444,
+          41.23363660528212,
+          1.253564717147396
+        ],
+        [
+          28.776098699183034,
+          41.241176734828414,
+          1.2523944480673892
+        ],
+        [
+          28.766122371211544,
+          41.28556549036279,
+          1.253684383132999
+        ],
+        [
+          28.70728154204106,
+          41.2780203125404,
+          1.2523925693908928
+        ],
+        [
+          28.717296544080444,
+          41.23363660528212,
+          1.253564717147396
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    28.70728154204106,
+    41.23363660528212,
+    28.776098699183034,
+    41.28556549036279
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:54.201927Z",
+    "updated": "2024-12-17T09:53:54.201927Z",
+    "start_datetime": "2024-10-13T20:20:35Z",
+    "end_datetime": "2024-10-13T20:21:31.035900Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.334250678516824,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799970342544839,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.12383300010197333,
+    "sar:resolution_azimuth": 0.020729787544979512,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 8,
+    "sar:observation_direction": "right",
+    "datetime": "2024-10-13T20:20:35Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-10-13"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

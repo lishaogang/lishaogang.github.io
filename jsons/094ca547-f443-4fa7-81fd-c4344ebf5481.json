@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "094ca547-f443-4fa7-81fd-c4344ebf5481",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          121.04748397552306,
+          13.99222491918668,
+          51.002291646786034
+        ],
+        [
+          121.05050520316617,
+          14.00005498796001,
+          51.068218001164496
+        ],
+        [
+          121.05352448413214,
+          14.007885764073126,
+          51.269011977128685
+        ],
+        [
+          121.05654467252549,
+          14.015713221115586,
+          51.60494045820087
+        ],
+        [
+          121.0595644300265,
+          14.023545266802934,
+          52.075912011787295
+        ],
+        [
+          121.04706441430437,
+          14.028139193352281,
+          50.93476992379874
+        ],
+        [
+          121.03456838014323,
+          14.032736410854524,
+          50.12065755110234
+        ],
+        [
+          121.02207322035879,
+          14.037329218611674,
+          49.63283510506153
+        ],
+        [
+          121.00957171960461,
+          14.041921912335132,
+          49.4712085230276
+        ],
+        [
+          120.99707240542271,
+          14.046513878576409,
+          49.63614347297698
+        ],
+        [
+          120.98457088074171,
+          14.051105328964352,
+          50.127574130892754
+        ],
+        [
+          120.97207134621208,
+          14.055695916487245,
+          50.94539591297507
+        ],
+        [
+          120.95957521165553,
+          14.06028942271263,
+          52.089697572402656
+        ],
+        [
+          120.95655499855887,
+          14.052457308289151,
+          51.615283550694585
+        ],
+        [
+          120.95353698591353,
+          14.044625662934727,
+          51.275877446867526
+        ],
+        [
+          120.95052115471493,
+          14.036794454341722,
+          51.071423021145165
+        ],
+        [
+          120.94750320981646,
+          14.028963924981564,
+          51.00226722192019
+        ],
+        [
+          120.94448741133814,
+          14.021133761727928,
+          51.06799629237503
+        ],
+        [
+          120.94147227672559,
+          14.013300090564538,
+          51.26869139447808
+        ],
+        [
+          120.93845645145561,
+          14.005470830022096,
+          51.60456999670714
+        ],
+        [
+          120.93543700066009,
+          13.997638256837215,
+          52.075971621088684
+        ],
+        [
+          120.94793696893495,
+          13.993052051884032,
+          50.93480632454157
+        ],
+        [
+          120.96043316691606,
+          13.988461522593227,
+          50.12051470670849
+        ],
+        [
+          120.97293141573378,
+          13.983870314385367,
+          49.63252007123083
+        ],
+        [
+          120.98542752255729,
+          13.97927874912456,
+          49.47107112966478
+        ],
+        [
+          120.99792157254234,
+          13.97468688858572,
+          49.63604318536818
+        ],
+        [
+          121.01041795791727,
+          13.970094547361395,
+          50.127438369207084
+        ],
+        [
+          121.02291103607486,
+          13.965498240466822,
+          50.945487858727574
+        ],
+        [
+          121.03540808273232,
+          13.960905391345332,
+          52.0898798359558
+        ],
+        [
+          121.03842573457092,
+          13.968737557310378,
+          51.615130888298154
+        ],
+        [
+          121.04144425918064,
+          13.97656623970675,
+          51.27578213997185
+        ],
+        [
+          121.04446510762307,
+          13.98439526469923,
+          51.07161951530725
+        ],
+        [
+          121.04748397552306,
+          13.99222491918668,
+          51.002291646786034
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    120.93543700066009,
+    13.960905391345332,
+    121.0595644300265,
+    14.06028942271263
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:50.449419Z",
+    "updated": "2024-12-17T09:52:50.449419Z",
+    "start_datetime": "2023-11-09T13:01:31Z",
+    "end_datetime": "2023-11-09T13:01:34.896830Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 48.77692463745949,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599996845645366,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4052695520736013,
+    "sar:resolution_azimuth": 0.41095004071985225,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-09T13:01:31Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Taal%2C%20Philippines/6e8937d8-bb61-4954-86cf-485b984b3441/2023-11-09-13-01-30_UMBRA-05/2023-11-09-13-01-30_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Taal, Philippines/6e8937d8-bb61-4954-86cf-485b984b3441/2023-11-09-13-01-30_UMBRA-05/2023-11-09-13-01-30_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Taal, Philippines/6e8937d8-bb61-4954-86cf-485b984b3441/2023-11-09-13-01-30_UMBRA-05/2023-11-09-13-01-30_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Taal, Philippines/6e8937d8-bb61-4954-86cf-485b984b3441/2023-11-09-13-01-30_UMBRA-05/2023-11-09-13-01-30_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Taal, Philippines/6e8937d8-bb61-4954-86cf-485b984b3441/2023-11-09-13-01-30_UMBRA-05/2023-11-09-13-01-30_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b7462287-e659-4e22-b8f9-89eef313d68d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -105.10111811913278,
+          39.54403426737219,
+          1737.6464066579938
+        ],
+        [
+          -105.09914670485985,
+          39.54826776132458,
+          1737.5085604637861
+        ],
+        [
+          -105.0971728129479,
+          39.552502668862395,
+          1737.409955988638
+        ],
+        [
+          -105.09519643310203,
+          39.556738995441094,
+          1737.3506443556398
+        ],
+        [
+          -105.09322275933135,
+          39.560974054062434,
+          1737.3305771788582
+        ],
+        [
+          -105.09124794354254,
+          39.56520778031453,
+          1737.3498104531318
+        ],
+        [
+          -105.08927448096694,
+          39.56944301231625,
+          1737.408256595023
+        ],
+        [
+          -105.08729987401907,
+          39.57367692157574,
+          1737.5059870630503
+        ],
+        [
+          -105.08532661135861,
+          39.57791235012965,
+          1737.6429500430822
+        ],
+        [
+          -105.09079585437071,
+          39.57944161253414,
+          1737.5060342466459
+        ],
+        [
+          -105.09627109028781,
+          39.58096996888074,
+          1737.408089775592
+        ],
+        [
+          -105.10174461637298,
+          39.582497266230625,
+          1737.3493347149342
+        ],
+        [
+          -105.10721644109783,
+          39.58402349921282,
+          1737.3297246629372
+        ],
+        [
+          -105.11268904849852,
+          39.58555151180272,
+          1737.3493102015927
+        ],
+        [
+          -105.1181638119188,
+          39.58707853083326,
+          1737.408017238602
+        ],
+        [
+          -105.12363689132317,
+          39.588604474683805,
+          1737.5058344332501
+        ],
+        [
+          -105.12911076413803,
+          39.590132193420544,
+          1737.6428851811215
+        ],
+        [
+          -105.13108514003123,
+          39.58589600859563,
+          1737.5054707098752
+        ],
+        [
+          -105.13305703329945,
+          39.58166126691049,
+          1737.4073403356597
+        ],
+        [
+          -105.13503165281482,
+          39.57742526426623,
+          1737.3485081242397
+        ],
+        [
+          -105.13699996246359,
+          39.573190619077934,
+          1737.3288268251345
+        ],
+        [
+          -105.13897483750623,
+          39.568954776647956,
+          1737.3485665209591
+        ],
+        [
+          -105.14094476232562,
+          39.56471751103477,
+          1737.4074596520513
+        ],
+        [
+          -105.14291606443604,
+          39.56048173552745,
+          1737.505674037151
+        ],
+        [
+          -105.14488875136897,
+          39.556247441445585,
+          1737.6431836122647
+        ],
+        [
+          -105.13941753543148,
+          39.55472054022158,
+          1737.5066039180383
+        ],
+        [
+          -105.13394329127824,
+          39.553195347063124,
+          1737.409048278816
+        ],
+        [
+          -105.1284711892776,
+          39.55166916573064,
+          1737.3507218556479
+        ],
+        [
+          -105.12300122636245,
+          39.550141999732325,
+          1737.3315948676318
+        ],
+        [
+          -105.11752955639822,
+          39.54861378561479,
+          1737.351629320532
+        ],
+        [
+          -105.11205867922415,
+          39.54708735634575,
+          1737.410750336945
+        ],
+        [
+          -105.106589929216,
+          39.54555995131763,
+          1737.5090314615518
+        ],
+        [
+          -105.10111811913278,
+          39.54403426737219,
+          1737.6464066579938
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -105.14488875136897,
+    39.54403426737219,
+    -105.08532661135861,
+    39.590132193420544
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:00.357669Z",
+    "updated": "2024-12-17T09:54:00.357669Z",
+    "start_datetime": "2023-07-13T03:45:52Z",
+    "end_datetime": "2023-07-13T03:45:56.810420Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 48.939512538348765,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599988792208023,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3478808353809147,
+    "sar:resolution_azimuth": 0.3611504177970014,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-07-13T03:45:52Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-13"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Littleton%2C%20CO/b445390f-61d5-4bf3-8f39-9d777f2c5b09/2023-07-13-03-45-51_UMBRA-04/2023-07-13-03-45-51_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Littleton, CO/b445390f-61d5-4bf3-8f39-9d777f2c5b09/2023-07-13-03-45-51_UMBRA-04/2023-07-13-03-45-51_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Littleton, CO/b445390f-61d5-4bf3-8f39-9d777f2c5b09/2023-07-13-03-45-51_UMBRA-04/2023-07-13-03-45-51_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Littleton, CO/b445390f-61d5-4bf3-8f39-9d777f2c5b09/2023-07-13-03-45-51_UMBRA-04/2023-07-13-03-45-51_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Littleton, CO/b445390f-61d5-4bf3-8f39-9d777f2c5b09/2023-07-13-03-45-51_UMBRA-04/2023-07-13-03-45-51_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

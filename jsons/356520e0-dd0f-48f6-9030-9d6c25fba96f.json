@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "356520e0-dd0f-48f6-9030-9d6c25fba96f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -77.86242562644495,
+          34.21311655031499,
+          -26.391761908987625
+        ],
+        [
+          -77.82844434510555,
+          34.24826473592293,
+          -26.396042665083076
+        ],
+        [
+          -77.87077881906636,
+          34.27648760316556,
+          -26.391519455028018
+        ],
+        [
+          -77.90475383991486,
+          34.24132784819569,
+          -26.39604241668166
+        ],
+        [
+          -77.86242562644495,
+          34.21311655031499,
+          -26.391761908987625
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -77.90475383991486,
+    34.21311655031499,
+    -77.82844434510555,
+    34.27648760316556
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:46.254156Z",
+    "updated": "2024-12-17T09:53:46.254156Z",
+    "start_datetime": "2024-05-09T02:22:27Z",
+    "end_datetime": "2024-05-09T02:22:35.186133Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 36.91438037476068,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599983673659153,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44164346652006536,
+    "sar:resolution_azimuth": 0.19140092809472206,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-09T02:22:27Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/GEOINT24/7b5a9a1e-7a8b-4f58-9438-8016f431abca/2024-05-09-02-22-26_UMBRA-05/2024-05-09-02-22-26_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/GEOINT24/7b5a9a1e-7a8b-4f58-9438-8016f431abca/2024-05-09-02-22-26_UMBRA-05/2024-05-09-02-22-26_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/GEOINT24/7b5a9a1e-7a8b-4f58-9438-8016f431abca/2024-05-09-02-22-26_UMBRA-05/2024-05-09-02-22-26_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

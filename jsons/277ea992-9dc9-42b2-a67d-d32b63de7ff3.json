@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "277ea992-9dc9-42b2-a67d-d32b63de7ff3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.20887588663335,
+          10.74665296077181,
+          1916.3634291319177
+        ],
+        [
+          -85.20866120715999,
+          10.73799812798219,
+          1916.4358911747113
+        ],
+        [
+          -85.20844862498276,
+          10.729341193078785,
+          1916.6533866357058
+        ],
+        [
+          -85.2082341029687,
+          10.720681765070188,
+          1917.0156205547974
+        ],
+        [
+          -85.2080177995787,
+          10.712027906740511,
+          1917.522176339291
+        ],
+        [
+          -85.19405254370389,
+          10.712362183146817,
+          1916.2403757842258
+        ],
+        [
+          -85.18008251513609,
+          10.712702046684099,
+          1915.3241064902395
+        ],
+        [
+          -85.16611550694421,
+          10.713036002330279,
+          1914.7747210823
+        ],
+        [
+          -85.15214756068514,
+          10.713371780806641,
+          1914.5914585683495
+        ],
+        [
+          -85.13818263642058,
+          10.713709714393728,
+          1914.7742628725246
+        ],
+        [
+          -85.124216492482,
+          10.714041242270643,
+          1915.3236899143085
+        ],
+        [
+          -85.11024527173161,
+          10.714378235420625,
+          1916.2393607180566
+        ],
+        [
+          -85.09628073728344,
+          10.714709445450325,
+          1917.521155343391
+        ],
+        [
+          -85.09649052451094,
+          10.723368487511303,
+          1917.0145043386146
+        ],
+        [
+          -85.09670223341486,
+          10.732025285563015,
+          1916.6525982506573
+        ],
+        [
+          -85.096911841544,
+          10.740679528822811,
+          1916.43575462047
+        ],
+        [
+          -85.09712345072906,
+          10.749335703224816,
+          1916.3634244855493
+        ],
+        [
+          -85.09733305739155,
+          10.757993509335966,
+          1916.4361195573583
+        ],
+        [
+          -85.09754457203856,
+          10.76664921399352,
+          1916.6533781979233
+        ],
+        [
+          -85.09775810566858,
+          10.77530695890803,
+          1917.0153043447062
+        ],
+        [
+          -85.09796965312445,
+          10.783966455395124,
+          1917.5223963651806
+        ],
+        [
+          -85.11193724765921,
+          10.783630527507501,
+          1916.2402830673382
+        ],
+        [
+          -85.12590768527167,
+          10.783296438097231,
+          1915.3243393860757
+        ],
+        [
+          -85.13988104116571,
+          10.782964215717657,
+          1914.7747863307595
+        ],
+        [
+          -85.15384919674078,
+          10.782629142656486,
+          1914.5915223406628
+        ],
+        [
+          -85.1678202784747,
+          10.782291918755844,
+          1914.7744175279513
+        ],
+        [
+          -85.18179044777925,
+          10.781956335002297,
+          1915.3237486844882
+        ],
+        [
+          -85.19576368936625,
+          10.781618679689096,
+          1916.2395209213719
+        ],
+        [
+          -85.20973210557322,
+          10.78128239422564,
+          1917.521361976862
+        ],
+        [
+          -85.20951681719514,
+          10.772624115524902,
+          1917.014468275942
+        ],
+        [
+          -85.20930374197077,
+          10.763967943064737,
+          1916.6527291061357
+        ],
+        [
+          -85.20908871183222,
+          10.7553094364222,
+          1916.4355347566307
+        ],
+        [
+          -85.20887588663335,
+          10.74665296077181,
+          1916.3634291319177
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.20973210557322,
+    10.712027906740511,
+    -85.09628073728344,
+    10.783966455395124
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:43.352964Z",
+    "updated": "2024-12-17T09:52:43.352964Z",
+    "start_datetime": "2023-11-15T15:36:05Z",
+    "end_datetime": "2023-11-15T15:36:08.433681Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.629515214007824,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600000319769608,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4168735443053671,
+    "sar:resolution_azimuth": 0.422496540960563,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-15T15:36:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Miravalles%2C%20Costa%20Rica/c113b19d-a6fa-4323-bb0b-ae38bd5188d8/2023-11-15-15-36-04_UMBRA-05/2023-11-15-15-36-04_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Miravalles, Costa Rica/c113b19d-a6fa-4323-bb0b-ae38bd5188d8/2023-11-15-15-36-04_UMBRA-05/2023-11-15-15-36-04_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Miravalles, Costa Rica/c113b19d-a6fa-4323-bb0b-ae38bd5188d8/2023-11-15-15-36-04_UMBRA-05/2023-11-15-15-36-04_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Miravalles, Costa Rica/c113b19d-a6fa-4323-bb0b-ae38bd5188d8/2023-11-15-15-36-04_UMBRA-05/2023-11-15-15-36-04_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Miravalles, Costa Rica/c113b19d-a6fa-4323-bb0b-ae38bd5188d8/2023-11-15-15-36-04_UMBRA-05/2023-11-15-15-36-04_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

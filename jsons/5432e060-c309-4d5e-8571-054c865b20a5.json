@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5432e060-c309-4d5e-8571-054c865b20a5",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.733134236943739,
+          1.8426775417245347,
+          0.407438681460917
+        ],
+        [
+          9.730004003864467,
+          1.8394352907639024,
+          0.38666241336613894
+        ],
+        [
+          9.726869707768223,
+          1.8361934040518888,
+          0.4053246835246682
+        ],
+        [
+          9.723738771436901,
+          1.83295078432994,
+          0.4632037580013275
+        ],
+        [
+          9.720605191469973,
+          1.829709993006767,
+          0.5605265758931637
+        ],
+        [
+          9.71747352745585,
+          1.8264669837151395,
+          0.6970843290910125
+        ],
+        [
+          9.720694973433341,
+          1.8233139837589887,
+          0.5594862308353186
+        ],
+        [
+          9.72391661169938,
+          1.8201625267092743,
+          0.4611893491819501
+        ],
+        [
+          9.727139006956055,
+          1.8170102841249487,
+          0.4021956939250231
+        ],
+        [
+          9.730360168534926,
+          1.8138581140132892,
+          0.38256099354475737
+        ],
+        [
+          9.733583540055367,
+          1.8107066324094168,
+          0.4021795932203531
+        ],
+        [
+          9.736805692821891,
+          1.8075552247057372,
+          0.4611437702551484
+        ],
+        [
+          9.740027179253342,
+          1.8044015574954517,
+          0.5595269342884421
+        ],
+        [
+          9.743248904140403,
+          1.801249438937578,
+          0.6971712121739984
+        ],
+        [
+          9.746381522420256,
+          1.8044935193539022,
+          0.5594169972464442
+        ],
+        [
+          9.749514610600952,
+          1.8077338951937154,
+          0.4611621545627713
+        ],
+        [
+          9.752646540501313,
+          1.8109775720147252,
+          0.4021016461774707
+        ],
+        [
+          9.755780395170044,
+          1.8142190339262645,
+          0.3824866283684969
+        ],
+        [
+          9.758912214268257,
+          1.8174599957248891,
+          0.402156681753695
+        ],
+        [
+          9.762044866403397,
+          1.8207034193620129,
+          0.4611372984945774
+        ],
+        [
+          9.765177478683148,
+          1.8239454994714233,
+          0.5594725729897618
+        ],
+        [
+          9.768310061305211,
+          1.827186241707991,
+          0.6971369683742523
+        ],
+        [
+          9.76508876749239,
+          1.8303388073983196,
+          0.560584002174437
+        ],
+        [
+          9.761866269383122,
+          1.8334914377412863,
+          0.46330911945551634
+        ],
+        [
+          9.758644547740548,
+          1.8366432822820367,
+          0.40538029465824366
+        ],
+        [
+          9.755421608509986,
+          1.8397951914808888,
+          0.3867414463311434
+        ],
+        [
+          9.752200855668047,
+          1.8429477918465782,
+          0.40749758295714855
+        ],
+        [
+          9.748977451520897,
+          1.846098979171974,
+          0.4674844406545162
+        ],
+        [
+          9.745754226105634,
+          1.8492517067871903,
+          0.5668699024245143
+        ],
+        [
+          9.742533747794187,
+          1.8524027965217154,
+          0.7055194303393364
+        ],
+        [
+          9.739400815121101,
+          1.8491615984285932,
+          0.5668467720970511
+        ],
+        [
+          9.736267839464862,
+          1.845919073196212,
+          0.46745044458657503
+        ],
+        [
+          9.733134236943739,
+          1.8426775417245347,
+          0.407438681460917
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.71747352745585,
+    1.801249438937578,
+    9.768310061305211,
+    1.8524027965217154
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:19.720263Z",
+    "updated": "2024-12-17T09:53:19.720263Z",
+    "start_datetime": "2023-04-22T09:05:06.189112Z",
+    "end_datetime": "2023-04-22T09:05:11.867080Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.078747629260455,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799981885298623,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.24895502834276778,
+    "sar:resolution_azimuth": 0.24498741783763908,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-04-22T09:05:06.189112Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-04-22"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/25-cm%20resolution%20images/Bata%20Equatorial%20Guinea/20fb947b-2ccd-49bf-b685-76ac9c786672/2023-04-22-09-05-04_UMBRA-05/2023-04-22-09-05-04_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Bata Equatorial Guinea/20fb947b-2ccd-49bf-b685-76ac9c786672/2023-04-22-09-05-04_UMBRA-05/2023-04-22-09-05-04_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Bata Equatorial Guinea/20fb947b-2ccd-49bf-b685-76ac9c786672/2023-04-22-09-05-04_UMBRA-05/2023-04-22-09-05-04_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Bata Equatorial Guinea/20fb947b-2ccd-49bf-b685-76ac9c786672/2023-04-22-09-05-04_UMBRA-05/2023-04-22-09-05-04_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "d040d80d-3a54-4bcb-adac-a50b384c53a2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -86.96614566928734,
+          40.49230713575696,
+          182.13338118884712
+        ],
+        [
+          -86.9712402426587,
+          40.494573762075404,
+          181.99661629553884
+        ],
+        [
+          -86.97634252748769,
+          40.49683628903378,
+          181.89874861668795
+        ],
+        [
+          -86.98143454737254,
+          40.499102663108545,
+          181.8404018850997
+        ],
+        [
+          -86.9865292587774,
+          40.50137173513866,
+          181.821239576675
+        ],
+        [
+          -86.99163673342713,
+          40.50362989862664,
+          181.8407935826108
+        ],
+        [
+          -86.99672895859447,
+          40.50589870610515,
+          181.9000290716067
+        ],
+        [
+          -87.00182892493861,
+          40.50816340533496,
+          181.99827020894736
+        ],
+        [
+          -87.00692377690747,
+          40.51042511910825,
+          182.13552340120077
+        ],
+        [
+          -87.00989732048146,
+          40.50653216852644,
+          181.9979093959555
+        ],
+        [
+          -87.01285861859677,
+          40.50264143920287,
+          181.89949449244887
+        ],
+        [
+          -87.01582053325188,
+          40.49875179719543,
+          181.8403312675655
+        ],
+        [
+          -87.01878803817826,
+          40.494856432776054,
+          181.8203975195065
+        ],
+        [
+          -87.02175119903083,
+          40.490968941213985,
+          181.8397553935647
+        ],
+        [
+          -87.02471993071073,
+          40.48707571625684,
+          181.89844502322376
+        ],
+        [
+          -87.02767653114326,
+          40.48318467396319,
+          181.99602999724448
+        ],
+        [
+          -87.03064652770932,
+          40.479293555062874,
+          182.13329616561532
+        ],
+        [
+          -87.025545846662,
+          40.477026010204604,
+          181.99638120550662
+        ],
+        [
+          -87.0204478956021,
+          40.474761153185575,
+          181.8987175580114
+        ],
+        [
+          -87.01535268536203,
+          40.472498976752156,
+          181.84022618364543
+        ],
+        [
+          -87.01026509688064,
+          40.4702327006942,
+          181.82109734322876
+        ],
+        [
+          -87.00516744860774,
+          40.46797024423427,
+          181.84084838535637
+        ],
+        [
+          -87.00006456819267,
+          40.465704846703666,
+          181.89987750072032
+        ],
+        [
+          -86.99497724941907,
+          40.4634409742264,
+          181.9980426505208
+        ],
+        [
+          -86.98988467904013,
+          40.46117416721319,
+          182.13547139707953
+        ],
+        [
+          -86.98691270967099,
+          40.465065489834984,
+          181.9978781817481
+        ],
+        [
+          -86.98395425315029,
+          40.46895668822829,
+          181.8993568327278
+        ],
+        [
+          -86.98098351961904,
+          40.47285009380939,
+          181.84021458681673
+        ],
+        [
+          -86.97801337980144,
+          40.47674455489979,
+          181.8203476332128
+        ],
+        [
+          -86.97504878965219,
+          40.48063330072973,
+          181.8397097531706
+        ],
+        [
+          -86.97208481291634,
+          40.48452311305207,
+          181.89824384916574
+        ],
+        [
+          -86.9691084684328,
+          40.48841516227626,
+          181.99639998190105
+        ],
+        [
+          -86.96614566928734,
+          40.49230713575696,
+          182.13338118884712
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.03064652770932,
+    40.46117416721319,
+    -86.96614566928734,
+    40.51042511910825
+  ],
+  "properties": {
+    "created": "2024-12-17T09:50:30.316590Z",
+    "updated": "2024-12-17T09:50:30.316590Z",
+    "start_datetime": "2024-01-11T02:38:50Z",
+    "end_datetime": "2024-01-11T02:38:51.924455Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 30.955548282802482,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599992756149732,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8253283589809536,
+    "sar:resolution_azimuth": 0.8352388075353472,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-01-11T02:38:50Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-01-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue%20University%20Farm%20Plot/24d3fac8-97af-455f-b6bc-43c4c7a354f3/2024-01-11-02-38-49_UMBRA-05/2024-01-11-02-38-49_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue University Farm Plot/24d3fac8-97af-455f-b6bc-43c4c7a354f3/2024-01-11-02-38-49_UMBRA-05/2024-01-11-02-38-49_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue University Farm Plot/24d3fac8-97af-455f-b6bc-43c4c7a354f3/2024-01-11-02-38-49_UMBRA-05/2024-01-11-02-38-49_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue University Farm Plot/24d3fac8-97af-455f-b6bc-43c4c7a354f3/2024-01-11-02-38-49_UMBRA-05/2024-01-11-02-38-49_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue University Farm Plot/24d3fac8-97af-455f-b6bc-43c4c7a354f3/2024-01-11-02-38-49_UMBRA-05/2024-01-11-02-38-49_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

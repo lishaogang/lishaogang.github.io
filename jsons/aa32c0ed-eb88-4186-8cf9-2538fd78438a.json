@@ -1,0 +1,144 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "aa32c0ed-eb88-4186-8cf9-2538fd78438a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -86.89443227114403,
+          21.16687193829953,
+          -2.828331877821745
+        ],
+        [
+          -86.81084754401844,
+          21.09876083276421,
+          -2.8058111786159654
+        ],
+        [
+          -86.75716397318787,
+          21.156702671014937,
+          -2.8278405330681373
+        ],
+        [
+          -86.8407566766578,
+          21.224839829535593,
+          -2.8059044401447406
+        ],
+        [
+          -86.89443227114403,
+          21.16687193829953,
+          -2.828331877821745
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -86.89443227114403,
+    21.09876083276421,
+    -86.75716397318787,
+    21.224839829535593
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:17.950363Z",
+    "updated": "2024-12-17T09:53:17.950363Z",
+    "start_datetime": "2024-09-07T16:30:19Z",
+    "end_datetime": "2024-09-07T16:30:25.277008Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_07",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.17044369792542,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79999327159021,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4483396885910578,
+    "sar:resolution_azimuth": 0.18753915321523087,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-09-07T16:30:19Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-09-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/1dc03553-778c-4125-99eb-174bcf8b8ddb/2024-09-07-16-30-18_UMBRA-07/2024-09-07-16-30-18_UMBRA-07_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/1dc03553-778c-4125-99eb-174bcf8b8ddb/2024-09-07-16-30-18_UMBRA-07/2024-09-07-16-30-18_UMBRA-07_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/1dc03553-778c-4125-99eb-174bcf8b8ddb/2024-09-07-16-30-18_UMBRA-07/2024-09-07-16-30-18_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/1dc03553-778c-4125-99eb-174bcf8b8ddb/2024-09-07-16-30-18_UMBRA-07/2024-09-07-16-30-18_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/1dc03553-778c-4125-99eb-174bcf8b8ddb/2024-09-07-16-30-18_UMBRA-07/2024-09-07-16-30-18_UMBRA-07_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

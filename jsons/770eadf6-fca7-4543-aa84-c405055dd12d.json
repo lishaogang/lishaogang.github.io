@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "770eadf6-fca7-4543-aa84-c405055dd12d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.1230284215347,
+          40.52830919292983,
+          1752.3271694723517
+        ],
+        [
+          -112.12350114035738,
+          40.532797946668055,
+          1752.3861394552514
+        ],
+        [
+          -112.1239688381695,
+          40.53728612350487,
+          1752.4845317974687
+        ],
+        [
+          -112.12444087383385,
+          40.541770136873446,
+          1752.6219610674307
+        ],
+        [
+          -112.13032353725453,
+          40.541412626506926,
+          1752.4850490884855
+        ],
+        [
+          -112.13620397405074,
+          40.5410541061511,
+          1752.3872772110626
+        ],
+        [
+          -112.1420870544008,
+          40.54069467312954,
+          1752.3285856228322
+        ],
+        [
+          -112.14796791476107,
+          40.54033423073857,
+          1752.3090155534446
+        ],
+        [
+          -112.1538469467432,
+          40.539976572677816,
+          1752.328658523038
+        ],
+        [
+          -112.15972824263424,
+          40.539614210698986,
+          1752.3872857186943
+        ],
+        [
+          -112.16561257582732,
+          40.53925473120799,
+          1752.485217676498
+        ],
+        [
+          -112.17149470324333,
+          40.53889424728035,
+          1752.6222349600866
+        ],
+        [
+          -112.17101924854813,
+          40.53440786276317,
+          1752.4846881916746
+        ],
+        [
+          -112.17054852457925,
+          40.52992109429921,
+          1752.3865386070684
+        ],
+        [
+          -112.17007281681259,
+          40.525433755137904,
+          1752.3275253735483
+        ],
+        [
+          -112.1696018352767,
+          40.520946017381995,
+          1752.307927758433
+        ],
+        [
+          -112.16912586570346,
+          40.51645770127644,
+          1752.3274988038465
+        ],
+        [
+          -112.16865503123918,
+          40.511972773169084,
+          1752.3864385914057
+        ],
+        [
+          -112.16818365094251,
+          40.507483539261735,
+          1752.4847314786166
+        ],
+        [
+          -112.16770769810778,
+          40.5029975177147,
+          1752.6221101228148
+        ],
+        [
+          -112.16183379928191,
+          40.503360420464816,
+          1752.4850419024006
+        ],
+        [
+          -112.15595241322461,
+          40.50371845551045,
+          1752.387134347111
+        ],
+        [
+          -112.15007409366982,
+          40.50407938117515,
+          1752.3282974055037
+        ],
+        [
+          -112.1441984194396,
+          40.50443939802145,
+          1752.3086087275296
+        ],
+        [
+          -112.13832052632867,
+          40.504798424613476,
+          1752.3280585026368
+        ],
+        [
+          -112.13244040924333,
+          40.50515646000469,
+          1752.3866881644353
+        ],
+        [
+          -112.12656334935032,
+          40.50551737615221,
+          1752.4842966496944
+        ],
+        [
+          -112.12068363999244,
+          40.50587350933853,
+          1752.621236926876
+        ],
+        [
+          -112.12115184548061,
+          40.51036088106701,
+          1752.4838748220354
+        ],
+        [
+          -112.1216198974401,
+          40.51484774188638,
+          1752.3858097810298
+        ],
+        [
+          -112.1220926681621,
+          40.519334186930635,
+          1752.326896267943
+        ],
+        [
+          -112.12256082076657,
+          40.523823829942934,
+          1752.307387872599
+        ],
+        [
+          -112.1230284215347,
+          40.52830919292983,
+          1752.3271694723517
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.17149470324333,
+    40.5029975177147,
+    -112.12068363999244,
+    40.541770136873446
+  ],
+  "properties": {
+    "created": "2024-12-17T09:46:48.333776Z",
+    "updated": "2024-12-17T09:46:48.333776Z",
+    "start_datetime": "2023-08-31T16:59:18Z",
+    "end_datetime": "2023-08-31T16:59:21.116706Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.849266498921814,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600008398352658,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4534214868956024,
+    "sar:resolution_azimuth": 0.4603191679448948,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-31T16:59:18Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham%20Copper%20Mine/fa06a38e-5a1c-4b3a-8255-48f0ec6309d1/2023-08-31-16-59-17_UMBRA-05/2023-08-31-16-59-17_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/fa06a38e-5a1c-4b3a-8255-48f0ec6309d1/2023-08-31-16-59-17_UMBRA-05/2023-08-31-16-59-17_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/fa06a38e-5a1c-4b3a-8255-48f0ec6309d1/2023-08-31-16-59-17_UMBRA-05/2023-08-31-16-59-17_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/fa06a38e-5a1c-4b3a-8255-48f0ec6309d1/2023-08-31-16-59-17_UMBRA-05/2023-08-31-16-59-17_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/fa06a38e-5a1c-4b3a-8255-48f0ec6309d1/2023-08-31-16-59-17_UMBRA-05/2023-08-31-16-59-17_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

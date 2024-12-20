@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "f0b96730-18c1-4e9c-b0ca-80f8a6429aeb",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          169.47363851218512,
+          -19.51637538047625,
+          109.95144546683878
+        ],
+        [
+          169.47167461672979,
+          -19.512260367730903,
+          109.93239145446569
+        ],
+        [
+          169.4697158687648,
+          -19.508146400131235,
+          109.95282383915037
+        ],
+        [
+          169.4677622580033,
+          -19.504033475799975,
+          110.01266578026116
+        ],
+        [
+          169.46580102005493,
+          -19.499914525711965,
+          110.11185928247869
+        ],
+        [
+          169.46383580308552,
+          -19.49579725765245,
+          110.25032947491854
+        ],
+        [
+          169.4595013423959,
+          -19.49765868143191,
+          110.1130318660289
+        ],
+        [
+          169.4551569357841,
+          -19.499514866574295,
+          110.01506451703608
+        ],
+        [
+          169.45081532025603,
+          -19.50137288027759,
+          109.95626486372203
+        ],
+        [
+          169.4464764901194,
+          -19.503232721501803,
+          109.93658881727606
+        ],
+        [
+          169.44212771098776,
+          -19.50508731135208,
+          109.95646155439317
+        ],
+        [
+          169.43779443741428,
+          -19.50695080258516,
+          110.0149710578844
+        ],
+        [
+          169.43345120908924,
+          -19.508809036509124,
+          110.11308180168271
+        ],
+        [
+          169.42910711170887,
+          -19.510661346092697,
+          110.25057525094599
+        ],
+        [
+          169.4310719990277,
+          -19.51477961106714,
+          110.1124888798222
+        ],
+        [
+          169.43303291003787,
+          -19.518899567533694,
+          110.01398509461433
+        ],
+        [
+          169.43498618342852,
+          -19.523013476723474,
+          109.95513665024191
+        ],
+        [
+          169.43694456110674,
+          -19.52712842308014,
+          109.93543937802315
+        ],
+        [
+          169.43890805322656,
+          -19.531244408456377,
+          109.95496910531074
+        ],
+        [
+          169.4408675763862,
+          -19.53536211304716,
+          110.01403444819152
+        ],
+        [
+          169.44282313554007,
+          -19.539481547795898,
+          110.11263599898666
+        ],
+        [
+          169.4447929298982,
+          -19.543601354880014,
+          110.25041052140296
+        ],
+        [
+          169.4491337632821,
+          -19.541740346994533,
+          110.11235925648361
+        ],
+        [
+          169.45346827780273,
+          -19.5398818290314,
+          110.01363610755652
+        ],
+        [
+          169.45781468677674,
+          -19.538024439045653,
+          109.95413328427821
+        ],
+        [
+          169.46215107148464,
+          -19.53616179311857,
+          109.93360990285873
+        ],
+        [
+          169.46650308064358,
+          -19.53430802910327,
+          109.95283358264714
+        ],
+        [
+          169.47084507135105,
+          -19.532449015118985,
+          110.01098458468914
+        ],
+        [
+          169.4751770407661,
+          -19.530584757989956,
+          110.10789533052593
+        ],
+        [
+          169.47952465486992,
+          -19.528729384025635,
+          110.24475843831897
+        ],
+        [
+          169.47756352449096,
+          -19.524609880672248,
+          110.10760281886905
+        ],
+        [
+          169.47559843605515,
+          -19.520492103084976,
+          110.00972939562052
+        ],
+        [
+          169.47363851218512,
+          -19.51637538047625,
+          109.95144546683878
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    169.42910711170887,
+    -19.543601354880014,
+    169.47952465486992,
+    -19.49579725765245
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:30.684448Z",
+    "updated": "2024-12-17T09:51:30.684448Z",
+    "start_datetime": "2023-06-14T10:43:40.239450Z",
+    "end_datetime": "2023-06-14T10:43:41.923097Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 48.64330833531203,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600004362990148,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 1.0131284547389015,
+    "sar:resolution_azimuth": 1.0354774741041173,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-14T10:43:40.239450Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-14"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna%20Island%2C%20Vanuatu/24c42e57-8a11-4580-a2a8-aa242c00f21d/2023-06-14-10-43-39_UMBRA-06/2023-06-14-10-43-39_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/24c42e57-8a11-4580-a2a8-aa242c00f21d/2023-06-14-10-43-39_UMBRA-06/2023-06-14-10-43-39_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/24c42e57-8a11-4580-a2a8-aa242c00f21d/2023-06-14-10-43-39_UMBRA-06/2023-06-14-10-43-39_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/24c42e57-8a11-4580-a2a8-aa242c00f21d/2023-06-14-10-43-39_UMBRA-06/2023-06-14-10-43-39_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/24c42e57-8a11-4580-a2a8-aa242c00f21d/2023-06-14-10-43-39_UMBRA-06/2023-06-14-10-43-39_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

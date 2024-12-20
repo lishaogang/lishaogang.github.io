@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "99b90809-e5d9-4ab7-819a-f0857f8d1775",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.190996787293827,
+          32.92055842395087,
+          28.66168732754886
+        ],
+        [
+          22.19050152575566,
+          32.92504696851108,
+          28.72080770228058
+        ],
+        [
+          22.190006547041648,
+          32.92953588385605,
+          28.819281488656998
+        ],
+        [
+          22.189511851879537,
+          32.934025177616924,
+          28.957118089310825
+        ],
+        [
+          22.18418987057048,
+          32.933606349295545,
+          28.82001769449562
+        ],
+        [
+          22.17886546095244,
+          32.933190150396705,
+          28.722133968025446
+        ],
+        [
+          22.17354220157252,
+          32.93277189505311,
+          28.663363855332136
+        ],
+        [
+          22.168219811713275,
+          32.93235417295814,
+          28.64377852343023
+        ],
+        [
+          22.162898283772304,
+          32.93193698298737,
+          28.66335823852569
+        ],
+        [
+          22.157574584058445,
+          32.931519828721264,
+          28.722119466401637
+        ],
+        [
+          22.152252010534326,
+          32.931100607151905,
+          28.819961013272405
+        ],
+        [
+          22.14692725977835,
+          32.93068141849084,
+          28.957035433501005
+        ],
+        [
+          22.147424037405337,
+          32.926193386588174,
+          28.819355756044388
+        ],
+        [
+          22.147921351024067,
+          32.92170313102884,
+          28.720953319221735
+        ],
+        [
+          22.148418638648728,
+          32.917215840559294,
+          28.661932293325663
+        ],
+        [
+          22.148913449145294,
+          32.91272581391118,
+          28.64230526704341
+        ],
+        [
+          22.14941153813577,
+          32.908236637945876,
+          28.661931690759957
+        ],
+        [
+          22.149906867594904,
+          32.903747306148276,
+          28.72098483890295
+        ],
+        [
+          22.150402455990495,
+          32.89925830984691,
+          28.8193668005988
+        ],
+        [
+          22.150898302786004,
+          32.894769641476046,
+          28.957069657742977
+        ],
+        [
+          22.156221063292453,
+          32.89518757654574,
+          28.819868110120296
+        ],
+        [
+          22.16154164265513,
+          32.895605541562645,
+          28.7218698002398
+        ],
+        [
+          22.16686306477693,
+          32.89602404104757,
+          28.662994709797204
+        ],
+        [
+          22.172182311777267,
+          32.896442570783435,
+          28.643271383829415
+        ],
+        [
+          22.17750271500271,
+          32.89685904925083,
+          28.662755696102977
+        ],
+        [
+          22.18282397854756,
+          32.8972760669831,
+          28.72137649729848
+        ],
+        [
+          22.18814611001258,
+          32.897693625089246,
+          28.819153522141278
+        ],
+        [
+          22.193466082555656,
+          32.898111217464994,
+          28.956025982275605
+        ],
+        [
+          22.19297213972573,
+          32.9026011147152,
+          28.81844817660749
+        ],
+        [
+          22.19247878000202,
+          32.907088759098485,
+          28.72027658112347
+        ],
+        [
+          22.191985410737413,
+          32.911579327211136,
+          28.66140538919717
+        ],
+        [
+          22.19148958127817,
+          32.91606715341817,
+          28.641821005381644
+        ],
+        [
+          22.190996787293827,
+          32.92055842395087,
+          28.66168732754886
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    22.14692725977835,
+    32.894769641476046,
+    22.193466082555656,
+    32.934025177616924
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:23.008374Z",
+    "updated": "2024-12-17T09:54:23.008374Z",
+    "start_datetime": "2023-08-11T19:26:25Z",
+    "end_datetime": "2023-08-11T19:26:28.781707Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.68601747552794,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799996073241347,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.31864757503070623,
+    "sar:resolution_azimuth": 0.3124139822216918,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-08-11T19:26:25Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Ra%27s%20Al%20Helal%2C%20Libya/2ae8423b-7744-4806-94e2-cbf3893a721f/2023-08-11-19-26-26_UMBRA-04/2023-08-11-19-26-26_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ra's Al Helal, Libya/2ae8423b-7744-4806-94e2-cbf3893a721f/2023-08-11-19-26-26_UMBRA-04/2023-08-11-19-26-26_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ra's Al Helal, Libya/2ae8423b-7744-4806-94e2-cbf3893a721f/2023-08-11-19-26-26_UMBRA-04/2023-08-11-19-26-26_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ra's Al Helal, Libya/2ae8423b-7744-4806-94e2-cbf3893a721f/2023-08-11-19-26-26_UMBRA-04/2023-08-11-19-26-26_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ra's Al Helal, Libya/2ae8423b-7744-4806-94e2-cbf3893a721f/2023-08-11-19-26-26_UMBRA-04/2023-08-11-19-26-26_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

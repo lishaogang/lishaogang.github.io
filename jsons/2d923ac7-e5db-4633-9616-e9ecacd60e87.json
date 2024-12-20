@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "2d923ac7-e5db-4633-9616-e9ecacd60e87",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -89.99802555021121,
+          38.57940637673324,
+          174.02633303496987
+        ],
+        [
+          -89.99332161000498,
+          38.57682383705437,
+          174.0073300031945
+        ],
+        [
+          -89.98862158820488,
+          38.574241656633475,
+          174.02757489029318
+        ],
+        [
+          -89.98391902053193,
+          38.57166189837545,
+          174.08689142763615
+        ],
+        [
+          -89.97921534024985,
+          38.56907971962502,
+          174.18549816403538
+        ],
+        [
+          -89.97451553568486,
+          38.566497889766914,
+          174.32328443415463
+        ],
+        [
+          -89.97122696355487,
+          38.5701870178826,
+          174.1859562592581
+        ],
+        [
+          -89.96793577939285,
+          38.57387594006248,
+          174.0878956867382
+        ],
+        [
+          -89.96464696253294,
+          38.577567435005484,
+          174.02895933017135
+        ],
+        [
+          -89.96136192389561,
+          38.5812566677153,
+          174.00923772528768
+        ],
+        [
+          -89.95806784572974,
+          38.584947751730624,
+          174.02892080973834
+        ],
+        [
+          -89.95477751511827,
+          38.58863657212321,
+          174.0877890745178
+        ],
+        [
+          -89.95148452292354,
+          38.592325184946525,
+          174.18596997484565
+        ],
+        [
+          -89.94819386121328,
+          38.59601637598917,
+          174.32332221232355
+        ],
+        [
+          -89.95289219591287,
+          38.59859776135585,
+          174.18620956875384
+        ],
+        [
+          -89.95759938062128,
+          38.60118229526045,
+          174.08807250391692
+        ],
+        [
+          -89.96229398907255,
+          38.60376369169831,
+          174.02941196225584
+        ],
+        [
+          -89.96699748732485,
+          38.606348242850295,
+          174.0098098171875
+        ],
+        [
+          -89.97169982292786,
+          38.60893038825602,
+          174.02937456406653
+        ],
+        [
+          -89.97640605316413,
+          38.61151290994826,
+          174.08813225198537
+        ],
+        [
+          -89.98111112547765,
+          38.61409303432163,
+          174.1860247356817
+        ],
+        [
+          -89.98581371303027,
+          38.61667561512989,
+          174.3232210110873
+        ],
+        [
+          -89.98910596292687,
+          38.61298483337468,
+          174.18524626083672
+        ],
+        [
+          -89.99239551841897,
+          38.60929385013943,
+          174.08650032244623
+        ],
+        [
+          -89.99568746828531,
+          38.60560543452688,
+          174.02712657675147
+        ],
+        [
+          -89.9989716563793,
+          38.60191405013099,
+          174.0067628407851
+        ],
+        [
+          -90.00226469358238,
+          38.598223155363456,
+          174.02586323674768
+        ],
+        [
+          -90.00555507836754,
+          38.59453205975138,
+          174.08417287562042
+        ],
+        [
+          -90.00884281875575,
+          38.59084076433307,
+          174.18166715838015
+        ],
+        [
+          -90.01212792277059,
+          38.58714927013514,
+          174.31832159869373
+        ],
+        [
+          -90.00742870850948,
+          38.58456908659679,
+          174.18187000323087
+        ],
+        [
+          -90.00272838746415,
+          38.58198651171337,
+          174.0845693340525
+        ],
+        [
+          -89.99802555021121,
+          38.57940637673324,
+          174.02633303496987
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -90.01212792277059,
+    38.566497889766914,
+    -89.94819386121328,
+    38.61667561512989
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:40.796542Z",
+    "updated": "2024-12-17T09:53:40.796542Z",
+    "start_datetime": "2023-07-22T03:18:37Z",
+    "end_datetime": "2023-07-22T03:18:39.789777Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 37.283599702389296,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599995143245906,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5777703578034388,
+    "sar:resolution_azimuth": 0.5849848884316221,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-07-22T03:18:37Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-22"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Fairview%20Heights%2C%20IL/46e17085-aee3-4db8-80a3-a269edb25d5e/2023-07-22-03-18-36_UMBRA-05/2023-07-22-03-18-36_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fairview Heights, IL/46e17085-aee3-4db8-80a3-a269edb25d5e/2023-07-22-03-18-36_UMBRA-05/2023-07-22-03-18-36_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fairview Heights, IL/46e17085-aee3-4db8-80a3-a269edb25d5e/2023-07-22-03-18-36_UMBRA-05/2023-07-22-03-18-36_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fairview Heights, IL/46e17085-aee3-4db8-80a3-a269edb25d5e/2023-07-22-03-18-36_UMBRA-05/2023-07-22-03-18-36_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fairview Heights, IL/46e17085-aee3-4db8-80a3-a269edb25d5e/2023-07-22-03-18-36_UMBRA-05/2023-07-22-03-18-36_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

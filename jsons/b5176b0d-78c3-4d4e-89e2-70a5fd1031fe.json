@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b5176b0d-78c3-4d4e-89e2-70a5fd1031fe",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          154.84760364457068,
+          49.58897967135634,
+          588.9084617495537
+        ],
+        [
+          154.84154059842567,
+          49.594330494401696,
+          588.9518690174446
+        ],
+        [
+          154.83546983348657,
+          49.599683705978634,
+          589.0809451108798
+        ],
+        [
+          154.82940058773673,
+          49.605035908996065,
+          589.2958005117252
+        ],
+        [
+          154.82333281938796,
+          49.610387122344655,
+          589.5963723091409
+        ],
+        [
+          154.8134279279948,
+          49.60564080520262,
+          589.1619739634916
+        ],
+        [
+          154.80352241521365,
+          49.60089388405681,
+          588.8515388118103
+        ],
+        [
+          154.7936203828749,
+          49.59614742723059,
+          588.6651278967038
+        ],
+        [
+          154.7837217541873,
+          49.59140142507746,
+          588.6026681531221
+        ],
+        [
+          154.77382071435218,
+          49.586651454938746,
+          588.6641072481871
+        ],
+        [
+          154.7639270906183,
+          49.58190299384896,
+          588.8494088090956
+        ],
+        [
+          154.75403097163834,
+          49.57715054505671,
+          589.1587357521057
+        ],
+        [
+          154.7441421238398,
+          49.5723995838332,
+          589.5917971571907
+        ],
+        [
+          154.75021394031822,
+          49.56705298058184,
+          589.2924232548103
+        ],
+        [
+          154.75628297868946,
+          49.56170426099045,
+          589.0788224842399
+        ],
+        [
+          154.76235748635892,
+          49.55635555403871,
+          588.9506643675268
+        ],
+        [
+          154.7684267305953,
+          49.55100695267146,
+          588.9083842812106
+        ],
+        [
+          154.77449072366534,
+          49.54565842751419,
+          588.9519113395363
+        ],
+        [
+          154.78056027458365,
+          49.54030985344915,
+          589.0809389092028
+        ],
+        [
+          154.78662462033736,
+          49.534961307674635,
+          589.2957443762571
+        ],
+        [
+          154.79268637799387,
+          49.52961050528228,
+          589.596405396238
+        ],
+        [
+          154.80257571512686,
+          49.534358125806804,
+          589.1620037592947
+        ],
+        [
+          154.8124708067019,
+          49.53910390151972,
+          588.851635674946
+        ],
+        [
+          154.82235825533942,
+          49.543850172518276,
+          588.665090369992
+        ],
+        [
+          154.83225571139286,
+          49.548595705348944,
+          588.6025744322687
+        ],
+        [
+          154.84215080930775,
+          49.553337247750484,
+          588.6640468416736
+        ],
+        [
+          154.85204670762673,
+          49.55808148227278,
+          588.8492760881782
+        ],
+        [
+          154.8619486683922,
+          49.562823924232724,
+          589.1586277624592
+        ],
+        [
+          154.8718499917702,
+          49.56756573889714,
+          589.5918207122013
+        ],
+        [
+          154.86578979021812,
+          49.57291751334445,
+          589.2923697214574
+        ],
+        [
+          154.8597302901878,
+          49.57827374656585,
+          589.078755274415
+        ],
+        [
+          154.85366663131592,
+          49.58362445546922,
+          588.9506506305188
+        ],
+        [
+          154.84760364457068,
+          49.58897967135634,
+          588.9084617495537
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    154.7441421238398,
+    49.52961050528228,
+    154.8718499917702,
+    49.610387122344655
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:43.922430Z",
+    "updated": "2024-12-17T09:52:43.922430Z",
+    "start_datetime": "2023-11-15T10:19:31Z",
+    "end_datetime": "2023-11-15T10:19:34.985076Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.38657592325924,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79998026462272,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.294384438117913,
+    "sar:resolution_azimuth": 0.2863605055861015,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-15T10:19:31Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Nemo%20Peak%2C%20Russia/7469eca6-c6a0-4cd4-91f2-391b9de30e7c/2023-11-15-10-19-30_UMBRA-05/2023-11-15-10-19-30_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Nemo Peak, Russia/7469eca6-c6a0-4cd4-91f2-391b9de30e7c/2023-11-15-10-19-30_UMBRA-05/2023-11-15-10-19-30_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Nemo Peak, Russia/7469eca6-c6a0-4cd4-91f2-391b9de30e7c/2023-11-15-10-19-30_UMBRA-05/2023-11-15-10-19-30_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Nemo Peak, Russia/7469eca6-c6a0-4cd4-91f2-391b9de30e7c/2023-11-15-10-19-30_UMBRA-05/2023-11-15-10-19-30_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Nemo Peak, Russia/7469eca6-c6a0-4cd4-91f2-391b9de30e7c/2023-11-15-10-19-30_UMBRA-05/2023-11-15-10-19-30_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

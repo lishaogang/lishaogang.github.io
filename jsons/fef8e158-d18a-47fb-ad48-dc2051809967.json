@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "fef8e158-d18a-47fb-ad48-dc2051809967",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.71041688288338,
+          37.97706638045258,
+          1296.4302077971834
+        ],
+        [
+          -119.76031032938207,
+          37.955423072924745,
+          1296.4268762665793
+        ],
+        [
+          -119.7329769938569,
+          37.91592609249702,
+          1296.4304567864483
+        ],
+        [
+          -119.68310224142256,
+          37.93755796132197,
+          1296.4268775363241
+        ],
+        [
+          -119.71041688288338,
+          37.97706638045258,
+          1296.4302077971834
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -119.76031032938207,
+    37.91592609249702,
+    -119.68310224142256,
+    37.97706638045258
+  ],
+  "properties": {
+    "created": "2024-12-17T09:47:42.717885Z",
+    "updated": "2024-12-17T09:47:42.717885Z",
+    "start_datetime": "2024-09-03T06:23:21Z",
+    "end_datetime": "2024-09-03T06:23:24.009930Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.500969502245106,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79999040043913,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.39673674171919204,
+    "sar:resolution_azimuth": 0.37674504218153604,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-09-03T06:23:21Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-09-03"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch%20Hetchy%20Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch Hetchy Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch Hetchy Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch Hetchy Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch Hetchy Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch Hetchy Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch Hetchy Reservoir/800c9a71-5580-4d84-999f-6b1b59e14ebe/2024-09-03-06-23-20_UMBRA-06/2024-09-03-06-23-20_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

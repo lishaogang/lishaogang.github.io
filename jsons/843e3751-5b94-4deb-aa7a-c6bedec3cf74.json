@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "843e3751-5b94-4deb-aa7a-c6bedec3cf74",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -164.0626787122984,
+          54.786640400598,
+          2734.2459227656946
+        ],
+        [
+          -164.07129426677997,
+          54.77852686115521,
+          2734.3330197613686
+        ],
+        [
+          -164.07990499600982,
+          54.7704107441447,
+          2734.595999315381
+        ],
+        [
+          -164.08850944159516,
+          54.76229342463265,
+          2735.034841686487
+        ],
+        [
+          -164.09711381377568,
+          54.75417681971886,
+          2735.6500391643494
+        ],
+        [
+          -164.0739995404085,
+          54.74598029718113,
+          2733.9809114355594
+        ],
+        [
+          -164.05090330397968,
+          54.73777980742371,
+          2732.7894955947995
+        ],
+        [
+          -164.02780963825944,
+          54.72957425574179,
+          2732.074853311293
+        ],
+        [
+          -164.00472610538753,
+          54.72136417635489,
+          2731.837455856614
+        ],
+        [
+          -163.98165105773026,
+          54.71315098444376,
+          2732.0771497869864
+        ],
+        [
+          -163.95858744589455,
+          54.7049318243986,
+          2732.7941611232236
+        ],
+        [
+          -163.93553208780017,
+          54.696709538256286,
+          2733.9882278600708
+        ],
+        [
+          -163.91248794833825,
+          54.688481262193505,
+          2735.659590996802
+        ],
+        [
+          -163.903861206463,
+          54.69658555379972,
+          2735.042111190036
+        ],
+        [
+          -163.89523403603576,
+          54.704690490476,
+          2734.600452784449
+        ],
+        [
+          -163.88660182202258,
+          54.71279271979362,
+          2734.3351428816095
+        ],
+        [
+          -163.87796297998221,
+          54.720893715047744,
+          2734.246110264212
+        ],
+        [
+          -163.8693235872609,
+          54.72899546227561,
+          2734.332885206677
+        ],
+        [
+          -163.86067748493502,
+          54.7370960524578,
+          2734.595983926207
+        ],
+        [
+          -163.85203227764194,
+          54.745196028175336,
+          2735.0348433107138
+        ],
+        [
+          -163.843380273295,
+          54.75329492235244,
+          2735.650024294853
+        ],
+        [
+          -163.86644818854057,
+          54.76153537387989,
+          2733.9810937996954
+        ],
+        [
+          -163.8895261279233,
+          54.76977097058063,
+          2732.789274165407
+        ],
+        [
+          -163.91261269561176,
+          54.77800315298756,
+          2732.074691839516
+        ],
+        [
+          -163.93570951480322,
+          54.78623049416986,
+          2731.8372338963673
+        ],
+        [
+          -163.9588166975782,
+          54.79445300332461,
+          2732.076918247156
+        ],
+        [
+          -163.9819328604469,
+          54.802672115098616,
+          2732.793894493021
+        ],
+        [
+          -164.00505343121887,
+          54.8108844762733,
+          2733.987718145363
+        ],
+        [
+          -164.02818940498622,
+          54.819095384223054,
+          2735.659138992429
+        ],
+        [
+          -164.03681834774991,
+          54.810982215746584,
+          2735.0417405730113
+        ],
+        [
+          -164.04543929243442,
+          54.80286946114671,
+          2734.600324609317
+        ],
+        [
+          -164.05406145979597,
+          54.79475618145929,
+          2734.335191952996
+        ],
+        [
+          -164.0626787122984,
+          54.786640400598,
+          2734.2459227656946
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -164.09711381377568,
+    54.688481262193505,
+    -163.843380273295,
+    54.819095384223054
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:43.592985Z",
+    "updated": "2024-12-17T09:52:43.592985Z",
+    "start_datetime": "2023-11-07T21:50:36Z",
+    "end_datetime": "2023-11-07T21:50:43.624523Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 55.688102273021286,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599989245878533,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44451386155081113,
+    "sar:resolution_azimuth": 0.20279087355856112,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-07T21:50:36Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Mount%20Shishaldin%2C%20Alaska/7350cdd5-df84-47f6-9738-2e7b10584203/2023-11-07-21-50-35_UMBRA-04/2023-11-07-21-50-35_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Mount Shishaldin, Alaska/7350cdd5-df84-47f6-9738-2e7b10584203/2023-11-07-21-50-35_UMBRA-04/2023-11-07-21-50-35_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Mount Shishaldin, Alaska/7350cdd5-df84-47f6-9738-2e7b10584203/2023-11-07-21-50-35_UMBRA-04/2023-11-07-21-50-35_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Mount Shishaldin, Alaska/7350cdd5-df84-47f6-9738-2e7b10584203/2023-11-07-21-50-35_UMBRA-04/2023-11-07-21-50-35_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Mount Shishaldin, Alaska/7350cdd5-df84-47f6-9738-2e7b10584203/2023-11-07-21-50-35_UMBRA-04/2023-11-07-21-50-35_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

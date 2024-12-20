@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "db9dba07-1e88-4d54-9d18-5a26857f5978",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.797383713791085,
+          5.223402719980494,
+          -23.66315537992662
+        ],
+        [
+          -52.759098254686705,
+          5.1994958483873575,
+          -23.65719044521252
+        ],
+        [
+          -52.73524937349479,
+          5.237876694920596,
+          -23.662983978658325
+        ],
+        [
+          -52.77353625999624,
+          5.261784993722722,
+          -23.65719084418432
+        ],
+        [
+          -52.797383713791085,
+          5.223402719980494,
+          -23.66315537992662
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -52.797383713791085,
+    5.1994958483873575,
+    -52.73524937349479,
+    5.261784993722722
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:40.724561Z",
+    "updated": "2024-12-17T09:48:40.724561Z",
+    "start_datetime": "2024-09-10T01:56:55Z",
+    "end_datetime": "2024-09-10T01:56:59.644444Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 22.26638994206165,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799995211302305,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.30656330846109137,
+    "sar:resolution_azimuth": 0.27852347754343837,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-09-10T01:56:55Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-09-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou%2C%20French%20Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/d7ba43c2-a3f1-4f2a-8e51-80d1a88e1ab0/2024-09-10-01-56-54_UMBRA-08/2024-09-10-01-56-54_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

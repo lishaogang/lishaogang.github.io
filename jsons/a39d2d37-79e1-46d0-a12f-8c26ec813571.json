@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "a39d2d37-79e1-46d0-a12f-8c26ec813571",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.08416129325231,
+          43.098927327250045,
+          168.7186175454408
+        ],
+        [
+          -79.0875601695218,
+          43.09517827082309,
+          168.65915067959577
+        ],
+        [
+          -79.09096176254624,
+          43.09143207833645,
+          168.63904811721295
+        ],
+        [
+          -79.09436281882888,
+          43.0876824188599,
+          168.65812087338418
+        ],
+        [
+          -79.09776288597389,
+          43.083934730210636,
+          168.71645473409444
+        ],
+        [
+          -79.10115823371116,
+          43.08018812084072,
+          168.81388180330396
+        ],
+        [
+          -79.10456052851104,
+          43.076439782545584,
+          168.95077037718147
+        ],
+        [
+          -79.09944660169786,
+          43.07394805306019,
+          168.81359701417387
+        ],
+        [
+          -79.09433457782852,
+          43.071457821465586,
+          168.71562020108104
+        ],
+        [
+          -79.08922284854638,
+          43.06896592354788,
+          168.6568363700062
+        ],
+        [
+          -79.08411141071076,
+          43.06647235615586,
+          168.63726830948144
+        ],
+        [
+          -79.07899813995651,
+          43.06397939904291,
+          168.65684303175658
+        ],
+        [
+          -79.0738867129069,
+          43.06148792857695,
+          168.7155632339418
+        ],
+        [
+          -79.06877922708257,
+          43.05899565712865,
+          168.81347700487822
+        ],
+        [
+          -79.06366832183467,
+          43.05650082801057,
+          168.9506735932082
+        ],
+        [
+          -79.06026875970034,
+          43.06024863546715,
+          168.8133373633027
+        ],
+        [
+          -79.05686660475261,
+          43.06399522503764,
+          168.71531142108142
+        ],
+        [
+          -79.05346917810859,
+          43.06774235090062,
+          168.6564185237512
+        ],
+        [
+          -79.05006547017977,
+          43.07148740297007,
+          168.63690195418894
+        ],
+        [
+          -79.04666437748858,
+          43.075235296452966,
+          168.65650179050863
+        ],
+        [
+          -79.04326066103899,
+          43.078982007455025,
+          168.71541726309806
+        ],
+        [
+          -79.0398579721532,
+          43.08272841346864,
+          168.8135343156755
+        ],
+        [
+          -79.03645629795206,
+          43.08647452098123,
+          168.95083378069103
+        ],
+        [
+          -79.0415667497496,
+          43.08896761031194,
+          168.8142504505813
+        ],
+        [
+          -79.0466790245013,
+          43.09146218879064,
+          168.7168240370229
+        ],
+        [
+          -79.05179153011737,
+          43.09395509661757,
+          168.65855598635972
+        ],
+        [
+          -79.05690589425531,
+          43.09644949990766,
+          168.63949175737798
+        ],
+        [
+          -79.06201681758273,
+          43.09894136852829,
+          168.65958903636783
+        ],
+        [
+          -79.06712962214512,
+          43.10143473743528,
+          168.71889100410044
+        ],
+        [
+          -79.07224433362252,
+          43.10392960989723,
+          168.8174462718889
+        ],
+        [
+          -79.07735561025342,
+          43.106421953344714,
+          168.95507018081844
+        ],
+        [
+          -79.08075977660823,
+          43.102675218098256,
+          168.8172571081668
+        ],
+        [
+          -79.08416129325231,
+          43.098927327250045,
+          168.7186175454408
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -79.10456052851104,
+    43.05650082801057,
+    -79.03645629795206,
+    43.106421953344714
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:11.602170Z",
+    "updated": "2024-12-17T09:54:11.602170Z",
+    "start_datetime": "2023-05-31T15:26:33.170026Z",
+    "end_datetime": "2023-05-31T15:26:36.484385Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 25.60217304628354,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799977992253844,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.33851195245992466,
+    "sar:resolution_azimuth": 0.32757392848685757,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-31T15:26:33.170026Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Niagara%20Falls%2C%20NY/2023-05-31-15-26-31_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Niagara Falls, NY/16cc1eda-3044-4266-aad1-3684e7dd7b33/2023-05-31-15-26-31_UMBRA-05/2023-05-31-15-26-31_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Niagara Falls, NY/2023-05-31-15-26-31_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Niagara Falls, NY/2023-05-31-15-26-31_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Niagara Falls, NY/16cc1eda-3044-4266-aad1-3684e7dd7b33/2023-05-31-15-26-31_UMBRA-05/2023-05-31-15-26-31_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

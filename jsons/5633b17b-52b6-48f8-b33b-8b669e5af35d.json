@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5633b17b-52b6-48f8-b33b-8b669e5af35d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.28485560598283,
+          34.0541442933866,
+          72.81530449446291
+        ],
+        [
+          -118.28924207322683,
+          34.05150341071398,
+          72.87338942941278
+        ],
+        [
+          -118.29362900388651,
+          34.0488608592556,
+          72.97067120857537
+        ],
+        [
+          -118.29802043265768,
+          34.046219224619506,
+          73.10736935958266
+        ],
+        [
+          -118.29484460754823,
+          34.04256848624407,
+          72.96982365008444
+        ],
+        [
+          -118.29167584647418,
+          34.0389148533251,
+          72.87178321927786
+        ],
+        [
+          -118.288502082297,
+          34.03526055473246,
+          72.81285798549652
+        ],
+        [
+          -118.28532732868136,
+          34.031608181383966,
+          72.79316865745932
+        ],
+        [
+          -118.2821556055961,
+          34.02795532340095,
+          72.81283189263195
+        ],
+        [
+          -118.27898287859865,
+          34.02430439398835,
+          72.87167759053409
+        ],
+        [
+          -118.27581319450302,
+          34.020647977453606,
+          72.97003087867051
+        ],
+        [
+          -118.27264247294414,
+          34.01699849533094,
+          73.10734064038843
+        ],
+        [
+          -118.26825502875639,
+          34.01963732753939,
+          72.97015784401447
+        ],
+        [
+          -118.26386802133831,
+          34.022279487718066,
+          72.87203990481794
+        ],
+        [
+          -118.25947745883856,
+          34.024917388159,
+          72.81332475040108
+        ],
+        [
+          -118.25509134958843,
+          34.02755620313989,
+          72.79372553247958
+        ],
+        [
+          -118.25070567168176,
+          34.03019835124226,
+          72.81321155745536
+        ],
+        [
+          -118.24631240717333,
+          34.03283867076534,
+          72.87214666046202
+        ],
+        [
+          -118.2419275924903,
+          34.03547748752721,
+          72.9700757265091
+        ],
+        [
+          -118.23753919130992,
+          34.03811706374509,
+          73.10729353129864
+        ],
+        [
+          -118.24070595456982,
+          34.04176939483884,
+          72.97066327556968
+        ],
+        [
+          -118.24387974991407,
+          34.045423808138985,
+          72.87304932251573
+        ],
+        [
+          -118.24704855290881,
+          34.04907756608374,
+          72.81487964093685
+        ],
+        [
+          -118.25022038181554,
+          34.05273082641646,
+          72.79589033965021
+        ],
+        [
+          -118.25339124742743,
+          34.05638600677315,
+          72.81625106744468
+        ],
+        [
+          -118.25656514965642,
+          34.060040688291295,
+          72.87584477197379
+        ],
+        [
+          -118.25973806425317,
+          34.06369229352308,
+          72.9746333565563
+        ],
+        [
+          -118.26291003097278,
+          34.06734581510698,
+          73.11278088670224
+        ],
+        [
+          -118.26729825005668,
+          34.06470583057884,
+          72.97486372385174
+        ],
+        [
+          -118.27168690162965,
+          34.06206419041594,
+          72.87608695682138
+        ],
+        [
+          -118.27607602408365,
+          34.05942588526391,
+          72.81665359437466
+        ],
+        [
+          -118.28046558897141,
+          34.056785920414704,
+          72.79638084769249
+        ],
+        [
+          -118.28485560598283,
+          34.0541442933866,
+          72.81530449446291
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.29802043265768,
+    34.01699849533094,
+    -118.23753919130992,
+    34.06734581510698
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:02.287287Z",
+    "updated": "2024-12-17T09:54:02.287287Z",
+    "start_datetime": "2023-05-06T18:06:19.080352Z",
+    "end_datetime": "2023-05-06T18:06:22.991791Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 55.60198856052917,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599992385599762,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4996777384629526,
+    "sar:resolution_azimuth": 0.509905333156309,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-06T18:06:19.080352Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Los%20Angeles%2C%20CA/Crypto%20Arena/e774b020-cf21-4aeb-93f0-8634ab4cc566/2023-05-06-18-06-17_UMBRA-05/2023-05-06-18-06-17_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Los Angeles, CA/Crypto Arena/e774b020-cf21-4aeb-93f0-8634ab4cc566/2023-05-06-18-06-17_UMBRA-05/2023-05-06-18-06-17_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Los Angeles, CA/Crypto Arena/e774b020-cf21-4aeb-93f0-8634ab4cc566/2023-05-06-18-06-17_UMBRA-05/2023-05-06-18-06-17_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Los Angeles, CA/Crypto Arena/e774b020-cf21-4aeb-93f0-8634ab4cc566/2023-05-06-18-06-17_UMBRA-05/2023-05-06-18-06-17_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Los Angeles, CA/Crypto Arena/e774b020-cf21-4aeb-93f0-8634ab4cc566/2023-05-06-18-06-17_UMBRA-05/2023-05-06-18-06-17_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

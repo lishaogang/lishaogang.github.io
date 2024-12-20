@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "1c8c5819-9cc2-4c22-a3e3-d27cceed557c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13.59266174681375,
+          29.01170376560203,
+          374.08354252018034
+        ],
+        [
+          -13.58855109670477,
+          29.018182588704864,
+          374.1355195902288
+        ],
+        [
+          -13.584439060971029,
+          29.024663387232287,
+          374.29386522620916
+        ],
+        [
+          -13.580328766648064,
+          29.031141266567996,
+          374.5584329077974
+        ],
+        [
+          -13.57621331448673,
+          29.037621142082045,
+          374.9297004202381
+        ],
+        [
+          -13.585549083533916,
+          29.042197445313274,
+          374.3357009096071
+        ],
+        [
+          -13.594885215672129,
+          29.046771675992407,
+          373.91173910163343
+        ],
+        [
+          -13.604220198947194,
+          29.051346264871974,
+          373.65791622456163
+        ],
+        [
+          -13.613557812608958,
+          29.055921227985532,
+          373.5740852933377
+        ],
+        [
+          -13.622896020599045,
+          29.06049400315553,
+          373.66021900624037
+        ],
+        [
+          -13.632233305248548,
+          29.065067029147674,
+          373.9164273608476
+        ],
+        [
+          -13.641575026854206,
+          29.069637843764824,
+          374.3425648836419
+        ],
+        [
+          -13.65091597011159,
+          29.07420883721939,
+          374.9387829527259
+        ],
+        [
+          -13.655026088996822,
+          29.067729215036948,
+          374.56555084045976
+        ],
+        [
+          -13.659134439551403,
+          29.061246598147626,
+          374.29840980656445
+        ],
+        [
+          -13.663241529013517,
+          29.05476598874052,
+          374.13770930841565
+        ],
+        [
+          -13.667348965930891,
+          29.04828487114234,
+          374.0833555813879
+        ],
+        [
+          -13.671458326207398,
+          29.041800736072588,
+          374.13541849981993
+        ],
+        [
+          -13.675564935794,
+          29.035320993590638,
+          374.2938109515235
+        ],
+        [
+          -13.679669842131073,
+          29.028838122990937,
+          374.55841618496925
+        ],
+        [
+          -13.683775154648675,
+          29.022354629042734,
+          374.92945680581033
+        ],
+        [
+          -13.674441112407559,
+          29.01778583598882,
+          374.3358011068776
+        ],
+        [
+          -13.665102641716617,
+          29.013217214866806,
+          373.9117732299492
+        ],
+        [
+          -13.655768519046976,
+          29.00864642783898,
+          373.65800287295133
+        ],
+        [
+          -13.646433475829495,
+          29.00407593418485,
+          373.57413136120886
+        ],
+        [
+          -13.637098966598204,
+          28.999503307375374,
+          373.6603648085147
+        ],
+        [
+          -13.627767067961043,
+          28.994931086057925,
+          373.91657551471144
+        ],
+        [
+          -13.618434028330684,
+          28.99035926393584,
+          374.34272612351924
+        ],
+        [
+          -13.609101296342065,
+          28.985785422523506,
+          374.9390324940905
+        ],
+        [
+          -13.604991271443993,
+          28.992264039345223,
+          374.565755658783
+        ],
+        [
+          -13.600883671809761,
+          28.99874453734398,
+          374.2985606174916
+        ],
+        [
+          -13.596772600496868,
+          29.005224425083657,
+          374.13787988293916
+        ],
+        [
+          -13.59266174681375,
+          29.01170376560203,
+          374.08354252018034
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13.683775154648675,
+    28.985785422523506,
+    -13.57621331448673,
+    29.07420883721939
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:41.340770Z",
+    "updated": "2024-12-17T09:52:41.340770Z",
+    "start_datetime": "2023-11-16T21:55:27Z",
+    "end_datetime": "2023-11-16T21:55:32.819006Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.78212772968033,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799999344628304,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2750123492160968,
+    "sar:resolution_azimuth": 0.27178797549794365,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-16T21:55:27Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-16"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Lanzarote%2C%20Spain/c02c25e8-1da6-4cff-9585-9cd22d95e241/2023-11-16-21-55-26_UMBRA-04/2023-11-16-21-55-26_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Lanzarote, Spain/c02c25e8-1da6-4cff-9585-9cd22d95e241/2023-11-16-21-55-26_UMBRA-04/2023-11-16-21-55-26_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Lanzarote, Spain/c02c25e8-1da6-4cff-9585-9cd22d95e241/2023-11-16-21-55-26_UMBRA-04/2023-11-16-21-55-26_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Lanzarote, Spain/c02c25e8-1da6-4cff-9585-9cd22d95e241/2023-11-16-21-55-26_UMBRA-04/2023-11-16-21-55-26_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Lanzarote, Spain/c02c25e8-1da6-4cff-9585-9cd22d95e241/2023-11-16-21-55-26_UMBRA-04/2023-11-16-21-55-26_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

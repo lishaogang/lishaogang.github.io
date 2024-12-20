@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "33b4ec64-7ba7-409a-b890-361c96576712",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          113.33492516690931,
+          8.178482585567785,
+          0.29561504535377026
+        ],
+        [
+          113.33374237638857,
+          8.182848214091107,
+          0.15810926631093025
+        ],
+        [
+          113.3325598462003,
+          8.18721131927978,
+          0.06008554995059967
+        ],
+        [
+          113.33137643233992,
+          8.19157709282144,
+          0.0014413632452487946
+        ],
+        [
+          113.33019326321192,
+          8.195940362164697,
+          -0.01775969099253416
+        ],
+        [
+          113.32900921870883,
+          8.200306324039786,
+          0.002473912201821804
+        ],
+        [
+          113.32782540363766,
+          8.204669800904847,
+          0.06211328227072954
+        ],
+        [
+          113.32664126018685,
+          8.209033397200534,
+          0.16116883885115385
+        ],
+        [
+          113.32545886070284,
+          8.213400249878843,
+          0.2998304618522525
+        ],
+        [
+          113.32107686948727,
+          8.212221037868058,
+          0.1625300794839859
+        ],
+        [
+          113.31669574540332,
+          8.211041750967842,
+          0.06446749903261662
+        ],
+        [
+          113.31231547512225,
+          8.209862385975335,
+          0.005621752701699734
+        ],
+        [
+          113.30793604542444,
+          8.208682939709208,
+          -0.014027646742761135
+        ],
+        [
+          113.30355486187018,
+          8.207502886182398,
+          0.005527777597308159
+        ],
+        [
+          113.29917450264851,
+          8.206322746906356,
+          0.06428520008921623
+        ],
+        [
+          113.29479441824002,
+          8.205145123146298,
+          0.1623136391863227
+        ],
+        [
+          113.29041310169522,
+          8.203964283723982,
+          0.29951212741434574
+        ],
+        [
+          113.29159594147066,
+          8.199601002941447,
+          0.1615539425984025
+        ],
+        [
+          113.29278154013096,
+          8.19523576194111,
+          0.06288719736039639
+        ],
+        [
+          113.29396367399782,
+          8.19087271354559,
+          0.0037994980812072754
+        ],
+        [
+          113.29514858180889,
+          8.186507687636727,
+          -0.015958611853420734
+        ],
+        [
+          113.29633058262179,
+          8.182142229265251,
+          0.0038317013531923294
+        ],
+        [
+          113.29751481223998,
+          8.177777376400336,
+          0.06298640184104443
+        ],
+        [
+          113.2986981275123,
+          8.173415190897025,
+          0.16151831857860088
+        ],
+        [
+          113.2998816805581,
+          8.169050467620517,
+          0.2995483987033367
+        ],
+        [
+          113.30426269509204,
+          8.170227824580836,
+          0.16187521629035473
+        ],
+        [
+          113.30864393890926,
+          8.171407674978797,
+          0.06331897713243961
+        ],
+        [
+          113.31302342676739,
+          8.172586896136082,
+          0.004013117402791977
+        ],
+        [
+          113.31740374387401,
+          8.173766019789381,
+          -0.01608567126095295
+        ],
+        [
+          113.32178490332969,
+          8.174945049071889,
+          0.0030424902215600014
+        ],
+        [
+          113.32616374033024,
+          8.176126044145413,
+          0.06127665191888809
+        ],
+        [
+          113.33054401755166,
+          8.177304358221459,
+          0.15882427711039782
+        ],
+        [
+          113.33492516690931,
+          8.178482585567785,
+          0.29561504535377026
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    113.29041310169522,
+    8.169050467620517,
+    113.33492516690931,
+    8.213400249878843
+  ],
+  "properties": {
+    "created": "2024-12-17T08:53:51.324538Z",
+    "updated": "2024-12-17T08:53:51.324538Z",
+    "start_datetime": "2023-02-14T13:45:52.973386Z",
+    "end_datetime": "2023-02-14T13:45:56.174803Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 23.121057938498637,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800000045215711,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.32487580825435264,
+    "sar:resolution_azimuth": 0.3104484355715551,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-02-14T13:45:52.973386Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-14"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Barque%20Canada%20Reef%2C%20Spratly%20Islands/33b4ec64-7ba7-409a-b890-361c96576712/2023-02-14-13-45-50_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barque Canada Reef, Spratly Islands/33b4ec64-7ba7-409a-b890-361c96576712/2023-02-14-13-45-50_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barque Canada Reef, Spratly Islands/33b4ec64-7ba7-409a-b890-361c96576712/2023-02-14-13-45-50_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barque Canada Reef, Spratly Islands/33b4ec64-7ba7-409a-b890-361c96576712/2023-02-14-13-45-50_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barque Canada Reef, Spratly Islands/33b4ec64-7ba7-409a-b890-361c96576712/2023-02-14-13-45-50_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

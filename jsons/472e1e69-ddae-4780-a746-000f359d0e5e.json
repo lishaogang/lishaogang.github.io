@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "472e1e69-ddae-4780-a746-000f359d0e5e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.85170538422068,
+          43.52013442722935,
+          194.0414352286607
+        ],
+        [
+          -79.85352233522343,
+          43.52443635614884,
+          194.1398197878152
+        ],
+        [
+          -79.85533366747215,
+          43.52873939416308,
+          194.27761779446155
+        ],
+        [
+          -79.86124756357465,
+          43.527419858480364,
+          194.14063735306263
+        ],
+        [
+          -79.8671611293591,
+          43.526096118230384,
+          194.04266188293695
+        ],
+        [
+          -79.87307244775288,
+          43.52477610887793,
+          193.98400260135531
+        ],
+        [
+          -79.87898490882294,
+          43.52345536858405,
+          193.96446871943772
+        ],
+        [
+          -79.8848970617015,
+          43.52213041397692,
+          193.98396196588874
+        ],
+        [
+          -79.89080701526056,
+          43.52080918555945,
+          194.04269886948168
+        ],
+        [
+          -79.89671813602904,
+          43.51948722056705,
+          194.14058477804065
+        ],
+        [
+          -79.9026304275708,
+          43.518164517816,
+          194.27764897607267
+        ],
+        [
+          -79.900811082201,
+          43.51386298076192,
+          194.1402130899951
+        ],
+        [
+          -79.89899100729896,
+          43.509561558761355,
+          194.04201890714467
+        ],
+        [
+          -79.89717498618198,
+          43.505259262503436,
+          193.9831949500367
+        ],
+        [
+          -79.8953582260366,
+          43.50095706164086,
+          193.9636150933802
+        ],
+        [
+          -79.8935407227219,
+          43.49665494775752,
+          193.98328179959208
+        ],
+        [
+          -79.89172397947291,
+          43.49235638867217,
+          194.04213516786695
+        ],
+        [
+          -79.88990498549457,
+          43.4880544218891,
+          194.140272048302
+        ],
+        [
+          -79.88809001927758,
+          43.48375152909612,
+          194.2777881650254
+        ],
+        [
+          -79.8821807905686,
+          43.485073770453525,
+          194.14045828487724
+        ],
+        [
+          -79.87627272528245,
+          43.48639526367751,
+          194.04231587145478
+        ],
+        [
+          -79.87036734146822,
+          43.487719478716066,
+          193.98320503905416
+        ],
+        [
+          -79.86445678056407,
+          43.48904046969137,
+          193.96335220243782
+        ],
+        [
+          -79.8585473586035,
+          43.49036071807843,
+          193.98266281560063
+        ],
+        [
+          -79.85263907189211,
+          43.49168022505072,
+          194.04110821336508
+        ],
+        [
+          -79.84673343502259,
+          43.49300245511726,
+          194.13853211328387
+        ],
+        [
+          -79.84082256840966,
+          43.49432147750885,
+          194.2752911131829
+        ],
+        [
+          -79.84263457196856,
+          43.498624839581005,
+          194.13818528410047
+        ],
+        [
+          -79.84445061284138,
+          43.50292727633327,
+          194.04025332536548
+        ],
+        [
+          -79.84626101633073,
+          43.50723078414969,
+          193.98174958769232
+        ],
+        [
+          -79.84807398353725,
+          43.51152991758003,
+          193.96241467259824
+        ],
+        [
+          -79.84989249660218,
+          43.515831624923905,
+          193.98221544083208
+        ],
+        [
+          -79.85170538422068,
+          43.52013442722935,
+          194.0414352286607
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -79.9026304275708,
+    43.48375152909612,
+    -79.84082256840966,
+    43.52873939416308
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:30.684463Z",
+    "updated": "2024-12-17T08:54:30.684463Z",
+    "start_datetime": "2023-02-25T02:08:45.014394Z",
+    "end_datetime": "2023-02-25T02:08:47.360496Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.69538225078631,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799969197716564,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4500861050410192,
+    "sar:resolution_azimuth": 0.4407968858989473,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-02-25T02:08:45.014394Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Milton%2C%20Ontario%2C%20Canada/472e1e69-ddae-4780-a746-000f359d0e5e/2023-02-25-02-08-43_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Milton, Ontario, Canada/472e1e69-ddae-4780-a746-000f359d0e5e/2023-02-25-02-08-43_UMBRA-04.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Milton, Ontario, Canada/472e1e69-ddae-4780-a746-000f359d0e5e/2023-02-25-02-08-43_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Milton, Ontario, Canada/472e1e69-ddae-4780-a746-000f359d0e5e/2023-02-25-02-08-43_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Milton, Ontario, Canada/472e1e69-ddae-4780-a746-000f359d0e5e/2023-02-25-02-08-43_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

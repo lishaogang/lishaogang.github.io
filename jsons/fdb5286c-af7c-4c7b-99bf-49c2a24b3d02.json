@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "fdb5286c-af7c-4c7b-99bf-49c2a24b3d02",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.86387454641887,
+          33.24191029643684,
+          363.05973825231194
+        ],
+        [
+          -111.86291106663595,
+          33.24634593186801,
+          363.118418129161
+        ],
+        [
+          -111.8619463856725,
+          33.250781467891024,
+          363.2164824940264
+        ],
+        [
+          -111.86098107422707,
+          33.25521431201274,
+          363.35384132992476
+        ],
+        [
+          -111.8662590088068,
+          33.25602617818213,
+          363.2168213073164
+        ],
+        [
+          -111.87153614245662,
+          33.25683508743379,
+          363.1188969453797
+        ],
+        [
+          -111.87681426924235,
+          33.25764665756685,
+          363.0601975712925
+        ],
+        [
+          -111.88209453441382,
+          33.25845569016224,
+          363.04057171661407
+        ],
+        [
+          -111.88737286076196,
+          33.25926696511132,
+          363.06021608226
+        ],
+        [
+          -111.89265039628296,
+          33.26007527948746,
+          363.11891407333314
+        ],
+        [
+          -111.89792950374496,
+          33.260883655550096,
+          363.21679002884775
+        ],
+        [
+          -111.90320667994011,
+          33.26169427914599,
+          363.3538835439831
+        ],
+        [
+          -111.9041702419273,
+          33.257259516913166,
+          363.2162511833012
+        ],
+        [
+          -111.90513262146946,
+          33.25282466175388,
+          363.1179236518219
+        ],
+        [
+          -111.9060967512371,
+          33.24839012691031,
+          363.0589852752164
+        ],
+        [
+          -111.90705970105877,
+          33.24395548978008,
+          363.03934808727354
+        ],
+        [
+          -111.90802147206416,
+          33.23952074689315,
+          363.0590102598071
+        ],
+        [
+          -111.90898206539495,
+          33.23508589478525,
+          363.1179700912908
+        ],
+        [
+          -111.90994441400639,
+          33.23065134182313,
+          363.21631364151835
+        ],
+        [
+          -111.91090907276453,
+          33.22621447218174,
+          363.35413263272494
+        ],
+        [
+          -111.90563066521561,
+          33.225405308186225,
+          363.21728711761534
+        ],
+        [
+          -111.9003538285004,
+          33.22459621425314,
+          363.1196485608816
+        ],
+        [
+          -111.89507856174458,
+          33.22378719042506,
+          363.06118383072317
+        ],
+        [
+          -111.88980192913381,
+          33.22297782529476,
+          363.0418586283922
+        ],
+        [
+          -111.88452686321443,
+          33.222168529937214,
+          363.06168451718986
+        ],
+        [
+          -111.87925042664789,
+          33.221358892527135,
+          363.1206707470119
+        ],
+        [
+          -111.87397261626755,
+          33.220548912478826,
+          363.2188495742157
+        ],
+        [
+          -111.86869636687712,
+          33.21973900148877,
+          363.3561675650999
+        ],
+        [
+          -111.86773299443884,
+          33.224174368309505,
+          363.21816875692457
+        ],
+        [
+          -111.86676898420447,
+          33.22860701562293,
+          363.1195934424177
+        ],
+        [
+          -111.86580616052261,
+          33.23304255878353,
+          363.06024024728686
+        ],
+        [
+          -111.86483920165028,
+          33.23747757248246,
+          363.0403535114601
+        ],
+        [
+          -111.86387454641887,
+          33.24191029643684,
+          363.05973825231194
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.91090907276453,
+    33.21973900148877,
+    -111.86098107422707,
+    33.26169427914599
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:16.576933Z",
+    "updated": "2024-12-17T08:54:16.576933Z",
+    "start_datetime": "2023-02-25T16:51:45.939638Z",
+    "end_datetime": "2023-02-25T16:51:50.640912Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 53.09003902139898,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003857980484,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3131120389929935,
+    "sar:resolution_azimuth": 0.3166517492226127,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-25T16:51:45.939638Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Intel%20Ocotillo%20Plant%2C%20Chandler%20AZ/fdb5286c-af7c-4c7b-99bf-49c2a24b3d02/2023-02-25-16-51-44_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Intel Ocotillo Plant, Chandler AZ/fdb5286c-af7c-4c7b-99bf-49c2a24b3d02/2023-02-25-16-51-44_UMBRA-04.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Intel Ocotillo Plant, Chandler AZ/fdb5286c-af7c-4c7b-99bf-49c2a24b3d02/2023-02-25-16-51-44_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Intel Ocotillo Plant, Chandler AZ/fdb5286c-af7c-4c7b-99bf-49c2a24b3d02/2023-02-25-16-51-44_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Intel Ocotillo Plant, Chandler AZ/fdb5286c-af7c-4c7b-99bf-49c2a24b3d02/2023-02-25-16-51-44_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

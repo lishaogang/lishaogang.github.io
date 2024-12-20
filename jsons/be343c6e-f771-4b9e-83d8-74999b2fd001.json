@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "be343c6e-f771-4b9e-83d8-74999b2fd001",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.17074089736607,
+          1.7782053391785497,
+          72.74771442460634
+        ],
+        [
+          -78.20108044641614,
+          1.8115688639802245,
+          72.75453267431723
+        ],
+        [
+          -78.23423661360407,
+          1.781039455717489,
+          72.74820442702568
+        ],
+        [
+          -78.20389696762375,
+          1.7476764684785346,
+          72.75453275738202
+        ],
+        [
+          -78.17074089736607,
+          1.7782053391785497,
+          72.74771442460634
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.23423661360407,
+    1.7476764684785346,
+    -78.17074089736607,
+    1.8115688639802245
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:55.285727Z",
+    "updated": "2024-12-17T09:48:55.285727Z",
+    "start_datetime": "2024-02-26T02:30:29Z",
+    "end_datetime": "2024-02-26T02:30:31.616055Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.57281669785499,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599993905867452,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 1.0,
+    "sar:resolution_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-02-26T02:30:29Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-26"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui%20Payan%2C%20Colombia/aff04121-e25c-4e35-aa24-b0b0a06f3277/2024-02-26-02-30-28_UMBRA-05/2024-02-26-02-30-28_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/aff04121-e25c-4e35-aa24-b0b0a06f3277/2024-02-26-02-30-28_UMBRA-05/2024-02-26-02-30-28_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/aff04121-e25c-4e35-aa24-b0b0a06f3277/2024-02-26-02-30-28_UMBRA-05/2024-02-26-02-30-28_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/aff04121-e25c-4e35-aa24-b0b0a06f3277/2024-02-26-02-30-28_UMBRA-05/2024-02-26-02-30-28_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/aff04121-e25c-4e35-aa24-b0b0a06f3277/2024-02-26-02-30-28_UMBRA-05/2024-02-26-02-30-28_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/aff04121-e25c-4e35-aa24-b0b0a06f3277/2024-02-26-02-30-28_UMBRA-05/2024-02-26-02-30-28_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "abeac709-44a0-477c-ad72-1d12a9eac78e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.87990175984271,
+          13.441856057209904,
+          22.997036938152586
+        ],
+        [
+          103.83700672078976,
+          13.425129361746874,
+          22.992741191395915
+        ],
+        [
+          103.85409514121237,
+          13.383142691541009,
+          22.997038462739162
+        ],
+        [
+          103.89698391401257,
+          13.399866538280051,
+          22.99274184431137
+        ],
+        [
+          103.87990175984271,
+          13.441856057209904,
+          22.997036938152586
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    103.83700672078976,
+    13.383142691541009,
+    103.89698391401257,
+    13.441856057209904
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:27.533393Z",
+    "updated": "2024-12-17T09:53:27.533393Z",
+    "start_datetime": "2024-02-23T03:33:50Z",
+    "end_datetime": "2024-02-23T03:34:06.371827Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 26.015722967514293,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799959955969827,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3500999999999991,
+    "sar:resolution_azimuth": 0.11670000000000004,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 3,
+    "sar:observation_direction": "right",
+    "datetime": "2024-02-23T03:33:50Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-23"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Angkor_Wat/45848b27-e559-4606-8b1f-284023aa6fec/2024-02-23-03-33-49_UMBRA-08/2024-02-23-03-33-49_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Angkor_Wat/45848b27-e559-4606-8b1f-284023aa6fec/2024-02-23-03-33-49_UMBRA-08/2024-02-23-03-33-49_UMBRA-08_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Angkor_Wat/45848b27-e559-4606-8b1f-284023aa6fec/2024-02-23-03-33-49_UMBRA-08/2024-02-23-03-33-49_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Angkor_Wat/45848b27-e559-4606-8b1f-284023aa6fec/2024-02-23-03-33-49_UMBRA-08/2024-02-23-03-33-49_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Angkor_Wat/45848b27-e559-4606-8b1f-284023aa6fec/2024-02-23-03-33-49_UMBRA-08/2024-02-23-03-33-49_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Angkor_Wat/45848b27-e559-4606-8b1f-284023aa6fec/2024-02-23-03-33-49_UMBRA-08/2024-02-23-03-33-49_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

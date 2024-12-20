@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "a7e5e10a-af7a-4040-816f-44e4bafb6712",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.15242203157138,
+          42.92529281136052,
+          1885.37654390838
+        ],
+        [
+          -122.15031682737006,
+          42.92106546836659,
+          1885.239449380897
+        ],
+        [
+          -122.1482106768545,
+          42.9168390432724,
+          1885.1416091714054
+        ],
+        [
+          -122.14611011482374,
+          42.91261420574467,
+          1885.0831762682647
+        ],
+        [
+          -122.14400203716632,
+          42.908389583414234,
+          1885.063778099604
+        ],
+        [
+          -122.141897554656,
+          42.904162466097894,
+          1885.0837564943358
+        ],
+        [
+          -122.13979862729894,
+          42.89993691038664,
+          1885.143073162064
+        ],
+        [
+          -122.13769218507822,
+          42.89571153998269,
+          1885.2414771569893
+        ],
+        [
+          -122.1355912683359,
+          42.891487710179696,
+          1885.3791517028585
+        ],
+        [
+          -122.12984748226967,
+          42.89303163170276,
+          1885.24227487389
+        ],
+        [
+          -122.12410000817918,
+          42.894577535489404,
+          1885.1443907143548
+        ],
+        [
+          -122.11834885492134,
+          42.896125427875155,
+          1885.0855806404725
+        ],
+        [
+          -122.11260313359394,
+          42.89766854115334,
+          1885.0660678567365
+        ],
+        [
+          -122.10685371416153,
+          42.899213639446,
+          1885.0856426972896
+        ],
+        [
+          -122.10110513840961,
+          42.90075733395086,
+          1885.1443833075464
+        ],
+        [
+          -122.0953573879327,
+          42.902299618830206,
+          1885.242259944789
+        ],
+        [
+          -122.089605929501,
+          42.903843891439514,
+          1885.3793205544353
+        ],
+        [
+          -122.09170547202781,
+          42.90807074992937,
+          1885.241961332038
+        ],
+        [
+          -122.0938104692588,
+          42.91229914401443,
+          1885.1437029214576
+        ],
+        [
+          -122.09590604879097,
+          42.91652367714149,
+          1885.0849880957976
+        ],
+        [
+          -122.098007089409,
+          42.92074976247575,
+          1885.0653659356758
+        ],
+        [
+          -122.1001136168149,
+          42.924977409113346,
+          1885.0849093049765
+        ],
+        [
+          -122.10221069157065,
+          42.92920121818645,
+          1885.1438324237242
+        ],
+        [
+          -122.10431527404074,
+          42.933430690194,
+          1885.2420288734138
+        ],
+        [
+          -122.10641688123259,
+          42.937657005283796,
+          1885.3794518318027
+        ],
+        [
+          -122.11216329211615,
+          42.93610900085619,
+          1885.2420018874109
+        ],
+        [
+          -122.11791902945642,
+          42.934564333491274,
+          1885.143758884631
+        ],
+        [
+          -122.12367109977458,
+          42.93302167445681,
+          1885.084780271165
+        ],
+        [
+          -122.12942399731838,
+          42.931477607764464,
+          1885.0649119056761
+        ],
+        [
+          -122.13517120544469,
+          42.929931467053926,
+          1885.0840679788962
+        ],
+        [
+          -122.14091926087032,
+          42.928383926031955,
+          1885.1423209607601
+        ],
+        [
+          -122.14667020428168,
+          42.92683906480158,
+          1885.2398528428748
+        ],
+        [
+          -122.15242203157138,
+          42.92529281136052,
+          1885.37654390838
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.15242203157138,
+    42.891487710179696,
+    -122.089605929501,
+    42.937657005283796
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:36.335930Z",
+    "updated": "2024-12-17T09:53:36.335930Z",
+    "start_datetime": "2023-05-05T18:19:53.155286Z",
+    "end_datetime": "2023-05-05T18:19:55.632549Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 30.750326526166397,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599985855747946,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5311495061227054,
+    "sar:resolution_azimuth": 0.530176913215084,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-05T18:19:53.155286Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Crater%20Lake%2C%20Oregon/8cb1f378-41ab-4221-b561-977271cf4471/2023-05-05-18-19-51_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Crater Lake, Oregon/8cb1f378-41ab-4221-b561-977271cf4471/2023-05-05-18-19-51_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Crater Lake, Oregon/8cb1f378-41ab-4221-b561-977271cf4471/2023-05-05-18-19-51_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Crater Lake, Oregon/8cb1f378-41ab-4221-b561-977271cf4471/2023-05-05-18-19-51_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Crater Lake, Oregon/8cb1f378-41ab-4221-b561-977271cf4471/2023-05-05-18-19-51_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3fa8c380-054a-4e24-9edf-dc4d0bf3ae24",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.54047963056395,
+          43.58428616914513,
+          21.240114588290453
+        ],
+        [
+          -65.54128109784544,
+          43.58874783643973,
+          21.377646162174642
+        ],
+        [
+          -65.54742040054894,
+          43.58816761221119,
+          21.24073857627809
+        ],
+        [
+          -65.55355804992271,
+          43.587583823985014,
+          21.14285829011351
+        ],
+        [
+          -65.55969953769453,
+          43.586999512007395,
+          21.084079726599157
+        ],
+        [
+          -65.56583588294757,
+          43.58641980537663,
+          21.064626024104655
+        ],
+        [
+          -65.57197540114387,
+          43.585835834975036,
+          21.08416836988181
+        ],
+        [
+          -65.578113936348,
+          43.58525203414724,
+          21.142859724350274
+        ],
+        [
+          -65.58425149025213,
+          43.5846684026258,
+          21.240682166069746
+        ],
+        [
+          -65.59039288528669,
+          43.584084246238724,
+          21.377733690664172
+        ],
+        [
+          -65.58958763154125,
+          43.57962174009069,
+          21.240237524732947
+        ],
+        [
+          -65.58878371483986,
+          43.57515946175018,
+          21.14205504208803
+        ],
+        [
+          -65.58798113484912,
+          43.570697406295324,
+          21.083177093416452
+        ],
+        [
+          -65.58717507377654,
+          43.56623626877025,
+          21.06347067002207
+        ],
+        [
+          -65.58637448176783,
+          43.5617709018756,
+          21.083205617032945
+        ],
+        [
+          -65.58557109190826,
+          43.55731019084937,
+          21.14209057111293
+        ],
+        [
+          -65.58476834791692,
+          43.55284594364055,
+          21.240339256823063
+        ],
+        [
+          -65.58396281447155,
+          43.548386346984266,
+          21.377646674402058
+        ],
+        [
+          -65.57782997550461,
+          43.548970614825805,
+          21.240552321076393
+        ],
+        [
+          -65.57169546991857,
+          43.549551326572164,
+          21.142673764377832
+        ],
+        [
+          -65.56556068196495,
+          43.55013596084573,
+          21.083766099996865
+        ],
+        [
+          -65.55942491666458,
+          43.55072077791051,
+          21.06397850997746
+        ],
+        [
+          -65.55328748167075,
+          43.55130204464048,
+          21.08346041664481
+        ],
+        [
+          -65.54715388633443,
+          43.55188279176439,
+          21.14204502105713
+        ],
+        [
+          -65.54101518093024,
+          43.552468162069914,
+          21.239694233052433
+        ],
+        [
+          -65.53487962346911,
+          43.55304928149782,
+          21.376551653258502
+        ],
+        [
+          -65.53568214903638,
+          43.5575117508775,
+          21.23917657881975
+        ],
+        [
+          -65.53648049132724,
+          43.561971401661886,
+          21.141225629486144
+        ],
+        [
+          -65.537280839827,
+          43.566434991596346,
+          21.082427140325308
+        ],
+        [
+          -65.53808250922785,
+          43.570898796431,
+          21.062888560816646
+        ],
+        [
+          -65.53888000106546,
+          43.57535978755875,
+          21.082712022587657
+        ],
+        [
+          -65.53967948973373,
+          43.57982473192003,
+          21.141817228868604
+        ],
+        [
+          -65.54047963056395,
+          43.58428616914513,
+          21.240114588290453
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -65.59039288528669,
+    43.548386346984266,
+    -65.53487962346911,
+    43.58874783643973
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:29.513553Z",
+    "updated": "2024-12-17T09:53:29.513553Z",
+    "start_datetime": "2023-05-31T00:46:42.836640Z",
+    "end_datetime": "2023-05-31T00:46:46.710250Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 59.82045583021289,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.59999510657508,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44785852421733574,
+    "sar:resolution_azimuth": 0.4559918805465007,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-31T00:46:42.836640Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Barrington%20Lake%20Wildfire%2C%20Nova%20Scotia%2C%20Canada/dca8a836-2093-447b-946a-0173279b8652/2023-05-31-00-46-40_UMBRA-05/2023-05-31-00-46-40_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barrington Lake Wildfire, Nova Scotia, Canada/dca8a836-2093-447b-946a-0173279b8652/2023-05-31-00-46-40_UMBRA-05/2023-05-31-00-46-40_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barrington Lake Wildfire, Nova Scotia, Canada/dca8a836-2093-447b-946a-0173279b8652/2023-05-31-00-46-40_UMBRA-05/2023-05-31-00-46-40_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barrington Lake Wildfire, Nova Scotia, Canada/dca8a836-2093-447b-946a-0173279b8652/2023-05-31-00-46-40_UMBRA-05/2023-05-31-00-46-40_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Barrington Lake Wildfire, Nova Scotia, Canada/dca8a836-2093-447b-946a-0173279b8652/2023-05-31-00-46-40_UMBRA-05/2023-05-31-00-46-40_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

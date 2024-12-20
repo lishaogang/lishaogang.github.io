@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c8dbeb62-38a2-436a-a512-8d1c712e8117",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          14.1020585467443,
+          40.85566586308518,
+          142.9897458879277
+        ],
+        [
+          14.094948763946244,
+          40.850351347655184,
+          143.04409726522863
+        ],
+        [
+          14.08784185159938,
+          40.84503656747694,
+          143.20937066152692
+        ],
+        [
+          14.080735234537336,
+          40.839722407911864,
+          143.48570964951068
+        ],
+        [
+          14.073629511464118,
+          40.83440651411987,
+          143.87302325014025
+        ],
+        [
+          14.082958628075808,
+          40.827212168237466,
+          143.1836174884811
+        ],
+        [
+          14.092288674398397,
+          40.82001680621524,
+          142.69133079238236
+        ],
+        [
+          14.101615272899581,
+          40.81281992148494,
+          142.39646370429546
+        ],
+        [
+          14.110938514637715,
+          40.805621508800854,
+          142.29900095053017
+        ],
+        [
+          14.120260420619422,
+          40.79842298602568,
+          142.3988118181005
+        ],
+        [
+          14.129581086584963,
+          40.791224352417174,
+          142.69588946644217
+        ],
+        [
+          14.138898673069011,
+          40.78402418175838,
+          143.1903504729271
+        ],
+        [
+          14.14821520518539,
+          40.776823896614445,
+          143.8820764152333
+        ],
+        [
+          14.155319752903026,
+          40.78213507539542,
+          143.4924563812092
+        ],
+        [
+          14.162425337263455,
+          40.78744446153694,
+          143.21392449457198
+        ],
+        [
+          14.169533340878814,
+          40.79275584928905,
+          143.04623224493116
+        ],
+        [
+          14.176640532819592,
+          40.79806406374079,
+          142.9896402573213
+        ],
+        [
+          14.18375269852635,
+          40.803373424033985,
+          143.04410736542195
+        ],
+        [
+          14.190863542548552,
+          40.80868199899456,
+          143.20948057528585
+        ],
+        [
+          14.197973108981243,
+          40.81398980931042,
+          143.48569324985147
+        ],
+        [
+          14.205087723294621,
+          40.81929884555476,
+          143.87311200331897
+        ],
+        [
+          14.19577002703552,
+          40.82650268454136,
+          143.18355150148273
+        ],
+        [
+          14.186453107436556,
+          40.833707822639425,
+          142.69148537237197
+        ],
+        [
+          14.17713309382501,
+          40.840911392537826,
+          142.39667182043195
+        ],
+        [
+          14.16781178205232,
+          40.84811482937548,
+          142.29922632873058
+        ],
+        [
+          14.158489722681871,
+          40.855315801879655,
+          142.39903577696532
+        ],
+        [
+          14.149163659018553,
+          40.86251754859081,
+          142.69617730751634
+        ],
+        [
+          14.1398341387749,
+          40.86971774153677,
+          143.19058390520513
+        ],
+        [
+          14.130505490949428,
+          40.876916907595074,
+          143.88227549009025
+        ],
+        [
+          14.123390229287265,
+          40.87160512312129,
+          143.4927210882306
+        ],
+        [
+          14.116277968123578,
+          40.86629318003826,
+          143.214150512591
+        ],
+        [
+          14.109166789134685,
+          40.86097962819102,
+          143.04647937510163
+        ],
+        [
+          14.1020585467443,
+          40.85566586308518,
+          142.9897458879277
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    14.073629511464118,
+    40.776823896614445,
+    14.205087723294621,
+    40.876916907595074
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:33.921121Z",
+    "updated": "2024-12-17T09:52:33.921121Z",
+    "start_datetime": "2023-11-07T09:15:05Z",
+    "end_datetime": "2023-11-07T09:15:12.228486Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 39.31792243890692,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799994308850728,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.19612616700178231,
+    "sar:resolution_azimuth": 0.18897708609254513,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-07T09:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Campi%20Flegrei%2C%20Italy/8be8bc24-3385-45e7-bb6e-85a7b32d965e/2023-11-07-09-15-04_UMBRA-05/2023-11-07-09-15-04_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Campi Flegrei, Italy/8be8bc24-3385-45e7-bb6e-85a7b32d965e/2023-11-07-09-15-04_UMBRA-05/2023-11-07-09-15-04_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Campi Flegrei, Italy/8be8bc24-3385-45e7-bb6e-85a7b32d965e/2023-11-07-09-15-04_UMBRA-05/2023-11-07-09-15-04_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Campi Flegrei, Italy/8be8bc24-3385-45e7-bb6e-85a7b32d965e/2023-11-07-09-15-04_UMBRA-05/2023-11-07-09-15-04_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Campi Flegrei, Italy/8be8bc24-3385-45e7-bb6e-85a7b32d965e/2023-11-07-09-15-04_UMBRA-05/2023-11-07-09-15-04_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

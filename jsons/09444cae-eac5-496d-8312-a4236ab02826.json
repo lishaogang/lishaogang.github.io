@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "09444cae-eac5-496d-8312-a4236ab02826",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.14018844414221,
+          36.731717950409184,
+          663.2170967021957
+        ],
+        [
+          37.13465398179548,
+          36.732391929830136,
+          663.0800120774657
+        ],
+        [
+          37.129120263414244,
+          36.7330655914506,
+          662.9820949947461
+        ],
+        [
+          37.12358795954401,
+          36.73374249042985,
+          662.9234531894326
+        ],
+        [
+          37.11805133037878,
+          36.73441603029372,
+          662.9038173565641
+        ],
+        [
+          37.112516114284496,
+          36.735092810775114,
+          662.9234837600961
+        ],
+        [
+          37.10698535932294,
+          36.73576520648152,
+          662.9821224883199
+        ],
+        [
+          37.10145162073932,
+          36.73644135777366,
+          663.0800586463884
+        ],
+        [
+          37.09591355471275,
+          36.73711414283043,
+          663.217116529122
+        ],
+        [
+          37.09507943140057,
+          36.732659575687315,
+          663.0794368200004
+        ],
+        [
+          37.094239955695734,
+          36.72820567371344,
+          662.9812178714201
+        ],
+        [
+          37.093403911463156,
+          36.723751416260065,
+          662.9222115771845
+        ],
+        [
+          37.092566905589436,
+          36.71929730733415,
+          662.902540541254
+        ],
+        [
+          37.0917289372545,
+          36.71484334220488,
+          662.9222040772438
+        ],
+        [
+          37.09089439817131,
+          36.710389015504326,
+          662.9810770330951
+        ],
+        [
+          37.09005824214952,
+          36.705931261264084,
+          663.0793769117445
+        ],
+        [
+          37.08922177711713,
+          36.70147720464161,
+          663.2169470814988
+        ],
+        [
+          37.09475266808075,
+          36.70080351814827,
+          663.0801522256806
+        ],
+        [
+          37.10028429830406,
+          36.700129531367644,
+          662.9824785646051
+        ],
+        [
+          37.10581666914949,
+          36.69945524404839,
+          662.9239436062053
+        ],
+        [
+          37.11134978197301,
+          36.69878065593992,
+          662.9045649003237
+        ],
+        [
+          37.116879242712834,
+          36.698106265434106,
+          662.9243301134557
+        ],
+        [
+          37.12240944699327,
+          36.6974315741447,
+          662.9832246657461
+        ],
+        [
+          37.12794479284136,
+          36.69675608265642,
+          663.0813582576811
+        ],
+        [
+          37.133472091705215,
+          36.696081288196574,
+          663.218472388573
+        ],
+        [
+          37.13431127915509,
+          36.700536712926265,
+          663.0806606104597
+        ],
+        [
+          37.1351539128285,
+          36.704991766575446,
+          662.9822750035673
+        ],
+        [
+          37.13599054108202,
+          36.70944390624351,
+          662.9231002777815
+        ],
+        [
+          37.13683127235165,
+          36.71389923277892,
+          662.9032897772267
+        ],
+        [
+          37.13767105495037,
+          36.71835470194719,
+          662.9227833999321
+        ],
+        [
+          37.13850922344265,
+          36.72280676796502,
+          662.9815194010735
+        ],
+        [
+          37.13934710840401,
+          36.7272625369738,
+          663.079592121765
+        ],
+        [
+          37.14018844414221,
+          36.731717950409184,
+          663.2170967021957
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    37.08922177711713,
+    36.696081288196574,
+    37.14018844414221,
+    36.73711414283043
+  ],
+  "properties": {
+    "created": "2024-12-17T08:55:03.609262Z",
+    "updated": "2024-12-17T08:55:03.609262Z",
+    "start_datetime": "2023-03-06T06:50:15.422337Z",
+    "end_datetime": "2023-03-06T06:50:19.253830Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 60.07394955486958,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600000755279327,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4437430753218307,
+    "sar:resolution_azimuth": 0.45183429279452764,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-03-06T06:50:15.422337Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-03-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Turkey%20Earthquakes%20-%2003.23/690b7950-9b63-4315-9c5a-aea3dbc20966/2023-03-06-06-50-13_UMBRA-04/2023-03-06-06-50-13_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Turkey Earthquakes - 03.23/690b7950-9b63-4315-9c5a-aea3dbc20966/2023-03-06-06-50-13_UMBRA-04/2023-03-06-06-50-13_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Turkey Earthquakes - 03.23/690b7950-9b63-4315-9c5a-aea3dbc20966/2023-03-06-06-50-13_UMBRA-04/2023-03-06-06-50-13_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Turkey Earthquakes - 03.23/690b7950-9b63-4315-9c5a-aea3dbc20966/2023-03-06-06-50-13_UMBRA-04/2023-03-06-06-50-13_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Turkey Earthquakes - 03.23/690b7950-9b63-4315-9c5a-aea3dbc20966/2023-03-06-06-50-13_UMBRA-04/2023-03-06-06-50-13_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

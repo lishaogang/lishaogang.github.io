@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "8e96e78c-825d-45fc-ab4f-406119275f75",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          128.25939578944298,
+          27.885311860024153,
+          242.84401826187968
+        ],
+        [
+          128.2583372624937,
+          27.892382325482675,
+          242.89360095001757
+        ],
+        [
+          128.25727595854644,
+          27.89944998300292,
+          243.04134240280837
+        ],
+        [
+          128.25621736004805,
+          27.906521601924823,
+          243.28775137569755
+        ],
+        [
+          128.25515596820327,
+          27.9135904812896,
+          243.63228633161634
+        ],
+        [
+          128.2460564938042,
+          27.9125133509833,
+          243.1840935824439
+        ],
+        [
+          128.23695721519152,
+          27.911437016197887,
+          242.86394219938666
+        ],
+        [
+          128.22785849491905,
+          27.91035865441537,
+          242.67166519351304
+        ],
+        [
+          128.2187567648745,
+          27.90928051972745,
+          242.60740212537348
+        ],
+        [
+          128.20965866851864,
+          27.908200891218947,
+          242.6710548736155
+        ],
+        [
+          128.20056103193122,
+          27.90711920256222,
+          242.86256549786776
+        ],
+        [
+          128.19145989906596,
+          27.906040544986435,
+          243.1823677122593
+        ],
+        [
+          128.18236268904585,
+          27.904957533467748,
+          243.6297910651192
+        ],
+        [
+          128.1834290292248,
+          27.897889725841512,
+          243.2857073675841
+        ],
+        [
+          128.1844924994634,
+          27.89081914735474,
+          243.04007939528674
+        ],
+        [
+          128.18555581986584,
+          27.883749143573425,
+          242.8928700517863
+        ],
+        [
+          128.1866221077378,
+          27.876680238882553,
+          242.84387845732272
+        ],
+        [
+          128.18768513139204,
+          27.869611287095392,
+          242.89343370869756
+        ],
+        [
+          128.18874800949618,
+          27.862542810625335,
+          243.04134109430015
+        ],
+        [
+          128.1898111877506,
+          27.855471956185962,
+          243.28769898880273
+        ],
+        [
+          128.19087689905916,
+          27.84840489839521,
+          243.6321081686765
+        ],
+        [
+          128.19996997378524,
+          27.849484013065833,
+          243.18405143823475
+        ],
+        [
+          128.20906301529632,
+          27.850563893827175,
+          242.86385744716972
+        ],
+        [
+          128.21815918237462,
+          27.851645114085123,
+          242.67147002369165
+        ],
+        [
+          128.2272527099492,
+          27.852723733807636,
+          242.60720167960972
+        ],
+        [
+          128.2363467512401,
+          27.85380033303291,
+          242.67095637694
+        ],
+        [
+          128.24544089214524,
+          27.854877728324308,
+          242.86258263420314
+        ],
+        [
+          128.25453831026795,
+          27.855956496849075,
+          243.18221012037247
+        ],
+        [
+          128.26363320393418,
+          27.85703270145676,
+          243.62980399094522
+        ],
+        [
+          128.2625747827351,
+          27.864101258338586,
+          243.28587170597166
+        ],
+        [
+          128.2615127539859,
+          27.8711724745461,
+          243.04002929199487
+        ],
+        [
+          128.26045428609007,
+          27.878241920825015,
+          242.8928346671164
+        ],
+        [
+          128.25939578944298,
+          27.885311860024153,
+          242.84401826187968
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    128.18236268904585,
+    27.84840489839521,
+    128.26363320393418,
+    27.9135904812896
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:37.985798Z",
+    "updated": "2024-12-17T09:52:37.985798Z",
+    "start_datetime": "2023-11-16T12:26:57Z",
+    "end_datetime": "2023-11-16T12:27:00.986378Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.51276124959131,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79995640378911,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2882764116292303,
+    "sar:resolution_azimuth": 0.2822096372273599,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-16T12:26:57Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-16"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Io-Torishima%2C%20Japan/ea72e964-c491-4a83-9fb9-00cb5507ba2b/2023-11-16-12-26-56_UMBRA-04/2023-11-16-12-26-56_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Io-Torishima, Japan/ea72e964-c491-4a83-9fb9-00cb5507ba2b/2023-11-16-12-26-56_UMBRA-04/2023-11-16-12-26-56_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Io-Torishima, Japan/ea72e964-c491-4a83-9fb9-00cb5507ba2b/2023-11-16-12-26-56_UMBRA-04/2023-11-16-12-26-56_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Io-Torishima, Japan/ea72e964-c491-4a83-9fb9-00cb5507ba2b/2023-11-16-12-26-56_UMBRA-04/2023-11-16-12-26-56_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Io-Torishima, Japan/ea72e964-c491-4a83-9fb9-00cb5507ba2b/2023-11-16-12-26-56_UMBRA-04/2023-11-16-12-26-56_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "8e89ec67-9c66-47f9-bcc9-e519b5378d20",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          138.37393038350942,
+          -4.598936562227553,
+          156.60233435500413
+        ],
+        [
+          138.3740244598348,
+          -4.603457831910262,
+          156.58264390286058
+        ],
+        [
+          138.37411871854619,
+          -4.607979453806505,
+          156.6024216050282
+        ],
+        [
+          138.3742106531813,
+          -4.612499272551359,
+          156.6617238689214
+        ],
+        [
+          138.37430523501718,
+          -4.617019148053864,
+          156.7603820823133
+        ],
+        [
+          138.3744000014192,
+          -4.621539396888481,
+          156.8984943376854
+        ],
+        [
+          138.37890499811482,
+          -4.621446000130653,
+          156.76133967470378
+        ],
+        [
+          138.3834098688454,
+          -4.621350769040396,
+          156.66331704799086
+        ],
+        [
+          138.38791465584532,
+          -4.621256175050236,
+          156.60451056901366
+        ],
+        [
+          138.39241936295645,
+          -4.621162217740095,
+          156.5849177017808
+        ],
+        [
+          138.3969239553877,
+          -4.621066418837586,
+          156.60444965492934
+        ],
+        [
+          138.40143096832526,
+          -4.620973429052046,
+          156.66331103257835
+        ],
+        [
+          138.40593541853488,
+          -4.620878898216072,
+          156.7612803624943
+        ],
+        [
+          138.41043976522482,
+          -4.620782518536717,
+          156.89836847037077
+        ],
+        [
+          138.41034468656449,
+          -4.6162620254737625,
+          156.760249289684
+        ],
+        [
+          138.41025226036191,
+          -4.611741599260231,
+          156.66168236266822
+        ],
+        [
+          138.41015758567656,
+          -4.607221841178186,
+          156.60249789990485
+        ],
+        [
+          138.41006311461945,
+          -4.602702440113112,
+          156.58276516292244
+        ],
+        [
+          138.40996879649907,
+          -4.59818090989316,
+          156.60249642748386
+        ],
+        [
+          138.40987467875846,
+          -4.593659723030911,
+          156.66170402429998
+        ],
+        [
+          138.4097808191219,
+          -4.589141349938633,
+          156.7603143695742
+        ],
+        [
+          138.40968465847203,
+          -4.584621138971293,
+          156.8983322167769
+        ],
+        [
+          138.40518051834962,
+          -4.584715265596914,
+          156.76116162445396
+        ],
+        [
+          138.4006763191636,
+          -4.584810031213415,
+          156.66314958967268
+        ],
+        [
+          138.39617199788077,
+          -4.58490296258638,
+          156.60438423231244
+        ],
+        [
+          138.3916652148124,
+          -4.584999321896374,
+          156.58468579594046
+        ],
+        [
+          138.38716075524667,
+          -4.585093537231538,
+          156.60426868870854
+        ],
+        [
+          138.38265622154267,
+          -4.58518839555083,
+          156.66301831416786
+        ],
+        [
+          138.37815155075555,
+          -4.585281428439728,
+          156.7610234171152
+        ],
+        [
+          138.37364679824512,
+          -4.58537510752186,
+          156.89820015523583
+        ],
+        [
+          138.3737403779582,
+          -4.589897831863811,
+          156.7600971851498
+        ],
+        [
+          138.37383654444227,
+          -4.594418106038261,
+          156.6614405652508
+        ],
+        [
+          138.37393038350942,
+          -4.598936562227553,
+          156.60233435500413
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    138.37364679824512,
+    -4.621539396888481,
+    138.41043976522482,
+    -4.584621138971293
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:55.476329Z",
+    "updated": "2024-12-17T09:53:55.476329Z",
+    "start_datetime": "2023-06-17T12:36:04.151407Z",
+    "end_datetime": "2023-06-17T12:36:08.132382Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 42.84292173571727,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799954973801505,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3020327420413015,
+    "sar:resolution_azimuth": 0.29743758080077287,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-17T12:36:04.151407Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-17"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Kenyam%2C%20Papua%20New%20Guinea/38ce6ee0-29b5-4db8-a850-239f4504fb9c/2023-06-17-12-36-03_UMBRA-04/2023-06-17-12-36-03_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kenyam, Papua New Guinea/38ce6ee0-29b5-4db8-a850-239f4504fb9c/2023-06-17-12-36-03_UMBRA-04/2023-06-17-12-36-03_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kenyam, Papua New Guinea/38ce6ee0-29b5-4db8-a850-239f4504fb9c/2023-06-17-12-36-03_UMBRA-04/2023-06-17-12-36-03_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kenyam, Papua New Guinea/38ce6ee0-29b5-4db8-a850-239f4504fb9c/2023-06-17-12-36-03_UMBRA-04/2023-06-17-12-36-03_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Kenyam, Papua New Guinea/38ce6ee0-29b5-4db8-a850-239f4504fb9c/2023-06-17-12-36-03_UMBRA-04/2023-06-17-12-36-03_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

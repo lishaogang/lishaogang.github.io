@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "97903fdd-1617-4b82-bb06-4c43ec74c9cf",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          48.27524582095419,
+          54.29909820562354,
+          105.8508595712483
+        ],
+        [
+          48.26834026659053,
+          54.30106958235869,
+          105.71393303014338
+        ],
+        [
+          48.26144316551786,
+          54.30304067125376,
+          105.61634360812604
+        ],
+        [
+          48.25453961709382,
+          54.305011459327936,
+          105.55776570085436
+        ],
+        [
+          48.24763650852414,
+          54.30698120062773,
+          105.53831799235195
+        ],
+        [
+          48.240734891396485,
+          54.30895138118993,
+          105.55803479067981
+        ],
+        [
+          48.233826812390426,
+          54.31092125886564,
+          105.61686893925071
+        ],
+        [
+          48.22692705311427,
+          54.31289081388514,
+          105.7148293768987
+        ],
+        [
+          48.220019734459925,
+          54.31485856595551,
+          105.85187344625592
+        ],
+        [
+          48.21665004079476,
+          54.31082128275325,
+          105.7146365325898
+        ],
+        [
+          48.2132855305739,
+          54.30678276388487,
+          105.61649259831756
+        ],
+        [
+          48.209920424111296,
+          54.30274525452533,
+          105.55758303869516
+        ],
+        [
+          48.206553653137384,
+          54.29870725204709,
+          105.53788682911545
+        ],
+        [
+          48.20319309297138,
+          54.294669482442515,
+          105.55727249756455
+        ],
+        [
+          48.19983189735776,
+          54.290632692458225,
+          105.61585075967014
+        ],
+        [
+          48.19646797775566,
+          54.28659389380622,
+          105.71368184313178
+        ],
+        [
+          48.19310341522323,
+          54.28255605581765,
+          105.85072896908969
+        ],
+        [
+          48.20000719542916,
+          54.280587990400036,
+          105.71388220507652
+        ],
+        [
+          48.20690555819065,
+          54.27862109620982,
+          105.61624084878713
+        ],
+        [
+          48.213804311088836,
+          54.27665313988135,
+          105.55770466569811
+        ],
+        [
+          48.22070347546602,
+          54.274684127856254,
+          105.53829530440271
+        ],
+        [
+          48.227604101166875,
+          54.27271555008419,
+          105.55797801911831
+        ],
+        [
+          48.23450620782798,
+          54.27074741058012,
+          105.6167722651735
+        ],
+        [
+          48.24140087495185,
+          54.26877747986049,
+          105.71475054416806
+        ],
+        [
+          48.24829601894297,
+          54.26680651130877,
+          105.85187486279756
+        ],
+        [
+          48.25166290565108,
+          54.27084319733926,
+          105.71461219713092
+        ],
+        [
+          48.25502916996453,
+          54.274880831197095,
+          105.61648422759026
+        ],
+        [
+          48.258400688150495,
+          54.278917209856786,
+          105.55765241570771
+        ],
+        [
+          48.26176260406529,
+          54.28295231704865,
+          105.53784845210612
+        ],
+        [
+          48.26513187301612,
+          54.286989153454385,
+          105.5573018733412
+        ],
+        [
+          48.26849950326318,
+          54.29102549052666,
+          105.61589481588453
+        ],
+        [
+          48.27187347442344,
+          54.29506208933788,
+          105.71380820684135
+        ],
+        [
+          48.27524582095419,
+          54.29909820562354,
+          105.8508595712483
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    48.19310341522323,
+    54.26680651130877,
+    48.27524582095419,
+    54.31485856595551
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:40.841282Z",
+    "updated": "2024-12-17T09:54:40.841282Z",
+    "start_datetime": "2024-01-12T17:22:16Z",
+    "end_datetime": "2024-01-12T17:22:23.187764Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.2931365430528,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003974279389,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.45371110966594996,
+    "sar:resolution_azimuth": 0.19525160494816482,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-01-12T17:22:16Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-01-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Ulyanovsk%2C%20Russia/891181d0-8779-4800-bc5a-f487c8e9cfc3/2024-01-12-17-22-15_UMBRA-04/2024-01-12-17-22-15_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ulyanovsk, Russia/891181d0-8779-4800-bc5a-f487c8e9cfc3/2024-01-12-17-22-15_UMBRA-04/2024-01-12-17-22-15_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ulyanovsk, Russia/891181d0-8779-4800-bc5a-f487c8e9cfc3/2024-01-12-17-22-15_UMBRA-04/2024-01-12-17-22-15_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ulyanovsk, Russia/891181d0-8779-4800-bc5a-f487c8e9cfc3/2024-01-12-17-22-15_UMBRA-04/2024-01-12-17-22-15_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ulyanovsk, Russia/891181d0-8779-4800-bc5a-f487c8e9cfc3/2024-01-12-17-22-15_UMBRA-04/2024-01-12-17-22-15_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

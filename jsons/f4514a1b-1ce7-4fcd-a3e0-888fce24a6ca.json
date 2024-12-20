@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "f4514a1b-1ce7-4fcd-a3e0-888fce24a6ca",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.75607663474615,
+          13.665809699871518,
+          0.9877125658094883
+        ],
+        [
+          100.75849659419198,
+          13.66965920401283,
+          0.848995016887784
+        ],
+        [
+          100.76091768786722,
+          13.673510409798139,
+          0.7496002484112978
+        ],
+        [
+          100.76334233725018,
+          13.677358958335113,
+          0.6897527826949954
+        ],
+        [
+          100.76576072830838,
+          13.681205790376547,
+          0.6691391076892614
+        ],
+        [
+          100.7681827703096,
+          13.68505823918603,
+          0.6878870036453009
+        ],
+        [
+          100.77060586418214,
+          13.68890414143647,
+          0.7461149152368307
+        ],
+        [
+          100.77302772435978,
+          13.692756146477986,
+          0.8436428029090166
+        ],
+        [
+          100.77544823834191,
+          13.696605987544453,
+          0.9804911017417908
+        ],
+        [
+          100.77151337429956,
+          13.698970886920936,
+          0.8431358067318797
+        ],
+        [
+          100.76757264774074,
+          13.701339120221043,
+          0.7448635101318359
+        ],
+        [
+          100.76364077976226,
+          13.703709254366723,
+          0.6861785650253296
+        ],
+        [
+          100.7596979926611,
+          13.706074906198204,
+          0.6663733618333936
+        ],
+        [
+          100.75576404324028,
+          13.708442447905766,
+          0.686048791743815
+        ],
+        [
+          100.75182912654282,
+          13.710812841886211,
+          0.7450428763404489
+        ],
+        [
+          100.747888177572,
+          13.713178257538539,
+          0.8430952550843358
+        ],
+        [
+          100.74395114702311,
+          13.715546035946977,
+          0.9805086748674512
+        ],
+        [
+          100.74153143474125,
+          13.711696244632682,
+          0.8426907015964389
+        ],
+        [
+          100.7391079847219,
+          13.707848675595585,
+          0.7443802654743195
+        ],
+        [
+          100.73668803875161,
+          13.703998437426092,
+          0.6852761749178171
+        ],
+        [
+          100.73426922808628,
+          13.700149925865965,
+          0.6655399072915316
+        ],
+        [
+          100.7318441588235,
+          13.696299701965538,
+          0.6853276723995805
+        ],
+        [
+          100.72942509465646,
+          13.692450711582655,
+          0.7443084120750427
+        ],
+        [
+          100.72700465230713,
+          13.688599519546944,
+          0.842700800858438
+        ],
+        [
+          100.72458045026745,
+          13.684750507587333,
+          0.9806330865249038
+        ],
+        [
+          100.72851674235359,
+          13.682382662526265,
+          0.8441506596282125
+        ],
+        [
+          100.73245691881567,
+          13.680017187176155,
+          0.7467412631958723
+        ],
+        [
+          100.73639114055977,
+          13.67764675011999,
+          0.6888884520158172
+        ],
+        [
+          100.74032926082533,
+          13.675278690952076,
+          0.6701381057500839
+        ],
+        [
+          100.74426639789938,
+          13.672913480818453,
+          0.6905780332162976
+        ],
+        [
+          100.74820496467893,
+          13.67054675213718,
+          0.7503111567348242
+        ],
+        [
+          100.75214007657097,
+          13.668178979223251,
+          0.8493502540513873
+        ],
+        [
+          100.75607663474615,
+          13.665809699871518,
+          0.9877125658094883
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.72458045026745,
+    13.665809699871518,
+    100.77544823834191,
+    13.715546035946977
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:18.123613Z",
+    "updated": "2024-12-17T09:51:18.123613Z",
+    "start_datetime": "2023-05-19T14:27:18.912746Z",
+    "end_datetime": "2023-05-19T14:27:22.208971Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 46.51961149923458,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600008915236685,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5386521975444925,
+    "sar:resolution_azimuth": 0.558683557474696,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-19T14:27:18.912746Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-19"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi%20International%20Airport%2C%20Thailand/e4db8964-3c63-423a-a769-c2e52218f36a/2023-05-19-14-27-16_UMBRA-05/2023-05-19-14-27-16_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/e4db8964-3c63-423a-a769-c2e52218f36a/2023-05-19-14-27-16_UMBRA-05/2023-05-19-14-27-16_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/e4db8964-3c63-423a-a769-c2e52218f36a/2023-05-19-14-27-16_UMBRA-05/2023-05-19-14-27-16_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/e4db8964-3c63-423a-a769-c2e52218f36a/2023-05-19-14-27-16_UMBRA-05/2023-05-19-14-27-16_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/e4db8964-3c63-423a-a769-c2e52218f36a/2023-05-19-14-27-16_UMBRA-05/2023-05-19-14-27-16_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

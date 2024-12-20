@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "4ad85765-bdab-4fa3-b513-05f760a824b2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          107.06687956252716,
+          10.786675895835693,
+          72.45763817802072
+        ],
+        [
+          107.06240035662904,
+          10.787585563743443,
+          72.32033645547926
+        ],
+        [
+          107.05792146409637,
+          10.788499021657417,
+          72.22237855475396
+        ],
+        [
+          107.0534450259031,
+          10.789408163231931,
+          72.1635466190055
+        ],
+        [
+          107.04896526246523,
+          10.790321790568731,
+          72.14401604793966
+        ],
+        [
+          107.04448794032521,
+          10.79123110047321,
+          72.16356955468655
+        ],
+        [
+          107.04001091329934,
+          10.792144211345065,
+          72.2224493669346
+        ],
+        [
+          107.03553269031507,
+          10.793053692917185,
+          72.3204021109268
+        ],
+        [
+          107.03105475599622,
+          10.793966980412067,
+          72.45770501159132
+        ],
+        [
+          107.03013370129305,
+          10.78953919468021,
+          72.3196422914043
+        ],
+        [
+          107.02921074716849,
+          10.785111752160997,
+          72.221086287871
+        ],
+        [
+          107.02828950913803,
+          10.780683960098186,
+          72.16191225778311
+        ],
+        [
+          107.02736998608435,
+          10.776255813458983,
+          72.14212032034993
+        ],
+        [
+          107.02644855904347,
+          10.77182798632357,
+          72.16183735616505
+        ],
+        [
+          107.02552522623125,
+          10.767400468481465,
+          72.2210652641952
+        ],
+        [
+          107.02460360423584,
+          10.762972574045984,
+          72.31967873498797
+        ],
+        [
+          107.02368369203731,
+          10.758544297966312,
+          72.45767877902836
+        ],
+        [
+          107.02816174339726,
+          10.757633104537433,
+          72.32085712812841
+        ],
+        [
+          107.03263933947896,
+          10.756722001458812,
+          72.22325177397579
+        ],
+        [
+          107.0371164838309,
+          10.755810988009848,
+          72.1648510787636
+        ],
+        [
+          107.04159318001466,
+          10.75490006346728,
+          72.14564352482557
+        ],
+        [
+          107.04606943160492,
+          10.75398922710516,
+          72.16561773139983
+        ],
+        [
+          107.05054887612332,
+          10.753077801235834,
+          72.22482400853187
+        ],
+        [
+          107.05502788840938,
+          10.752166461072623,
+          72.3232531901449
+        ],
+        [
+          107.0595028329841,
+          10.751255883852606,
+          72.46076921746135
+        ],
+        [
+          107.06042691539002,
+          10.755685105142184,
+          72.32234381325543
+        ],
+        [
+          107.0613483875197,
+          10.76011090484344,
+          72.22339718788862
+        ],
+        [
+          107.06226795700776,
+          10.764537005824318,
+          72.1637923810631
+        ],
+        [
+          107.0631899876892,
+          10.768966442602839,
+          72.14365239441395
+        ],
+        [
+          107.06411303733232,
+          10.773391801055554,
+          72.16301369480789
+        ],
+        [
+          107.06503492164929,
+          10.777821192060806,
+          72.2217770954594
+        ],
+        [
+          107.0659541811836,
+          10.782247210102138,
+          72.31984590459615
+        ],
+        [
+          107.06687956252716,
+          10.786675895835693,
+          72.45763817802072
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    107.02368369203731,
+    10.751255883852606,
+    107.06687956252716,
+    10.793966980412067
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:25.389699Z",
+    "updated": "2024-12-17T08:54:25.389699Z",
+    "start_datetime": "2023-02-26T02:14:09.806579Z",
+    "end_datetime": "2023-02-26T02:14:12.448547Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 39.279539300305636,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599982598854695,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.450684903241689,
+    "sar:resolution_azimuth": 0.45451590022842053,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-26T02:14:09.806579Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-26"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Long%20Thanh%20International%20Airport/4ad85765-bdab-4fa3-b513-05f760a824b2/2023-02-26-02-14-07_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Long Thanh International Airport/4ad85765-bdab-4fa3-b513-05f760a824b2/2023-02-26-02-14-07_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Long Thanh International Airport/4ad85765-bdab-4fa3-b513-05f760a824b2/2023-02-26-02-14-07_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Long Thanh International Airport/4ad85765-bdab-4fa3-b513-05f760a824b2/2023-02-26-02-14-07_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Long Thanh International Airport/4ad85765-bdab-4fa3-b513-05f760a824b2/2023-02-26-02-14-07_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

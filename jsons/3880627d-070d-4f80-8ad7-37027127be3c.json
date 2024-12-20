@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3880627d-070d-4f80-8ad7-37027127be3c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          86.87779380030648,
+          28.02527774430199,
+          5269.331444274829
+        ],
+        [
+          86.8269980500746,
+          28.024389806183542,
+          5269.331364381481
+        ],
+        [
+          86.82800883008493,
+          27.97931490528523,
+          5269.331691736331
+        ],
+        [
+          86.87878345394023,
+          27.980202479775652,
+          5269.331367121526
+        ],
+        [
+          86.87779380030648,
+          28.02527774430199,
+          5269.331444274829
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    86.8269980500746,
+    27.97931490528523,
+    86.87878345394023,
+    28.02527774430199
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:25.620150Z",
+    "updated": "2024-12-17T09:54:25.620150Z",
+    "start_datetime": "2024-02-13T15:09:47Z",
+    "end_datetime": "2024-02-13T15:09:58.808225Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 30.7354346611613,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599962425185367,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5000000000000006,
+    "sar:resolution_azimuth": 0.125,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 4,
+    "sar:observation_direction": "left",
+    "datetime": "2024-02-13T15:09:47Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-13"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Sagarmatha_National_Park_Nepal/a5c403d2-f939-404b-a69b-be15d67debb3/2024-02-13-15-09-46_UMBRA-05/2024-02-13-15-09-46_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sagarmatha_National_Park_Nepal/a5c403d2-f939-404b-a69b-be15d67debb3/2024-02-13-15-09-46_UMBRA-05/2024-02-13-15-09-46_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sagarmatha_National_Park_Nepal/a5c403d2-f939-404b-a69b-be15d67debb3/2024-02-13-15-09-46_UMBRA-05/2024-02-13-15-09-46_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sagarmatha_National_Park_Nepal/a5c403d2-f939-404b-a69b-be15d67debb3/2024-02-13-15-09-46_UMBRA-05/2024-02-13-15-09-46_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sagarmatha_National_Park_Nepal/a5c403d2-f939-404b-a69b-be15d67debb3/2024-02-13-15-09-46_UMBRA-05/2024-02-13-15-09-46_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sagarmatha_National_Park_Nepal/a5c403d2-f939-404b-a69b-be15d67debb3/2024-02-13-15-09-46_UMBRA-05/2024-02-13-15-09-46_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

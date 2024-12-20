@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "8a19f00a-34fb-4a72-9bdc-f7d1b463716f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.41708889232046,
+          30.565559458546964,
+          41.01568862608898
+        ],
+        [
+          -96.46610302789276,
+          30.550224822982752,
+          41.012645257048135
+        ],
+        [
+          -96.44838215956703,
+          30.507808984915524,
+          41.01586358633982
+        ],
+        [
+          -96.39938653806976,
+          30.523137057901224,
+          41.01264694857878
+        ],
+        [
+          -96.41708889232046,
+          30.565559458546964,
+          41.01568862608898
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.46610302789276,
+    30.507808984915524,
+    -96.39938653806976,
+    30.565559458546964
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:08.287121Z",
+    "updated": "2024-12-17T09:52:08.287121Z",
+    "start_datetime": "2024-11-04T16:56:48Z",
+    "end_datetime": "2024-11-04T16:56:52.354485Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.548162325531237,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799968466395512,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.27890373073795083,
+    "sar:resolution_azimuth": 0.2553815013338277,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-11-04T16:56:48Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-11-04"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas%20A%26M%20Farm%20Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas A&M Farm Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas A&M Farm Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas A&M Farm Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas A&M Farm Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas A&M Farm Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas A&M Farm Plot/78661a2d-57f7-44fd-a80e-198b3f0cb798/2024-11-04-16-56-47_UMBRA-08/2024-11-04-16-56-47_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

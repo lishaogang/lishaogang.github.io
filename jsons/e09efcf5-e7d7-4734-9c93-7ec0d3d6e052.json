@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e09efcf5-e7d7-4734-9c93-7ec0d3d6e052",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.92245608643432,
+          -37.81504433947652,
+          11.56670656714526
+        ],
+        [
+          144.87395898746408,
+          -37.83848966450804,
+          11.563110227338537
+        ],
+        [
+          144.90352470448917,
+          -37.876959241334916,
+          11.566825937395778
+        ],
+        [
+          144.95203763180945,
+          -37.85350188908683,
+          11.563109511078125
+        ],
+        [
+          144.92245608643432,
+          -37.81504433947652,
+          11.56670656714526
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.87395898746408,
+    -37.876959241334916,
+    144.95203763180945,
+    -37.81504433947652
+  ],
+  "properties": {
+    "created": "2024-12-17T09:49:19.059377Z",
+    "updated": "2024-12-17T09:49:19.059377Z",
+    "start_datetime": "2024-09-08T00:09:46Z",
+    "end_datetime": "2024-09-08T00:09:54.663080Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.199109309173714,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799962638178842,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2033034020695038,
+    "sar:resolution_azimuth": 0.17356136828103225,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-09-08T00:09:46Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-09-08"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne%2C%20Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/fa4d988f-0d3b-4338-97e9-3d6c561c40ce/2024-09-08-00-09-45_UMBRA-08/2024-09-08-00-09-45_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

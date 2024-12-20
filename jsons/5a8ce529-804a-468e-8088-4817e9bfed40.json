@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5a8ce529-804a-468e-8088-4817e9bfed40",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          56.59180720235551,
+          -10.362648167919948,
+          2.2949946392327547
+        ],
+        [
+          56.58881555653223,
+          -10.366063111432354,
+          2.3135916106402874
+        ],
+        [
+          56.58582219845975,
+          -10.369475697725616,
+          2.3716139253228903
+        ],
+        [
+          56.5828309886354,
+          -10.372890227162918,
+          2.46886398922652
+        ],
+        [
+          56.57983614015793,
+          -10.376304578366783,
+          2.6056167213246226
+        ],
+        [
+          56.583285422379625,
+          -10.379265955377038,
+          2.4679959937930107
+        ],
+        [
+          56.586735487332234,
+          -10.382229872746228,
+          2.36968598049134
+        ],
+        [
+          56.590182495056396,
+          -10.38519203153844,
+          2.310768156312406
+        ],
+        [
+          56.59363029420269,
+          -10.388156733428962,
+          2.2911783335730433
+        ],
+        [
+          56.59707985873259,
+          -10.391118569002582,
+          2.310786626301706
+        ],
+        [
+          56.600527346984805,
+          -10.394081883540812,
+          2.369777795858681
+        ],
+        [
+          56.603974692608965,
+          -10.397044503976616,
+          2.4680360658094287
+        ],
+        [
+          56.60742477136046,
+          -10.400007493894824,
+          2.60560816898942
+        ],
+        [
+          56.61041648795318,
+          -10.39659191077496,
+          2.467870551161468
+        ],
+        [
+          56.613410339619975,
+          -10.393178286860113,
+          2.369583339430392
+        ],
+        [
+          56.616403469550086,
+          -10.389765552804027,
+          2.3106550397351384
+        ],
+        [
+          56.61939493524383,
+          -10.38635046473883,
+          2.2909582750871778
+        ],
+        [
+          56.622385692371516,
+          -10.382936257347579,
+          2.310594362206757
+        ],
+        [
+          56.625380517813895,
+          -10.379521800373665,
+          2.369701280258596
+        ],
+        [
+          56.62837178265941,
+          -10.376107154593594,
+          2.4680268010124564
+        ],
+        [
+          56.631365222649656,
+          -10.372694426080841,
+          2.605785205028951
+        ],
+        [
+          56.62791533877399,
+          -10.3697315712181,
+          2.4691683035343885
+        ],
+        [
+          56.62446817497952,
+          -10.36676907883209,
+          2.3719633035361767
+        ],
+        [
+          56.62102086056416,
+          -10.363805895943809,
+          2.314050417393446
+        ],
+        [
+          56.617571494933124,
+          -10.360844201969977,
+          2.29534447286278
+        ],
+        [
+          56.61412196293986,
+          -10.357881816662752,
+          2.315960930660367
+        ],
+        [
+          56.61067225576046,
+          -10.35491874064139,
+          2.375915409065783
+        ],
+        [
+          56.60722524583402,
+          -10.351956028956087,
+          2.475186450406909
+        ],
+        [
+          56.603778048569666,
+          -10.348992628003005,
+          2.613777938298881
+        ],
+        [
+          56.60078737190546,
+          -10.352406301180942,
+          2.475065356120467
+        ],
+        [
+          56.59779310473638,
+          -10.355819770083425,
+          2.3757258327677846
+        ],
+        [
+          56.59480100716039,
+          -10.35923515301337,
+          2.315635626204312
+        ],
+        [
+          56.59180720235551,
+          -10.362648167919948,
+          2.2949946392327547
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    56.57983614015793,
+    -10.400007493894824,
+    56.631365222649656,
+    -10.348992628003005
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:25.572429Z",
+    "updated": "2024-12-17T09:53:25.572429Z",
+    "start_datetime": "2023-08-11T05:50:30Z",
+    "end_datetime": "2023-08-11T05:50:33.879933Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.26151021424221,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79998084891122,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.34969077711096636,
+    "sar:resolution_azimuth": 0.344511761124381,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-08-11T05:50:30Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Agalega%20Island%20Airstrip/a6efe247-37b8-437f-8e46-297ef8517675/2023-08-11-05-50-29_UMBRA-05/2023-08-11-05-50-29_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Agalega Island Airstrip/a6efe247-37b8-437f-8e46-297ef8517675/2023-08-11-05-50-29_UMBRA-05/2023-08-11-05-50-29_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Agalega Island Airstrip/a6efe247-37b8-437f-8e46-297ef8517675/2023-08-11-05-50-29_UMBRA-05/2023-08-11-05-50-29_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Agalega Island Airstrip/a6efe247-37b8-437f-8e46-297ef8517675/2023-08-11-05-50-29_UMBRA-05/2023-08-11-05-50-29_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Agalega Island Airstrip/a6efe247-37b8-437f-8e46-297ef8517675/2023-08-11-05-50-29_UMBRA-05/2023-08-11-05-50-29_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

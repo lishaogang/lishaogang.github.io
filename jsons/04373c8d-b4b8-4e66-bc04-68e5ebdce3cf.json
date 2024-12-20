@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "04373c8d-b4b8-4e66-bc04-68e5ebdce3cf",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.03415738113041,
+          37.021936677184335,
+          34.8771893447265
+        ],
+        [
+          -122.0353516679342,
+          37.026337339317195,
+          34.73984735272825
+        ],
+        [
+          -122.03654724004822,
+          37.03074073425741,
+          34.641723323613405
+        ],
+        [
+          -122.03774302637629,
+          37.03514196542253,
+          34.58292874228209
+        ],
+        [
+          -122.03893974099715,
+          37.03954430665356,
+          34.56341385189444
+        ],
+        [
+          -122.04013703052217,
+          37.04394612991794,
+          34.58319404628128
+        ],
+        [
+          -122.04133524766834,
+          37.04834907453058,
+          34.64228997565806
+        ],
+        [
+          -122.04253369418123,
+          37.05274987962304,
+          34.74064244981855
+        ],
+        [
+          -122.04372803846782,
+          37.05715195902412,
+          34.87843151669949
+        ],
+        [
+          -122.04921870384493,
+          37.05619214767019,
+          34.74125757813454
+        ],
+        [
+          -122.05471271621137,
+          37.05523257495536,
+          34.643208898603916
+        ],
+        [
+          -122.06020504793428,
+          37.05427338539518,
+          34.58436346426606
+        ],
+        [
+          -122.06569535584138,
+          37.05331294592437,
+          34.56462848931551
+        ],
+        [
+          -122.07118866777738,
+          37.05235111213727,
+          34.58403045963496
+        ],
+        [
+          -122.07668065723543,
+          37.051391304106104,
+          34.64265924040228
+        ],
+        [
+          -122.08217063199108,
+          37.05043025010357,
+          34.7403663713485
+        ],
+        [
+          -122.08766361497328,
+          37.04946780344837,
+          34.87728175893426
+        ],
+        [
+          -122.08646591071718,
+          37.04506661624153,
+          34.73990315105766
+        ],
+        [
+          -122.08526378428576,
+          37.040665074262684,
+          34.641680819913745
+        ],
+        [
+          -122.0840676254496,
+          37.03626451122686,
+          34.5829435121268
+        ],
+        [
+          -122.08286668608805,
+          37.031861945360944,
+          34.56336944364011
+        ],
+        [
+          -122.0816666927126,
+          37.0274604997584,
+          34.583128911443055
+        ],
+        [
+          -122.080467288026,
+          37.02305852849576,
+          34.64222095441073
+        ],
+        [
+          -122.07926882997829,
+          37.01865766626409,
+          34.74061081837863
+        ],
+        [
+          -122.07807095794688,
+          37.014256266801645,
+          34.87832689937204
+        ],
+        [
+          -122.07258089423523,
+          37.015216136961755,
+          34.74117513000965
+        ],
+        [
+          -122.06709455881492,
+          37.01617789704493,
+          34.64313848875463
+        ],
+        [
+          -122.0616058428277,
+          37.017136788277774,
+          34.58431583363563
+        ],
+        [
+          -122.05611582709912,
+          37.01809772510362,
+          34.56456432957202
+        ],
+        [
+          -122.05062378423342,
+          37.019057428369436,
+          34.58403552509844
+        ],
+        [
+          -122.04513509935293,
+          37.02001737580957,
+          34.64261233061552
+        ],
+        [
+          -122.03964438252326,
+          37.0209760880843,
+          34.74041040893644
+        ],
+        [
+          -122.03415738113041,
+          37.021936677184335,
+          34.8771893447265
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.08766361497328,
+    37.014256266801645,
+    -122.03415738113041,
+    37.05715195902412
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:32.344522Z",
+    "updated": "2024-12-17T09:53:32.344522Z",
+    "start_datetime": "2023-11-11T17:35:46Z",
+    "end_datetime": "2023-11-11T17:35:53.524566Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 52.56228252397808,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003081257457,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44592239457234073,
+    "sar:resolution_azimuth": 0.20095621712217906,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-11T17:35:46Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/California%20Redwoods%2C%20Felton%2C%20CA/af36aae1-af67-4dcc-96b2-3bb1f127030f/2023-11-11-17-35-45_UMBRA-04/2023-11-11-17-35-45_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/California Redwoods, Felton, CA/af36aae1-af67-4dcc-96b2-3bb1f127030f/2023-11-11-17-35-45_UMBRA-04/2023-11-11-17-35-45_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/California Redwoods, Felton, CA/af36aae1-af67-4dcc-96b2-3bb1f127030f/2023-11-11-17-35-45_UMBRA-04/2023-11-11-17-35-45_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/California Redwoods, Felton, CA/af36aae1-af67-4dcc-96b2-3bb1f127030f/2023-11-11-17-35-45_UMBRA-04/2023-11-11-17-35-45_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/California Redwoods, Felton, CA/af36aae1-af67-4dcc-96b2-3bb1f127030f/2023-11-11-17-35-45_UMBRA-04/2023-11-11-17-35-45_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

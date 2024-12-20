@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "24584dbf-8f23-4add-aff5-a1b3a8ec6735",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          160.69564527132175,
+          56.0774755520652,
+          4740.952704061754
+        ],
+        [
+          160.68832998531465,
+          56.08319404317698,
+          4741.001157330349
+        ],
+        [
+          160.6810191324133,
+          56.0889093520986,
+          4741.145662116818
+        ],
+        [
+          160.67370389985365,
+          56.094628407928916,
+          4741.386389696039
+        ],
+        [
+          160.66638553738272,
+          56.10034535316196,
+          4741.723022567108
+        ],
+        [
+          160.652963798477,
+          56.09497340349955,
+          4741.143813564442
+        ],
+        [
+          160.6395507417016,
+          56.08960283668019,
+          4740.730128326453
+        ],
+        [
+          160.62613260789956,
+          56.08422983248974,
+          4740.481679645367
+        ],
+        [
+          160.61272590443096,
+          56.07885588680918,
+          4740.398486504331
+        ],
+        [
+          160.59931853954444,
+          56.07348076390748,
+          4740.480650040321
+        ],
+        [
+          160.58591497708116,
+          56.068105730755974,
+          4740.72814656049
+        ],
+        [
+          160.5725164793946,
+          56.06272487137624,
+          4741.140795327723
+        ],
+        [
+          160.5591232185159,
+          56.05734767826553,
+          4741.718716837466
+        ],
+        [
+          160.5664509848587,
+          56.051636357461085,
+          4741.383044665679
+        ],
+        [
+          160.57377255248588,
+          56.045925197441136,
+          4741.143593703397
+        ],
+        [
+          160.58109244788378,
+          56.04021544340518,
+          4741.000084432773
+        ],
+        [
+          160.58841365510344,
+          56.03450475521178,
+          4740.952462726273
+        ],
+        [
+          160.59573171158718,
+          56.028791836389956,
+          4741.00098566059
+        ],
+        [
+          160.60304367919352,
+          56.02307897616899,
+          4741.145622858778
+        ],
+        [
+          160.61035407972625,
+          56.017367427189676,
+          4741.386124360375
+        ],
+        [
+          160.61766592953822,
+          56.01165485626588,
+          4741.722596463747
+        ],
+        [
+          160.63105512690933,
+          56.017027726127296,
+          4741.143649804406
+        ],
+        [
+          160.64444337453418,
+          56.02239942238253,
+          4740.729982261546
+        ],
+        [
+          160.6578382447077,
+          56.02776892876849,
+          4740.481617205776
+        ],
+        [
+          160.67123682734575,
+          56.033138557113205,
+          4740.39844796434
+        ],
+        [
+          160.68463920839645,
+          56.03850831166935,
+          4740.480525764637
+        ],
+        [
+          160.69804688502654,
+          56.043872315685554,
+          4740.728091695346
+        ],
+        [
+          160.7114555290113,
+          56.04923875729735,
+          4741.14075927157
+        ],
+        [
+          160.72486661910432,
+          56.05460176097735,
+          4741.718673682772
+        ],
+        [
+          160.71756752114825,
+          56.060320951821154,
+          4741.3833113815635
+        ],
+        [
+          160.71026253711437,
+          56.06604018121922,
+          4741.143784726039
+        ],
+        [
+          160.70295459296494,
+          56.0717571798875,
+          4741.0001980457455
+        ],
+        [
+          160.69564527132175,
+          56.0774755520652,
+          4740.952704061754
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    160.5591232185159,
+    56.01165485626588,
+    160.72486661910432,
+    56.10034535316196
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:39.796672Z",
+    "updated": "2024-12-17T09:52:39.796672Z",
+    "start_datetime": "2023-11-10T09:37:29Z",
+    "end_datetime": "2023-11-10T09:37:33.246122Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.40797512662126,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799978743481915,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.29033328351680754,
+    "sar:resolution_azimuth": 0.2848454569799237,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-10T09:37:29Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Klyuchevskoy%2C%20Russia/23826acc-5ae0-4438-ad1b-d49d3e284fad/2023-11-10-09-37-28_UMBRA-04/2023-11-10-09-37-28_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Klyuchevskoy, Russia/23826acc-5ae0-4438-ad1b-d49d3e284fad/2023-11-10-09-37-28_UMBRA-04/2023-11-10-09-37-28_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Klyuchevskoy, Russia/23826acc-5ae0-4438-ad1b-d49d3e284fad/2023-11-10-09-37-28_UMBRA-04/2023-11-10-09-37-28_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Klyuchevskoy, Russia/23826acc-5ae0-4438-ad1b-d49d3e284fad/2023-11-10-09-37-28_UMBRA-04/2023-11-10-09-37-28_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Klyuchevskoy, Russia/23826acc-5ae0-4438-ad1b-d49d3e284fad/2023-11-10-09-37-28_UMBRA-04/2023-11-10-09-37-28_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

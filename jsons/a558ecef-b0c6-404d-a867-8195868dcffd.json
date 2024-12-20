@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "a558ecef-b0c6-404d-a867-8195868dcffd",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          137.1066663184145,
+          -4.086927518209171,
+          3654.291675428399
+        ],
+        [
+          137.14421720681457,
+          -4.062015982795163,
+          3654.285760734408
+        ],
+        [
+          137.1194094666253,
+          -4.024309153379266,
+          3654.2919223585873
+        ],
+        [
+          137.08185955910469,
+          -4.049219557346954,
+          3654.285761160995
+        ],
+        [
+          137.1066663184145,
+          -4.086927518209171,
+          3654.291675428399
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    137.08185955910469,
+    -4.086927518209171,
+    137.14421720681457,
+    -4.024309153379266
+  ],
+  "properties": {
+    "created": "2024-12-17T09:50:05.997388Z",
+    "updated": "2024-12-17T09:50:05.997388Z",
+    "start_datetime": "2024-04-25T12:23:07Z",
+    "end_datetime": "2024-04-25T12:23:09.938107Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.402557982599966,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799989620223641,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4054421694148829,
+    "sar:resolution_azimuth": 0.38575308034046035,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-04-25T12:23:07Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-04-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua%2C%20Indonesia/7d55f40e-08b4-42e0-84ab-7b3675cc4064/2024-04-25-12-23-06_UMBRA-05/2024-04-25-12-23-06_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua, Indonesia/7d55f40e-08b4-42e0-84ab-7b3675cc4064/2024-04-25-12-23-06_UMBRA-05/2024-04-25-12-23-06_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua, Indonesia/7d55f40e-08b4-42e0-84ab-7b3675cc4064/2024-04-25-12-23-06_UMBRA-05/2024-04-25-12-23-06_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua, Indonesia/7d55f40e-08b4-42e0-84ab-7b3675cc4064/2024-04-25-12-23-06_UMBRA-05/2024-04-25-12-23-06_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua, Indonesia/7d55f40e-08b4-42e0-84ab-7b3675cc4064/2024-04-25-12-23-06_UMBRA-05/2024-04-25-12-23-06_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua, Indonesia/7d55f40e-08b4-42e0-84ab-7b3675cc4064/2024-04-25-12-23-06_UMBRA-05/2024-04-25-12-23-06_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

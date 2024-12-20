@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "42d9c1ff-1e5e-4b77-9a83-7eed4e68301d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -72.97562053785941,
+          -49.51288477736063,
+          518.8452228655075
+        ],
+        [
+          -73.02978908141233,
+          -49.485023189312535,
+          518.8479272531414
+        ],
+        [
+          -73.07260506456879,
+          -49.520285632679546,
+          518.845222446374
+        ],
+        [
+          -73.01842188624556,
+          -49.54816709449368,
+          518.8479236655048
+        ],
+        [
+          -72.97562053785941,
+          -49.51288477736063,
+          518.8452228655075
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -73.07260506456879,
+    -49.54816709449368,
+    -72.97562053785941,
+    -49.485023189312535
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:40.177578Z",
+    "updated": "2024-12-17T09:53:40.177578Z",
+    "start_datetime": "2024-06-05T13:45:59Z",
+    "end_datetime": "2024-06-05T13:46:09.274372Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.415020180544715,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799975955975244,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.28584099454828815,
+    "sar:resolution_azimuth": 0.09506559087395627,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 3,
+    "sar:observation_direction": "right",
+    "datetime": "2024-06-05T13:45:59Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-06-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/El_Chalten_Argentina/86600c36-11b9-4772-b312-3fc69f197365/2024-06-05-13-45-58_UMBRA-04/2024-06-05-13-45-58_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/El_Chalten_Argentina/86600c36-11b9-4772-b312-3fc69f197365/2024-06-05-13-45-58_UMBRA-04/2024-06-05-13-45-58_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/El_Chalten_Argentina/86600c36-11b9-4772-b312-3fc69f197365/2024-06-05-13-45-58_UMBRA-04/2024-06-05-13-45-58_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/El_Chalten_Argentina/86600c36-11b9-4772-b312-3fc69f197365/2024-06-05-13-45-58_UMBRA-04/2024-06-05-13-45-58_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/El_Chalten_Argentina/86600c36-11b9-4772-b312-3fc69f197365/2024-06-05-13-45-58_UMBRA-04/2024-06-05-13-45-58_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/El_Chalten_Argentina/86600c36-11b9-4772-b312-3fc69f197365/2024-06-05-13-45-58_UMBRA-04/2024-06-05-13-45-58_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

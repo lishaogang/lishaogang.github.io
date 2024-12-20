@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b7e7d533-828d-43e2-bec7-c6c8891a7ea1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          136.72990512271238,
+          37.20076123149828,
+          273.1863604132086
+        ],
+        [
+          136.73527691393062,
+          37.19712180200788,
+          272.97242199257016
+        ],
+        [
+          136.740646200795,
+          37.19348300202785,
+          272.8198119625449
+        ],
+        [
+          136.7460172743358,
+          37.18984230048734,
+          272.7284138593823
+        ],
+        [
+          136.75139142381119,
+          37.18620258723554,
+          272.6981833372265
+        ],
+        [
+          136.7567624777732,
+          37.18256203744617,
+          272.7293371465057
+        ],
+        [
+          136.76213045983226,
+          37.17892064358047,
+          272.82183665875345
+        ],
+        [
+          136.76749669462026,
+          37.175281296919955,
+          272.9754829108715
+        ],
+        [
+          136.7728647754707,
+          37.17164001790415,
+          273.1904622018337
+        ],
+        [
+          136.77741637980998,
+          37.1759365780418,
+          272.97528796084225
+        ],
+        [
+          136.7819679493057,
+          37.18023164571718,
+          272.8215111317113
+        ],
+        [
+          136.78652015091433,
+          37.18452668532955,
+          272.7290500085801
+        ],
+        [
+          136.79107299898,
+          37.18882171148155,
+          272.69791021291167
+        ],
+        [
+          136.7956216565873,
+          37.19311780166801,
+          272.7279211562127
+        ],
+        [
+          136.80017584256683,
+          37.197412842350076,
+          272.81942580547184
+        ],
+        [
+          136.80473008997294,
+          37.20170645643515,
+          272.97225101385266
+        ],
+        [
+          136.80928567053851,
+          37.206001571652436,
+          273.1864350112155
+        ],
+        [
+          136.80391644136657,
+          37.20964409262207,
+          272.97247609496117
+        ],
+        [
+          136.79854422738933,
+          37.21328576871124,
+          272.8196929246187
+        ],
+        [
+          136.79317510879193,
+          37.21692846439656,
+          272.72834767587483
+        ],
+        [
+          136.78780296770353,
+          37.22057032777628,
+          272.6981961866841
+        ],
+        [
+          136.78243327834932,
+          37.22421176501978,
+          272.72937893122435
+        ],
+        [
+          136.77706114431587,
+          37.22785383911,
+          272.821838311851
+        ],
+        [
+          136.7716859260585,
+          37.23149510121574,
+          272.9755507847294
+        ],
+        [
+          136.76631311588795,
+          37.23513595529017,
+          273.1905580274761
+        ],
+        [
+          136.76176364353915,
+          37.230838265804024,
+          272.9753199433908
+        ],
+        [
+          136.75721054407873,
+          37.22654318514026,
+          272.8215722469613
+        ],
+        [
+          136.75265748410862,
+          37.222246733548154,
+          272.72909322194755
+        ],
+        [
+          136.74810443894185,
+          37.217948899408405,
+          272.6979210563004
+        ],
+        [
+          136.74355263670665,
+          37.21365257031079,
+          272.7281122598797
+        ],
+        [
+          136.73900636801204,
+          37.2093552066167,
+          272.81942129321396
+        ],
+        [
+          136.73445513975025,
+          37.20505749014098,
+          272.97224227990955
+        ],
+        [
+          136.72990512271238,
+          37.20076123149828,
+          273.1863604132086
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    136.72990512271238,
+    37.17164001790415,
+    136.80928567053851,
+    37.23513595529017
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:14.005097Z",
+    "updated": "2024-12-17T09:54:14.005097Z",
+    "start_datetime": "2024-01-06T00:59:10Z",
+    "end_datetime": "2024-01-06T00:59:15.675784Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.7632985794123,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599976866855286,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.48014387375758427,
+    "sar:resolution_azimuth": 0.18608138927571607,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 3,
+    "sar:observation_direction": "left",
+    "datetime": "2024-01-06T00:59:10Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-01-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Noto%20Peninsula%20Earthquake/0fe46abc-1653-4d36-8a5a-39b2c339b4e1/2024-01-06-00-59-09_UMBRA-04/2024-01-06-00-59-09_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Noto Peninsula Earthquake/0fe46abc-1653-4d36-8a5a-39b2c339b4e1/2024-01-06-00-59-09_UMBRA-04/2024-01-06-00-59-09_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Noto Peninsula Earthquake/0fe46abc-1653-4d36-8a5a-39b2c339b4e1/2024-01-06-00-59-09_UMBRA-04/2024-01-06-00-59-09_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Noto Peninsula Earthquake/0fe46abc-1653-4d36-8a5a-39b2c339b4e1/2024-01-06-00-59-09_UMBRA-04/2024-01-06-00-59-09_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Noto Peninsula Earthquake/0fe46abc-1653-4d36-8a5a-39b2c339b4e1/2024-01-06-00-59-09_UMBRA-04/2024-01-06-00-59-09_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "fa6bb937-1e29-4c21-96a7-6398fdd1d6c9",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.79494788144191,
+          46.92612253160877,
+          248.63967289227415
+        ],
+        [
+          -96.86057343225714,
+          46.92751685447217,
+          248.640107988098
+        ],
+        [
+          -96.86257961058807,
+          46.88255743494419,
+          248.6401652339277
+        ],
+        [
+          -96.79700884874721,
+          46.88116426628836,
+          248.64011141353964
+        ],
+        [
+          -96.79494788144191,
+          46.92612253160877,
+          248.63967289227415
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.86257961058807,
+    46.88116426628836,
+    -96.79494788144191,
+    46.92751685447217
+  ],
+  "properties": {
+    "created": "2024-12-17T09:49:24.473030Z",
+    "updated": "2024-12-17T09:49:24.473030Z",
+    "start_datetime": "2024-08-31T02:57:01Z",
+    "end_datetime": "2024-08-31T02:57:02.326342Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.725249052626744,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599999185418712,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8325122850222104,
+    "sar:resolution_azimuth": 0.8300581539427991,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-08-31T02:57:01Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-08-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North%20Dakota%20State%20University%20Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/2f507d7a-c982-477b-8c95-0df52e7ee47c/2024-08-31-02-57-00_UMBRA-05/2024-08-31-02-57-00_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

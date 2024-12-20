@@ -1,0 +1,133 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "075183e1-ed54-4f21-ad9e-52cc278ba384",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -105.06304073934093,
+          40.43669405605182,
+          1512.3100194658116
+        ],
+        [
+          -105.12124098146181,
+          40.42969240024054,
+          1512.3089315195805
+        ],
+        [
+          -105.1120654758376,
+          40.38522135781151,
+          1512.3101940373795
+        ],
+        [
+          -105.05390258523674,
+          40.392218460014426,
+          1512.3089339614573
+        ],
+        [
+          -105.06304073934093,
+          40.43669405605182,
+          1512.3100194658116
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -105.12124098146181,
+    40.38522135781151,
+    -105.05390258523674,
+    40.43669405605182
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:02.401902Z",
+    "updated": "2024-12-17T09:54:02.401902Z",
+    "start_datetime": "2024-02-11T04:43:50Z",
+    "end_datetime": "2024-02-11T04:43:54.550431Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_07",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 42.971127300336526,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800001543830149,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.34999999999999976,
+    "sar:resolution_azimuth": 0.35000000000000003,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-02-11T04:43:50Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Loveland_CO/c3931060-348b-4a2d-bae8-86e8a9183352/2024-02-11-04-43-49_UMBRA-07/2024-02-11-04-43-49_UMBRA-07_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Loveland_CO/c3931060-348b-4a2d-bae8-86e8a9183352/2024-02-11-04-43-49_UMBRA-07/2024-02-11-04-43-49_UMBRA-07_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Loveland_CO/c3931060-348b-4a2d-bae8-86e8a9183352/2024-02-11-04-43-49_UMBRA-07/2024-02-11-04-43-49_UMBRA-07_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Loveland_CO/c3931060-348b-4a2d-bae8-86e8a9183352/2024-02-11-04-43-49_UMBRA-07/2024-02-11-04-43-49_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  }
+}

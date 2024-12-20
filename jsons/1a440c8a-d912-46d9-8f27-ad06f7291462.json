@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "1a440c8a-d912-46d9-8f27-ad06f7291462",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -82.70245191908572,
+          41.506636941088175,
+          176.6332926619798
+        ],
+        [
+          -82.70405763054202,
+          41.50230165402948,
+          176.4955642176792
+        ],
+        [
+          -82.70566570084316,
+          41.49796420060208,
+          176.39708243776113
+        ],
+        [
+          -82.70727100887372,
+          41.49362892786,
+          176.33787221182138
+        ],
+        [
+          -82.70887547384613,
+          41.48929076364786,
+          176.3178651733324
+        ],
+        [
+          -82.7104813518441,
+          41.48495295173463,
+          176.3371943924576
+        ],
+        [
+          -82.71208446711093,
+          41.48061729971884,
+          176.3957256199792
+        ],
+        [
+          -82.71368996356655,
+          41.47627945950558,
+          176.4936158573255
+        ],
+        [
+          -82.71529687734106,
+          41.471941958437824,
+          176.63084105961025
+        ],
+        [
+          -82.7095303994089,
+          41.47073570958262,
+          176.49379472248256
+        ],
+        [
+          -82.70376289377076,
+          41.469528998022746,
+          176.39587551169097
+        ],
+        [
+          -82.69799853792175,
+          41.46832001161088,
+          176.33722041733563
+        ],
+        [
+          -82.69223217464616,
+          41.46711309278553,
+          176.31760581117123
+        ],
+        [
+          -82.68646575298123,
+          41.46590317448126,
+          176.33724058419466
+        ],
+        [
+          -82.68070052000245,
+          41.46469604589196,
+          176.39592047128826
+        ],
+        [
+          -82.6749352245588,
+          41.463485914221074,
+          176.49385551270097
+        ],
+        [
+          -82.66917110867057,
+          41.462278573261685,
+          176.63079860527068
+        ],
+        [
+          -82.66756504348588,
+          41.46661553339353,
+          176.49329970311373
+        ],
+        [
+          -82.66595717190165,
+          41.470952107358414,
+          176.39512423612177
+        ],
+        [
+          -82.66434749086203,
+          41.4752883021704,
+          176.3362714117393
+        ],
+        [
+          -82.66273919803432,
+          41.47962484071833,
+          176.31665344536304
+        ],
+        [
+          -82.66113005586949,
+          41.48395846998993,
+          176.336334454827
+        ],
+        [
+          -82.65952133115856,
+          41.4882949937545,
+          176.39525210112333
+        ],
+        [
+          -82.65791399044844,
+          41.492631874371824,
+          176.49340693745762
+        ],
+        [
+          -82.65630482938005,
+          41.49696840414409,
+          176.63088614493608
+        ],
+        [
+          -82.66207134274232,
+          41.498177065704176,
+          176.49417599197477
+        ],
+        [
+          -82.66783906613503,
+          41.49938850561348,
+          176.39666410721838
+        ],
+        [
+          -82.67360670901428,
+          41.5005969290679,
+          176.33822652418166
+        ],
+        [
+          -82.67937652511523,
+          41.50180559092077,
+          176.3189322752878
+        ],
+        [
+          -82.68514531004216,
+          41.5030137801123,
+          176.33879872318357
+        ],
+        [
+          -82.69091306527575,
+          41.50422149713005,
+          176.39780106861144
+        ],
+        [
+          -82.69668300430692,
+          41.505429454590114,
+          176.49598172772676
+        ],
+        [
+          -82.70245191908572,
+          41.506636941088175,
+          176.6332926619798
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -82.71529687734106,
+    41.462278573261685,
+    -82.65630482938005,
+    41.506636941088175
+  ],
+  "properties": {
+    "created": "2024-12-17T08:53:55.999197Z",
+    "updated": "2024-12-17T08:53:55.999197Z",
+    "start_datetime": "2023-02-21T15:55:11.731629Z",
+    "end_datetime": "2023-02-21T15:55:16.159158Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 50.00509964511364,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599937999097165,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3134505260753288,
+    "sar:resolution_azimuth": 0.3167090940303065,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-02-21T15:55:11.731629Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-21"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Cedar%20Point%2C%20OH/1a440c8a-d912-46d9-8f27-ad06f7291462/2023-02-21-15-55-09_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cedar Point, OH/1a440c8a-d912-46d9-8f27-ad06f7291462/2023-02-21-15-55-09_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cedar Point, OH/1a440c8a-d912-46d9-8f27-ad06f7291462/2023-02-21-15-55-09_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cedar Point, OH/1a440c8a-d912-46d9-8f27-ad06f7291462/2023-02-21-15-55-09_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cedar Point, OH/1a440c8a-d912-46d9-8f27-ad06f7291462/2023-02-21-15-55-09_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

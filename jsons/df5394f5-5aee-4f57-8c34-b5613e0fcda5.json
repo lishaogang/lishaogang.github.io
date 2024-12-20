@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "df5394f5-5aee-4f57-8c34-b5613e0fcda5",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.143939655493206,
+          48.540169539894144,
+          398.6217302652076
+        ],
+        [
+          12.149412775637803,
+          48.53752836549107,
+          398.7200721949339
+        ],
+        [
+          12.15489318182475,
+          48.53488751857269,
+          398.8575294772163
+        ],
+        [
+          12.158873400074759,
+          48.53852326534284,
+          398.72044696472585
+        ],
+        [
+          12.162853555946935,
+          48.5421621175891,
+          398.62242206558585
+        ],
+        [
+          12.16683237883708,
+          48.545800700005074,
+          398.5635905917734
+        ],
+        [
+          12.17080988628556,
+          48.54943901376951,
+          398.54393068980426
+        ],
+        [
+          12.174790165903248,
+          48.553075083573084,
+          398.56353744119406
+        ],
+        [
+          12.178774478606217,
+          48.55671228767052,
+          398.6223992733285
+        ],
+        [
+          12.18275344521833,
+          48.56035120220408,
+          398.72030752711
+        ],
+        [
+          12.186735229438943,
+          48.56398787222335,
+          398.85747436992824
+        ],
+        [
+          12.181253691923223,
+          48.566630013093224,
+          398.7203586548567
+        ],
+        [
+          12.175775332143557,
+          48.56927446128495,
+          398.6225406350568
+        ],
+        [
+          12.170293626020372,
+          48.57191643531282,
+          398.563777403906
+        ],
+        [
+          12.164813878991144,
+          48.57455734639852,
+          398.5441859206185
+        ],
+        [
+          12.159327847992483,
+          48.577201146959474,
+          398.5637765796855
+        ],
+        [
+          12.153847880804369,
+          48.57984192271928,
+          398.62250291835517
+        ],
+        [
+          12.148365724644348,
+          48.58248362463666,
+          398.72040514368564
+        ],
+        [
+          12.1428760277954,
+          48.58512483907798,
+          398.8574824463576
+        ],
+        [
+          12.138899414741532,
+          48.58148487211079,
+          398.71979434229434
+        ],
+        [
+          12.134917378620596,
+          48.57784660085513,
+          398.62142901681364
+        ],
+        [
+          12.130939401663484,
+          48.57420947404488,
+          398.56224872823805
+        ],
+        [
+          12.126958923692722,
+          48.57056869086721,
+          398.54221467487514
+        ],
+        [
+          12.122982478593094,
+          48.566929052762944,
+          398.5613531889394
+        ],
+        [
+          12.119010068270681,
+          48.56329055985649,
+          398.6196017805487
+        ],
+        [
+          12.115026809040321,
+          48.55965233343393,
+          398.7173276534304
+        ],
+        [
+          12.111055840228829,
+          48.55601132901708,
+          398.85391648765653
+        ],
+        [
+          12.116535139354868,
+          48.5533720285444,
+          398.71740189008415
+        ],
+        [
+          12.122016339105913,
+          48.55073168277595,
+          398.61997095122933
+        ],
+        [
+          12.127495326804679,
+          48.54809224837858,
+          398.56169998273253
+        ],
+        [
+          12.13297622510169,
+          48.54545175667296,
+          398.54254777450114
+        ],
+        [
+          12.138459029275992,
+          48.5428102001946,
+          398.56256164517254
+        ],
+        [
+          12.143939655493206,
+          48.540169539894144,
+          398.6217302652076
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    12.111055840228829,
+    48.53488751857269,
+    12.186735229438943,
+    48.58512483907798
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:18.466213Z",
+    "updated": "2024-12-17T09:53:18.466213Z",
+    "start_datetime": "2023-07-24T20:21:39Z",
+    "end_datetime": "2023-07-24T20:21:42.865659Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 35.45971304459956,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003184634263,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3974943978125947,
+    "sar:resolution_azimuth": 0.4030839930293697,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-07-24T20:21:39Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-24"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/25-cm%20resolution%20images/BMW%20Plants/Landshut%2C%20Germany/bd8341dd-a188-4621-b9ea-69895fd61336/2023-07-24-20-21-38_UMBRA-04/2023-07-24-20-21-38_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Landshut, Germany/bd8341dd-a188-4621-b9ea-69895fd61336/2023-07-24-20-21-38_UMBRA-04/2023-07-24-20-21-38_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Landshut, Germany/bd8341dd-a188-4621-b9ea-69895fd61336/2023-07-24-20-21-38_UMBRA-04/2023-07-24-20-21-38_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Landshut, Germany/bd8341dd-a188-4621-b9ea-69895fd61336/2023-07-24-20-21-38_UMBRA-04/2023-07-24-20-21-38_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Landshut, Germany/bd8341dd-a188-4621-b9ea-69895fd61336/2023-07-24-20-21-38_UMBRA-04/2023-07-24-20-21-38_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

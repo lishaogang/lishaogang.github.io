@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "10794b12-d2a7-45b9-a104-90732b7cc829",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.03103466799301,
+          12.679236305851424,
+          1656.6855283947662
+        ],
+        [
+          -87.02681277607776,
+          12.674403572285321,
+          1656.7258883127943
+        ],
+        [
+          -87.02259086459475,
+          12.669570317484549,
+          1656.8443540195003
+        ],
+        [
+          -87.018368920854,
+          12.66473652306807,
+          1657.0409433981404
+        ],
+        [
+          -87.01414693229064,
+          12.659902170612545,
+          1657.315675424412
+        ],
+        [
+          -87.00739067204643,
+          12.665594773311861,
+          1656.7995118713006
+        ],
+        [
+          -87.00062982532268,
+          12.67128347410722,
+          1656.4306430881843
+        ],
+        [
+          -86.99387279479662,
+          12.67697370443991,
+          1656.2086869254708
+        ],
+        [
+          -86.98711478822578,
+          12.682664349587695,
+          1656.1337363859639
+        ],
+        [
+          -86.98035389758783,
+          12.688353242673092,
+          1656.205976717174
+        ],
+        [
+          -86.97359380295208,
+          12.694044714377815,
+          1656.4251792486757
+        ],
+        [
+          -86.96683359021823,
+          12.699733386576344,
+          1656.7914799498394
+        ],
+        [
+          -86.96007220934831,
+          12.705422467938854,
+          1657.304891942069
+        ],
+        [
+          -86.96429435853727,
+          12.710257671982585,
+          1657.0328350048512
+        ],
+        [
+          -86.96851448925099,
+          12.715090173948637,
+          1656.8389802882448
+        ],
+        [
+          -86.97273636876302,
+          12.719924334609072,
+          1656.7231360813603
+        ],
+        [
+          -86.97695813488303,
+          12.724758000467068,
+          1656.6853864612058
+        ],
+        [
+          -86.98117884096995,
+          12.729594408762607,
+          1656.7259255396202
+        ],
+        [
+          -86.98540042302132,
+          12.734427140510112,
+          1656.8443348761648
+        ],
+        [
+          -86.98962383969372,
+          12.739261597109508,
+          1657.040893400088
+        ],
+        [
+          -86.99384242963141,
+          12.744094522945195,
+          1657.3155509876087
+        ],
+        [
+          -87.0006040270942,
+          12.73840454322723,
+          1656.799500592053
+        ],
+        [
+          -87.00736444397297,
+          12.732714961828599,
+          1656.4305498721078
+        ],
+        [
+          -87.01412469034526,
+          12.72702256371626,
+          1656.2085105041042
+        ],
+        [
+          -87.02088576924538,
+          12.721332724458819,
+          1656.133706567809
+        ],
+        [
+          -87.02764390589658,
+          12.715641131527498,
+          1656.2058117929846
+        ],
+        [
+          -87.03440296219841,
+          12.709952094081393,
+          1656.4250625818968
+        ],
+        [
+          -87.04116206952018,
+          12.704260248523347,
+          1656.791331670247
+        ],
+        [
+          -87.04792029383697,
+          12.698568807026067,
+          1657.304622007534
+        ],
+        [
+          -87.0436993478391,
+          12.69373476806181,
+          1657.0327958567068
+        ],
+        [
+          -87.03947743213594,
+          12.688903487523248,
+          1656.8389123566449
+        ],
+        [
+          -87.0352536516733,
+          12.684069590192244,
+          1656.7230532234535
+        ],
+        [
+          -87.03103466799301,
+          12.679236305851424,
+          1656.6855283947662
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.04792029383697,
+    12.659902170612545,
+    -86.96007220934831,
+    12.744094522945195
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:47.676204Z",
+    "updated": "2024-12-17T09:52:47.676204Z",
+    "start_datetime": "2023-11-09T03:23:09Z",
+    "end_datetime": "2023-11-09T03:23:13.678274Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.427189366670866,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.7999774874188,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.27983716545398746,
+    "sar:resolution_azimuth": 0.2746142891513816,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-09T03:23:09Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/San%20Cristobal%2C%20Nicaragua/5cca91b1-12aa-4802-ab8a-d2fb12cc220f/2023-11-09-03-23-08_UMBRA-04/2023-11-09-03-23-08_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/San Cristobal, Nicaragua/5cca91b1-12aa-4802-ab8a-d2fb12cc220f/2023-11-09-03-23-08_UMBRA-04/2023-11-09-03-23-08_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/San Cristobal, Nicaragua/5cca91b1-12aa-4802-ab8a-d2fb12cc220f/2023-11-09-03-23-08_UMBRA-04/2023-11-09-03-23-08_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/San Cristobal, Nicaragua/5cca91b1-12aa-4802-ab8a-d2fb12cc220f/2023-11-09-03-23-08_UMBRA-04/2023-11-09-03-23-08_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/San Cristobal, Nicaragua/5cca91b1-12aa-4802-ab8a-d2fb12cc220f/2023-11-09-03-23-08_UMBRA-04/2023-11-09-03-23-08_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

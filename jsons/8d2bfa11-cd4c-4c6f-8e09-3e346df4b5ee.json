@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "8d2bfa11-cd4c-4c6f-8e09-3e346df4b5ee",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -93.73150683327407,
+          41.69762347079435,
+          253.97315829992294
+        ],
+        [
+          -93.7366550496819,
+          41.69530698411442,
+          254.0313793811947
+        ],
+        [
+          -93.74180534588228,
+          41.69298933996374,
+          254.12881518155336
+        ],
+        [
+          -93.74695774030631,
+          41.69067053700148,
+          254.26551992166787
+        ],
+        [
+          -93.7438639484028,
+          41.68681235830582,
+          254.12812713347375
+        ],
+        [
+          -93.74077760708442,
+          41.68295377920301,
+          254.03018395602703
+        ],
+        [
+          -93.7376762840956,
+          41.6790943316634,
+          253.9710547812283
+        ],
+        [
+          -93.73459360209235,
+          41.67523471586582,
+          253.95165015012026
+        ],
+        [
+          -93.73150177021078,
+          41.67137685916546,
+          253.97121166344732
+        ],
+        [
+          -93.72841150763612,
+          41.6675159755592,
+          254.03011848591268
+        ],
+        [
+          -93.72532327714767,
+          41.66365708414273,
+          254.1282278308645
+        ],
+        [
+          -93.72223123674493,
+          41.659797561484325,
+          254.2655496560037
+        ],
+        [
+          -93.71708167243278,
+          41.66211477358874,
+          254.1283963052556
+        ],
+        [
+          -93.71193417961958,
+          41.66443081520761,
+          254.03048325888813
+        ],
+        [
+          -93.70678874006857,
+          41.66674568769166,
+          253.97175703197718
+        ],
+        [
+          -93.70163999867563,
+          41.66906179576066,
+          253.95216449536383
+        ],
+        [
+          -93.6964932905626,
+          41.671376740449716,
+          253.97173395380378
+        ],
+        [
+          -93.69134327696017,
+          41.67369292951199,
+          254.03049365337938
+        ],
+        [
+          -93.6861952767727,
+          41.67600796098647,
+          254.12839146330953
+        ],
+        [
+          -93.68104396749179,
+          41.67832424565377,
+          254.2655366975814
+        ],
+        [
+          -93.68413323921857,
+          41.682185400079284,
+          254.12865217681974
+        ],
+        [
+          -93.6872187360913,
+          41.68604592874602,
+          254.03114636894315
+        ],
+        [
+          -93.69031158233544,
+          41.68990603463813,
+          253.972681440413
+        ],
+        [
+          -93.69340066790343,
+          41.693765514340704,
+          253.95356485340744
+        ],
+        [
+          -93.6964859962266,
+          41.69762436650652,
+          253.97374279703945
+        ],
+        [
+          -93.69957341261028,
+          41.701485200754156,
+          254.033156148158
+        ],
+        [
+          -93.7026682263994,
+          41.70534561391458,
+          254.131705946289
+        ],
+        [
+          -93.70575402779109,
+          41.70920779918269,
+          254.26970750279725
+        ],
+        [
+          -93.71090793365747,
+          41.70688986828784,
+          254.13196333311498
+        ],
+        [
+          -93.71605857564565,
+          41.704573194004865,
+          254.03349314723164
+        ],
+        [
+          -93.72120594750656,
+          41.70225777040447,
+          253.97422813158482
+        ],
+        [
+          -93.72635536063294,
+          41.699941196460045,
+          253.95409880951047
+        ],
+        [
+          -93.73150683327407,
+          41.69762347079435,
+          253.97315829992294
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -93.74695774030631,
+    41.659797561484325,
+    -93.68104396749179,
+    41.70920779918269
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:04.147666Z",
+    "updated": "2024-12-17T09:48:04.147666Z",
+    "start_datetime": "2023-08-05T16:27:42Z",
+    "end_datetime": "2023-08-05T16:27:45.117794Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 43.58145234574422,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003181491047,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5552827517919441,
+    "sar:resolution_azimuth": 0.5657859152783109,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-08-05T16:27:42Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston%2C%20Iowa%20Farm/53d1ab75-5438-4cc0-97e7-70a0ce861698/2023-08-05-16-27-41_UMBRA-05/2023-08-05-16-27-41_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston, Iowa Farm/53d1ab75-5438-4cc0-97e7-70a0ce861698/2023-08-05-16-27-41_UMBRA-05/2023-08-05-16-27-41_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston, Iowa Farm/53d1ab75-5438-4cc0-97e7-70a0ce861698/2023-08-05-16-27-41_UMBRA-05/2023-08-05-16-27-41_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston, Iowa Farm/53d1ab75-5438-4cc0-97e7-70a0ce861698/2023-08-05-16-27-41_UMBRA-05/2023-08-05-16-27-41_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston, Iowa Farm/53d1ab75-5438-4cc0-97e7-70a0ce861698/2023-08-05-16-27-41_UMBRA-05/2023-08-05-16-27-41_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

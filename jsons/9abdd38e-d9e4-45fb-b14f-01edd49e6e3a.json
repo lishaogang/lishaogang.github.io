@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "9abdd38e-d9e4-45fb-b14f-01edd49e6e3a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.68813685080907,
+          12.325364388111158,
+          253.21424315683544
+        ],
+        [
+          -85.69237983133392,
+          12.332134066095161,
+          253.27719835937023
+        ],
+        [
+          -85.69661746524929,
+          12.3389034626778,
+          253.46235941909254
+        ],
+        [
+          -85.70085754474952,
+          12.345669515676805,
+          253.76889543235302
+        ],
+        [
+          -85.70510045136892,
+          12.35244065010735,
+          254.19756598956883
+        ],
+        [
+          -85.71556928017111,
+          12.346096952506613,
+          253.21219425927848
+        ],
+        [
+          -85.72603920410826,
+          12.339756611803192,
+          252.50803537201136
+        ],
+        [
+          -85.73650604908083,
+          12.333412769192432,
+          252.0845513753593
+        ],
+        [
+          -85.7469681402126,
+          12.32707040158843,
+          251.94191351532936
+        ],
+        [
+          -85.75743926742093,
+          12.320728362751359,
+          252.08046110346913
+        ],
+        [
+          -85.76790364718684,
+          12.314384373043831,
+          252.49955001752824
+        ],
+        [
+          -85.77836733895307,
+          12.30804035275281,
+          253.19944703765213
+        ],
+        [
+          -85.78883040936357,
+          12.301696312111009,
+          254.18013521190733
+        ],
+        [
+          -85.78458907888525,
+          12.294932071811173,
+          253.7560547348112
+        ],
+        [
+          -85.78034431507237,
+          12.288162547938011,
+          253.45346935652196
+        ],
+        [
+          -85.776106393386,
+          12.28139655398776,
+          253.27323182672262
+        ],
+        [
+          -85.77186330759568,
+          12.274630226955127,
+          253.21430163737386
+        ],
+        [
+          -85.76761887055638,
+          12.267862000100996,
+          253.27717953920364
+        ],
+        [
+          -85.76337907203546,
+          12.261093749361251,
+          253.4622043557465
+        ],
+        [
+          -85.7591362261314,
+          12.254328552278356,
+          253.76858317106962
+        ],
+        [
+          -85.7548958044876,
+          12.247559814242864,
+          254.19719116948545
+        ],
+        [
+          -85.74443466282932,
+          12.253903500559561,
+          253.2120802719146
+        ],
+        [
+          -85.73396695011239,
+          12.26024540861339,
+          252.50781863741577
+        ],
+        [
+          -85.72350247998075,
+          12.266585858034956,
+          252.0845700604841
+        ],
+        [
+          -85.71303952549974,
+          12.272929834259266,
+          251.941871246323
+        ],
+        [
+          -85.702573651552,
+          12.279270453838613,
+          252.0802501225844
+        ],
+        [
+          -85.6921069743483,
+          12.285611145756508,
+          252.49949489720166
+        ],
+        [
+          -85.68164329631173,
+          12.291950338554363,
+          253.19932384695858
+        ],
+        [
+          -85.67117480980568,
+          12.298291145760446,
+          254.1803345941007
+        ],
+        [
+          -85.67541352321669,
+          12.305059691713781,
+          253.75625164620578
+        ],
+        [
+          -85.67965672763681,
+          12.311828162915637,
+          253.4535566503182
+        ],
+        [
+          -85.68389452653803,
+          12.31859628184767,
+          253.27318664547056
+        ],
+        [
+          -85.68813685080907,
+          12.325364388111158,
+          253.21424315683544
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.78883040936357,
+    12.247559814242864,
+    -85.67117480980568,
+    12.35244065010735
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:40.553302Z",
+    "updated": "2024-12-17T09:52:40.553302Z",
+    "start_datetime": "2023-10-31T02:49:18Z",
+    "end_datetime": "2023-10-31T02:49:21.338272Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 48.814500538069886,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599975792923944,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.351360212758679,
+    "sar:resolution_azimuth": 0.4236072597485124,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-31T02:49:18Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/LAS%20LAJAS%2C%20Nicaragua/b68bf751-4055-4ad7-b587-13fee40736d3/2023-10-31-02-49-17_UMBRA-04/2023-10-31-02-49-17_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/LAS LAJAS, Nicaragua/b68bf751-4055-4ad7-b587-13fee40736d3/2023-10-31-02-49-17_UMBRA-04/2023-10-31-02-49-17_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/LAS LAJAS, Nicaragua/b68bf751-4055-4ad7-b587-13fee40736d3/2023-10-31-02-49-17_UMBRA-04/2023-10-31-02-49-17_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/LAS LAJAS, Nicaragua/b68bf751-4055-4ad7-b587-13fee40736d3/2023-10-31-02-49-17_UMBRA-04/2023-10-31-02-49-17_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/LAS LAJAS, Nicaragua/b68bf751-4055-4ad7-b587-13fee40736d3/2023-10-31-02-49-17_UMBRA-04/2023-10-31-02-49-17_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

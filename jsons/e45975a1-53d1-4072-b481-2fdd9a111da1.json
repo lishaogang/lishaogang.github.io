@@ -1,0 +1,142 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e45975a1-53d1-4072-b481-2fdd9a111da1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -95.3431288451592,
+          29.783166304408947,
+          -13.418083177712813
+        ],
+        [
+          -95.39431773330351,
+          29.776785269918896,
+          -13.419414256363973
+        ],
+        [
+          -95.38699506346097,
+          29.73213190908177,
+          -13.417957860134637
+        ],
+        [
+          -95.33582840108787,
+          29.738510158354384,
+          -13.419412065908446
+        ],
+        [
+          -95.3431288451592,
+          29.783166304408947,
+          -13.418083177712813
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -95.39431773330351,
+    29.73213190908177,
+    -95.33582840108787,
+    29.783166304408947
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:52.691157Z",
+    "updated": "2024-12-17T09:53:52.691157Z",
+    "start_datetime": "2024-10-30T16:10:34Z",
+    "end_datetime": "2024-10-30T16:10:57.517385Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 36.57511224393903,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799940069206059,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.17852711338608318,
+    "sar:resolution_azimuth": 0.03359103087344484,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 5,
+    "sar:observation_direction": "left",
+    "datetime": "2024-10-30T16:10:34Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-10-30"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Houston_TX/8f28779a-7cfa-412d-9856-4d4d08079198/2024-10-30-16-10-33_UMBRA-06/2024-10-30-16-10-33_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Houston_TX/8f28779a-7cfa-412d-9856-4d4d08079198/2024-10-30-16-10-33_UMBRA-06/2024-10-30-16-10-33_UMBRA-06_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Houston_TX/8f28779a-7cfa-412d-9856-4d4d08079198/2024-10-30-16-10-33_UMBRA-06/2024-10-30-16-10-33_UMBRA-06_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Houston_TX/8f28779a-7cfa-412d-9856-4d4d08079198/2024-10-30-16-10-33_UMBRA-06/2024-10-30-16-10-33_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Houston_TX/8f28779a-7cfa-412d-9856-4d4d08079198/2024-10-30-16-10-33_UMBRA-06/2024-10-30-16-10-33_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

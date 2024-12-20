@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "59e740ee-4267-4106-b17a-691760c2f3df",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          73.69750639310615,
+          21.85379764190088,
+          52.18869664333761
+        ],
+        [
+          73.69808390295002,
+          21.84931229766317,
+          52.050871453247964
+        ],
+        [
+          73.69865688062603,
+          21.844830543139793,
+          51.95268565509468
+        ],
+        [
+          73.69923173858943,
+          21.840346707209335,
+          51.893795067444444
+        ],
+        [
+          73.69980815483531,
+          21.83586348252908,
+          51.874258348718286
+        ],
+        [
+          73.7003832507812,
+          21.831380998237226,
+          51.894152231514454
+        ],
+        [
+          73.70096022123319,
+          21.82689641352532,
+          51.953418189659715
+        ],
+        [
+          73.70153299178823,
+          21.822412698713332,
+          52.05220438167453
+        ],
+        [
+          73.70211020542924,
+          21.817929430481595,
+          52.190247951075435
+        ],
+        [
+          73.70691070999652,
+          21.818467454690268,
+          52.053106038831174
+        ],
+        [
+          73.71171264695472,
+          21.81900364403097,
+          51.955175877548754
+        ],
+        [
+          73.7165128345311,
+          21.819540835508857,
+          51.89639782998711
+        ],
+        [
+          73.72131445928031,
+          21.820076186598772,
+          51.87684327736497
+        ],
+        [
+          73.7261172158166,
+          21.820612397220042,
+          51.89644628111273
+        ],
+        [
+          73.73091823175223,
+          21.821149606368238,
+          51.95517452340573
+        ],
+        [
+          73.73572069087929,
+          21.821684968554518,
+          52.05316766630858
+        ],
+        [
+          73.740521415953,
+          21.822221325725277,
+          52.19025306031108
+        ],
+        [
+          73.73994784075293,
+          21.82670606401903,
+          52.05234939418733
+        ],
+        [
+          73.7393732776442,
+          21.831188817943968,
+          51.9538602726534
+        ],
+        [
+          73.73880028906562,
+          21.83567216524853,
+          51.89481022208929
+        ],
+        [
+          73.73822600006375,
+          21.84015624706692,
+          51.87511813174933
+        ],
+        [
+          73.73765360060621,
+          21.844638225460493,
+          51.89487017598003
+        ],
+        [
+          73.73707670452009,
+          21.849123790076252,
+          51.95393496286124
+        ],
+        [
+          73.73650457148065,
+          21.853607131911925,
+          52.052515116520226
+        ],
+        [
+          73.73592825790655,
+          21.8580913577651,
+          52.19040607847273
+        ],
+        [
+          73.73112672205968,
+          21.857553444040295,
+          52.053027944639325
+        ],
+        [
+          73.72632344436927,
+          21.85701651107737,
+          51.95483068283647
+        ],
+        [
+          73.72152129791033,
+          21.85648043036253,
+          51.89586123358458
+        ],
+        [
+          73.71671740319803,
+          21.855945331273322,
+          51.87610557768494
+        ],
+        [
+          73.71191496217587,
+          21.85540837929111,
+          51.895470024086535
+        ],
+        [
+          73.70711364660932,
+          21.85487228212892,
+          51.954020413570106
+        ],
+        [
+          73.70231090062906,
+          21.854334467634356,
+          52.05171771068126
+        ],
+        [
+          73.69750639310615,
+          21.85379764190088,
+          52.18869664333761
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    73.69750639310615,
+    21.817929430481595,
+    73.740521415953,
+    21.8580913577651
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:58.441225Z",
+    "updated": "2024-12-17T08:54:58.441225Z",
+    "start_datetime": "2023-02-20T05:08:57.733920Z",
+    "end_datetime": "2023-02-20T05:09:02.316404Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 50.32805478391022,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600010154710617,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3246696100789745,
+    "sar:resolution_azimuth": 0.32639594346438366,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-02-20T05:08:57.733920Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-20"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Statue%20of%20Unity%2C%20India/59e740ee-4267-4106-b17a-691760c2f3df/2023-02-20-05-08-55_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Statue of Unity, India/59e740ee-4267-4106-b17a-691760c2f3df/2023-02-20-05-08-55_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Statue of Unity, India/59e740ee-4267-4106-b17a-691760c2f3df/2023-02-20-05-08-55_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Statue of Unity, India/59e740ee-4267-4106-b17a-691760c2f3df/2023-02-20-05-08-55_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Statue of Unity, India/59e740ee-4267-4106-b17a-691760c2f3df/2023-02-20-05-08-55_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

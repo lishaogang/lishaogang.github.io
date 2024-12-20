@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e9d04825-8e3a-4566-a52d-75bb4aa61cc6",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.58916640713205,
+          11.552903131591204,
+          1597.3273763228208
+        ],
+        [
+          -85.59556896147356,
+          11.554877078859569,
+          1597.0339444354177
+        ],
+        [
+          -85.60197014206877,
+          11.556850755895455,
+          1596.8245660103858
+        ],
+        [
+          -85.60836999908648,
+          11.558824160531856,
+          1596.6991857597604
+        ],
+        [
+          -85.61477227383024,
+          11.560800878998966,
+          1596.657858964987
+        ],
+        [
+          -85.62117456141559,
+          11.562772963147266,
+          1596.7003320176154
+        ],
+        [
+          -85.62757563601399,
+          11.564744777748045,
+          1596.8267634892836
+        ],
+        [
+          -85.63397426732908,
+          11.566720695975244,
+          1597.037320299074
+        ],
+        [
+          -85.64037667454159,
+          11.568695582190568,
+          1597.3318690508604
+        ],
+        [
+          -85.64218514535875,
+          11.562995620592064,
+          1597.0904168980196
+        ],
+        [
+          -85.64399527113926,
+          11.55729216567,
+          1596.9177495576441
+        ],
+        [
+          -85.64579969422854,
+          11.551594696397842,
+          1596.8139215400442
+        ],
+        [
+          -85.64760578510047,
+          11.545893686164472,
+          1596.7788847414777
+        ],
+        [
+          -85.64941231718619,
+          11.540193477527264,
+          1596.812728928402
+        ],
+        [
+          -85.65121930599601,
+          11.534494043226866,
+          1596.9154334384948
+        ],
+        [
+          -85.65302676666009,
+          11.528795356079545,
+          1597.0869790101424
+        ],
+        [
+          -85.65483584835037,
+          11.523093040307536,
+          1597.3275424493477
+        ],
+        [
+          -85.64843279266915,
+          11.52112124338906,
+          1597.0340142082423
+        ],
+        [
+          -85.64203346507753,
+          11.519148360860047,
+          1596.8246726701036
+        ],
+        [
+          -85.63563298858264,
+          11.517175157487793,
+          1596.699243441224
+        ],
+        [
+          -85.62923131592393,
+          11.51520163493371,
+          1596.6577722337097
+        ],
+        [
+          -85.62282839917165,
+          11.513227794952643,
+          1596.7003070041537
+        ],
+        [
+          -85.61642912447651,
+          11.5112528504465,
+          1596.8268873970956
+        ],
+        [
+          -85.61002741929141,
+          11.509281916991593,
+          1597.0372491097078
+        ],
+        [
+          -85.60363045480437,
+          11.507305529686992,
+          1597.331750119105
+        ],
+        [
+          -85.60182217978297,
+          11.51300502589229,
+          1597.0903090480715
+        ],
+        [
+          -85.60001432559201,
+          11.518705218840596,
+          1596.917655389756
+        ],
+        [
+          -85.5982068772663,
+          11.52440613577143,
+          1596.8138075107709
+        ],
+        [
+          -85.59639601044185,
+          11.530104256297488,
+          1596.7790212752298
+        ],
+        [
+          -85.5945905523781,
+          11.535802350205453,
+          1596.8127753669396
+        ],
+        [
+          -85.59278549036546,
+          11.54150124289341,
+          1596.915292751044
+        ],
+        [
+          -85.5909757761142,
+          11.547201760213172,
+          1597.0869023744017
+        ],
+        [
+          -85.58916640713205,
+          11.552903131591204,
+          1597.3273763228208
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.65483584835037,
+    11.507305529686992,
+    -85.58916640713205,
+    11.568695582190568
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:35.759576Z",
+    "updated": "2024-12-17T09:53:35.759576Z",
+    "start_datetime": "2023-10-21T03:00:57Z",
+    "end_datetime": "2023-10-21T03:00:59Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 19.419676855405314,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799988906364888,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5560082134897172,
+    "sar:resolution_azimuth": 0.5400949869726928,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-21T03:00:57Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-21"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Concepcion%2C%20Nicaragua/a1e8134b-562b-40a2-b991-bfbf892293ce/2023-10-21-03-00-56_UMBRA-05/2023-10-21-03-00-56_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Concepcion, Nicaragua/a1e8134b-562b-40a2-b991-bfbf892293ce/2023-10-21-03-00-56_UMBRA-05/2023-10-21-03-00-56_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Concepcion, Nicaragua/a1e8134b-562b-40a2-b991-bfbf892293ce/2023-10-21-03-00-56_UMBRA-05/2023-10-21-03-00-56_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Concepcion, Nicaragua/a1e8134b-562b-40a2-b991-bfbf892293ce/2023-10-21-03-00-56_UMBRA-05/2023-10-21-03-00-56_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Concepcion, Nicaragua/a1e8134b-562b-40a2-b991-bfbf892293ce/2023-10-21-03-00-56_UMBRA-05/2023-10-21-03-00-56_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

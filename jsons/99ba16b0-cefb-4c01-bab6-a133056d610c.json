@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "99ba16b0-cefb-4c01-bab6-a133056d610c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          169.45384891613472,
+          -19.551633646334754,
+          173.7882954067776
+        ],
+        [
+          169.4879993451239,
+          -19.52013375859274,
+          173.7826794019597
+        ],
+        [
+          169.45478062179612,
+          -19.487756616169534,
+          173.78879047836477
+        ],
+        [
+          169.42063055884935,
+          -19.519250343873974,
+          173.78267947268546
+        ],
+        [
+          169.45384891613472,
+          -19.551633646334754,
+          173.7882954067776
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    169.42063055884935,
+    -19.551633646334754,
+    169.4879993451239,
+    -19.487756616169534
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:49.535270Z",
+    "updated": "2024-12-17T09:51:49.535270Z",
+    "start_datetime": "2024-07-12T10:18:03Z",
+    "end_datetime": "2024-07-12T10:18:04.526645Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.526253380016456,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600000723497942,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8219357670116905,
+    "sar:resolution_azimuth": 0.8208664125148271,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-07-12T10:18:03Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-07-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna%20Island%2C%20Vanuatu/f852d9c6-d3f2-4a8c-bcfc-28bb83a2fa67/2024-07-12-10-18-02_UMBRA-05/2024-07-12-10-18-02_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/f852d9c6-d3f2-4a8c-bcfc-28bb83a2fa67/2024-07-12-10-18-02_UMBRA-05/2024-07-12-10-18-02_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/f852d9c6-d3f2-4a8c-bcfc-28bb83a2fa67/2024-07-12-10-18-02_UMBRA-05/2024-07-12-10-18-02_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/f852d9c6-d3f2-4a8c-bcfc-28bb83a2fa67/2024-07-12-10-18-02_UMBRA-05/2024-07-12-10-18-02_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/f852d9c6-d3f2-4a8c-bcfc-28bb83a2fa67/2024-07-12-10-18-02_UMBRA-05/2024-07-12-10-18-02_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna Island, Vanuatu/f852d9c6-d3f2-4a8c-bcfc-28bb83a2fa67/2024-07-12-10-18-02_UMBRA-05/2024-07-12-10-18-02_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

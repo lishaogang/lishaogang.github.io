@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b23d2e84-621e-4ddb-ba85-2962dc2892b1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.56643639841566,
+          -38.35593421814483,
+          2801.0336316270827
+        ],
+        [
+          -71.62259214130279,
+          -38.364447078684506,
+          2801.0322126570923
+        ],
+        [
+          -71.61179029422104,
+          -38.40866446643323,
+          2801.033800365997
+        ],
+        [
+          -71.5556016259517,
+          -38.4001464866779,
+          2801.0322109939325
+        ],
+        [
+          -71.56643639841566,
+          -38.35593421814483,
+          2801.0336316270827
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -71.62259214130279,
+    -38.40866446643323,
+    -71.5556016259517,
+    -38.35593421814483
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:41.927771Z",
+    "updated": "2024-12-17T09:52:41.927771Z",
+    "start_datetime": "2024-06-07T13:55:58Z",
+    "end_datetime": "2024-06-07T13:56:21.056345Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.050543806590674,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799996984074824,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2763774183120021,
+    "sar:resolution_azimuth": 0.04246549838615643,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 5,
+    "sar:observation_direction": "right",
+    "datetime": "2024-06-07T13:55:58Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-06-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Malalcahuello%2C%20Curacaut%C3%ADn%2C%20Araucan%C3%ADa%2C%20Chile/713eea4e-9d45-49d0-87f5-821d6d177c30/2024-06-07-13-55-57_UMBRA-04/2024-06-07-13-55-57_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Malalcahuello, Curacautín, Araucanía, Chile/713eea4e-9d45-49d0-87f5-821d6d177c30/2024-06-07-13-55-57_UMBRA-04/2024-06-07-13-55-57_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Malalcahuello, Curacautín, Araucanía, Chile/713eea4e-9d45-49d0-87f5-821d6d177c30/2024-06-07-13-55-57_UMBRA-04/2024-06-07-13-55-57_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "19e43262-77f9-4bb4-9c60-d8d69d63806d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -82.71315238110256,
+          40.14961951257317,
+          322.8729474135902
+        ],
+        [
+          -82.75257756583339,
+          40.11627172804777,
+          322.8691962873581
+        ],
+        [
+          -82.70915235706723,
+          40.086009508649575,
+          322.8731229453777
+        ],
+        [
+          -82.66972344512916,
+          40.11934268460393,
+          322.8691960826539
+        ],
+        [
+          -82.71315238110256,
+          40.14961951257317,
+          322.8729474135902
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -82.75257756583339,
+    40.086009508649575,
+    -82.66972344512916,
+    40.14961951257317
+  ],
+  "properties": {
+    "created": "2024-12-17T09:47:54.011321Z",
+    "updated": "2024-12-17T09:47:54.011321Z",
+    "start_datetime": "2024-05-25T15:05:58Z",
+    "end_datetime": "2024-05-25T15:06:02.080415Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 26.456867850216973,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799990274361337,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3013881861133684,
+    "sar:resolution_azimuth": 0.275253684698844,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-05-25T15:05:58Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel%20Ohio%20One/471f6232-61ef-487c-beb8-7186c300d5af/2024-05-25-15-05-57_UMBRA-06/2024-05-25-15-05-57_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel Ohio One/471f6232-61ef-487c-beb8-7186c300d5af/2024-05-25-15-05-57_UMBRA-06/2024-05-25-15-05-57_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel Ohio One/471f6232-61ef-487c-beb8-7186c300d5af/2024-05-25-15-05-57_UMBRA-06/2024-05-25-15-05-57_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel Ohio One/471f6232-61ef-487c-beb8-7186c300d5af/2024-05-25-15-05-57_UMBRA-06/2024-05-25-15-05-57_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel Ohio One/471f6232-61ef-487c-beb8-7186c300d5af/2024-05-25-15-05-57_UMBRA-06/2024-05-25-15-05-57_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

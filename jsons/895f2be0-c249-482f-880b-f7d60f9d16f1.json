@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "895f2be0-c249-482f-880b-f7d60f9d16f1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.37609844642387,
+          -12.462816623688338,
+          248.78840706218034
+        ],
+        [
+          -69.37227076705058,
+          -12.465319009405928,
+          248.65147352032363
+        ],
+        [
+          -69.36844202999383,
+          -12.46782467856301,
+          248.5538079859689
+        ],
+        [
+          -69.3646112996641,
+          -12.47032761588973,
+          248.49530977383256
+        ],
+        [
+          -69.36078421140938,
+          -12.472830576048054,
+          248.47616736404598
+        ],
+        [
+          -69.35695323994271,
+          -12.475335458811001,
+          248.49627849459648
+        ],
+        [
+          -69.35312541562116,
+          -12.477837360351929,
+          248.55559597536922
+        ],
+        [
+          -69.34929652560608,
+          -12.480342566377772,
+          248.65429277345538
+        ],
+        [
+          -69.34546560498738,
+          -12.482845064879683,
+          248.79215690400451
+        ],
+        [
+          -69.34291795867198,
+          -12.479082841390424,
+          248.6539498269558
+        ],
+        [
+          -69.34037094167925,
+          -12.475320172632127,
+          248.5550718298182
+        ],
+        [
+          -69.33782454732894,
+          -12.471557058686546,
+          248.4955243691802
+        ],
+        [
+          -69.33527876895532,
+          -12.467793499641894,
+          248.4753090320155
+        ],
+        [
+          -69.33272845796104,
+          -12.46402976895688,
+          248.49460099451244
+        ],
+        [
+          -69.33018155399331,
+          -12.460266964268385,
+          248.55317370966077
+        ],
+        [
+          -69.32763524356521,
+          -12.456503716279798,
+          248.65108230803162
+        ],
+        [
+          -69.32508717843504,
+          -12.452741670145407,
+          248.78842351492494
+        ],
+        [
+          -69.32891580226269,
+          -12.450238266556383,
+          248.65147505700588
+        ],
+        [
+          -69.33274800208646,
+          -12.447734885351274,
+          248.55366611015052
+        ],
+        [
+          -69.33657348846954,
+          -12.445232065876398,
+          248.49532741494477
+        ],
+        [
+          -69.34040256260971,
+          -12.442729261431014,
+          248.4761301316321
+        ],
+        [
+          -69.34423243946341,
+          -12.44022509705783,
+          248.49623059947044
+        ],
+        [
+          -69.34806076612026,
+          -12.437721209585831,
+          248.55561405047774
+        ],
+        [
+          -69.35189034683012,
+          -12.435218971004062,
+          248.65419122111052
+        ],
+        [
+          -69.35571795069285,
+          -12.432713983289823,
+          248.79214783385396
+        ],
+        [
+          -69.35826604005766,
+          -12.436478598345012,
+          248.6538445688784
+        ],
+        [
+          -69.36081428482812,
+          -12.44023975938986,
+          248.55505593307316
+        ],
+        [
+          -69.36336075184985,
+          -12.444002119351074,
+          248.4955388335511
+        ],
+        [
+          -69.36590826732338,
+          -12.447767054634488,
+          248.47534730751067
+        ],
+        [
+          -69.36845594873583,
+          -12.451528536399163,
+          248.49459538701922
+        ],
+        [
+          -69.37100187881185,
+          -12.455291213045104,
+          248.55311480537057
+        ],
+        [
+          -69.37355125766172,
+          -12.459054827986517,
+          248.65112686809152
+        ],
+        [
+          -69.37609844642387,
+          -12.462816623688338,
+          248.78840706218034
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -69.37609844642387,
+    -12.482845064879683,
+    -69.32508717843504,
+    -12.432713983289823
+  ],
+  "properties": {
+    "created": "2024-12-17T09:50:22.540862Z",
+    "updated": "2024-12-17T09:50:22.540862Z",
+    "start_datetime": "2023-10-03T02:25:23Z",
+    "end_datetime": "2023-10-03T02:25:28Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 42.14925786426715,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599976530182175,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3353882805048335,
+    "sar:resolution_azimuth": 0.3396270575277229,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-10-03T02:25:23Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-03"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto%20Maldonado%2C%20Peru/748d7084-c258-4be3-be8e-b81a2f67d437/2023-10-03-02-25-22_UMBRA-05/2023-10-03-02-25-22_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/748d7084-c258-4be3-be8e-b81a2f67d437/2023-10-03-02-25-22_UMBRA-05/2023-10-03-02-25-22_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/748d7084-c258-4be3-be8e-b81a2f67d437/2023-10-03-02-25-22_UMBRA-05/2023-10-03-02-25-22_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/748d7084-c258-4be3-be8e-b81a2f67d437/2023-10-03-02-25-22_UMBRA-05/2023-10-03-02-25-22_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto Maldonado, Peru/748d7084-c258-4be3-be8e-b81a2f67d437/2023-10-03-02-25-22_UMBRA-05/2023-10-03-02-25-22_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

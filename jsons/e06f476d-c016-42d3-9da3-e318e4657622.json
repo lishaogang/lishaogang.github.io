@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e06f476d-c016-42d3-9da3-e318e4657622",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -97.15848557139327,
+          30.105557338011042,
+          141.39912522677332
+        ],
+        [
+          -97.15959988772022,
+          30.101149622628114,
+          141.26098640076816
+        ],
+        [
+          -97.16071467919906,
+          30.0967459081341,
+          141.16235795710236
+        ],
+        [
+          -97.16182684242325,
+          30.092341625525094,
+          141.1029801107943
+        ],
+        [
+          -97.16294046391248,
+          30.08793763199343,
+          141.08298191055655
+        ],
+        [
+          -97.16405246501655,
+          30.08352936019602,
+          141.10227185394615
+        ],
+        [
+          -97.1651649299174,
+          30.07912505801323,
+          141.16094150859863
+        ],
+        [
+          -97.16627885794018,
+          30.07472102613646,
+          141.25899289362133
+        ],
+        [
+          -97.16739118663129,
+          30.07031269520691,
+          141.3964374763891
+        ],
+        [
+          -97.16232707134495,
+          30.069345173760738,
+          141.25934443529695
+        ],
+        [
+          -97.15726213916945,
+          30.06837738505037,
+          141.16139436047524
+        ],
+        [
+          -97.15219638725182,
+          30.067409328485287,
+          141.10260789375752
+        ],
+        [
+          -97.14713388257852,
+          30.066441875700832,
+          141.08300257194787
+        ],
+        [
+          -97.14206648002173,
+          30.065473281216654,
+          141.10257397126406
+        ],
+        [
+          -97.13700231379883,
+          30.064505288454225,
+          141.16130506712943
+        ],
+        [
+          -97.13193731128236,
+          30.063537024608127,
+          141.2592201726511
+        ],
+        [
+          -97.12687655046373,
+          30.062565655214183,
+          141.39634142816067
+        ],
+        [
+          -97.12575922781264,
+          30.066971309391455,
+          141.2586652431637
+        ],
+        [
+          -97.12464740578763,
+          30.071378091710617,
+          141.1601866474375
+        ],
+        [
+          -97.12352990840486,
+          30.075779698572127,
+          141.10131953191012
+        ],
+        [
+          -97.12241689711816,
+          30.080186150123787,
+          141.08158476930112
+        ],
+        [
+          -97.12130125926808,
+          30.08459201588198,
+          141.10129961185157
+        ],
+        [
+          -97.12018804887033,
+          30.088994456194772,
+          141.16026907600462
+        ],
+        [
+          -97.11907120858768,
+          30.093400036901045,
+          141.25872050318867
+        ],
+        [
+          -97.11795579853582,
+          30.097805916032815,
+          141.39649400115013
+        ],
+        [
+          -97.12302264351482,
+          30.098776299929423,
+          141.25971313938498
+        ],
+        [
+          -97.12808865109777,
+          30.09974640777684,
+          141.1621394911781
+        ],
+        [
+          -97.13315480662764,
+          30.100712533213084,
+          141.10361865814775
+        ],
+        [
+          -97.13821914717369,
+          30.101682092531153,
+          141.0843962850049
+        ],
+        [
+          -97.14328673686374,
+          30.10265223696416,
+          141.1043524602428
+        ],
+        [
+          -97.1483544863879,
+          30.103618406963502,
+          141.16336292680353
+        ],
+        [
+          -97.15342043649885,
+          30.104588008254268,
+          141.26167154870927
+        ],
+        [
+          -97.15848557139327,
+          30.105557338011042,
+          141.39912522677332
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -97.16739118663129,
+    30.062565655214183,
+    -97.11795579853582,
+    30.105557338011042
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:26.454756Z",
+    "updated": "2024-12-17T08:54:26.454756Z",
+    "start_datetime": "2023-03-04T16:34:23.090555Z",
+    "end_datetime": "2023-03-04T16:34:25.784878Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.19394325742712,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599984986998608,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.45257856157126125,
+    "sar:resolution_azimuth": 0.45737326217543517,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-03-04T16:34:23.090555Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-03-04"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Luecke%20letters%2C%20Smithville%2C%20TX/e06f476d-c016-42d3-9da3-e318e4657622/2023-03-04-16-34-21_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Luecke letters, Smithville, TX/e06f476d-c016-42d3-9da3-e318e4657622/2023-03-04-16-34-21_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Luecke letters, Smithville, TX/e06f476d-c016-42d3-9da3-e318e4657622/2023-03-04-16-34-21_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Luecke letters, Smithville, TX/e06f476d-c016-42d3-9da3-e318e4657622/2023-03-04-16-34-21_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Luecke letters, Smithville, TX/e06f476d-c016-42d3-9da3-e318e4657622/2023-03-04-16-34-21_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

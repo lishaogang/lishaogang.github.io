@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "0e7c5e8f-1b0a-4f40-a3ab-99ee103c7b2e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -170.5887011340923,
+          52.65571658625414,
+          444.34315394889563
+        ],
+        [
+          -170.59355601347,
+          52.661410771398145,
+          444.3834401573986
+        ],
+        [
+          -170.59840851952404,
+          52.667102375589096,
+          444.5035578450188
+        ],
+        [
+          -170.60326846770585,
+          52.672796894361674,
+          444.70352717954665
+        ],
+        [
+          -170.6081261131916,
+          52.678488890993314,
+          444.9832871481776
+        ],
+        [
+          -170.61820361588474,
+          52.67531022715482,
+          444.65969809517264
+        ],
+        [
+          -170.62828294245475,
+          52.67212914576686,
+          444.4283376475796
+        ],
+        [
+          -170.6383626879849,
+          52.66895013888137,
+          444.28952289093286
+        ],
+        [
+          -170.64843880626967,
+          52.66576823225179,
+          444.24296394828707
+        ],
+        [
+          -170.65851341846022,
+          52.66258591550881,
+          444.2887913957238
+        ],
+        [
+          -170.6685865895335,
+          52.65940319065733,
+          444.4269979503006
+        ],
+        [
+          -170.67865631917908,
+          52.656217565865035,
+          444.65744069125503
+        ],
+        [
+          -170.68872679821231,
+          52.65303402933835,
+          444.98039124161005
+        ],
+        [
+          -170.6838608036782,
+          52.6473451814781,
+          444.7012850930914
+        ],
+        [
+          -170.6789981434488,
+          52.641654244496785,
+          444.5020871059969
+        ],
+        [
+          -170.67413205903492,
+          52.63596527681518,
+          444.3825639029965
+        ],
+        [
+          -170.6692692395561,
+          52.6302741616889,
+          444.3429874610156
+        ],
+        [
+          -170.6644117904318,
+          52.62458337377585,
+          444.38336624763906
+        ],
+        [
+          -170.65955087405254,
+          52.61889448007015,
+          444.5033727325499
+        ],
+        [
+          -170.65469313572626,
+          52.61320335222692,
+          444.7033482743427
+        ],
+        [
+          -170.64983520397638,
+          52.60751201212826,
+          444.98315043374896
+        ],
+        [
+          -170.6397726312976,
+          52.61069262521541,
+          444.6596199693158
+        ],
+        [
+          -170.62971094162663,
+          52.61387530811744,
+          444.4282769775018
+        ],
+        [
+          -170.61964565580166,
+          52.61705503105207,
+          444.28940844442695
+        ],
+        [
+          -170.60957891685635,
+          52.62023430622776,
+          444.24288067780435
+        ],
+        [
+          -170.59950845642518,
+          52.62341062167404,
+          444.28884464967996
+        ],
+        [
+          -170.58943861435785,
+          52.626588995650984,
+          444.4270272674039
+        ],
+        [
+          -170.57937057513334,
+          52.62976489396541,
+          444.657511937432
+        ],
+        [
+          -170.56929518055193,
+          52.63293985477095,
+          444.9805600401014
+        ],
+        [
+          -170.57414580751671,
+          52.638634188385986,
+          444.70139393396676
+        ],
+        [
+          -170.57899605002197,
+          52.644328321746514,
+          444.502140856348
+        ],
+        [
+          -170.58384593954577,
+          52.6500222827401,
+          444.38278305437416
+        ],
+        [
+          -170.5887011340923,
+          52.65571658625414,
+          444.34315394889563
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -170.68872679821231,
+    52.60751201212826,
+    -170.56929518055193,
+    52.678488890993314
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:52.949181Z",
+    "updated": "2024-12-17T09:52:52.949181Z",
+    "start_datetime": "2023-11-14T21:22:32Z",
+    "end_datetime": "2023-11-14T21:22:36.955419Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 23.7765579087458,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799986577418167,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2720498598417905,
+    "sar:resolution_azimuth": 0.259855022936499,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-14T21:22:32Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-14"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Yunaska%2C%20United%20States/6268516e-5039-42c2-aa4b-dcb6e4bd71ea/2023-11-14-21-22-31_UMBRA-04/2023-11-14-21-22-31_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Yunaska, United States/6268516e-5039-42c2-aa4b-dcb6e4bd71ea/2023-11-14-21-22-31_UMBRA-04/2023-11-14-21-22-31_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Yunaska, United States/6268516e-5039-42c2-aa4b-dcb6e4bd71ea/2023-11-14-21-22-31_UMBRA-04/2023-11-14-21-22-31_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Yunaska, United States/6268516e-5039-42c2-aa4b-dcb6e4bd71ea/2023-11-14-21-22-31_UMBRA-04/2023-11-14-21-22-31_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Yunaska, United States/6268516e-5039-42c2-aa4b-dcb6e4bd71ea/2023-11-14-21-22-31_UMBRA-04/2023-11-14-21-22-31_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

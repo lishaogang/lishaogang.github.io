@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "613838f1-7d2f-48ce-83e7-8515189c7ab2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -84.52921580933348,
+          38.28977866632095,
+          282.08268762473017
+        ],
+        [
+          -84.53432721120546,
+          38.28776732306024,
+          281.94558931700885
+        ],
+        [
+          -84.53944007842614,
+          38.28575519886293,
+          281.84762080106884
+        ],
+        [
+          -84.54455566749691,
+          38.28374424281583,
+          281.7888970002532
+        ],
+        [
+          -84.54966685155757,
+          38.28173276693583,
+          281.7693164953962
+        ],
+        [
+          -84.55477951755304,
+          38.279720516620394,
+          281.78890847135335
+        ],
+        [
+          -84.55989073434294,
+          38.277707623134454,
+          281.84764292184263
+        ],
+        [
+          -84.56500469887459,
+          38.27569590993381,
+          281.9456677660346
+        ],
+        [
+          -84.57011597076972,
+          38.2736816065874,
+          282.0827629957348
+        ],
+        [
+          -84.567562227019,
+          38.26965206570229,
+          281.9453177154064
+        ],
+        [
+          -84.5650082369814,
+          38.26562310304958,
+          281.8471347736195
+        ],
+        [
+          -84.5624569298878,
+          38.2615945792767,
+          281.78828618954867
+        ],
+        [
+          -84.55990410275321,
+          38.257564667110366,
+          281.7686634538695
+        ],
+        [
+          -84.55735395153867,
+          38.25353517995342,
+          281.78836219199
+        ],
+        [
+          -84.55479933116246,
+          38.24950442684926,
+          281.84726995415986
+        ],
+        [
+          -84.55224737790698,
+          38.245474086145535,
+          281.94550314638764
+        ],
+        [
+          -84.54969809257778,
+          38.24144415081221,
+          282.08302921336144
+        ],
+        [
+          -84.5445881669981,
+          38.24345742932631,
+          281.9453143719584
+        ],
+        [
+          -84.5394784547892,
+          38.24546798386642,
+          281.84688540175557
+        ],
+        [
+          -84.53436858363341,
+          38.24747986081984,
+          281.78756412584335
+        ],
+        [
+          -84.52925725831876,
+          38.249491100858144,
+          281.7674432704225
+        ],
+        [
+          -84.52414446972118,
+          38.251501701046585,
+          281.78653979767114
+        ],
+        [
+          -84.51903315793528,
+          38.25351152581385,
+          281.84480187948793
+        ],
+        [
+          -84.51392165153158,
+          38.25552265760347,
+          281.94220113009214
+        ],
+        [
+          -84.50881161192859,
+          38.25753300954224,
+          282.07872548047453
+        ],
+        [
+          -84.51135964520337,
+          38.2615639582257,
+          281.9418028248474
+        ],
+        [
+          -84.51391032876923,
+          38.265595312254554,
+          281.84407580830157
+        ],
+        [
+          -84.51645943965747,
+          38.26962525918618,
+          281.7856791103259
+        ],
+        [
+          -84.51901120813574,
+          38.27365562540882,
+          281.76648908946663
+        ],
+        [
+          -84.52155973362005,
+          38.27768667372325,
+          281.7866711486131
+        ],
+        [
+          -84.5241126075819,
+          38.281716078670826,
+          281.84599840734154
+        ],
+        [
+          -84.52666350519853,
+          38.28574812359047,
+          281.94473486579955
+        ],
+        [
+          -84.52921580933348,
+          38.28977866632095,
+          282.08268762473017
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -84.57011597076972,
+    38.24144415081221,
+    -84.50881161192859,
+    38.28977866632095
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:19.954266Z",
+    "updated": "2024-12-17T09:53:19.954266Z",
+    "start_datetime": "2023-06-05T04:15:02.091162Z",
+    "end_datetime": "2023-06-05T04:15:07.955018Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.509771178288574,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799990891478958,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2609663150282817,
+    "sar:resolution_azimuth": 0.2606020209363979,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-05T04:15:02.091162Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/25-cm%20resolution%20images/Georgetown%20Kentucky%20Toyota/a6bc149e-2922-49ef-ada0-0f61ad00af35/2023-06-05-04-15-00_UMBRA-06/2023-06-05-04-15-00_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Georgetown Kentucky Toyota/a6bc149e-2922-49ef-ada0-0f61ad00af35/2023-06-05-04-15-00_UMBRA-06/2023-06-05-04-15-00_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Georgetown Kentucky Toyota/a6bc149e-2922-49ef-ada0-0f61ad00af35/2023-06-05-04-15-00_UMBRA-06/2023-06-05-04-15-00_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Georgetown Kentucky Toyota/a6bc149e-2922-49ef-ada0-0f61ad00af35/2023-06-05-04-15-00_UMBRA-06/2023-06-05-04-15-00_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Georgetown Kentucky Toyota/a6bc149e-2922-49ef-ada0-0f61ad00af35/2023-06-05-04-15-00_UMBRA-06/2023-06-05-04-15-00_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

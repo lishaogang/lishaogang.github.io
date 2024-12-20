@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "d625f412-951f-4b33-98af-21d4c76859d1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          54.62587051970204,
+          24.510423562999915,
+          -32.06599077040011
+        ],
+        [
+          54.57741954647965,
+          24.501900182130658,
+          -32.06793171297999
+        ],
+        [
+          54.5867396862553,
+          24.45756888463034,
+          -32.06581642085613
+        ],
+        [
+          54.635174312217885,
+          24.466089329403815,
+          -32.06792971767307
+        ],
+        [
+          54.62587051970204,
+          24.510423562999915,
+          -32.06599077040011
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    54.57741954647965,
+    24.45756888463034,
+    54.635174312217885,
+    24.510423562999915
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:41.110308Z",
+    "updated": "2024-12-17T09:53:41.110308Z",
+    "start_datetime": "2024-05-31T17:41:43Z",
+    "end_datetime": "2024-05-31T17:42:20.376024Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 25.53144726858909,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799945244682023,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.21490739923872215,
+    "sar:resolution_azimuth": 0.023914136277995105,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 8,
+    "sar:observation_direction": "left",
+    "datetime": "2024-05-31T17:41:43Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Ferrari%20World%2C%20Abu%20Dhabi/108a4184-8e98-49f7-9a0d-0154b69ed555/2024-05-31-17-41-42_UMBRA-04/2024-05-31-17-41-42_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ferrari World, Abu Dhabi/108a4184-8e98-49f7-9a0d-0154b69ed555/2024-05-31-17-41-42_UMBRA-04/2024-05-31-17-41-42_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ferrari World, Abu Dhabi/108a4184-8e98-49f7-9a0d-0154b69ed555/2024-05-31-17-41-42_UMBRA-04/2024-05-31-17-41-42_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

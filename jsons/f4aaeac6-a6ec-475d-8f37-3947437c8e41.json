@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "f4aaeac6-a6ec-475d-8f37-3947437c8e41",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.87391307497296,
+          39.7314677325098,
+          60.04200128093362
+        ],
+        [
+          -121.87130782462626,
+          39.72744021697262,
+          59.98372208978981
+        ],
+        [
+          -121.86869344507863,
+          39.72341501101261,
+          59.96442398428917
+        ],
+        [
+          -121.86608652266703,
+          39.7193856227582,
+          59.98463610839099
+        ],
+        [
+          -121.86347966870474,
+          39.71535670312924,
+          60.044112615287304
+        ],
+        [
+          -121.86087467055191,
+          39.7113310800635,
+          60.14275952242315
+        ],
+        [
+          -121.85826792390088,
+          39.70730307498209,
+          60.28070727363229
+        ],
+        [
+          -121.8530506032346,
+          39.70931597098227,
+          60.14361178968102
+        ],
+        [
+          -121.84783984370135,
+          39.71132847984865,
+          60.045716564171016
+        ],
+        [
+          -121.8426155011582,
+          39.71334137791623,
+          59.986990875564516
+        ],
+        [
+          -121.83740864701589,
+          39.71535492824624,
+          59.96729823760688
+        ],
+        [
+          -121.83218642132695,
+          39.71736602433847,
+          59.98700712248683
+        ],
+        [
+          -121.8269724959175,
+          39.7193795847581,
+          60.0456778826192
+        ],
+        [
+          -121.82175413582716,
+          39.72139172774743,
+          60.14364598039538
+        ],
+        [
+          -121.81653313539225,
+          39.72340529767276,
+          60.28086271788925
+        ],
+        [
+          -121.81913803181695,
+          39.727433847082544,
+          60.14343015290797
+        ],
+        [
+          -121.82175207306634,
+          39.731461051434636,
+          60.04499075934291
+        ],
+        [
+          -121.82435703567143,
+          39.735490528484654,
+          59.986115442588925
+        ],
+        [
+          -121.82696022223173,
+          39.73951763947185,
+          59.96652639750391
+        ],
+        [
+          -121.8295652735133,
+          39.74354807989805,
+          59.98620732687414
+        ],
+        [
+          -121.83216855132379,
+          39.74757617180927,
+          60.04514037165791
+        ],
+        [
+          -121.83478100806411,
+          39.75160294292325,
+          60.143128206953406
+        ],
+        [
+          -121.83738440364198,
+          39.75563204464124,
+          60.28061230201274
+        ],
+        [
+          -121.8426091944575,
+          39.75362072433463,
+          60.14301419630647
+        ],
+        [
+          -121.84782767072403,
+          39.751605162679574,
+          60.0444904062897
+        ],
+        [
+          -121.85304536514687,
+          39.749593873560926,
+          59.985311223194
+        ],
+        [
+          -121.85825858717725,
+          39.74758118307466,
+          59.96519423648715
+        ],
+        [
+          -121.86347835552854,
+          39.74556809402655,
+          59.98430310282856
+        ],
+        [
+          -121.86869366941521,
+          39.74355360401694,
+          60.04247625172138
+        ],
+        [
+          -121.87391556667835,
+          39.74153871069722,
+          60.140002600848675
+        ],
+        [
+          -121.8791348682995,
+          39.73952524600321,
+          60.27670671604574
+        ],
+        [
+          -121.87652023837171,
+          39.735498572307044,
+          60.13960391934961
+        ],
+        [
+          -121.87391307497296,
+          39.7314677325098,
+          60.04200128093362
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -121.8791348682995,
+    39.70730307498209,
+    -121.81653313539225,
+    39.75563204464124
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:34.588820Z",
+    "updated": "2024-12-17T09:53:34.588820Z",
+    "start_datetime": "2023-06-20T18:25:15.090998Z",
+    "end_datetime": "2023-06-20T18:25:17.562628Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.40390596810431,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599997831392102,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8930079537441612,
+    "sar:resolution_azimuth": 0.38586259008087465,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-20T18:25:15.090998Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-20"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Chico%20State%2C%20CA/a3f9ac23-1097-46e4-83fb-65301f5aa000/2023-06-20-18-25-14_UMBRA-06/2023-06-20-18-25-14_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Chico State, CA/a3f9ac23-1097-46e4-83fb-65301f5aa000/2023-06-20-18-25-14_UMBRA-06/2023-06-20-18-25-14_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Chico State, CA/a3f9ac23-1097-46e4-83fb-65301f5aa000/2023-06-20-18-25-14_UMBRA-06/2023-06-20-18-25-14_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Chico State, CA/a3f9ac23-1097-46e4-83fb-65301f5aa000/2023-06-20-18-25-14_UMBRA-06/2023-06-20-18-25-14_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Chico State, CA/a3f9ac23-1097-46e4-83fb-65301f5aa000/2023-06-20-18-25-14_UMBRA-06/2023-06-20-18-25-14_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

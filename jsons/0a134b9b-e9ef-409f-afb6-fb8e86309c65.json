@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "0a134b9b-e9ef-409f-afb6-fb8e86309c65",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -99.99712483556101,
+          25.769709787849816,
+          312.6959886075929
+        ],
+        [
+          -99.99922624498285,
+          25.765616085629564,
+          312.5575850615278
+        ],
+        [
+          -100.00132496916683,
+          25.761523793609165,
+          312.4585378728807
+        ],
+        [
+          -100.00342488112727,
+          25.75743143667956,
+          312.39885174669325
+        ],
+        [
+          -100.0055259839876,
+          25.753339011822074,
+          312.3785407533869
+        ],
+        [
+          -100.00762565161187,
+          25.749245616061632,
+          312.3975291326642
+        ],
+        [
+          -100.00972651715163,
+          25.745152143892845,
+          312.4559180447832
+        ],
+        [
+          -100.0118247016128,
+          25.741060052831067,
+          312.55355959013104
+        ],
+        [
+          -100.01392408686299,
+          25.73696787588031,
+          312.6905819764361
+        ],
+        [
+          -100.00940747045257,
+          25.735065672965202,
+          312.5534415105358
+        ],
+        [
+          -100.00488877213472,
+          25.73316484227993,
+          312.45538313128054
+        ],
+        [
+          -100.00037050561053,
+          25.73126065535313,
+          312.39662089105695
+        ],
+        [
+          -99.9958527781503,
+          25.729358744941184,
+          312.3770077917725
+        ],
+        [
+          -99.9913329613294,
+          25.727458210725192,
+          312.39652425795794
+        ],
+        [
+          -99.98681619459056,
+          25.725555220656155,
+          312.45534545276314
+        ],
+        [
+          -99.98229859449334,
+          25.723651237689833,
+          312.55340392235667
+        ],
+        [
+          -99.97777889890918,
+          25.721748632665573,
+          312.6906395005062
+        ],
+        [
+          -99.97567778351477,
+          25.725842277827894,
+          312.5528872925788
+        ],
+        [
+          -99.97357911101717,
+          25.72993346130679,
+          312.4545224253088
+        ],
+        [
+          -99.97147774064236,
+          25.734026030639043,
+          312.39550416357815
+        ],
+        [
+          -99.96937492717606,
+          25.73811762054004,
+          312.37589039467275
+        ],
+        [
+          -99.96727591083955,
+          25.742210032137805,
+          312.3954928498715
+        ],
+        [
+          -99.96517157318598,
+          25.74630295071682,
+          312.45461233798414
+        ],
+        [
+          -99.9630722770189,
+          25.750394323382576,
+          312.55289627052844
+        ],
+        [
+          -99.96097027901304,
+          25.754487110849563,
+          312.6906307246536
+        ],
+        [
+          -99.96548785715038,
+          25.756389765158374,
+          312.55409746058285
+        ],
+        [
+          -99.97000722475187,
+          25.75829231401064,
+          312.4567063851282
+        ],
+        [
+          -99.97452714379033,
+          25.76019712977673,
+          312.3985848473385
+        ],
+        [
+          -99.97904747430755,
+          25.76209857427078,
+          312.3795909639448
+        ],
+        [
+          -99.98356573412535,
+          25.764001390577935,
+          312.3998779486865
+        ],
+        [
+          -99.98808579550092,
+          25.76590410161009,
+          312.4593613743782
+        ],
+        [
+          -99.99260503134181,
+          25.767805813731417,
+          312.55801738612354
+        ],
+        [
+          -99.99712483556101,
+          25.769709787849816,
+          312.6959886075929
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -100.01392408686299,
+    25.721748632665573,
+    -99.96097027901304,
+    25.769709787849816
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:15.470875Z",
+    "updated": "2024-12-17T09:54:15.470875Z",
+    "start_datetime": "2023-05-05T16:48:35.755381Z",
+    "end_datetime": "2023-05-05T16:48:40.362913Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 51.93625426038205,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599994934571443,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.31283958469129536,
+    "sar:resolution_azimuth": 0.317825577889147,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-05T16:48:35.755381Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Nuevo%20Leon%2C%20Mexico%20%28Kia%29/b176f68a-2276-4bfd-a6b9-70dcf9bdf87c/2023-05-05-16-48-33_UMBRA-05/2023-05-05-16-48-33_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuevo Leon, Mexico (Kia)/b176f68a-2276-4bfd-a6b9-70dcf9bdf87c/2023-05-05-16-48-33_UMBRA-05/2023-05-05-16-48-33_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuevo Leon, Mexico (Kia)/b176f68a-2276-4bfd-a6b9-70dcf9bdf87c/2023-05-05-16-48-33_UMBRA-05/2023-05-05-16-48-33_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuevo Leon, Mexico (Kia)/b176f68a-2276-4bfd-a6b9-70dcf9bdf87c/2023-05-05-16-48-33_UMBRA-05/2023-05-05-16-48-33_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

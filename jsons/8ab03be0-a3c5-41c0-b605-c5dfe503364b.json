@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "8ab03be0-a3c5-41c0-b605-c5dfe503364b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -110.8106838300936,
+          32.17270136292668,
+          842.9592550825328
+        ],
+        [
+          -110.81582358037612,
+          32.17379673573656,
+          842.8222007974982
+        ],
+        [
+          -110.82096572682597,
+          32.17489250675551,
+          842.7242505997419
+        ],
+        [
+          -110.82610719224415,
+          32.17598815328784,
+          842.6654848754406
+        ],
+        [
+          -110.83125105928758,
+          32.1770841995461,
+          842.6458823783323
+        ],
+        [
+          -110.8363911999428,
+          32.17817960457975,
+          842.6654588002712
+        ],
+        [
+          -110.84153375915668,
+          32.179275412903586,
+          842.7242121668532
+        ],
+        [
+          -110.84667568282485,
+          32.18037110594478,
+          842.8221312323585
+        ],
+        [
+          -110.85181698498664,
+          32.18146668647901,
+          842.9592007016763
+        ],
+        [
+          -110.85310642211289,
+          32.1770927425609,
+          842.8215707931668
+        ],
+        [
+          -110.85439322302373,
+          32.17271841940137,
+          842.7232170626521
+        ],
+        [
+          -110.85568043633248,
+          32.168344223609985,
+          842.664225618355
+        ],
+        [
+          -110.85696734812328,
+          32.16397270066132,
+          842.6445967173204
+        ],
+        [
+          -110.85825235864907,
+          32.15959821636445,
+          842.6642126794904
+        ],
+        [
+          -110.85954083557834,
+          32.15522434074717,
+          842.7232813807204
+        ],
+        [
+          -110.86082669376353,
+          32.15085003936121,
+          842.8216168275103
+        ],
+        [
+          -110.86211229054007,
+          32.14647837449808,
+          842.9592225430533
+        ],
+        [
+          -110.8569727993067,
+          32.14538263308811,
+          842.8225818341598
+        ],
+        [
+          -110.85183200530706,
+          32.14428932646909,
+          842.7249870104715
+        ],
+        [
+          -110.8466912734504,
+          32.14319333325249,
+          842.6666342942044
+        ],
+        [
+          -110.8415529665614,
+          32.14209772388281,
+          842.647453523241
+        ],
+        [
+          -110.83641025463392,
+          32.141004025714,
+          842.6673364937305
+        ],
+        [
+          -110.83127063965964,
+          32.13990815072766,
+          842.726469184272
+        ],
+        [
+          -110.82613035193849,
+          32.138812139616725,
+          842.8247720776126
+        ],
+        [
+          -110.82099246690741,
+          32.137716507179654,
+          842.9621738465503
+        ],
+        [
+          -110.81970514686768,
+          32.14208840833853,
+          842.8241698974743
+        ],
+        [
+          -110.818414449656,
+          32.14646241325759,
+          842.7255015298724
+        ],
+        [
+          -110.81712724070486,
+          32.15083701749962,
+          842.6660810038447
+        ],
+        [
+          -110.81583805168584,
+          32.15520864259662,
+          842.6460919016972
+        ],
+        [
+          -110.81454854542974,
+          32.15958291789418,
+          842.6654178630561
+        ],
+        [
+          -110.81326015705393,
+          32.163954757408916,
+          842.7240385971963
+        ],
+        [
+          -110.8119721675787,
+          32.1683267207438,
+          842.8219536058605
+        ],
+        [
+          -110.8106838300936,
+          32.17270136292668,
+          842.9592550825328
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -110.86211229054007,
+    32.137716507179654,
+    -110.8106838300936,
+    32.18146668647901
+  ],
+  "properties": {
+    "created": "2024-12-17T08:53:47.704663Z",
+    "updated": "2024-12-17T08:53:47.704663Z",
+    "start_datetime": "2023-02-17T17:04:19.185242Z",
+    "end_datetime": "2023-02-17T17:04:22.386659Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 23.111542024459638,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799970614956692,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.32715068885573734,
+    "sar:resolution_azimuth": 0.31282960122827147,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-17T17:04:19.185242Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-17"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Aircraft%20Boneyard%2C%20AZ/8ab03be0-a3c5-41c0-b605-c5dfe503364b/2023-02-17-17-04-17_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Aircraft Boneyard, AZ/8ab03be0-a3c5-41c0-b605-c5dfe503364b/2023-02-17-17-04-17_UMBRA-04.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Aircraft Boneyard, AZ/8ab03be0-a3c5-41c0-b605-c5dfe503364b/2023-02-17-17-04-17_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Aircraft Boneyard, AZ/8ab03be0-a3c5-41c0-b605-c5dfe503364b/2023-02-17-17-04-17_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Aircraft Boneyard, AZ/8ab03be0-a3c5-41c0-b605-c5dfe503364b/2023-02-17-17-04-17_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

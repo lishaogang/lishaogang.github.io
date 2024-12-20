@@ -1,0 +1,159 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "4f4f8376-2ec6-429a-b0a1-8a5dc6472cda",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          107.60674048740381,
+          16.483280469545083,
+          -5.611983323397541
+        ],
+        [
+          107.56120473422655,
+          16.493848964719394,
+          -5.60909945514414
+        ],
+        [
+          107.55025816199554,
+          16.449913696517324,
+          -5.611736734289478
+        ],
+        [
+          107.59578425254887,
+          16.439347537401375,
+          -5.609097073977648
+        ],
+        [
+          107.60674048740381,
+          16.483280469545083,
+          -5.611983323397541
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    107.55025816199554,
+    16.439347537401375,
+    107.60674048740381,
+    16.493848964719394
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:52.914344Z",
+    "updated": "2024-12-17T09:53:52.914344Z",
+    "start_datetime": "2024-03-07T14:06:10Z",
+    "end_datetime": "2024-03-07T14:06:29.974541Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.8620698196733,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599990401533432,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5003999999999987,
+    "sar:resolution_azimuth": 0.08339999999999999,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 6,
+    "sar:observation_direction": "left",
+    "datetime": "2024-03-07T14:06:10Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-03-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "DI_GIF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_DI-GIF.gif",
+      "type": "image/gif",
+      "title": "DI_GIF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Hue_Vietnam/224e076a-f647-4528-a957-deb0dfa87575/2024-03-07-14-06-09_UMBRA-04/2024-03-07-14-06-09_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

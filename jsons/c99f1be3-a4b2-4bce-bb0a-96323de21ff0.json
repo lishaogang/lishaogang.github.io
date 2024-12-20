@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c99f1be3-a4b2-4bce-bb0a-96323de21ff0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -77.09619925773809,
+          3.7581332198515383,
+          46.25715431744747
+        ],
+        [
+          -77.06377871238978,
+          3.726759521825809,
+          46.263972116195966
+        ],
+        [
+          -77.03254635172448,
+          3.7593268915744615,
+          46.2576443150895
+        ],
+        [
+          -77.0649669836106,
+          3.790701729972623,
+          46.263971697090035
+        ],
+        [
+          -77.09619925773809,
+          3.7581332198515383,
+          46.25715431744747
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -77.09619925773809,
+    3.726759521825809,
+    -77.03254635172448,
+    3.790701729972623
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:52.683196Z",
+    "updated": "2024-12-17T09:51:52.683196Z",
+    "start_datetime": "2024-04-15T14:39:12Z",
+    "end_datetime": "2024-04-15T14:39:15.175891Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.108885866727867,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600002589519136,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.9999999999999972,
+    "sar:resolution_azimuth": 0.49999999999999994,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-04-15T14:39:12Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-04-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal%2C%20Colombia/34f5abc5-e69c-459a-a46c-5f525dc8a41b/2024-04-15-14-39-11_UMBRA-05/2024-04-15-14-39-11_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/34f5abc5-e69c-459a-a46c-5f525dc8a41b/2024-04-15-14-39-11_UMBRA-05/2024-04-15-14-39-11_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/34f5abc5-e69c-459a-a46c-5f525dc8a41b/2024-04-15-14-39-11_UMBRA-05/2024-04-15-14-39-11_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/34f5abc5-e69c-459a-a46c-5f525dc8a41b/2024-04-15-14-39-11_UMBRA-05/2024-04-15-14-39-11_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/34f5abc5-e69c-459a-a46c-5f525dc8a41b/2024-04-15-14-39-11_UMBRA-05/2024-04-15-14-39-11_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/34f5abc5-e69c-459a-a46c-5f525dc8a41b/2024-04-15-14-39-11_UMBRA-05/2024-04-15-14-39-11_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

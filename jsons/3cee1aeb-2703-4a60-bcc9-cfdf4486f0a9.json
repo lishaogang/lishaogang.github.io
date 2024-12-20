@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3cee1aeb-2703-4a60-bcc9-cfdf4486f0a9",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          168.10753676072244,
+          -16.272541988693,
+          1229.5500190975145
+        ],
+        [
+          168.11201171539443,
+          -16.271229506069343,
+          1229.412601663731
+        ],
+        [
+          168.11648487956805,
+          -16.26991593427613,
+          1229.3143531726673
+        ],
+        [
+          168.12096063606012,
+          -16.268602515025293,
+          1229.2552917702124
+        ],
+        [
+          168.12543460671506,
+          -16.267288008432587,
+          1229.2353952694684
+        ],
+        [
+          168.1299079990037,
+          -16.26597574941918,
+          1229.254754083231
+        ],
+        [
+          168.1343827848902,
+          -16.264660313457213,
+          1229.3132351003587
+        ],
+        [
+          168.13885699808202,
+          -16.263347130033992,
+          1229.4109702855349
+        ],
+        [
+          168.1433332091669,
+          -16.262032438240855,
+          1229.5479494882748
+        ],
+        [
+          168.1419712641665,
+          -16.25771135959598,
+          1229.4102668324485
+        ],
+        [
+          168.14061287781072,
+          -16.253388590236725,
+          1229.3120949286968
+        ],
+        [
+          168.13925111011042,
+          -16.249066654418932,
+          1229.2532063107938
+        ],
+        [
+          168.13788973210632,
+          -16.244745118712228,
+          1229.2337303180248
+        ],
+        [
+          168.13653190420374,
+          -16.240421872682465,
+          1229.2537869531661
+        ],
+        [
+          168.1351713032724,
+          -16.236101121804175,
+          1229.313108435832
+        ],
+        [
+          168.13381047757022,
+          -16.23177908593421,
+          1229.411848875694
+        ],
+        [
+          168.1324494221457,
+          -16.227455759657644,
+          1229.5500424141064
+        ],
+        [
+          168.1279768285124,
+          -16.228769705436836,
+          1229.4125954974443
+        ],
+        [
+          168.1235030711499,
+          -16.230084254855104,
+          1229.3142965771258
+        ],
+        [
+          168.11903130653016,
+          -16.23139729755575,
+          1229.2552479011938
+        ],
+        [
+          168.1145545965827,
+          -16.23271137775153,
+          1229.235371989198
+        ],
+        [
+          168.1100836524574,
+          -16.23402351268818,
+          1229.254696776159
+        ],
+        [
+          168.10560775515327,
+          -16.235336680576644,
+          1229.3132600244135
+        ],
+        [
+          168.1011344573124,
+          -16.236650005535196,
+          1229.4109553657472
+        ],
+        [
+          168.09665997697834,
+          -16.237963921204297,
+          1229.5478688050061
+        ],
+        [
+          168.09802062547564,
+          -16.242285874496794,
+          1229.4101899610832
+        ],
+        [
+          168.09937786042389,
+          -16.246608633819562,
+          1229.3120354032144
+        ],
+        [
+          168.1007392457022,
+          -16.25093133830088,
+          1229.2531376974657
+        ],
+        [
+          168.1020966110622,
+          -16.255253190493125,
+          1229.2337794760242
+        ],
+        [
+          168.10345813050031,
+          -16.259575000577676,
+          1229.2536826469004
+        ],
+        [
+          168.10481624064158,
+          -16.263897629391646,
+          1229.3131050877273
+        ],
+        [
+          168.10617472358143,
+          -16.26822065258136,
+          1229.4119336474687
+        ],
+        [
+          168.10753676072244,
+          -16.272541988693,
+          1229.5500190975145
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    168.09665997697834,
+    -16.272541988693,
+    168.1433332091669,
+    -16.227455759657644
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:31.617822Z",
+    "updated": "2024-12-17T09:52:31.617822Z",
+    "start_datetime": "2023-10-07T11:21:43Z",
+    "end_datetime": "2023-10-07T11:21:51Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 53.01465972981318,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.59998879954219,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.43896707401750523,
+    "sar:resolution_azimuth": 0.21296115882531208,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-07T11:21:43Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/AMBRYM%2C%20Vanuatu/050aac1d-17ce-4d28-9a98-fee8db6c2c99/2023-10-07-11-21-42_UMBRA-06/2023-10-07-11-21-42_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/AMBRYM, Vanuatu/050aac1d-17ce-4d28-9a98-fee8db6c2c99/2023-10-07-11-21-42_UMBRA-06/2023-10-07-11-21-42_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/AMBRYM, Vanuatu/050aac1d-17ce-4d28-9a98-fee8db6c2c99/2023-10-07-11-21-42_UMBRA-06/2023-10-07-11-21-42_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/AMBRYM, Vanuatu/050aac1d-17ce-4d28-9a98-fee8db6c2c99/2023-10-07-11-21-42_UMBRA-06/2023-10-07-11-21-42_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/AMBRYM, Vanuatu/050aac1d-17ce-4d28-9a98-fee8db6c2c99/2023-10-07-11-21-42_UMBRA-06/2023-10-07-11-21-42_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

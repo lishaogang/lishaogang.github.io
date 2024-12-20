@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "85d6ec6c-6aa4-4db0-b424-5e8ae5a1a147",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          118.74124020257248,
+          -23.188818275060875,
+          747.0807898538187
+        ],
+        [
+          118.74520832979199,
+          -23.191455594534016,
+          746.9441570267081
+        ],
+        [
+          118.74917243971746,
+          -23.194089830769343,
+          746.8469132296741
+        ],
+        [
+          118.75313454202433,
+          -23.19672629450225,
+          746.7890041787177
+        ],
+        [
+          118.75710222852047,
+          -23.199362127927795,
+          746.7702010199428
+        ],
+        [
+          118.76106503543653,
+          -23.20199825745396,
+          746.790759188123
+        ],
+        [
+          118.76503056295414,
+          -23.20463182776964,
+          746.8504340099171
+        ],
+        [
+          118.76899410852435,
+          -23.20726764248282,
+          746.9494430832565
+        ],
+        [
+          118.77296324280839,
+          -23.20990285628369,
+          747.0876983022317
+        ],
+        [
+          118.7758142502962,
+          -23.206236715982755,
+          746.9500791374594
+        ],
+        [
+          118.7786635816193,
+          -23.202570765425616,
+          746.8517735283822
+        ],
+        [
+          118.78151410772391,
+          -23.19890695181585,
+          746.7928701117635
+        ],
+        [
+          118.78436389116986,
+          -23.195239954850308,
+          746.7731822999194
+        ],
+        [
+          118.78721488901182,
+          -23.191575094407295,
+          746.7928993776441
+        ],
+        [
+          118.79006425743489,
+          -23.187910420736866,
+          746.8518809136003
+        ],
+        [
+          118.79291575703732,
+          -23.18424451050778,
+          746.9502536943182
+        ],
+        [
+          118.79576564401803,
+          -23.180578785080055,
+          747.0878955079243
+        ],
+        [
+          118.79180080085101,
+          -23.17794301454373,
+          746.9505131756887
+        ],
+        [
+          118.78783404471544,
+          -23.17530948381214,
+          746.8522790716961
+        ],
+        [
+          118.78386998735643,
+          -23.17267338871972,
+          746.793426675722
+        ],
+        [
+          118.77990400460963,
+          -23.17003952492105,
+          746.773720706813
+        ],
+        [
+          118.77594070576556,
+          -23.167403084622453,
+          746.7933839652687
+        ],
+        [
+          118.77197546896285,
+          -23.164768867156955,
+          746.8521929048002
+        ],
+        [
+          118.76801204898936,
+          -23.162135437543256,
+          746.9502130132169
+        ],
+        [
+          118.76404838239834,
+          -23.15949746947108,
+          747.0876727029681
+        ],
+        [
+          118.76120079702764,
+          -23.1631643081808,
+          746.9490836001933
+        ],
+        [
+          118.75834867344214,
+          -23.166829393760192,
+          746.8499435409904
+        ],
+        [
+          118.75549491223325,
+          -23.170494670060435,
+          746.7901629228145
+        ],
+        [
+          118.75264619185778,
+          -23.174160642457185,
+          746.7695842729881
+        ],
+        [
+          118.74979669453595,
+          -23.17782343197439,
+          746.7883802400902
+        ],
+        [
+          118.74694465222387,
+          -23.181489788407767,
+          746.8465133449063
+        ],
+        [
+          118.7440947235971,
+          -23.185154902516395,
+          746.9439037675038
+        ],
+        [
+          118.74124020257248,
+          -23.188818275060875,
+          747.0807898538187
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    118.74124020257248,
+    -23.20990285628369,
+    118.79576564401803,
+    -23.15949746947108
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:44.190715Z",
+    "updated": "2024-12-17T09:54:44.190715Z",
+    "start_datetime": "2023-08-13T13:58:01Z",
+    "end_datetime": "2023-08-13T13:58:04.865659Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.74346570365722,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.59997871052474,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.39716311162271556,
+    "sar:resolution_azimuth": 0.3953387944726474,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-13T13:58:01Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-13"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/West%20Angelas%20Iron%20Ore%20Mine/1e2d4b3d-fdff-4fe1-9321-898de0789ecb/2023-08-13-13-58-00_UMBRA-05/2023-08-13-13-58-00_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/West Angelas Iron Ore Mine/1e2d4b3d-fdff-4fe1-9321-898de0789ecb/2023-08-13-13-58-00_UMBRA-05/2023-08-13-13-58-00_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/West Angelas Iron Ore Mine/1e2d4b3d-fdff-4fe1-9321-898de0789ecb/2023-08-13-13-58-00_UMBRA-05/2023-08-13-13-58-00_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/West Angelas Iron Ore Mine/1e2d4b3d-fdff-4fe1-9321-898de0789ecb/2023-08-13-13-58-00_UMBRA-05/2023-08-13-13-58-00_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/West Angelas Iron Ore Mine/1e2d4b3d-fdff-4fe1-9321-898de0789ecb/2023-08-13-13-58-00_UMBRA-05/2023-08-13-13-58-00_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

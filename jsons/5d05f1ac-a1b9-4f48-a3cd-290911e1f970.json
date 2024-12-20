@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5d05f1ac-a1b9-4f48-a3cd-290911e1f970",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          123.60013583339784,
+          -8.542091442961071,
+          483.8472450748086
+        ],
+        [
+          123.60255600665415,
+          -8.535638314472536,
+          483.8921187110245
+        ],
+        [
+          123.60497757698273,
+          -8.52918478663074,
+          484.0286049321294
+        ],
+        [
+          123.60739954171929,
+          -8.522733494143834,
+          484.2566257705912
+        ],
+        [
+          123.60982011296879,
+          -8.516281030961173,
+          484.5760819092393
+        ],
+        [
+          123.60303585308094,
+          -8.513758593880082,
+          484.22774459049106
+        ],
+        [
+          123.59625260737965,
+          -8.511234533131882,
+          483.97926781885326
+        ],
+        [
+          123.58946932215119,
+          -8.508711506630279,
+          483.83048530854285
+        ],
+        [
+          123.58268317755861,
+          -8.50618879956588,
+          483.7813688889146
+        ],
+        [
+          123.57590076332973,
+          -8.503665166334045,
+          483.83213068637997
+        ],
+        [
+          123.56911544516126,
+          -8.501141846034399,
+          483.98261679522693
+        ],
+        [
+          123.56233276525525,
+          -8.498620260179653,
+          484.23273274861276
+        ],
+        [
+          123.55554816744407,
+          -8.49609630925081,
+          484.58278812561184
+        ],
+        [
+          123.55312699677965,
+          -8.502548815285083,
+          484.26160999480635
+        ],
+        [
+          123.55070436947359,
+          -8.509000126944045,
+          484.0320588750765
+        ],
+        [
+          123.54828202986891,
+          -8.515453660155856,
+          483.8939186669886
+        ],
+        [
+          123.54586098678598,
+          -8.521906764544342,
+          483.8472675140947
+        ],
+        [
+          123.54343845068522,
+          -8.528358766533524,
+          483.89223242364824
+        ],
+        [
+          123.5410171791715,
+          -8.534810396802397,
+          484.02862866409123
+        ],
+        [
+          123.53859438303569,
+          -8.541260985829446,
+          484.25659477803856
+        ],
+        [
+          123.53617183940578,
+          -8.547713946356227,
+          484.57609155680984
+        ],
+        [
+          123.54295734214264,
+          -8.550237911859812,
+          484.22768630087376
+        ],
+        [
+          123.5497399159479,
+          -8.552762207890796,
+          483.9792232224718
+        ],
+        [
+          123.55652612771578,
+          -8.555285546624011,
+          483.8303286777809
+        ],
+        [
+          123.56330945421888,
+          -8.55780922246614,
+          483.7813122374937
+        ],
+        [
+          123.57009368281803,
+          -8.56033125672147,
+          483.83193638548255
+        ],
+        [
+          123.57688066431037,
+          -8.562855029828984,
+          483.98242530971766
+        ],
+        [
+          123.58366482818963,
+          -8.56537914834853,
+          484.2327064946294
+        ],
+        [
+          123.59044997400929,
+          -8.567901641518201,
+          484.582663718611
+        ],
+        [
+          123.59287130957814,
+          -8.561448562409458,
+          484.2614921173081
+        ],
+        [
+          123.59529399123697,
+          -8.554995201583424,
+          484.031898021698
+        ],
+        [
+          123.5977142299285,
+          -8.54854349324568,
+          483.8937948253006
+        ],
+        [
+          123.60013583339784,
+          -8.542091442961071,
+          483.8472450748086
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    123.53617183940578,
+    -8.567901641518201,
+    123.60982011296879,
+    -8.49609630925081
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:37.871790Z",
+    "updated": "2024-12-17T09:52:37.871790Z",
+    "start_datetime": "2023-11-09T01:00:34Z",
+    "end_datetime": "2023-11-09T01:00:37.832697Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.92464925276426,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799984097422566,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.29233331624314174,
+    "sar:resolution_azimuth": 0.2842592701886938,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-09T01:00:34Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Iliwerung%2C%20Indonesia/db479d2a-cd69-4967-a8d1-f88a694e3c3d/2023-11-09-01-00-33_UMBRA-04/2023-11-09-01-00-33_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Iliwerung, Indonesia/db479d2a-cd69-4967-a8d1-f88a694e3c3d/2023-11-09-01-00-33_UMBRA-04/2023-11-09-01-00-33_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Iliwerung, Indonesia/db479d2a-cd69-4967-a8d1-f88a694e3c3d/2023-11-09-01-00-33_UMBRA-04/2023-11-09-01-00-33_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Iliwerung, Indonesia/db479d2a-cd69-4967-a8d1-f88a694e3c3d/2023-11-09-01-00-33_UMBRA-04/2023-11-09-01-00-33_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Iliwerung, Indonesia/db479d2a-cd69-4967-a8d1-f88a694e3c3d/2023-11-09-01-00-33_UMBRA-04/2023-11-09-01-00-33_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

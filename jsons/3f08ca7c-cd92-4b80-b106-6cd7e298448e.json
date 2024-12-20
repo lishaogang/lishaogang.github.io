@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3f08ca7c-cd92-4b80-b106-6cd7e298448e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.91261528138783,
+          36.34772779824686,
+          44.91706402506679
+        ],
+        [
+          -121.90766122876416,
+          36.34979013841766,
+          44.77988899499178
+        ],
+        [
+          -121.90271056444722,
+          36.35185244454205,
+          44.68191248551011
+        ],
+        [
+          -121.89775645939058,
+          36.353912505895146,
+          44.62319126352668
+        ],
+        [
+          -121.89280372900437,
+          36.35597710112574,
+          44.603487635962665
+        ],
+        [
+          -121.8878495460278,
+          36.35803487982207,
+          44.62318922858685
+        ],
+        [
+          -121.88289672834351,
+          36.36009719484916,
+          44.68190548196435
+        ],
+        [
+          -121.877940451638,
+          36.362157258522984,
+          44.77994508203119
+        ],
+        [
+          -121.8729875213846,
+          36.36421728944421,
+          44.91705190110952
+        ],
+        [
+          -121.87553255439624,
+          36.36822438931807,
+          44.77962813898921
+        ],
+        [
+          -121.87808403977947,
+          36.372230776913135,
+          44.68127660732716
+        ],
+        [
+          -121.88062879552865,
+          36.37623999423774,
+          44.622443419881165
+        ],
+        [
+          -121.88317758426282,
+          36.38024511127012,
+          44.602748185396194
+        ],
+        [
+          -121.88572648613628,
+          36.38425528886757,
+          44.62243583146483
+        ],
+        [
+          -121.88827258284304,
+          36.38825916389071,
+          44.681320967152715
+        ],
+        [
+          -121.8908232054996,
+          36.39226692632208,
+          44.77951518725604
+        ],
+        [
+          -121.8933759212577,
+          36.39627518481492,
+          44.917021811939776
+        ],
+        [
+          -121.89832996504659,
+          36.39421201095519,
+          44.77924146223813
+        ],
+        [
+          -121.90328541921325,
+          36.39215336794491,
+          44.68082286603749
+        ],
+        [
+          -121.9082417767548,
+          36.39009128279301,
+          44.621458223089576
+        ],
+        [
+          -121.91319464317671,
+          36.388026950534055,
+          44.60118900611997
+        ],
+        [
+          -121.91815334016322,
+          36.38596595225597,
+          44.62030738219619
+        ],
+        [
+          -121.923104144957,
+          36.38390390008311,
+          44.67843714077026
+        ],
+        [
+          -121.92806275070502,
+          36.3818406029862,
+          44.77593665197492
+        ],
+        [
+          -121.93301592317624,
+          36.379779636096586,
+          44.912523224018514
+        ],
+        [
+          -121.93046642111759,
+          36.37577336569931,
+          44.775624781847
+        ],
+        [
+          -121.92791461813084,
+          36.371768778685,
+          44.67792613059282
+        ],
+        [
+          -121.92536248871002,
+          36.36776129764114,
+          44.61950480286032
+        ],
+        [
+          -121.92281247060835,
+          36.36375429794662,
+          44.600439260713756
+        ],
+        [
+          -121.92026455565056,
+          36.35974777560118,
+          44.6206990769133
+        ],
+        [
+          -121.91771431794733,
+          36.355742908340815,
+          44.68013510480523
+        ],
+        [
+          -121.91516375471487,
+          36.351735123162705,
+          44.778942581266165
+        ],
+        [
+          -121.91261528138783,
+          36.34772779824686,
+          44.91706402506679
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -121.93301592317624,
+    36.34772779824686,
+    -121.8729875213846,
+    36.39627518481492
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:07.064045Z",
+    "updated": "2024-12-17T09:54:07.064045Z",
+    "start_datetime": "2023-05-18T05:35:21.265546Z",
+    "end_datetime": "2023-05-18T05:35:24.090128Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 43.6842906981704,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599998664692974,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.45197975825632986,
+    "sar:resolution_azimuth": 0.4745303000618781,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-05-18T05:35:21.265546Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-18"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Monterey%2C%20CA/Bixby%20Creek%20Bridge/da4d9b62-adfd-4f68-a5af-a22b059ddccf/2023-05-18-05-35-16_UMBRA-04/2023-05-18-05-35-16_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Monterey, CA/Bixby Creek Bridge/da4d9b62-adfd-4f68-a5af-a22b059ddccf/2023-05-18-05-35-16_UMBRA-04/2023-05-18-05-35-16_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Monterey, CA/Bixby Creek Bridge/da4d9b62-adfd-4f68-a5af-a22b059ddccf/2023-05-18-05-35-16_UMBRA-04/2023-05-18-05-35-16_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Monterey, CA/Bixby Creek Bridge/da4d9b62-adfd-4f68-a5af-a22b059ddccf/2023-05-18-05-35-16_UMBRA-04/2023-05-18-05-35-16_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

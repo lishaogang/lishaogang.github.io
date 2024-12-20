@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "9afc3034-5c52-4895-8e42-02e06267d203",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          153.18261355848244,
+          48.26151880095707,
+          447.20878787059337
+        ],
+        [
+          153.18995169239562,
+          48.25429253952998,
+          447.2840231116861
+        ],
+        [
+          153.19729340224825,
+          48.24706266766137,
+          447.50708920508623
+        ],
+        [
+          153.20462626514836,
+          48.23983424581903,
+          447.8781990632415
+        ],
+        [
+          153.2119685140009,
+          48.23260366123602,
+          448.3969615045935
+        ],
+        [
+          153.22879761603477,
+          48.24022231702683,
+          447.1449748389423
+        ],
+        [
+          153.24563811237644,
+          48.24784104273116,
+          446.2499893978238
+        ],
+        [
+          153.26247862739825,
+          48.25545677294186,
+          445.7124908659607
+        ],
+        [
+          153.27932839265782,
+          48.26306766769011,
+          445.5325751369819
+        ],
+        [
+          153.2961842221452,
+          48.270677031295385,
+          445.71005865652114
+        ],
+        [
+          153.3130462524717,
+          48.27828484017835,
+          446.24503717850894
+        ],
+        [
+          153.32990890045616,
+          48.28588955188217,
+          447.1372372508049
+        ],
+        [
+          153.3467780337966,
+          48.29349266183717,
+          448.38693368062377
+        ],
+        [
+          153.33945353434623,
+          48.30073049698091,
+          447.8705542916432
+        ],
+        [
+          153.33212389127064,
+          48.30796646063446,
+          447.50181054137647
+        ],
+        [
+          153.32480049623635,
+          48.315203639902286,
+          447.281574498862
+        ],
+        [
+          153.31746278502928,
+          48.32244084037326,
+          447.2084941705689
+        ],
+        [
+          153.31013464349266,
+          48.32967597853634,
+          447.28390714433044
+        ],
+        [
+          153.30279780869498,
+          48.336912731625326,
+          447.5070158755407
+        ],
+        [
+          153.2954647907967,
+          48.34414596618126,
+          447.8780040703714
+        ],
+        [
+          153.28812299018787,
+          48.351380875654456,
+          448.3968167519197
+        ],
+        [
+          153.2712435526538,
+          48.343769211023634,
+          447.1445569768548
+        ],
+        [
+          153.25436734260097,
+          48.336159122029464,
+          446.25007581710815
+        ],
+        [
+          153.23750110213714,
+          48.32854395078149,
+          445.7127268826589
+        ],
+        [
+          153.22063551431233,
+          48.32092551443333,
+          445.5327477026731
+        ],
+        [
+          153.20377958763154,
+          48.31330206492094,
+          445.70993284042925
+        ],
+        [
+          153.18692633029104,
+          48.30568027497643,
+          446.2447499372065
+        ],
+        [
+          153.1700732715359,
+          48.29805528787496,
+          447.13723133318126
+        ],
+        [
+          153.1532294249678,
+          48.290425372874594,
+          448.38687341846526
+        ],
+        [
+          153.16058191486553,
+          48.28319971512226,
+          447.87025105487555
+        ],
+        [
+          153.16792532947625,
+          48.27597566272106,
+          447.50198612362146
+        ],
+        [
+          153.17527225434156,
+          48.268748114807686,
+          447.281278016977
+        ],
+        [
+          153.18261355848244,
+          48.26151880095707,
+          447.20878787059337
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    153.1532294249678,
+    48.23260366123602,
+    153.3467780337966,
+    48.351380875654456
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:46.466418Z",
+    "updated": "2024-12-17T09:52:46.466418Z",
+    "start_datetime": "2023-11-11T11:09:09Z",
+    "end_datetime": "2023-11-11T11:09:12.695757Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.44034264906719,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599983657593839,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.41015816369825203,
+    "sar:resolution_azimuth": 0.41124248042821027,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-11T11:09:09Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Raikoke%2C%20Russia/84f7da43-c3a3-43eb-a54f-6111c2ee923c/2023-11-11-11-09-08_UMBRA-05/2023-11-11-11-09-08_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Raikoke, Russia/84f7da43-c3a3-43eb-a54f-6111c2ee923c/2023-11-11-11-09-08_UMBRA-05/2023-11-11-11-09-08_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Raikoke, Russia/84f7da43-c3a3-43eb-a54f-6111c2ee923c/2023-11-11-11-09-08_UMBRA-05/2023-11-11-11-09-08_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Raikoke, Russia/84f7da43-c3a3-43eb-a54f-6111c2ee923c/2023-11-11-11-09-08_UMBRA-05/2023-11-11-11-09-08_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Raikoke, Russia/84f7da43-c3a3-43eb-a54f-6111c2ee923c/2023-11-11-11-09-08_UMBRA-05/2023-11-11-11-09-08_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

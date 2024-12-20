@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "2b4805e5-9332-480c-a5e0-cdc0fdd96bfe",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          109.86701201676085,
+          -7.177407053091328,
+          1915.5764856459573
+        ],
+        [
+          109.86568266890762,
+          -7.181728293476731,
+          1915.4381861826405
+        ],
+        [
+          109.86435161730587,
+          -7.186048805351819,
+          1915.3393877437338
+        ],
+        [
+          109.86302352497697,
+          -7.190368359590896,
+          1915.2799467686564
+        ],
+        [
+          109.8616929849914,
+          -7.194689279737926,
+          1915.2599717956036
+        ],
+        [
+          109.86036540337196,
+          -7.199009259933114,
+          1915.2793272985145
+        ],
+        [
+          109.859035362304,
+          -7.203330622402219,
+          1915.3381889378652
+        ],
+        [
+          109.85770594273858,
+          -7.207651177025714,
+          1915.4364521410316
+        ],
+        [
+          109.85637480982443,
+          -7.211971044919837,
+          1915.5741957137361
+        ],
+        [
+          109.86070168945587,
+          -7.213298847842482,
+          1915.437236521393
+        ],
+        [
+          109.86502885242601,
+          -7.214626691059312,
+          1915.3394906558096
+        ],
+        [
+          109.86935397499151,
+          -7.215954683930804,
+          1915.2810113877058
+        ],
+        [
+          109.87368015799353,
+          -7.217280623799284,
+          1915.261643851176
+        ],
+        [
+          109.87800588608926,
+          -7.218608683216,
+          1915.2815510733053
+        ],
+        [
+          109.88233192553565,
+          -7.219936773384678,
+          1915.3406622288749
+        ],
+        [
+          109.8866590432087,
+          -7.221262801748929,
+          1915.4389102980494
+        ],
+        [
+          109.89098572273728,
+          -7.222590946496413,
+          1915.5764533653855
+        ],
+        [
+          109.89231545359624,
+          -7.218271531018503,
+          1915.4382444685325
+        ],
+        [
+          109.89364426961622,
+          -7.213949327152022,
+          1915.3393411273137
+        ],
+        [
+          109.89497222350762,
+          -7.209630490118268,
+          1915.279922281392
+        ],
+        [
+          109.89630157643253,
+          -7.205308742478718,
+          1915.259907678701
+        ],
+        [
+          109.89763082796536,
+          -7.200988254693388,
+          1915.2793353879824
+        ],
+        [
+          109.89895998637913,
+          -7.196669017190281,
+          1915.3381735710427
+        ],
+        [
+          109.90028979708777,
+          -7.192348934053492,
+          1915.4364516418427
+        ],
+        [
+          109.90161794771733,
+          -7.188028111013124,
+          1915.5740933036432
+        ],
+        [
+          109.89729255207767,
+          -7.186699530526232,
+          1915.437225353904
+        ],
+        [
+          109.89296674681965,
+          -7.185373061081942,
+          1915.3394863400608
+        ],
+        [
+          109.88864199327145,
+          -7.18404453622756,
+          1915.2810258148238
+        ],
+        [
+          109.8843144995328,
+          -7.182718240645947,
+          1915.261652235873
+        ],
+        [
+          109.879988041037,
+          -7.181389897026386,
+          1915.2815776532516
+        ],
+        [
+          109.87566347043818,
+          -7.180063552330714,
+          1915.3406312027946
+        ],
+        [
+          109.87133760125018,
+          -7.178735282387821,
+          1915.4389587659389
+        ],
+        [
+          109.86701201676085,
+          -7.177407053091328,
+          1915.5764856459573
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    109.85637480982443,
+    -7.222590946496413,
+    109.90161794771733,
+    -7.177407053091328
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:34.454620Z",
+    "updated": "2024-12-17T09:52:34.454620Z",
+    "start_datetime": "2023-10-06T14:25:44Z",
+    "end_datetime": "2023-10-06T14:25:49Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 35.90229852749926,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799993720720524,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.26769387207236356,
+    "sar:resolution_azimuth": 0.26128887169537457,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-10-06T14:25:44Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Dieng%20Volcanic%20Complex%2C%20Indonesia/22900f0d-3e6b-444d-80c9-af1e8bb03854/2023-10-06-14-25-43_UMBRA-05/2023-10-06-14-25-43_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Dieng Volcanic Complex, Indonesia/22900f0d-3e6b-444d-80c9-af1e8bb03854/2023-10-06-14-25-43_UMBRA-05/2023-10-06-14-25-43_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Dieng Volcanic Complex, Indonesia/22900f0d-3e6b-444d-80c9-af1e8bb03854/2023-10-06-14-25-43_UMBRA-05/2023-10-06-14-25-43_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Dieng Volcanic Complex, Indonesia/22900f0d-3e6b-444d-80c9-af1e8bb03854/2023-10-06-14-25-43_UMBRA-05/2023-10-06-14-25-43_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Dieng Volcanic Complex, Indonesia/22900f0d-3e6b-444d-80c9-af1e8bb03854/2023-10-06-14-25-43_UMBRA-05/2023-10-06-14-25-43_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "ec6b4038-c448-4fe0-870f-0d1bfd1b54b4",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.79043631936791,
+          -33.35769708407395,
+          508.37064625402047
+        ],
+        [
+          -70.83091116821399,
+          -33.38734443562545,
+          508.36621030926125
+        ],
+        [
+          -70.79556430880919,
+          -33.42130487487828,
+          508.3708887589959
+        ],
+        [
+          -70.75508572521953,
+          -33.391646157300514,
+          508.36621016187206
+        ],
+        [
+          -70.79043631936791,
+          -33.35769708407395,
+          508.37064625402047
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -70.83091116821399,
+    -33.42130487487828,
+    -70.75508572521953,
+    -33.35769708407395
+  ],
+  "properties": {
+    "created": "2024-12-17T09:47:32.793565Z",
+    "updated": "2024-12-17T09:47:32.793565Z",
+    "start_datetime": "2024-07-30T13:33:15Z",
+    "end_datetime": "2024-07-30T13:33:25.157942Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 26.0730626621842,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799995165201837,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3836576920469182,
+    "sar:resolution_azimuth": 0.17228493450060392,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-07-30T13:33:15Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-07-30"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David%20Fuentes%20Airbase%2C%20Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David Fuentes Airbase, Chile/cd700dc0-1233-4903-9bc4-57c5bcb7398d/2024-07-30-13-33-14_UMBRA-05/2024-07-30-13-33-14_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

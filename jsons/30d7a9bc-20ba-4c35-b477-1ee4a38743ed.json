@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "30d7a9bc-20ba-4c35-b477-1ee4a38743ed",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -26.426874804796892,
+          -57.79060918771836,
+          174.77514622841966
+        ],
+        [
+          -26.505429507372693,
+          -57.77464652311318,
+          174.7764519333075
+        ],
+        [
+          -26.53538720954487,
+          -57.81659394281091,
+          174.77526711681878
+        ],
+        [
+          -26.456754497142015,
+          -57.832575040914634,
+          174.7764490195078
+        ],
+        [
+          -26.426874804796892,
+          -57.79060918771836,
+          174.77514622841966
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -26.53538720954487,
+    -57.832575040914634,
+    -26.426874804796892,
+    -57.77464652311318
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:07.565469Z",
+    "updated": "2024-12-17T09:54:07.565469Z",
+    "start_datetime": "2024-05-17T09:52:35Z",
+    "end_datetime": "2024-05-17T09:52:46.973368Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 35.42156905611005,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799983730190434,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2149038063546245,
+    "sar:resolution_azimuth": 0.09359773212579461,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-17T09:52:35Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-17"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Mount_Michael_British_Overseas_Territory/0292d383-63de-449c-a889-644c0867a6dc/2024-05-17-09-52-34_UMBRA-05/2024-05-17-09-52-34_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mount_Michael_British_Overseas_Territory/0292d383-63de-449c-a889-644c0867a6dc/2024-05-17-09-52-34_UMBRA-05/2024-05-17-09-52-34_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mount_Michael_British_Overseas_Territory/0292d383-63de-449c-a889-644c0867a6dc/2024-05-17-09-52-34_UMBRA-05/2024-05-17-09-52-34_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mount_Michael_British_Overseas_Territory/0292d383-63de-449c-a889-644c0867a6dc/2024-05-17-09-52-34_UMBRA-05/2024-05-17-09-52-34_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mount_Michael_British_Overseas_Territory/0292d383-63de-449c-a889-644c0867a6dc/2024-05-17-09-52-34_UMBRA-05/2024-05-17-09-52-34_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mount_Michael_British_Overseas_Territory/0292d383-63de-449c-a889-644c0867a6dc/2024-05-17-09-52-34_UMBRA-05/2024-05-17-09-52-34_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

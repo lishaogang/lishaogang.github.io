@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "f0d20ca7-66e6-463a-9709-f2e8ee2df4c2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.7993061874564,
+          39.099714889016504,
+          1538.5477552367374
+        ],
+        [
+          -111.80505587352603,
+          39.099268499932386,
+          1538.4107893751934
+        ],
+        [
+          -111.81080388169877,
+          39.098820788968865,
+          1538.3129329243675
+        ],
+        [
+          -111.81655464372305,
+          39.098371060039646,
+          1538.2541134441271
+        ],
+        [
+          -111.82230404182518,
+          39.0979218002674,
+          1538.234467885457
+        ],
+        [
+          -111.82805207901549,
+          39.09747300915501,
+          1538.2539681904018
+        ],
+        [
+          -111.83380318441316,
+          39.09702399382448,
+          1538.3126351628453
+        ],
+        [
+          -111.83955262038575,
+          39.09657364711564,
+          1538.4103880180046
+        ],
+        [
+          -111.84530101428433,
+          39.09612556656117,
+          1538.5473282374442
+        ],
+        [
+          -111.84472548816773,
+          39.0916444534826,
+          1538.409895912744
+        ],
+        [
+          -111.84414595231367,
+          39.08716415958112,
+          1538.311665208079
+        ],
+        [
+          -111.84357125181822,
+          39.08268329095691,
+          1538.252860127017
+        ],
+        [
+          -111.84299254255411,
+          39.078203234456,
+          1538.2332425639033
+        ],
+        [
+          -111.84241424646694,
+          39.073723289755975,
+          1538.2529242662713
+        ],
+        [
+          -111.84183636320795,
+          39.06924345176155,
+          1538.3119015954435
+        ],
+        [
+          -111.84126331067051,
+          39.064763012155005,
+          1538.4103020355105
+        ],
+        [
+          -111.84068625113699,
+          39.06028337059139,
+          1538.5478635858744
+        ],
+        [
+          -111.83493567329644,
+          39.060733087842806,
+          1538.4107371754944
+        ],
+        [
+          -111.82919258536609,
+          39.06118187774172,
+          1538.3129062959924
+        ],
+        [
+          -111.8234437287431,
+          39.06163185572991,
+          1538.2540874490514
+        ],
+        [
+          -111.81769761637892,
+          39.062079817742855,
+          1538.2344879470766
+        ],
+        [
+          -111.81195015055742,
+          39.06252826517448,
+          1538.2540002809837
+        ],
+        [
+          -111.80620575233102,
+          39.06297649250536,
+          1538.3126040920615
+        ],
+        [
+          -111.80045557169434,
+          39.06342591205369,
+          1538.410393524915
+        ],
+        [
+          -111.79470813133904,
+          39.0638733215793,
+          1538.54733517766
+        ],
+        [
+          -111.79528332049004,
+          39.06835377344684,
+          1538.409851516597
+        ],
+        [
+          -111.79585858447811,
+          39.07283253257913,
+          1538.3116851374507
+        ],
+        [
+          -111.79643013715163,
+          39.07731388779848,
+          1538.2528743585572
+        ],
+        [
+          -111.79700651360874,
+          39.08179464854919,
+          1538.2332380767912
+        ],
+        [
+          -111.79758297081291,
+          39.08627373089507,
+          1538.252882075496
+        ],
+        [
+          -111.79815571048934,
+          39.09075542102273,
+          1538.3119493667036
+        ],
+        [
+          -111.79872853318626,
+          39.095235439112344,
+          1538.410279231146
+        ],
+        [
+          -111.7993061874564,
+          39.099714889016504,
+          1538.5477552367374
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.84530101428433,
+    39.06028337059139,
+    -111.79470813133904,
+    39.099714889016504
+  ],
+  "properties": {
+    "created": "2024-12-17T09:47:10.114842Z",
+    "updated": "2024-12-17T09:47:10.114842Z",
+    "start_datetime": "2023-10-03T04:03:34Z",
+    "end_datetime": "2023-10-03T04:03:41Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 54.71467629267198,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599996563978493,
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44421623086523987,
+    "sar:resolution_azimuth": 0.21999318403219448,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-03T04:03:34Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-03"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield%2C%20Utah/4dff4e5a-ca75-4062-a9f3-10caba729885/2023-10-03-04-03-33_UMBRA-04/2023-10-03-04-03-33_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/4dff4e5a-ca75-4062-a9f3-10caba729885/2023-10-03-04-03-33_UMBRA-04/2023-10-03-04-03-33_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/4dff4e5a-ca75-4062-a9f3-10caba729885/2023-10-03-04-03-33_UMBRA-04/2023-10-03-04-03-33_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/4dff4e5a-ca75-4062-a9f3-10caba729885/2023-10-03-04-03-33_UMBRA-04/2023-10-03-04-03-33_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/4dff4e5a-ca75-4062-a9f3-10caba729885/2023-10-03-04-03-33_UMBRA-04/2023-10-03-04-03-33_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3401e9e2-dce2-401b-a1ee-d7d6e0d5603c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -98.6388551049882,
+          19.04477346963284,
+          5066.912057402544
+        ],
+        [
+          -98.6447559238754,
+          19.04064400540988,
+          5066.957845645957
+        ],
+        [
+          -98.65065478236765,
+          19.03651277873343,
+          5067.096999285743
+        ],
+        [
+          -98.65655266435692,
+          19.03238261911338,
+          5067.329615116119
+        ],
+        [
+          -98.66244863847407,
+          19.028250648784248,
+          5067.655547308736
+        ],
+        [
+          -98.65823358080371,
+          19.022809281260816,
+          5067.348038434051
+        ],
+        [
+          -98.65401983444941,
+          19.017368029107963,
+          5067.128718690947
+        ],
+        [
+          -98.64980644004125,
+          19.011924029922085,
+          5066.997573494911
+        ],
+        [
+          -98.64559184425694,
+          19.006481814933107,
+          5066.954476322047
+        ],
+        [
+          -98.64137845415507,
+          19.001039697509295,
+          5066.9995529111475
+        ],
+        [
+          -98.63716868311488,
+          18.99559598675953,
+          5067.132929879241
+        ],
+        [
+          -98.63295425069565,
+          18.990152872874297,
+          5067.354284157045
+        ],
+        [
+          -98.62874092028039,
+          18.98470983952783,
+          5067.663808067329
+        ],
+        [
+          -98.62284240587054,
+          18.988839870971866,
+          5067.335656916723
+        ],
+        [
+          -98.61694527349016,
+          18.992969214157586,
+          5067.101011742838
+        ],
+        [
+          -98.61104947787376,
+          18.997097886465255,
+          5066.95980907511
+        ],
+        [
+          -98.6051525565994,
+          19.001227599976275,
+          5066.911987335421
+        ],
+        [
+          -98.59925359875051,
+          19.00535552163774,
+          5066.957734312862
+        ],
+        [
+          -98.59335677346343,
+          19.009485689615033,
+          5067.096752121113
+        ],
+        [
+          -98.58745785227744,
+          19.01361410967675,
+          5067.329350969754
+        ],
+        [
+          -98.58156009537686,
+          19.01774195959675,
+          5067.655307834037
+        ],
+        [
+          -98.58576965441023,
+          19.023184744670658,
+          5067.348005953245
+        ],
+        [
+          -98.58998120508969,
+          19.02863046773458,
+          5067.128726343624
+        ],
+        [
+          -98.59419293707369,
+          19.03407342612228,
+          5066.997568031773
+        ],
+        [
+          -98.59840913029842,
+          19.03951763541771,
+          5066.954397432506
+        ],
+        [
+          -98.60262081858741,
+          19.044962488971496,
+          5066.999625435099
+        ],
+        [
+          -98.60683276150061,
+          19.05040459656431,
+          5067.132865336724
+        ],
+        [
+          -98.61104692436484,
+          19.055849668838338,
+          5067.354358349927
+        ],
+        [
+          -98.61526140229857,
+          19.061292008761114,
+          5067.663844469935
+        ],
+        [
+          -98.62115933465941,
+          19.057163036274716,
+          5067.335770341568
+        ],
+        [
+          -98.62705852928737,
+          19.05303354762555,
+          5067.1011015689
+        ],
+        [
+          -98.63295903036325,
+          19.04890352493573,
+          5066.959893730469
+        ],
+        [
+          -98.6388551049882,
+          19.04477346963284,
+          5066.912057402544
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -98.66244863847407,
+    18.98470983952783,
+    -98.58156009537686,
+    19.061292008761114
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:46.019383Z",
+    "updated": "2024-12-17T09:52:46.019383Z",
+    "start_datetime": "2023-11-10T16:23:06Z",
+    "end_datetime": "2023-11-10T16:23:11.258024Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 31.5747406887849,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799970007268712,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2706828520542971,
+    "sar:resolution_azimuth": 0.26330079500325637,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-10T16:23:06Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Popocatepetl%2C%20Mexico/a10bf874-9ff7-46ab-9984-eba15c7fc3b4/2023-11-10-16-23-05_UMBRA-04/2023-11-10-16-23-05_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Popocatepetl, Mexico/a10bf874-9ff7-46ab-9984-eba15c7fc3b4/2023-11-10-16-23-05_UMBRA-04/2023-11-10-16-23-05_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Popocatepetl, Mexico/a10bf874-9ff7-46ab-9984-eba15c7fc3b4/2023-11-10-16-23-05_UMBRA-04/2023-11-10-16-23-05_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Popocatepetl, Mexico/a10bf874-9ff7-46ab-9984-eba15c7fc3b4/2023-11-10-16-23-05_UMBRA-04/2023-11-10-16-23-05_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Popocatepetl, Mexico/a10bf874-9ff7-46ab-9984-eba15c7fc3b4/2023-11-10-16-23-05_UMBRA-04/2023-11-10-16-23-05_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

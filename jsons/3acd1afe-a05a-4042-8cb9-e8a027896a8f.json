@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3acd1afe-a05a-4042-8cb9-e8a027896a8f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.8647025390051,
+          20.54715355513678,
+          366.0764284674078
+        ],
+        [
+          144.86441113388221,
+          20.540830119657493,
+          366.11511764582247
+        ],
+        [
+          144.86412195409042,
+          20.53450909911184,
+          366.23105751071125
+        ],
+        [
+          144.86383176989042,
+          20.528187201828263,
+          366.4244300890714
+        ],
+        [
+          144.8635405700855,
+          20.5218643971423,
+          366.69527091737837
+        ],
+        [
+          144.87061567236367,
+          20.521575651065312,
+          366.39610937796533
+        ],
+        [
+          144.87769091457378,
+          20.521287399242183,
+          366.1824106089771
+        ],
+        [
+          144.88476632783994,
+          20.520999645360117,
+          366.05417869612575
+        ],
+        [
+          144.89184177449934,
+          20.5207095837804,
+          366.01155684608966
+        ],
+        [
+          144.89891456939083,
+          20.520422385029665,
+          366.0542679997161
+        ],
+        [
+          144.90599051957375,
+          20.52013333522734,
+          366.1825760528445
+        ],
+        [
+          144.91306355862565,
+          20.51984153517832,
+          366.3964367825538
+        ],
+        [
+          144.92014013115485,
+          20.519553508367665,
+          366.6957146646455
+        ],
+        [
+          144.92043015681574,
+          20.52587352535284,
+          366.4247921667993
+        ],
+        [
+          144.92072247025584,
+          20.532195897853597,
+          366.2312413873151
+        ],
+        [
+          144.92101690817253,
+          20.538517844470935,
+          366.11518456880003
+        ],
+        [
+          144.92130756846467,
+          20.544841310022,
+          366.07632028497756
+        ],
+        [
+          144.92160023103236,
+          20.551161602899075,
+          366.11493355967104
+        ],
+        [
+          144.92189213488476,
+          20.557483920130228,
+          366.2308905897662
+        ],
+        [
+          144.9221861730148,
+          20.5638059354193,
+          366.42432835511863
+        ],
+        [
+          144.92247641745917,
+          20.570129578285282,
+          366.6950313206762
+        ],
+        [
+          144.91540065772892,
+          20.57042021053908,
+          366.3959764596075
+        ],
+        [
+          144.9083220971845,
+          20.57070814879902,
+          366.18220278434455
+        ],
+        [
+          144.90124684558754,
+          20.5709971011884,
+          366.0540715213865
+        ],
+        [
+          144.89416880661926,
+          20.571286149671963,
+          366.01140722539276
+        ],
+        [
+          144.8870940344954,
+          20.571576209482096,
+          366.05429464392364
+        ],
+        [
+          144.88001639636641,
+          20.571866354388142,
+          366.18270626384765
+        ],
+        [
+          144.87293881962054,
+          20.572154250452265,
+          366.3965273797512
+        ],
+        [
+          144.86586136200307,
+          20.57244268770694,
+          366.69589143805206
+        ],
+        [
+          144.8655707534027,
+          20.56611908034278,
+          366.42493987083435
+        ],
+        [
+          144.86528233873483,
+          20.559798005012336,
+          366.23136983811855
+        ],
+        [
+          144.86499293722161,
+          20.553476173422315,
+          366.11518954113126
+        ],
+        [
+          144.8647025390051,
+          20.54715355513678,
+          366.0764284674078
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.8635405700855,
+    20.519553508367665,
+    144.92247641745917,
+    20.57244268770694
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:35.638251Z",
+    "updated": "2024-12-17T09:52:35.638251Z",
+    "start_datetime": "2023-11-15T11:46:33Z",
+    "end_datetime": "2023-11-15T11:46:36.590597Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 22.527496386739656,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799949968932198,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.29461006309154986,
+    "sar:resolution_azimuth": 0.28059128016929774,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-15T11:46:33Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Farallon%20de%20Pajaros%2C%20United%20States/6c7699f0-54fc-42ca-a97a-241750fb23d9/2023-11-15-11-46-32_UMBRA-05/2023-11-15-11-46-32_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Farallon de Pajaros, United States/6c7699f0-54fc-42ca-a97a-241750fb23d9/2023-11-15-11-46-32_UMBRA-05/2023-11-15-11-46-32_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Farallon de Pajaros, United States/6c7699f0-54fc-42ca-a97a-241750fb23d9/2023-11-15-11-46-32_UMBRA-05/2023-11-15-11-46-32_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Farallon de Pajaros, United States/6c7699f0-54fc-42ca-a97a-241750fb23d9/2023-11-15-11-46-32_UMBRA-05/2023-11-15-11-46-32_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Farallon de Pajaros, United States/6c7699f0-54fc-42ca-a97a-241750fb23d9/2023-11-15-11-46-32_UMBRA-05/2023-11-15-11-46-32_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

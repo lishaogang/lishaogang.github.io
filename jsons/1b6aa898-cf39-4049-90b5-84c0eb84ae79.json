@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "1b6aa898-cf39-4049-90b5-84c0eb84ae79",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.69109626440451,
+          53.93709656481141,
+          560.7146475678688
+        ],
+        [
+          -122.63210055117317,
+          53.96550483566814,
+          560.7124975174492
+        ],
+        [
+          -122.68029467914253,
+          54.000305203459504,
+          560.7148156147433
+        ],
+        [
+          -122.73930673680074,
+          53.97187342984317,
+          560.7124972086328
+        ],
+        [
+          -122.69109626440451,
+          53.93709656481141,
+          560.7146475678688
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.73930673680074,
+    53.93709656481141,
+    -122.63210055117317,
+    54.000305203459504
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:21.121082Z",
+    "updated": "2024-12-17T09:54:21.121082Z",
+    "start_datetime": "2024-05-31T05:22:03Z",
+    "end_datetime": "2024-05-31T05:22:25.309943Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 25.16837363021898,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799988560611382,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.28902111471075487,
+    "sar:resolution_azimuth": 0.04180302246977655,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 5,
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-31T05:22:03Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Prince_George_Airport_Canada/083441e6-d37b-4641-b0ad-41b06d4a9194/2024-05-31-05-22-02_UMBRA-04/2024-05-31-05-22-02_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Prince_George_Airport_Canada/083441e6-d37b-4641-b0ad-41b06d4a9194/2024-05-31-05-22-02_UMBRA-04/2024-05-31-05-22-02_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Prince_George_Airport_Canada/083441e6-d37b-4641-b0ad-41b06d4a9194/2024-05-31-05-22-02_UMBRA-04/2024-05-31-05-22-02_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

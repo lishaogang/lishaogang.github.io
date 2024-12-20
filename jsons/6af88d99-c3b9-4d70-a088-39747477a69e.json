@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "6af88d99-c3b9-4d70-a088-39747477a69e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          154.77612295580226,
+          49.34084487640835,
+          410.6291489992291
+        ],
+        [
+          154.77586325475613,
+          49.3475683732864,
+          410.6729629067704
+        ],
+        [
+          154.77560921992625,
+          49.35429389330537,
+          410.8048822088167
+        ],
+        [
+          154.7753521417477,
+          49.36102015800835,
+          411.02456825133413
+        ],
+        [
+          154.77509646371863,
+          49.36774503093469,
+          411.33212120924145
+        ],
+        [
+          154.7623079420802,
+          49.367537560189156,
+          410.8594003813341
+        ],
+        [
+          154.74952302665363,
+          49.36732760965581,
+          410.52179458457977
+        ],
+        [
+          154.736737295403,
+          49.367114511255934,
+          410.3191162273288
+        ],
+        [
+          154.72395062215875,
+          49.36690108040903,
+          410.25154388695955
+        ],
+        [
+          154.7111672760289,
+          49.366687949621024,
+          410.3190935347229
+        ],
+        [
+          154.69837861910034,
+          49.36647098513902,
+          410.5216386998072
+        ],
+        [
+          154.68559316465576,
+          49.366254292819015,
+          410.8592863827944
+        ],
+        [
+          154.6728109098534,
+          49.3660350160784,
+          411.33179237600416
+        ],
+        [
+          154.67308103157242,
+          49.35931112472297,
+          411.0243865000084
+        ],
+        [
+          154.6733523749388,
+          49.35258580701968,
+          410.804715170525
+        ],
+        [
+          154.67362066396274,
+          49.34585839584265,
+          410.6730088479817
+        ],
+        [
+          154.67389009595303,
+          49.33913233909992,
+          410.6291641620919
+        ],
+        [
+          154.67416065819822,
+          49.33240760598579,
+          410.6731296032667
+        ],
+        [
+          154.67443233832063,
+          49.32568416576015,
+          410.8048552721739
+        ],
+        [
+          154.6747009864417,
+          49.318958511504746,
+          411.0246070176363
+        ],
+        [
+          154.67497090538197,
+          49.31223126326539,
+          411.33225794602185
+        ],
+        [
+          154.6877435550849,
+          49.312450305639395,
+          410.85946270637214
+        ],
+        [
+          154.70051500376863,
+          49.31266894476665,
+          410.5217184992507
+        ],
+        [
+          154.7132854550733,
+          49.31288437087163,
+          410.3191308490932
+        ],
+        [
+          154.72605927268384,
+          49.313097256711224,
+          410.2516309674829
+        ],
+        [
+          154.7388319158216,
+          49.31331259554405,
+          410.31900999043137
+        ],
+        [
+          154.75160388604343,
+          49.31352195304409,
+          410.5216765347868
+        ],
+        [
+          154.76437479208886,
+          49.3137337829875,
+          410.85915640648454
+        ],
+        [
+          154.77714513209213,
+          49.313939665090565,
+          411.33186475373805
+        ],
+        [
+          154.7768885486276,
+          49.320667744278126,
+          411.0242496347055
+        ],
+        [
+          154.77663354081548,
+          49.327391451206324,
+          410.8047388494015
+        ],
+        [
+          154.77637535491388,
+          49.33411858709811,
+          410.67286918126047
+        ],
+        [
+          154.77612295580226,
+          49.34084487640835,
+          410.6291489992291
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    154.6728109098534,
+    49.31223126326539,
+    154.77714513209213,
+    49.36774503093469
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:50.897451Z",
+    "updated": "2024-12-17T09:52:50.897451Z",
+    "start_datetime": "2023-11-15T10:19:02Z",
+    "end_datetime": "2023-11-15T10:19:06.047977Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.0449522518336,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799975391244518,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.28601039563888325,
+    "sar:resolution_azimuth": 0.2775134337858029,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-15T10:19:02Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Tao-Rusyr%20Caldera%2C%20Russia/e13017c6-3305-44d4-ad0e-30598a35d116/2023-11-15-10-19-01_UMBRA-05/2023-11-15-10-19-01_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Tao-Rusyr Caldera, Russia/e13017c6-3305-44d4-ad0e-30598a35d116/2023-11-15-10-19-01_UMBRA-05/2023-11-15-10-19-01_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Tao-Rusyr Caldera, Russia/e13017c6-3305-44d4-ad0e-30598a35d116/2023-11-15-10-19-01_UMBRA-05/2023-11-15-10-19-01_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Tao-Rusyr Caldera, Russia/e13017c6-3305-44d4-ad0e-30598a35d116/2023-11-15-10-19-01_UMBRA-05/2023-11-15-10-19-01_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Tao-Rusyr Caldera, Russia/e13017c6-3305-44d4-ad0e-30598a35d116/2023-11-15-10-19-01_UMBRA-05/2023-11-15-10-19-01_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

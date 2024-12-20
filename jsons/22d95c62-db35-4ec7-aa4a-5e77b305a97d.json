@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "22d95c62-db35-4ec7-aa4a-5e77b305a97d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.89060259949795,
+          18.119811656876486,
+          13.727308727254064
+        ],
+        [
+          -67.93421984582949,
+          18.10244914012708,
+          13.723162016574516
+        ],
+        [
+          -67.91606284491029,
+          18.06074156995762,
+          13.727483069982569
+        ],
+        [
+          -67.87245412114214,
+          18.07810005832372,
+          13.723163206424152
+        ],
+        [
+          -67.89060259949795,
+          18.119811656876486,
+          13.727308727254064
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -67.93421984582949,
+    18.06074156995762,
+    -67.87245412114214,
+    18.119811656876486
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:06.694030Z",
+    "updated": "2024-12-17T09:54:06.694030Z",
+    "start_datetime": "2024-02-15T13:56:59Z",
+    "end_datetime": "2024-02-15T13:57:09.389204Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.47050742822018,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799990169238301,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.35,
+    "sar:resolution_azimuth": 0.175,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-02-15T13:56:59Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Mona_Island_Puerto_Rico/3d326465-a8f9-491e-bc97-9da6bbe6cf7c/2024-02-15-13-56-58_UMBRA-05/2024-02-15-13-56-58_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mona_Island_Puerto_Rico/3d326465-a8f9-491e-bc97-9da6bbe6cf7c/2024-02-15-13-56-58_UMBRA-05/2024-02-15-13-56-58_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mona_Island_Puerto_Rico/3d326465-a8f9-491e-bc97-9da6bbe6cf7c/2024-02-15-13-56-58_UMBRA-05/2024-02-15-13-56-58_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mona_Island_Puerto_Rico/3d326465-a8f9-491e-bc97-9da6bbe6cf7c/2024-02-15-13-56-58_UMBRA-05/2024-02-15-13-56-58_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mona_Island_Puerto_Rico/3d326465-a8f9-491e-bc97-9da6bbe6cf7c/2024-02-15-13-56-58_UMBRA-05/2024-02-15-13-56-58_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mona_Island_Puerto_Rico/3d326465-a8f9-491e-bc97-9da6bbe6cf7c/2024-02-15-13-56-58_UMBRA-05/2024-02-15-13-56-58_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

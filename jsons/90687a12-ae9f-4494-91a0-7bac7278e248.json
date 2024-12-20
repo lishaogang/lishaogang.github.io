@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "90687a12-ae9f-4494-91a0-7bac7278e248",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -51.77177923833434,
+          64.18306386064634,
+          51.44277581945062
+        ],
+        [
+          -51.76959500314215,
+          64.1786800383142,
+          51.38408425543457
+        ],
+        [
+          -51.76741849899103,
+          64.17429543610857,
+          51.364658371545374
+        ],
+        [
+          -51.76524338680941,
+          64.16991452939939,
+          51.38433988392353
+        ],
+        [
+          -51.76305796790822,
+          64.16553075957628,
+          51.44303711876273
+        ],
+        [
+          -51.76088026727741,
+          64.16114618673015,
+          51.541005324572325
+        ],
+        [
+          -51.758703907336724,
+          64.15676528520156,
+          51.67798722907901
+        ],
+        [
+          -51.74866055682798,
+          64.157714556814,
+          51.541193505749106
+        ],
+        [
+          -51.73861912065066,
+          64.15866281075665,
+          51.443515952676535
+        ],
+        [
+          -51.72857148603824,
+          64.15961084390264,
+          51.38489108067006
+        ],
+        [
+          -51.71852748046264,
+          64.16056154898774,
+          51.36525259073824
+        ],
+        [
+          -51.70848359974649,
+          64.1615075561814,
+          51.38483317941427
+        ],
+        [
+          -51.69843349708445,
+          64.1624533433834,
+          51.443532972596586
+        ],
+        [
+          -51.68838697488226,
+          64.16340181282628,
+          51.54119245894253
+        ],
+        [
+          -51.67834053155187,
+          64.16434558424292,
+          51.67804357223213
+        ],
+        [
+          -51.68050545858185,
+          64.16872836442175,
+          51.54112202860415
+        ],
+        [
+          -51.682671680706406,
+          64.17311483334234,
+          51.443262703716755
+        ],
+        [
+          -51.684843735204836,
+          64.17749682423175,
+          51.384500885382295
+        ],
+        [
+          -51.68700906638899,
+          64.18188331029205,
+          51.36498786602169
+        ],
+        [
+          -51.68917215877846,
+          64.18626613164149,
+          51.38462903816253
+        ],
+        [
+          -51.691344667697315,
+          64.1906518769497,
+          51.4433307684958
+        ],
+        [
+          -51.69351492016478,
+          64.19503397551762,
+          51.54111871123314
+        ],
+        [
+          -51.695686570896775,
+          64.19941980773605,
+          51.67815687227994
+        ],
+        [
+          -51.705744668213235,
+          64.19847412374033,
+          51.54129291791469
+        ],
+        [
+          -51.715804582068564,
+          64.19752743073302,
+          51.443483426235616
+        ],
+        [
+          -51.72586633343078,
+          64.19657972609907,
+          51.384757939726114
+        ],
+        [
+          -51.735920010460305,
+          64.19562813667311,
+          51.36501653119922
+        ],
+        [
+          -51.74597739773684,
+          64.1946792115527,
+          51.38448748830706
+        ],
+        [
+          -51.756036669993534,
+          64.1937292697591,
+          51.443069849163294
+        ],
+        [
+          -51.76608973848807,
+          64.19277911901405,
+          51.540701056830585
+        ],
+        [
+          -51.77614471857862,
+          64.19182794914583,
+          51.67744198255241
+        ],
+        [
+          -51.773963091718045,
+          64.18744771766875,
+          51.54060569498688
+        ],
+        [
+          -51.77177923833434,
+          64.18306386064634,
+          51.44277581945062
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -51.77614471857862,
+    64.15676528520156,
+    -51.67834053155187,
+    64.19941980773605
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:40.321136Z",
+    "updated": "2024-12-17T08:54:40.321136Z",
+    "start_datetime": "2023-02-12T00:21:05.180133Z",
+    "end_datetime": "2023-02-12T00:21:07.630032Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.75412651761379,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.60000488406513,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.45167105165526206,
+    "sar:resolution_azimuth": 0.45337366673833646,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-12T00:21:05.180133Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Nuuk%2C%20Greenland/90687a12-ae9f-4494-91a0-7bac7278e248/2023-02-12-00-21-03_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuuk, Greenland/90687a12-ae9f-4494-91a0-7bac7278e248/2023-02-12-00-21-03_UMBRA-04.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuuk, Greenland/90687a12-ae9f-4494-91a0-7bac7278e248/2023-02-12-00-21-03_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuuk, Greenland/90687a12-ae9f-4494-91a0-7bac7278e248/2023-02-12-00-21-03_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nuuk, Greenland/90687a12-ae9f-4494-91a0-7bac7278e248/2023-02-12-00-21-03_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

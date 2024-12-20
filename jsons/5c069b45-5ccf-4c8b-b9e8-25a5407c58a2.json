@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5c069b45-5ccf-4c8b-b9e8-25a5407c58a2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          62.3589967285079,
+          25.113894034255374,
+          0.43231080658733845
+        ],
+        [
+          62.35640306175761,
+          25.11773974119924,
+          0.41335512325167656
+        ],
+        [
+          62.35381149056895,
+          25.121586765114426,
+          0.4338012896478176
+        ],
+        [
+          62.351222012968115,
+          25.1254351098149,
+          0.4936518445611
+        ],
+        [
+          62.348628431350676,
+          25.12928183270407,
+          0.5927003743126988
+        ],
+        [
+          62.34603693732816,
+          25.13312988863251,
+          0.7311663590371609
+        ],
+        [
+          62.341810720369764,
+          25.13076914184474,
+          0.5938151786103845
+        ],
+        [
+          62.33758342229504,
+          25.128410801899705,
+          0.49580102413892746
+        ],
+        [
+          62.333358710359086,
+          25.126049327242253,
+          0.4368877802044153
+        ],
+        [
+          62.329128896315616,
+          25.123690175697014,
+          0.4173581851646304
+        ],
+        [
+          62.324905656277814,
+          25.12132798429497,
+          0.43687702156603336
+        ],
+        [
+          62.32067730179646,
+          25.118968121968575,
+          0.4958175169304013
+        ],
+        [
+          62.31645365307042,
+          25.11660800566144,
+          0.5938493860885501
+        ],
+        [
+          62.31222856488819,
+          25.114244665812382,
+          0.7311162371188402
+        ],
+        [
+          62.31482340878067,
+          25.110399464596266,
+          0.593397593125701
+        ],
+        [
+          62.31741415858791,
+          25.106552631214043,
+          0.49514144100248814
+        ],
+        [
+          62.320008801596124,
+          25.102704355354707,
+          0.4360833242535591
+        ],
+        [
+          62.322601496020205,
+          25.098857313895135,
+          0.41641388926655054
+        ],
+        [
+          62.3251922368456,
+          25.095011501053147,
+          0.43608267698436975
+        ],
+        [
+          62.32778689569954,
+          25.091164226847916,
+          0.49501777719706297
+        ],
+        [
+          62.33037749138841,
+          25.087315278772145,
+          0.5934269055724144
+        ],
+        [
+          62.33296825356263,
+          25.083470430015282,
+          0.7309765471145511
+        ],
+        [
+          62.33719409212147,
+          25.085831001239825,
+          0.5928859012201428
+        ],
+        [
+          62.34141663235975,
+          25.08819112612589,
+          0.49404758494347334
+        ],
+        [
+          62.34564390072031,
+          25.090551004350825,
+          0.4344580937176943
+        ],
+        [
+          62.349867881197085,
+          25.09291043273687,
+          0.4140823734924197
+        ],
+        [
+          62.35409661677688,
+          25.095269605261045,
+          0.4330275719985366
+        ],
+        [
+          62.35832019027899,
+          25.097631105324634,
+          0.4910349575802684
+        ],
+        [
+          62.36254640036294,
+          25.09998946461736,
+          0.5884038098156452
+        ],
+        [
+          62.36677148799017,
+          25.102350240457152,
+          0.7249160064384341
+        ],
+        [
+          62.3641798553012,
+          25.10619785808563,
+          0.5880414806306362
+        ],
+        [
+          62.361588173776546,
+          25.110043906128254,
+          0.49049485567957163
+        ],
+        [
+          62.3589967285079,
+          25.113894034255374,
+          0.43231080658733845
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    62.31222856488819,
+    25.083470430015282,
+    62.36677148799017,
+    25.13312988863251
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:55.329104Z",
+    "updated": "2024-12-17T09:54:55.329104Z",
+    "start_datetime": "2023-08-12T18:18:15Z",
+    "end_datetime": "2023-08-12T18:18:19.031828Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 37.98993420653015,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599993854004426,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3883551065723306,
+    "sar:resolution_azimuth": 0.3911691287069682,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-12T18:18:15Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ship_detection_testdata/0ad40f83-0e82-47af-9467-a39471d08ed0/2023-08-12-18-18-14_UMBRA-06/2023-08-12-18-18-14_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ship_detection_testdata/0ad40f83-0e82-47af-9467-a39471d08ed0/2023-08-12-18-18-14_UMBRA-06/2023-08-12-18-18-14_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ship_detection_testdata/0ad40f83-0e82-47af-9467-a39471d08ed0/2023-08-12-18-18-14_UMBRA-06/2023-08-12-18-18-14_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ship_detection_testdata/0ad40f83-0e82-47af-9467-a39471d08ed0/2023-08-12-18-18-14_UMBRA-06/2023-08-12-18-18-14_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ship_detection_testdata/0ad40f83-0e82-47af-9467-a39471d08ed0/2023-08-12-18-18-14_UMBRA-06/2023-08-12-18-18-14_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

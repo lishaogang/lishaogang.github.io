@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "2517d3e0-ca37-4b01-960a-008a9f8ac254",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.349945751116916,
+          36.416073566851075,
+          148.2429119395092
+        ],
+        [
+          25.34713411524104,
+          36.409063486159845,
+          148.2948304079473
+        ],
+        [
+          25.34432417925955,
+          36.40205271215391,
+          148.4518084274605
+        ],
+        [
+          25.34151253693667,
+          36.39504202259711,
+          148.71407900564373
+        ],
+        [
+          25.338702564838584,
+          36.388030578886905,
+          149.08144145458937
+        ],
+        [
+          25.3502153372236,
+          36.385015475326114,
+          148.43567618262023
+        ],
+        [
+          25.36172557393613,
+          36.38199877193235,
+          147.9747029831633
+        ],
+        [
+          25.37323332757651,
+          36.378980456949456,
+          147.6984578538686
+        ],
+        [
+          25.384742021258983,
+          36.37595970831902,
+          147.60687635466456
+        ],
+        [
+          25.396249437767626,
+          36.372940029107056,
+          147.69984998740256
+        ],
+        [
+          25.407757882069724,
+          36.36991790095457,
+          147.9775901697576
+        ],
+        [
+          25.4192640340919,
+          36.36689412277922,
+          148.44004924502224
+        ],
+        [
+          25.430769060056697,
+          36.36387139496829,
+          149.08701709937304
+        ],
+        [
+          25.433585470703466,
+          36.37087961338475,
+          148.71828408632427
+        ],
+        [
+          25.43640032224469,
+          36.377887850109154,
+          148.45457032788545
+        ],
+        [
+          25.4392214376759,
+          36.3848972429699,
+          148.29624151997268
+        ],
+        [
+          25.44204101185909,
+          36.39190671697082,
+          148.2429812401533
+        ],
+        [
+          25.44485797047506,
+          36.39891357984471,
+          148.29473432339728
+        ],
+        [
+          25.447677864004724,
+          36.40592249725295,
+          148.45174286328256
+        ],
+        [
+          25.450496255062383,
+          36.41293157790432,
+          148.71378191187978
+        ],
+        [
+          25.45331987724551,
+          36.419939265913186,
+          149.0812779162079
+        ],
+        [
+          25.44180802581723,
+          36.42296553561362,
+          148.4356875922531
+        ],
+        [
+          25.430293919866394,
+          36.42599007934071,
+          147.9746665218845
+        ],
+        [
+          25.418778573797514,
+          36.429015622175015,
+          147.6984241064638
+        ],
+        [
+          25.40726318496899,
+          36.43203595298733,
+          147.60669213347137
+        ],
+        [
+          25.395747521709954,
+          36.43506000742124,
+          147.69989909045398
+        ],
+        [
+          25.38423173138763,
+          36.438078871320656,
+          147.97751233167946
+        ],
+        [
+          25.37271450459341,
+          36.4410987623518,
+          148.43991210870445
+        ],
+        [
+          25.361194727436448,
+          36.444116984669684,
+          149.08699899166822
+        ],
+        [
+          25.358381885642594,
+          36.43710506582784,
+          148.71816014219075
+        ],
+        [
+          25.355568462024074,
+          36.430096074671326,
+          148.45471515972167
+        ],
+        [
+          25.3527567823052,
+          36.423086483978594,
+          148.29629637952894
+        ],
+        [
+          25.349945751116916,
+          36.416073566851075,
+          148.2429119395092
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    25.338702564838584,
+    36.36387139496829,
+    25.45331987724551,
+    36.444116984669684
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:48.000306Z",
+    "updated": "2024-12-17T09:52:48.000306Z",
+    "start_datetime": "2023-11-15T08:30:27Z",
+    "end_datetime": "2023-11-15T08:30:31.234900Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 42.87500291085845,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799998335132841,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2884619460144221,
+    "sar:resolution_azimuth": 0.28348783816217926,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-15T08:30:27Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Santorini%2C%20Greece/8fc23b51-0323-429a-9455-8b52d5c9299a/2023-11-15-08-30-26_UMBRA-04/2023-11-15-08-30-26_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Santorini, Greece/8fc23b51-0323-429a-9455-8b52d5c9299a/2023-11-15-08-30-26_UMBRA-04/2023-11-15-08-30-26_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Santorini, Greece/8fc23b51-0323-429a-9455-8b52d5c9299a/2023-11-15-08-30-26_UMBRA-04/2023-11-15-08-30-26_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Santorini, Greece/8fc23b51-0323-429a-9455-8b52d5c9299a/2023-11-15-08-30-26_UMBRA-04/2023-11-15-08-30-26_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/Santorini, Greece/8fc23b51-0323-429a-9455-8b52d5c9299a/2023-11-15-08-30-26_UMBRA-04/2023-11-15-08-30-26_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

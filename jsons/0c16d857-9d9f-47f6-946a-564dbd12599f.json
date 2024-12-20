@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "0c16d857-9d9f-47f6-946a-564dbd12599f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.450659713336997,
+          -26.096450571976966,
+          1657.14444918558
+        ],
+        [
+          29.454089685702336,
+          -26.099729840705425,
+          1657.0864158403128
+        ],
+        [
+          29.457522090208784,
+          -26.103011065402644,
+          1657.0676305191591
+        ],
+        [
+          29.46095085188146,
+          -26.106288414477895,
+          1657.0880964016542
+        ],
+        [
+          29.46438508446408,
+          -26.109570647610475,
+          1657.1478920318186
+        ],
+        [
+          29.467815689658924,
+          -26.112849011875088,
+          1657.246880092658
+        ],
+        [
+          29.471248733811244,
+          -26.116129350772976,
+          1657.3852083226666
+        ],
+        [
+          29.474880526022474,
+          -26.113029990313713,
+          1657.2477593831718
+        ],
+        [
+          29.478516194375732,
+          -26.109931126228645,
+          1657.1496339766309
+        ],
+        [
+          29.48214880252199,
+          -26.106831758284912,
+          1657.090749008581
+        ],
+        [
+          29.48578138500423,
+          -26.10373481239019,
+          1657.071202791296
+        ],
+        [
+          29.48940788974573,
+          -26.10063443556928,
+          1657.0906740212813
+        ],
+        [
+          29.49304522401636,
+          -26.097535566305073,
+          1657.1497469292954
+        ],
+        [
+          29.496675613273737,
+          -26.094438117467654,
+          1657.2478918526322
+        ],
+        [
+          29.500306869884884,
+          -26.091338243171798,
+          1657.3853079834953
+        ],
+        [
+          29.49687244358352,
+          -26.08805746427673,
+          1657.247763440013
+        ],
+        [
+          29.493440479773778,
+          -26.084778664718513,
+          1657.1495917597786
+        ],
+        [
+          29.49001098278978,
+          -26.081501838548782,
+          1657.0907172802836
+        ],
+        [
+          29.486577854160014,
+          -26.078221122395252,
+          1657.0710649918765
+        ],
+        [
+          29.483147185019174,
+          -26.074942371183166,
+          1657.0906983464956
+        ],
+        [
+          29.479715920267935,
+          -26.071662651981317,
+          1657.1496121780947
+        ],
+        [
+          29.476284052188355,
+          -26.068381961436213,
+          1657.2478361427784
+        ],
+        [
+          29.472854640505457,
+          -26.06510322149091,
+          1657.3852600352839
+        ],
+        [
+          29.46922162006357,
+          -26.068200590572534,
+          1657.2470386819914
+        ],
+        [
+          29.46559252679678,
+          -26.071298462103076,
+          1657.148020545952
+        ],
+        [
+          29.461960391310814,
+          -26.074395846473536,
+          1657.088286453858
+        ],
+        [
+          29.45832826987688,
+          -26.07749566440758,
+          1657.0677384799346
+        ],
+        [
+          29.454697000817,
+          -26.08059305971919,
+          1657.0864899232984
+        ],
+        [
+          29.451065733890704,
+          -26.083692885038328,
+          1657.1444439496845
+        ],
+        [
+          29.447428345440155,
+          -26.08678930550622,
+          1657.2419215133414
+        ],
+        [
+          29.443797915888915,
+          -26.089889135249486,
+          1657.3783767176792
+        ],
+        [
+          29.447229125995698,
+          -26.093170337944557,
+          1657.2417594166473
+        ],
+        [
+          29.450659713336997,
+          -26.096450571976966,
+          1657.14444918558
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.443797915888915,
+    -26.116129350772976,
+    29.500306869884884,
+    -26.06510322149091
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:14.537386Z",
+    "updated": "2024-12-17T09:48:14.537386Z",
+    "start_datetime": "2023-09-04T20:06:07Z",
+    "end_datetime": "2023-09-04T20:06:10.309367Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.52645314414885,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600008156325204,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4818450382638703,
+    "sar:resolution_azimuth": 0.48885022225984565,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-09-04T20:06:07Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-09-04"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati%20Power%20Station%2C%20S%20Africa/10bc5d53-2ccc-4789-b4ea-662f34616103/2023-09-04-20-06-06_UMBRA-05/2023-09-04-20-06-06_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/10bc5d53-2ccc-4789-b4ea-662f34616103/2023-09-04-20-06-06_UMBRA-05/2023-09-04-20-06-06_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/10bc5d53-2ccc-4789-b4ea-662f34616103/2023-09-04-20-06-06_UMBRA-05/2023-09-04-20-06-06_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/10bc5d53-2ccc-4789-b4ea-662f34616103/2023-09-04-20-06-06_UMBRA-05/2023-09-04-20-06-06_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/10bc5d53-2ccc-4789-b4ea-662f34616103/2023-09-04-20-06-06_UMBRA-05/2023-09-04-20-06-06_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

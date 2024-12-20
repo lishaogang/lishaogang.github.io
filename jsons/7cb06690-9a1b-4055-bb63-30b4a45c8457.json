@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "7cb06690-9a1b-4055-bb63-30b4a45c8457",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.15639515919947,
+          29.144159022653362,
+          48.50341481529176
+        ],
+        [
+          31.153569840017035,
+          29.147928713266847,
+          48.366153948009014
+        ],
+        [
+          31.150746001015175,
+          29.151697123411537,
+          48.26827463880181
+        ],
+        [
+          31.147923619149275,
+          29.15546426475144,
+          48.20972846169025
+        ],
+        [
+          31.145097049460805,
+          29.1592329197497,
+          48.19037769455463
+        ],
+        [
+          31.142274281949906,
+          29.16300246669228,
+          48.2104603825137
+        ],
+        [
+          31.139448958215443,
+          29.16677108791354,
+          48.269776940345764
+        ],
+        [
+          31.136621073050147,
+          29.17053879434477,
+          48.36833836697042
+        ],
+        [
+          31.133796959187904,
+          29.17430742054836,
+          48.50629944074899
+        ],
+        [
+          31.12950240580412,
+          29.17182781271351,
+          48.368633278645575
+        ],
+        [
+          31.12521102601467,
+          29.169346908290155,
+          48.27014546468854
+        ],
+        [
+          31.12091724876689,
+          29.166867471541398,
+          48.210947756655514
+        ],
+        [
+          31.116622671264413,
+          29.164387047472538,
+          48.19096843339503
+        ],
+        [
+          31.11232962022049,
+          29.161907785178936,
+          48.21023750118911
+        ],
+        [
+          31.10803735409744,
+          29.159425078235852,
+          48.26864281017333
+        ],
+        [
+          31.10374497413679,
+          29.1569459946851,
+          48.36635747086257
+        ],
+        [
+          31.09945336185407,
+          29.15446346406518,
+          48.50322582013905
+        ],
+        [
+          31.102279068186427,
+          29.15069601622617,
+          48.366059344261885
+        ],
+        [
+          31.10510451588804,
+          29.146929800797817,
+          48.26818784791976
+        ],
+        [
+          31.107931334479474,
+          29.143162347271264,
+          48.209563489072025
+        ],
+        [
+          31.110755612400492,
+          29.13939394271056,
+          48.19032592140138
+        ],
+        [
+          31.113583584272202,
+          29.13562644478932,
+          48.210283448919654
+        ],
+        [
+          31.11640903220176,
+          29.131857975995082,
+          48.269633567892015
+        ],
+        [
+          31.119234246126,
+          29.12809069515832,
+          48.368248887360096
+        ],
+        [
+          31.122056942030213,
+          29.124322423937365,
+          48.50622694287449
+        ],
+        [
+          31.126348708449576,
+          29.126801377904073,
+          48.368630615994334
+        ],
+        [
+          31.13064194414374,
+          29.129281495361376,
+          48.27020745258778
+        ],
+        [
+          31.134932698196852,
+          29.131763075658334,
+          48.21094905398786
+        ],
+        [
+          31.139224316045084,
+          29.134241186341978,
+          48.19102702103555
+        ],
+        [
+          31.143517449919177,
+          29.13672045485708,
+          48.21030831616372
+        ],
+        [
+          31.147808127474804,
+          29.13920118654395,
+          48.26871344540268
+        ],
+        [
+          31.152102027289374,
+          29.141680605008098,
+          48.36645925138146
+        ],
+        [
+          31.15639515919947,
+          29.144159022653362,
+          48.50341481529176
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    31.09945336185407,
+    29.124322423937365,
+    31.15639515919947,
+    29.17430742054836
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:10.814240Z",
+    "updated": "2024-12-17T09:54:10.814240Z",
+    "start_datetime": "2024-01-14T07:36:39Z",
+    "end_datetime": "2024-01-14T07:36:43.877706Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 26.585027957645735,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799966217251496,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2727673762632691,
+    "sar:resolution_azimuth": 0.26303612881823574,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-01-14T07:36:39Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-01-14"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Nasr%20City%2C%20Egypt/ba7d54d7-08a7-4671-a4ec-bc4b576fb0cb/2024-01-14-07-36-38_UMBRA-04/2024-01-14-07-36-38_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nasr City, Egypt/ba7d54d7-08a7-4671-a4ec-bc4b576fb0cb/2024-01-14-07-36-38_UMBRA-04/2024-01-14-07-36-38_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nasr City, Egypt/ba7d54d7-08a7-4671-a4ec-bc4b576fb0cb/2024-01-14-07-36-38_UMBRA-04/2024-01-14-07-36-38_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nasr City, Egypt/ba7d54d7-08a7-4671-a4ec-bc4b576fb0cb/2024-01-14-07-36-38_UMBRA-04/2024-01-14-07-36-38_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Nasr City, Egypt/ba7d54d7-08a7-4671-a4ec-bc4b576fb0cb/2024-01-14-07-36-38_UMBRA-04/2024-01-14-07-36-38_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

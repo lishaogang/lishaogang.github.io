@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "0ce1f737-ccf9-45a3-9f80-32dbe456d16d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.812188967881343,
+          34.01218618605412,
+          26.3169285627082
+        ],
+        [
+          -6.8136288218192265,
+          34.016532395819866,
+          26.21892238687724
+        ],
+        [
+          -6.815066484376131,
+          34.02087907109465,
+          26.160326291806996
+        ],
+        [
+          -6.816505039365206,
+          34.02522181674108,
+          26.14101224578917
+        ],
+        [
+          -6.817942544905174,
+          34.02956852137071,
+          26.16107593663037
+        ],
+        [
+          -6.8193820809980785,
+          34.03391479426939,
+          26.22042222134769
+        ],
+        [
+          -6.8208194345295725,
+          34.03826155944489,
+          26.319176482968032
+        ],
+        [
+          -6.822258824263399,
+          34.04260790960431,
+          26.45721418131143
+        ],
+        [
+          -6.8274777346850275,
+          34.04140791627393,
+          26.32005627732724
+        ],
+        [
+          -6.832697787961382,
+          34.04021107214549,
+          26.22218078095466
+        ],
+        [
+          -6.837917877447019,
+          34.03901389034054,
+          26.16346484888345
+        ],
+        [
+          -6.8431368933415735,
+          34.0378128774887,
+          26.14378686528653
+        ],
+        [
+          -6.848357069965805,
+          34.03661501510767,
+          26.163404386490583
+        ],
+        [
+          -6.853577298258301,
+          34.03541681146059,
+          26.22219584789127
+        ],
+        [
+          -6.858797583328393,
+          34.0342182653587,
+          26.32016636338085
+        ],
+        [
+          -6.864013739534132,
+          34.033020284122244,
+          26.457194052636623
+        ],
+        [
+          -6.862576613943972,
+          34.02867420594724,
+          26.319636495783925
+        ],
+        [
+          -6.861133159576562,
+          34.02432952852355,
+          26.2212102888152
+        ],
+        [
+          -6.859695943093041,
+          34.01998351143178,
+          26.162294476293027
+        ],
+        [
+          -6.858252394922509,
+          34.015638885023776,
+          26.14251085743308
+        ],
+        [
+          -6.856815077552705,
+          34.01129289903211,
+          26.162236594595015
+        ],
+        [
+          -6.855375612082755,
+          34.00694737531617,
+          26.22122107911855
+        ],
+        [
+          -6.853933996952918,
+          34.00260230886491,
+          26.31946554686874
+        ],
+        [
+          -6.852494415801443,
+          33.99825677302408,
+          26.45709568168968
+        ],
+        [
+          -6.847275889821172,
+          33.99945449261735,
+          26.31966037955135
+        ],
+        [
+          -6.842062775599438,
+          34.000654436366965,
+          26.22134872712195
+        ],
+        [
+          -6.836844372310305,
+          34.00185147540521,
+          26.162253014743328
+        ],
+        [
+          -6.831627177260745,
+          34.00305166028233,
+          26.14220903161913
+        ],
+        [
+          -6.826408872905908,
+          34.004248023927495,
+          26.161463811062276
+        ],
+        [
+          -6.821191764989843,
+          34.00544753250063,
+          26.219760765321553
+        ],
+        [
+          -6.815973538926684,
+          34.00664322546193,
+          26.317346925847232
+        ],
+        [
+          -6.810752285609418,
+          34.0078429880092,
+          26.45409347768873
+        ],
+        [
+          -6.812188967881343,
+          34.01218618605412,
+          26.3169285627082
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.864013739534132,
+    33.99825677302408,
+    -6.810752285609418,
+    34.04260790960431
+  ],
+  "properties": {
+    "created": "2024-12-17T08:54:48.845141Z",
+    "updated": "2024-12-17T08:54:48.845141Z",
+    "start_datetime": "2023-02-16T21:21:37.309631Z",
+    "end_datetime": "2023-02-16T21:21:39.900878Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.51753789855497,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.59999970108038,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.446379614844716,
+    "sar:resolution_azimuth": 0.44985157695036954,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-02-16T21:21:37.309631Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-02-16"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Rabat%2C%20Morocco/0ce1f737-ccf9-45a3-9f80-32dbe456d16d/2023-02-16-21-21-35_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Rabat, Morocco/0ce1f737-ccf9-45a3-9f80-32dbe456d16d/2023-02-16-21-21-35_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Rabat, Morocco/0ce1f737-ccf9-45a3-9f80-32dbe456d16d/2023-02-16-21-21-35_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Rabat, Morocco/0ce1f737-ccf9-45a3-9f80-32dbe456d16d/2023-02-16-21-21-35_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Rabat, Morocco/0ce1f737-ccf9-45a3-9f80-32dbe456d16d/2023-02-16-21-21-35_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

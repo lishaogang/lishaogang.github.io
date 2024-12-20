@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3dc3cd64-da08-433c-9347-96336e77f966",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          69.27072779127367,
+          41.33851269732275,
+          459.14464656077325
+        ],
+        [
+          69.26580217023076,
+          41.335969018676145,
+          459.0074790371582
+        ],
+        [
+          69.26087108901544,
+          41.333424965359086,
+          458.9094866476953
+        ],
+        [
+          69.25594388700847,
+          41.330884096607896,
+          458.8507983209565
+        ],
+        [
+          69.25101536900561,
+          41.328338392317086,
+          458.83115326520056
+        ],
+        [
+          69.24609071758047,
+          41.32579587307927,
+          458.85073391813785
+        ],
+        [
+          69.24116267265013,
+          41.32325074942192,
+          458.90951032564044
+        ],
+        [
+          69.2362353726186,
+          41.320707627656226,
+          459.0075150532648
+        ],
+        [
+          69.23130778394471,
+          41.318163087620945,
+          459.1447161482647
+        ],
+        [
+          69.23468571901807,
+          41.31444818367435,
+          459.0072609074414
+        ],
+        [
+          69.23805994633598,
+          41.31073413838279,
+          458.9091748651117
+        ],
+        [
+          69.24143356846844,
+          41.30702213301574,
+          458.85030679404736
+        ],
+        [
+          69.24480766272508,
+          41.30330650470475,
+          458.8306962409988
+        ],
+        [
+          69.24818115852753,
+          41.29959290785644,
+          458.85029590595514
+        ],
+        [
+          69.25155615001039,
+          41.29587910500147,
+          458.9091037446633
+        ],
+        [
+          69.25492744227596,
+          41.292166133024885,
+          459.00715509802103
+        ],
+        [
+          69.25829923965843,
+          41.28844952072745,
+          459.1445809388533
+        ],
+        [
+          69.2632249656563,
+          41.290994072213586,
+          459.0068242251873
+        ],
+        [
+          69.26815040430574,
+          41.29353721207049,
+          458.9083173414692
+        ],
+        [
+          69.27307555635174,
+          41.29607894106962,
+          458.8490316271782
+        ],
+        [
+          69.27800143015335,
+          41.29862268180045,
+          458.828854823485
+        ],
+        [
+          69.28292702397968,
+          41.3011650111889,
+          458.847886769101
+        ],
+        [
+          69.2878554475032,
+          41.30370712405466,
+          458.90615584142506
+        ],
+        [
+          69.29278150048296,
+          41.30625005186058,
+          459.003526147455
+        ],
+        [
+          69.29770728092053,
+          41.30879156862789,
+          459.1400647163391
+        ],
+        [
+          69.29433731777853,
+          41.31250812729853,
+          459.0033413376659
+        ],
+        [
+          69.2909657711314,
+          41.31622328380921,
+          458.9058206928894
+        ],
+        [
+          69.28759263334426,
+          41.319937043870596,
+          458.8474878547713
+        ],
+        [
+          69.28422204337889,
+          41.323654019070865,
+          458.82850849907845
+        ],
+        [
+          69.2808467400292,
+          41.32736841749102,
+          458.8486359762028
+        ],
+        [
+          69.27747606192374,
+          41.3310838112639,
+          458.9081190750003
+        ],
+        [
+          69.27410377210163,
+          41.33479782641804,
+          459.00676245894283
+        ],
+        [
+          69.27072779127367,
+          41.33851269732275,
+          459.14464656077325
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    69.23130778394471,
+    41.28844952072745,
+    69.29770728092053,
+    41.33851269732275
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:34.217563Z",
+    "updated": "2024-12-17T09:54:34.217563Z",
+    "start_datetime": "2023-03-25T16:01:56.518509Z",
+    "end_datetime": "2023-03-25T16:02:01.084925Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 50.51667367959872,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599998622958083,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.32064619802223515,
+    "sar:resolution_azimuth": 0.32764729109047785,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-03-25T16:01:56.518509Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-03-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Tashkent%2C%20Uzbekistan/3dc3cd64-da08-433c-9347-96336e77f966/2023-03-25-16-01-54_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tashkent, Uzbekistan/3dc3cd64-da08-433c-9347-96336e77f966/2023-03-25-16-01-54_UMBRA-04.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tashkent, Uzbekistan/3dc3cd64-da08-433c-9347-96336e77f966/2023-03-25-16-01-54_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tashkent, Uzbekistan/3dc3cd64-da08-433c-9347-96336e77f966/2023-03-25-16-01-54_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tashkent, Uzbekistan/3dc3cd64-da08-433c-9347-96336e77f966/2023-03-25-16-01-54_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

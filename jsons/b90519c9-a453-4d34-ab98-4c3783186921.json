@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b90519c9-a453-4d34-ab98-4c3783186921",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.76350881469594,
+          5.256060870400196,
+          10.510034137405455
+        ],
+        [
+          -52.767027167459226,
+          5.253236163985575,
+          10.371509726159275
+        ],
+        [
+          -52.77054983552354,
+          5.250412330347668,
+          10.27230435051024
+        ],
+        [
+          -52.774071864624126,
+          5.2475860847416245,
+          10.212310023605824
+        ],
+        [
+          -52.77759337771754,
+          5.244760935644592,
+          10.191652351990342
+        ],
+        [
+          -52.781114374915724,
+          5.241936879887008,
+          10.210303148254752
+        ],
+        [
+          -52.7846347489186,
+          5.239110400413605,
+          10.268172508105636
+        ],
+        [
+          -52.78815946989682,
+          5.236284787439541,
+          10.36553312651813
+        ],
+        [
+          -52.79167882777972,
+          5.233460478676647,
+          10.501987788826227
+        ],
+        [
+          -52.78885874238705,
+          5.229930193892625,
+          10.36415942851454
+        ],
+        [
+          -52.78604132257703,
+          5.226399333549036,
+          10.265813230536878
+        ],
+        [
+          -52.78322418247633,
+          5.222869766132326,
+          10.206812393851578
+        ],
+        [
+          -52.78040484031553,
+          5.219339845004224,
+          10.187094522640109
+        ],
+        [
+          -52.77758815135517,
+          5.215809349871056,
+          10.20681457221508
+        ],
+        [
+          -52.77476925411303,
+          5.212278503057334,
+          10.265854394994676
+        ],
+        [
+          -52.77195061658885,
+          5.208748955402572,
+          10.364214655943215
+        ],
+        [
+          -52.76913461994615,
+          5.2052188353153825,
+          10.501969227567315
+        ],
+        [
+          -52.76561097004508,
+          5.208043081768203,
+          10.36445216089487
+        ],
+        [
+          -52.76209164256737,
+          5.210868187861639,
+          10.266186073422432
+        ],
+        [
+          -52.758569309556556,
+          5.213692735372768,
+          10.207252440974116
+        ],
+        [
+          -52.75504891122097,
+          5.2165200204763735,
+          10.187506289221346
+        ],
+        [
+          -52.751525409716315,
+          5.219343234807481,
+          10.207243743352592
+        ],
+        [
+          -52.74800383699861,
+          5.222169191888234,
+          10.266173087060452
+        ],
+        [
+          -52.74448409040847,
+          5.2249943721213175,
+          10.364341719076037
+        ],
+        [
+          -52.740961324999525,
+          5.227819014469068,
+          10.501934992149472
+        ],
+        [
+          -52.74378164015645,
+          5.231349221562369,
+          10.36510616261512
+        ],
+        [
+          -52.7465997555698,
+          5.234879078909942,
+          10.267738483846188
+        ],
+        [
+          -52.749415674147905,
+          5.238408584672535,
+          10.209788599051535
+        ],
+        [
+          -52.75223435186051,
+          5.24194101797017,
+          10.191150724887848
+        ],
+        [
+          -52.75505320308975,
+          5.245471221816695,
+          10.211837159469724
+        ],
+        [
+          -52.757869869174655,
+          5.249001070032462,
+          10.271910035982728
+        ],
+        [
+          -52.76068919052004,
+          5.25253032898548,
+          10.371263735927641
+        ],
+        [
+          -52.76350881469594,
+          5.256060870400196,
+          10.510034137405455
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -52.79167882777972,
+    5.2052188353153825,
+    -52.740961324999525,
+    5.256060870400196
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:42.873167Z",
+    "updated": "2024-12-17T09:48:42.873167Z",
+    "start_datetime": "2023-05-21T13:21:25.770190Z",
+    "end_datetime": "2023-05-21T13:21:31.113894Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 53.91614000331135,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599984511150979,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3521645339943551,
+    "sar:resolution_azimuth": 0.36344335346571577,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-21T13:21:25.770190Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-21"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou%2C%20French%20Guiana/f40633fc-4a6d-48aa-99d6-3c8df2d89e87/2023-05-21-13-21-23_UMBRA-04/2023-05-21-13-21-23_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/f40633fc-4a6d-48aa-99d6-3c8df2d89e87/2023-05-21-13-21-23_UMBRA-04/2023-05-21-13-21-23_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/f40633fc-4a6d-48aa-99d6-3c8df2d89e87/2023-05-21-13-21-23_UMBRA-04/2023-05-21-13-21-23_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou, French Guiana/f40633fc-4a6d-48aa-99d6-3c8df2d89e87/2023-05-21-13-21-23_UMBRA-04/2023-05-21-13-21-23_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

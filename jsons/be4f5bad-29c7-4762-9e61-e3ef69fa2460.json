@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "be4f5bad-29c7-4762-9e61-e3ef69fa2460",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          98.74976626377094,
+          7.656057690597117,
+          36.5518001376247
+        ],
+        [
+          98.79355082191599,
+          7.667727784537924,
+          36.54868756179532
+        ],
+        [
+          98.78185391893342,
+          7.711409070361174,
+          36.552045485550316
+        ],
+        [
+          98.73806520605844,
+          7.699737807590753,
+          36.548687778845554
+        ],
+        [
+          98.74976626377094,
+          7.656057690597117,
+          36.5518001376247
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    98.73806520605844,
+    7.656057690597117,
+    98.79355082191599,
+    7.711409070361174
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:56.002568Z",
+    "updated": "2024-12-17T09:53:56.002568Z",
+    "start_datetime": "2024-03-01T15:06:02Z",
+    "end_datetime": "2024-03-01T15:06:07.024431Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.74404371235409,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599988886504436,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5000000000000004,
+    "sar:resolution_azimuth": 0.25,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-03-01T15:06:02Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-03-01"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Ko_Phi_Phi_Island_Thailand/a3cb6284-acf4-4696-929b-4a81d961cf33/2024-03-01-15-06-01_UMBRA-04/2024-03-01-15-06-01_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ko_Phi_Phi_Island_Thailand/a3cb6284-acf4-4696-929b-4a81d961cf33/2024-03-01-15-06-01_UMBRA-04/2024-03-01-15-06-01_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ko_Phi_Phi_Island_Thailand/a3cb6284-acf4-4696-929b-4a81d961cf33/2024-03-01-15-06-01_UMBRA-04/2024-03-01-15-06-01_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ko_Phi_Phi_Island_Thailand/a3cb6284-acf4-4696-929b-4a81d961cf33/2024-03-01-15-06-01_UMBRA-04/2024-03-01-15-06-01_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ko_Phi_Phi_Island_Thailand/a3cb6284-acf4-4696-929b-4a81d961cf33/2024-03-01-15-06-01_UMBRA-04/2024-03-01-15-06-01_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Ko_Phi_Phi_Island_Thailand/a3cb6284-acf4-4696-929b-4a81d961cf33/2024-03-01-15-06-01_UMBRA-04/2024-03-01-15-06-01_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

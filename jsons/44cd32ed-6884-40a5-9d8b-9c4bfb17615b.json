@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "44cd32ed-6884-40a5-9d8b-9c4bfb17615b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          109.19451070543404,
+          -7.26372509527354,
+          3074.0451843598858
+        ],
+        [
+          109.1989147058658,
+          -7.26269308514378,
+          3073.907820375636
+        ],
+        [
+          109.20332181917706,
+          -7.261661410460279,
+          3073.809599792585
+        ],
+        [
+          109.20772758036146,
+          -7.260629913707387,
+          3073.7505962336436
+        ],
+        [
+          109.21213422851243,
+          -7.259598676883333,
+          3073.730795188807
+        ],
+        [
+          109.21653898285389,
+          -7.25856559630473,
+          3073.750105055049
+        ],
+        [
+          109.22094519198924,
+          -7.2575348080139115,
+          3073.8086962280795
+        ],
+        [
+          109.22535174590811,
+          -7.256502256718698,
+          3073.9064416214824
+        ],
+        [
+          109.22975698295325,
+          -7.255469896926886,
+          3074.0433424422517
+        ],
+        [
+          109.22872285207582,
+          -7.251069998374032,
+          3073.9055671924725
+        ],
+        [
+          109.22768977310352,
+          -7.246671022733284,
+          3073.807269886136
+        ],
+        [
+          109.22665495891768,
+          -7.242270856268999,
+          3073.7483202265576
+        ],
+        [
+          109.22562341910297,
+          -7.237871669648453,
+          3073.7289104759693
+        ],
+        [
+          109.22458848336639,
+          -7.233473238300261,
+          3073.748788304627
+        ],
+        [
+          109.22355625235488,
+          -7.229073736459016,
+          3073.808181770146
+        ],
+        [
+          109.22252226972327,
+          -7.224673012523357,
+          3073.9069834304973
+        ],
+        [
+          109.22148710794042,
+          -7.22027309505918,
+          3074.045164537616
+        ],
+        [
+          109.21708390815151,
+          -7.221306324399884,
+          3073.9077798575163
+        ],
+        [
+          109.21267658529331,
+          -7.222337650391016,
+          3073.80958452262
+        ],
+        [
+          109.20827240083459,
+          -7.223369315276931,
+          3073.7505942499265
+        ],
+        [
+          109.20386688881543,
+          -7.2244011761829325,
+          3073.730771638453
+        ],
+        [
+          109.19946003977917,
+          -7.2254332292226255,
+          3073.7501514470205
+        ],
+        [
+          109.19505408203354,
+          -7.226465543189001,
+          3073.8087111348286
+        ],
+        [
+          109.19064901180556,
+          -7.227498116110394,
+          3073.9064296483994
+        ],
+        [
+          109.18624424626422,
+          -7.228528917915799,
+          3074.043362919241
+        ],
+        [
+          109.18727745669518,
+          -7.232927969005891,
+          3073.905626173131
+        ],
+        [
+          109.18830945663449,
+          -7.237327814611968,
+          3073.8073414228857
+        ],
+        [
+          109.18934472537372,
+          -7.24172861313072,
+          3073.7483617411926
+        ],
+        [
+          109.19037597304755,
+          -7.246128117306352,
+          3073.7289586132392
+        ],
+        [
+          109.19140992594954,
+          -7.250526566328978,
+          3073.748865619302
+        ],
+        [
+          109.19244267356311,
+          -7.254925838935385,
+          3073.8082351470366
+        ],
+        [
+          109.19347645285247,
+          -7.2593260203918595,
+          3073.9070216948166
+        ],
+        [
+          109.19451070543404,
+          -7.26372509527354,
+          3074.0451843598858
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    109.18624424626422,
+    -7.26372509527354,
+    109.22975698295325,
+    -7.22027309505918
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:47.117753Z",
+    "updated": "2024-12-17T09:52:47.117753Z",
+    "start_datetime": "2023-10-06T02:22:20Z",
+    "end_datetime": "2023-10-06T02:22:25Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.55709754566387,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79996469838079,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.25956444242396876,
+    "sar:resolution_azimuth": 0.2534016025474931,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-06T02:22:20Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-06"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/SLAMET%2C%20Indonesia/44091d85-80db-4e46-ac7b-622a57bbc69e/2023-10-06-02-22-19_UMBRA-04/2023-10-06-02-22-19_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/SLAMET, Indonesia/44091d85-80db-4e46-ac7b-622a57bbc69e/2023-10-06-02-22-19_UMBRA-04/2023-10-06-02-22-19_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/SLAMET, Indonesia/44091d85-80db-4e46-ac7b-622a57bbc69e/2023-10-06-02-22-19_UMBRA-04/2023-10-06-02-22-19_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/SLAMET, Indonesia/44091d85-80db-4e46-ac7b-622a57bbc69e/2023-10-06-02-22-19_UMBRA-04/2023-10-06-02-22-19_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/SLAMET, Indonesia/44091d85-80db-4e46-ac7b-622a57bbc69e/2023-10-06-02-22-19_UMBRA-04/2023-10-06-02-22-19_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

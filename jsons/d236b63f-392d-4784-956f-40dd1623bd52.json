@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "d236b63f-392d-4784-956f-40dd1623bd52",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.02491406086858,
+          40.672378107283365,
+          2.566656542941928
+        ],
+        [
+          -74.02372488816157,
+          40.6767873749917,
+          2.468204756267369
+        ],
+        [
+          -74.02253262434346,
+          40.68119776906013,
+          2.4090707525610924
+        ],
+        [
+          -74.02134127933336,
+          40.68560878888517,
+          2.389195002615452
+        ],
+        [
+          -74.02015164518775,
+          40.69001758433352,
+          2.4085637852549553
+        ],
+        [
+          -74.01895890288273,
+          40.694427532625674,
+          2.4672847110778093
+        ],
+        [
+          -74.01776707018095,
+          40.69883813510607,
+          2.5652699545025826
+        ],
+        [
+          -74.01657614081887,
+          40.70324940263744,
+          2.7025328977033496
+        ],
+        [
+          -74.02237251053556,
+          40.70415711364457,
+          2.565518162213266
+        ],
+        [
+          -74.02816587023318,
+          40.70506131076266,
+          2.467628065496683
+        ],
+        [
+          -74.03396182367825,
+          40.70596958355414,
+          2.4089637203142047
+        ],
+        [
+          -74.03975881224638,
+          40.706873832084284,
+          2.3893271321430802
+        ],
+        [
+          -74.04555520675773,
+          40.707779791912714,
+          2.4089198475703597
+        ],
+        [
+          -74.05134783619683,
+          40.70868509051621,
+          2.4676242377609015
+        ],
+        [
+          -74.05714389978456,
+          40.709591598648316,
+          2.56553740426898
+        ],
+        [
+          -74.06294022093168,
+          40.710496942730906,
+          2.7025678204372525
+        ],
+        [
+          -74.06413197114195,
+          40.706084867605995,
+          2.565072489902377
+        ],
+        [
+          -74.06532065417754,
+          40.70167395970573,
+          2.4668548833578825
+        ],
+        [
+          -74.06650628410128,
+          40.69726421014084,
+          2.4078732738271356
+        ],
+        [
+          -74.06769762656943,
+          40.6928517426365,
+          2.3882860895246267
+        ],
+        [
+          -74.06888591900051,
+          40.68844041592557,
+          2.407941335812211
+        ],
+        [
+          -74.07007117521574,
+          40.68403022115951,
+          2.4667983073741198
+        ],
+        [
+          -74.07126135376609,
+          40.67962014721669,
+          2.5650729844346642
+        ],
+        [
+          -74.07244927569582,
+          40.67520832149769,
+          2.7026089066639543
+        ],
+        [
+          -74.06665524253297,
+          40.67430617062888,
+          2.5657419059425592
+        ],
+        [
+          -74.06086221422593,
+          40.67339998935634,
+          2.4681534953415394
+        ],
+        [
+          -74.05506865519752,
+          40.67249550405542,
+          2.4096427857875824
+        ],
+        [
+          -74.04927531747086,
+          40.67158985541318,
+          2.3903145557269454
+        ],
+        [
+          -74.04348142818282,
+          40.670685903954045,
+          2.4100701361894608
+        ],
+        [
+          -74.03768850123605,
+          40.66977793639092,
+          2.4691168311983347
+        ],
+        [
+          -74.031898247092,
+          40.66887401403364,
+          2.5671160826459527
+        ],
+        [
+          -74.02610493156392,
+          40.66796659100855,
+          2.7044256096705794
+        ],
+        [
+          -74.02491406086858,
+          40.672378107283365,
+          2.566656542941928
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.07244927569582,
+    40.66796659100855,
+    -74.01657614081887,
+    40.710496942730906
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:11.120747Z",
+    "updated": "2024-12-17T09:54:11.120747Z",
+    "start_datetime": "2023-06-14T14:47:50.377097Z",
+    "end_datetime": "2023-06-14T14:47:53.823556Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 28.968591044636696,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799980671145024,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3544642818298582,
+    "sar:resolution_azimuth": 0.3467137650767776,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-06-14T14:47:50.377097Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-14"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/New%20York%20City%2C%20NY%20%28Statue%20of%20Liberty%29/15ab1e37-e071-44ce-a627-e0d2c8cec23d/2023-06-14-14-47-49_UMBRA-06/2023-06-14-14-47-49_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/New York City, NY (Statue of Liberty)/15ab1e37-e071-44ce-a627-e0d2c8cec23d/2023-06-14-14-47-49_UMBRA-06/2023-06-14-14-47-49_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/New York City, NY (Statue of Liberty)/15ab1e37-e071-44ce-a627-e0d2c8cec23d/2023-06-14-14-47-49_UMBRA-06/2023-06-14-14-47-49_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/New York City, NY (Statue of Liberty)/15ab1e37-e071-44ce-a627-e0d2c8cec23d/2023-06-14-14-47-49_UMBRA-06/2023-06-14-14-47-49_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/New York City, NY (Statue of Liberty)/15ab1e37-e071-44ce-a627-e0d2c8cec23d/2023-06-14-14-47-49_UMBRA-06/2023-06-14-14-47-49_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

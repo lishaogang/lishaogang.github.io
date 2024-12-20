@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "571949ad-e8be-44cc-a2d2-36969a21cbf0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -114.39898041270115,
+          32.80365091155374,
+          90.48171111010015
+        ],
+        [
+          -114.39425189951055,
+          32.805747574749596,
+          90.34447123575956
+        ],
+        [
+          -114.38952661684635,
+          32.807842437143066,
+          90.24652168992907
+        ],
+        [
+          -114.38479856873982,
+          32.80993901656893,
+          90.18769568298012
+        ],
+        [
+          -114.3800713665867,
+          32.81203437637382,
+          90.16810712963343
+        ],
+        [
+          -114.37534500023973,
+          32.81412851601104,
+          90.18772277981043
+        ],
+        [
+          -114.37061585884747,
+          32.81622437351102,
+          90.24653869960457
+        ],
+        [
+          -114.36589102326522,
+          32.81832021003285,
+          90.34442531317472
+        ],
+        [
+          -114.36116116056773,
+          32.82041420717875,
+          90.48169343546033
+        ],
+        [
+          -114.36364214467325,
+          32.82440630554918,
+          90.34414974600077
+        ],
+        [
+          -114.36612292724863,
+          32.82839913785256,
+          90.24592210631818
+        ],
+        [
+          -114.3686047415041,
+          32.832390349870494,
+          90.18696811329573
+        ],
+        [
+          -114.3710863626511,
+          32.836382309173004,
+          90.16732989996672
+        ],
+        [
+          -114.37356779786339,
+          32.84037502294696,
+          90.18702173419297
+        ],
+        [
+          -114.37605141302477,
+          32.844367912764696,
+          90.24599431175739
+        ],
+        [
+          -114.37853371265689,
+          32.84835979252744,
+          90.34428149648011
+        ],
+        [
+          -114.38101469477978,
+          32.85235067076557,
+          90.48184575326741
+        ],
+        [
+          -114.38574554510677,
+          32.850255144913866,
+          90.34403388388455
+        ],
+        [
+          -114.39047247725847,
+          32.84815956754407,
+          90.24544345214963
+        ],
+        [
+          -114.39520136552953,
+          32.84606453792913,
+          90.18606338091195
+        ],
+        [
+          -114.39993107297852,
+          32.84396828105176,
+          90.1658570272848
+        ],
+        [
+          -114.4046592414479,
+          32.84187138601341,
+          90.18482596054673
+        ],
+        [
+          -114.4093870204505,
+          32.83977562513391,
+          90.2430209890008
+        ],
+        [
+          -114.41411564085467,
+          32.83767863767101,
+          90.34041939023882
+        ],
+        [
+          -114.41884273893425,
+          32.835581013296036,
+          90.47696984559298
+        ],
+        [
+          -114.4163595657684,
+          32.83158990872777,
+          90.34002151526511
+        ],
+        [
+          -114.4138762383043,
+          32.827599572688094,
+          90.24235928151757
+        ],
+        [
+          -114.4113916144186,
+          32.823608227196736,
+          90.18394970614463
+        ],
+        [
+          -114.4089092010834,
+          32.819617049731455,
+          90.1649022065103
+        ],
+        [
+          -114.4064254888122,
+          32.81562484855034,
+          90.18514104466885
+        ],
+        [
+          -114.40394397808157,
+          32.81163280400274,
+          90.24473368376493
+        ],
+        [
+          -114.40145991569119,
+          32.80764207632919,
+          90.34353485051543
+        ],
+        [
+          -114.39898041270115,
+          32.80365091155374,
+          90.48171111010015
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -114.41884273893425,
+    32.80365091155374,
+    -114.36116116056773,
+    32.85235067076557
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:28.987198Z",
+    "updated": "2024-12-17T09:53:28.987198Z",
+    "start_datetime": "2023-06-05T18:03:27.717404Z",
+    "end_datetime": "2023-06-05T18:03:33.037378Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.62029152982159,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799982854456177,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.23802273629995793,
+    "sar:resolution_azimuth": 0.2331816658969065,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-05T18:03:27.717404Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Bandar%20Abbas%20Iran/94c6d4d9-02d3-44aa-843d-7a4d8d07c061/2023-06-05-18-03-26_UMBRA-06/2023-06-05-18-03-26_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bandar Abbas Iran/94c6d4d9-02d3-44aa-843d-7a4d8d07c061/2023-06-05-18-03-26_UMBRA-06/2023-06-05-18-03-26_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bandar Abbas Iran/94c6d4d9-02d3-44aa-843d-7a4d8d07c061/2023-06-05-18-03-26_UMBRA-06/2023-06-05-18-03-26_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bandar Abbas Iran/94c6d4d9-02d3-44aa-843d-7a4d8d07c061/2023-06-05-18-03-26_UMBRA-06/2023-06-05-18-03-26_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

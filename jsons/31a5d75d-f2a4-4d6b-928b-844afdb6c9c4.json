@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "31a5d75d-f2a4-4d6b-928b-844afdb6c9c4",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -93.66801327514806,
+          31.970324001665052,
+          90.24216033518314
+        ],
+        [
+          -93.67229024005752,
+          31.967665381396227,
+          90.10413353517652
+        ],
+        [
+          -93.67656063946671,
+          31.96500773416428,
+          90.00539649091661
+        ],
+        [
+          -93.68083297754963,
+          31.962349290147124,
+          89.94585691485554
+        ],
+        [
+          -93.6851044588379,
+          31.95968829791149,
+          89.92546572722495
+        ],
+        [
+          -93.68937498486397,
+          31.957031764509967,
+          89.94440904632211
+        ],
+        [
+          -93.69364752473275,
+          31.954370922385596,
+          90.00253251381218
+        ],
+        [
+          -93.69791630510147,
+          31.95171278171658,
+          90.09982682019472
+        ],
+        [
+          -93.7021870553711,
+          31.949053832615032,
+          90.23639496322721
+        ],
+        [
+          -93.69907085149961,
+          31.945411332497866,
+          90.09900383930653
+        ],
+        [
+          -93.69594942150871,
+          31.941770077235304,
+          90.00070086494088
+        ],
+        [
+          -93.6928313034061,
+          31.93812831530235,
+          89.9417947055772
+        ],
+        [
+          -93.6897136185254,
+          31.934487801767204,
+          89.92214950639755
+        ],
+        [
+          -93.68659643860244,
+          31.930845027579995,
+          89.94183275476098
+        ],
+        [
+          -93.68347968134604,
+          31.927203503581296,
+          90.00076460465789
+        ],
+        [
+          -93.6803605462099,
+          31.92356147704089,
+          90.0989573225379
+        ],
+        [
+          -93.67724182064765,
+          31.919920704116464,
+          90.2363867815584
+        ],
+        [
+          -93.67297228393281,
+          31.922578659823387,
+          90.09912699181587
+        ],
+        [
+          -93.66870182438042,
+          31.925237560827036,
+          90.00104107055813
+        ],
+        [
+          -93.66443331187399,
+          31.927895649509342,
+          89.94218338932842
+        ],
+        [
+          -93.66016107747977,
+          31.930552937492237,
+          89.92260302510113
+        ],
+        [
+          -93.65588791228372,
+          31.933211180676548,
+          89.94224645663053
+        ],
+        [
+          -93.65161946919484,
+          31.93587036852983,
+          90.0009766947478
+        ],
+        [
+          -93.64734736072153,
+          31.93852525520331,
+          90.09908488206565
+        ],
+        [
+          -93.64307424585505,
+          31.941184616721053,
+          90.23639219161123
+        ],
+        [
+          -93.64619178213904,
+          31.94482641597629,
+          90.09958917926997
+        ],
+        [
+          -93.64930975023975,
+          31.948469459798293,
+          90.00206699222326
+        ],
+        [
+          -93.65242536003711,
+          31.95211199949124,
+          89.94391115568578
+        ],
+        [
+          -93.65554426388096,
+          31.955754019653437,
+          89.92494291439652
+        ],
+        [
+          -93.65866081642552,
+          31.959395533999377,
+          89.9453037083149
+        ],
+        [
+          -93.66178062727349,
+          31.963040034276514,
+          90.00498663261533
+        ],
+        [
+          -93.66489529514156,
+          31.966682278797137,
+          90.10396771505475
+        ],
+        [
+          -93.66801327514806,
+          31.970324001665052,
+          90.24216033518314
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -93.7021870553711,
+    31.919920704116464,
+    -93.64307424585505,
+    31.970324001665052
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:03.492943Z",
+    "updated": "2024-12-17T09:54:03.492943Z",
+    "start_datetime": "2023-05-21T16:24:18.849103Z",
+    "end_datetime": "2023-05-21T16:24:24.285475Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 53.91040494410963,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599997675279154,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3507649718068133,
+    "sar:resolution_azimuth": 0.36114574292644636,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-05-21T16:24:18.849103Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-05-21"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Mansfield%2C%20Lousiana/52d0b774-4b84-4045-a9b6-1b149b12a17b/2023-05-21-16-24-17_UMBRA-04/2023-05-21-16-24-17_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mansfield, Lousiana/52d0b774-4b84-4045-a9b6-1b149b12a17b/2023-05-21-16-24-17_UMBRA-04/2023-05-21-16-24-17_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mansfield, Lousiana/52d0b774-4b84-4045-a9b6-1b149b12a17b/2023-05-21-16-24-17_UMBRA-04/2023-05-21-16-24-17_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mansfield, Lousiana/52d0b774-4b84-4045-a9b6-1b149b12a17b/2023-05-21-16-24-17_UMBRA-04/2023-05-21-16-24-17_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

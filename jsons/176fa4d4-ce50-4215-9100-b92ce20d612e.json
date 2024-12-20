@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "176fa4d4-ce50-4215-9100-b92ce20d612e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          88.30393531186853,
+          27.946904394338617,
+          5005.953381574713
+        ],
+        [
+          88.30730803185264,
+          27.943535625529467,
+          5005.816382079385
+        ],
+        [
+          88.31068158264111,
+          27.940163947206038,
+          5005.718617289327
+        ],
+        [
+          88.3140515051064,
+          27.93679166995605,
+          5005.660245619714
+        ],
+        [
+          88.3174215550407,
+          27.933421835144305,
+          5005.641067543067
+        ],
+        [
+          88.32079619453803,
+          27.930052133947424,
+          5005.661027370952
+        ],
+        [
+          88.32416722516744,
+          27.92668183650305,
+          5005.720326078124
+        ],
+        [
+          88.32753465274595,
+          27.923310941909303,
+          5005.818921491504
+        ],
+        [
+          88.33090668251678,
+          27.919940184647125,
+          5005.956714201719
+        ],
+        [
+          88.33469776587737,
+          27.922934946786036,
+          5005.818946523592
+        ],
+        [
+          88.33849661420035,
+          27.925929193311944,
+          5005.720456268638
+        ],
+        [
+          88.34229059479627,
+          27.928924499841155,
+          5005.66113085486
+        ],
+        [
+          88.34608860206653,
+          27.93191625319015,
+          5005.641205263324
+        ],
+        [
+          88.34988175978503,
+          27.93490907017305,
+          5005.660358902998
+        ],
+        [
+          88.3536782482051,
+          27.93790370098705,
+          5005.71877551917
+        ],
+        [
+          88.35747433860438,
+          27.94089709705099,
+          5005.816428197548
+        ],
+        [
+          88.36127004026905,
+          27.943889261891837,
+          5005.953287201934
+        ],
+        [
+          88.35789796036286,
+          27.947260963658348,
+          5005.816260688007
+        ],
+        [
+          88.35453045254017,
+          27.950632808105606,
+          5005.718667923473
+        ],
+        [
+          88.35115934849293,
+          27.954004038896585,
+          5005.660197185352
+        ],
+        [
+          88.34778464249052,
+          27.957374656916336,
+          5005.6408899948
+        ],
+        [
+          88.34441449602348,
+          27.96074541391844,
+          5005.660956771113
+        ],
+        [
+          88.34104444486046,
+          27.964118605157847,
+          5005.720354585908
+        ],
+        [
+          88.33767153168245,
+          27.967485836540785,
+          5005.818746398203
+        ],
+        [
+          88.33430240715695,
+          27.970858546355952,
+          5005.956638707779
+        ],
+        [
+          88.33050685937924,
+          27.96786543923014,
+          5005.818961057812
+        ],
+        [
+          88.32671090996541,
+          27.964871108839308,
+          5005.720454203896
+        ],
+        [
+          88.32291454956763,
+          27.96187555164422,
+          5005.6611481793225
+        ],
+        [
+          88.3191133027554,
+          27.95888106881077,
+          5005.6412249282
+        ],
+        [
+          88.31531981995063,
+          27.955886088850637,
+          5005.660388163291
+        ],
+        [
+          88.3115251746079,
+          27.952895216216618,
+          5005.718866562471
+        ],
+        [
+          88.30773082877938,
+          27.949897754466342,
+          5005.816462262534
+        ],
+        [
+          88.30393531186853,
+          27.946904394338617,
+          5005.953381574713
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    88.30393531186853,
+    27.919940184647125,
+    88.36127004026905,
+    27.970858546355952
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:30.121309Z",
+    "updated": "2024-12-17T09:54:30.121309Z",
+    "start_datetime": "2023-10-09T17:01:55Z",
+    "end_datetime": "2023-10-09T17:01:58Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 49.38135774446697,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003863393795,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5392820624965672,
+    "sar:resolution_azimuth": 0.54854451294032,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-09T17:01:55Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Sikkim%20Glacial%20Lake/0277ec04-74dc-49a5-b3c9-b05d796b66d7/2023-10-09-17-01-54_UMBRA-06/2023-10-09-17-01-54_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sikkim Glacial Lake/0277ec04-74dc-49a5-b3c9-b05d796b66d7/2023-10-09-17-01-54_UMBRA-06/2023-10-09-17-01-54_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sikkim Glacial Lake/0277ec04-74dc-49a5-b3c9-b05d796b66d7/2023-10-09-17-01-54_UMBRA-06/2023-10-09-17-01-54_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sikkim Glacial Lake/0277ec04-74dc-49a5-b3c9-b05d796b66d7/2023-10-09-17-01-54_UMBRA-06/2023-10-09-17-01-54_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sikkim Glacial Lake/0277ec04-74dc-49a5-b3c9-b05d796b66d7/2023-10-09-17-01-54_UMBRA-06/2023-10-09-17-01-54_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

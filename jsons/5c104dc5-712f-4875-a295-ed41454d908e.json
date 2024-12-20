@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5c104dc5-712f-4875-a295-ed41454d908e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.77203525348457,
+          39.02877086649288,
+          29.946846243925393
+        ],
+        [
+          125.77077352906872,
+          39.03316610138001,
+          30.006076345220208
+        ],
+        [
+          125.76951079146488,
+          39.03756133650189,
+          30.104587881825864
+        ],
+        [
+          125.76824703948262,
+          39.041956576755474,
+          30.242385257966816
+        ],
+        [
+          125.76260794081699,
+          39.04097185475771,
+          30.10532767046243
+        ],
+        [
+          125.75697542313017,
+          39.039984577547926,
+          30.0074292300269
+        ],
+        [
+          125.75133859152504,
+          39.03900005168312,
+          29.94875944405794
+        ],
+        [
+          125.7457038964979,
+          39.0380120850314,
+          29.929140197113156
+        ],
+        [
+          125.74006932491247,
+          39.0370277540486,
+          29.948803322389722
+        ],
+        [
+          125.73443688742655,
+          39.03603997844379,
+          30.00747426506132
+        ],
+        [
+          125.72880013062147,
+          39.035054959486786,
+          30.10547432396561
+        ],
+        [
+          125.72316550728347,
+          39.03406649213656,
+          30.242501717060804
+        ],
+        [
+          125.72443158173898,
+          39.029673059557474,
+          30.10498476587236
+        ],
+        [
+          125.72569764174482,
+          39.02527608433366,
+          30.0067123984918
+        ],
+        [
+          125.72696609639378,
+          39.02088353682838,
+          29.947714963927865
+        ],
+        [
+          125.72822908977975,
+          39.01649009644985,
+          29.928139043040574
+        ],
+        [
+          125.7294965129506,
+          39.01209399024625,
+          29.947764694690704
+        ],
+        [
+          125.73075745901221,
+          39.00770052109929,
+          30.006805825978518
+        ],
+        [
+          125.73202284119262,
+          39.00330438091672,
+          30.105102103203535
+        ],
+        [
+          125.73329060472486,
+          38.99891265145843,
+          30.242488813586533
+        ],
+        [
+          125.73891853557659,
+          38.999898385426725,
+          30.105272286571562
+        ],
+        [
+          125.74455201539496,
+          39.00088512370432,
+          30.007067270576954
+        ],
+        [
+          125.75018218356874,
+          39.00187107859063,
+          29.94805865548551
+        ],
+        [
+          125.7558179064762,
+          39.00285803849642,
+          29.9281661612913
+        ],
+        [
+          125.76145031986889,
+          39.00384421557439,
+          29.9474506797269
+        ],
+        [
+          125.76708044946952,
+          39.004826079695675,
+          30.00596681330353
+        ],
+        [
+          125.77271511344941,
+          39.00581248176815,
+          30.103567976504564
+        ],
+        [
+          125.7783464693007,
+          39.00679810178471,
+          30.240255227312446
+        ],
+        [
+          125.77708535773608,
+          39.011192509789346,
+          30.103021406568587
+        ],
+        [
+          125.77582323747968,
+          39.015586896737126,
+          30.00504737533629
+        ],
+        [
+          125.7745601072878,
+          39.01998126750528,
+          29.94633675646037
+        ],
+        [
+          125.77329596592561,
+          39.02437562697432,
+          29.92689334601164
+        ],
+        [
+          125.77203525348457,
+          39.02877086649288,
+          29.946846243925393
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.72316550728347,
+    38.99891265145843,
+    125.7783464693007,
+    39.041956576755474
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:21.505708Z",
+    "updated": "2024-12-17T09:54:21.505708Z",
+    "start_datetime": "2023-07-18T12:10:05Z",
+    "end_datetime": "2023-07-18T12:10:08.638620Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 57.97331481048703,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599996998440476,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44588103287797526,
+    "sar:resolution_azimuth": 0.45368059707789926,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-07-18T12:10:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-18"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Pyongyang%2C%20North%20Korea/%202151210d-ea13-448d-882b-97862128a1cf/2023-07-18-12-10-04_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Pyongyang, North Korea/ 2151210d-ea13-448d-882b-97862128a1cf/2023-07-18-12-10-04_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Pyongyang, North Korea/ 2151210d-ea13-448d-882b-97862128a1cf/2023-07-18-12-10-04_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Pyongyang, North Korea/ 2151210d-ea13-448d-882b-97862128a1cf/2023-07-18-12-10-04_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

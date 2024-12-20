@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e3b8e0db-2485-418c-ba92-d35ac1ff8447",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -97.0191465564977,
+          32.89814328093455,
+          177.01094663143158
+        ],
+        [
+          -97.01940994091811,
+          32.902646298339505,
+          177.03070730529726
+        ],
+        [
+          -97.01967301860097,
+          32.90714890640179,
+          177.0898147430271
+        ],
+        [
+          -97.01993904830886,
+          32.911651504785624,
+          177.1881772670895
+        ],
+        [
+          -97.02020152134176,
+          32.91615332427667,
+          177.32595077250153
+        ],
+        [
+          -97.02554166717098,
+          32.915933010122295,
+          177.18894644547254
+        ],
+        [
+          -97.03088010675198,
+          32.91570859811886,
+          177.09100441168994
+        ],
+        [
+          -97.03621712167622,
+          32.91548555624641,
+          177.03228419367224
+        ],
+        [
+          -97.04155582965178,
+          32.91526153961609,
+          177.01267580874264
+        ],
+        [
+          -97.04689313508463,
+          32.915038898035874,
+          177.03227174002677
+        ],
+        [
+          -97.05223214550462,
+          32.91481528233405,
+          177.0910098357126
+        ],
+        [
+          -97.05756964072265,
+          32.91459030752704,
+          177.18884077388793
+        ],
+        [
+          -97.0629089869829,
+          32.91436709721555,
+          177.32594030722976
+        ],
+        [
+          -97.06264421745566,
+          32.909865225370815,
+          177.18829669151455
+        ],
+        [
+          -97.06237903415553,
+          32.905360222173705,
+          177.08991687279195
+        ],
+        [
+          -97.06211050248524,
+          32.90085718141938,
+          177.03083173930645
+        ],
+        [
+          -97.06184507474084,
+          32.896356856139455,
+          177.0111811971292
+        ],
+        [
+          -97.06157921747048,
+          32.89185336940417,
+          177.03085003327578
+        ],
+        [
+          -97.06131308023572,
+          32.887349454406454,
+          177.08987323660403
+        ],
+        [
+          -97.06104683676669,
+          32.882847848131696,
+          177.188190869987
+        ],
+        [
+          -97.06078354222046,
+          32.87834617125623,
+          177.32591472566128
+        ],
+        [
+          -97.05544636152555,
+          32.87856946323116,
+          177.18879868555814
+        ],
+        [
+          -97.05011088403258,
+          32.87879176580032,
+          177.0909033678472
+        ],
+        [
+          -97.0447740535402,
+          32.879015446823345,
+          177.0320882825181
+        ],
+        [
+          -97.03943585418924,
+          32.87924050171388,
+          177.01238481979817
+        ],
+        [
+          -97.03409933529406,
+          32.87946456405267,
+          177.03187925275415
+        ],
+        [
+          -97.02876449585582,
+          32.87968763561926,
+          177.09053305443376
+        ],
+        [
+          -97.02342807766219,
+          32.879909335347456,
+          177.18839682266116
+        ],
+        [
+          -97.01809024680347,
+          32.88013240109862,
+          177.32540734577924
+        ],
+        [
+          -97.01835470452048,
+          32.88463441332511,
+          177.18778635375202
+        ],
+        [
+          -97.01861902338102,
+          32.88913871644568,
+          177.08946250472218
+        ],
+        [
+          -97.01888286199085,
+          32.89363984441814,
+          177.03054388053715
+        ],
+        [
+          -97.0191465564977,
+          32.89814328093455,
+          177.01094663143158
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -97.0629089869829,
+    32.87834617125623,
+    -97.01809024680347,
+    32.91615332427667
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:36.654588Z",
+    "updated": "2024-12-17T09:53:36.654588Z",
+    "start_datetime": "2023-06-09T05:06:11.914356Z",
+    "end_datetime": "2023-06-09T05:06:15.248713Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 27.040271386049255,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799950395361522,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.33421800562836385,
+    "sar:resolution_azimuth": 0.3228240808298466,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-09T05:06:11.914356Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-09"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/DFW%20Airport/0e46bf49-4f33-495e-9894-4027e4c836b1/2023-06-09-05-06-11_UMBRA-06/2023-06-09-05-06-11_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/DFW Airport/0e46bf49-4f33-495e-9894-4027e4c836b1/2023-06-09-05-06-11_UMBRA-06/2023-06-09-05-06-11_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/DFW Airport/0e46bf49-4f33-495e-9894-4027e4c836b1/2023-06-09-05-06-11_UMBRA-06/2023-06-09-05-06-11_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/DFW Airport/0e46bf49-4f33-495e-9894-4027e4c836b1/2023-06-09-05-06-11_UMBRA-06/2023-06-09-05-06-11_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/DFW Airport/0e46bf49-4f33-495e-9894-4027e4c836b1/2023-06-09-05-06-11_UMBRA-06/2023-06-09-05-06-11_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

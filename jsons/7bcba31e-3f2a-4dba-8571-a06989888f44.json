@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "7bcba31e-3f2a-4dba-8571-a06989888f44",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.63679872120126,
+          33.46827887798491,
+          39.62519945111126
+        ],
+        [
+          -117.64158477175006,
+          33.466220747532454,
+          39.48809601087123
+        ],
+        [
+          -117.6463683155655,
+          33.46415977437214,
+          39.390089709311724
+        ],
+        [
+          -117.65115110206774,
+          33.462098743030054,
+          39.33127776812762
+        ],
+        [
+          -117.65593705982468,
+          33.46003757999614,
+          39.311698665842414
+        ],
+        [
+          -117.66071835791354,
+          33.45797644162796,
+          39.331266469322145
+        ],
+        [
+          -117.66550458434406,
+          33.45591796459907,
+          39.39020598027855
+        ],
+        [
+          -117.67028834196866,
+          33.45385665380987,
+          39.488235576078296
+        ],
+        [
+          -117.67506748096335,
+          33.45179538195585,
+          39.625302326865494
+        ],
+        [
+          -117.67261020884408,
+          33.44778579584019,
+          39.48781025223434
+        ],
+        [
+          -117.67014888828267,
+          33.4437748406934,
+          39.389476193115115
+        ],
+        [
+          -117.6676948456543,
+          33.43976792902122,
+          39.33066127821803
+        ],
+        [
+          -117.66523498091743,
+          33.43575684199535,
+          39.310990361496806
+        ],
+        [
+          -117.66277672076399,
+          33.43174707574918,
+          39.3306579105556
+        ],
+        [
+          -117.66031615646962,
+          33.427738711107395,
+          39.38954014983028
+        ],
+        [
+          -117.65785933233488,
+          33.42372877262929,
+          39.487841931171715
+        ],
+        [
+          -117.6554041155868,
+          33.41972013578378,
+          39.6254015462473
+        ],
+        [
+          -117.65062106974415,
+          33.421779188012735,
+          39.48765567410737
+        ],
+        [
+          -117.64583910126056,
+          33.423840998755516,
+          39.3889980269596
+        ],
+        [
+          -117.64105854847062,
+          33.42589988747428,
+          39.32963508181274
+        ],
+        [
+          -117.63627512696573,
+          33.42796161080238,
+          39.309380296617746
+        ],
+        [
+          -117.63149311041762,
+          33.43002040995075,
+          39.32839258108288
+        ],
+        [
+          -117.62671034921753,
+          33.432079160219374,
+          39.3865974964574
+        ],
+        [
+          -117.62192861846846,
+          33.4341406475205,
+          39.483895633369684
+        ],
+        [
+          -117.61714433672005,
+          33.436199288121244,
+          39.620521903038025
+        ],
+        [
+          -117.61960358057392,
+          33.440210136674445,
+          39.483438801951706
+        ],
+        [
+          -117.6220586762042,
+          33.44421957274254,
+          39.38582899887115
+        ],
+        [
+          -117.6245153507149,
+          33.448230312148006,
+          39.327472407370806
+        ],
+        [
+          -117.62697183765663,
+          33.45223957610856,
+          39.30841529276222
+        ],
+        [
+          -117.62942990538282,
+          33.45625015683823,
+          39.328646822832525
+        ],
+        [
+          -117.63188386148491,
+          33.46025935097356,
+          39.38823634758592
+        ],
+        [
+          -117.6343433389978,
+          33.46426980093258,
+          39.48706053569913
+        ],
+        [
+          -117.63679872120126,
+          33.46827887798491,
+          39.62519945111126
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -117.67506748096335,
+    33.41972013578378,
+    -117.61714433672005,
+    33.46827887798491
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:29.841044Z",
+    "updated": "2024-12-17T09:53:29.841044Z",
+    "start_datetime": "2023-08-08T06:22:22Z",
+    "end_datetime": "2023-08-08T06:22:25.987547Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.415285726244306,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599988156056495,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3675037992975004,
+    "sar:resolution_azimuth": 0.37763931960249353,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-08T06:22:22Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-08"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Bay%20Cliff%20Village/30a6904c-698a-4cbc-84c0-80598320e0ca/2023-08-08-06-22-21_UMBRA-06/2023-08-08-06-22-21_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bay Cliff Village/30a6904c-698a-4cbc-84c0-80598320e0ca/2023-08-08-06-22-21_UMBRA-06/2023-08-08-06-22-21_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bay Cliff Village/30a6904c-698a-4cbc-84c0-80598320e0ca/2023-08-08-06-22-21_UMBRA-06/2023-08-08-06-22-21_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bay Cliff Village/30a6904c-698a-4cbc-84c0-80598320e0ca/2023-08-08-06-22-21_UMBRA-06/2023-08-08-06-22-21_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bay Cliff Village/30a6904c-698a-4cbc-84c0-80598320e0ca/2023-08-08-06-22-21_UMBRA-06/2023-08-08-06-22-21_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

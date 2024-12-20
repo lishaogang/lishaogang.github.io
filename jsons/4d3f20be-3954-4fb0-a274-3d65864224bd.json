@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "4d3f20be-3954-4fb0-a274-3d65864224bd",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.29519731327382,
+          4.86794930951692,
+          5303.058101010509
+        ],
+        [
+          -75.29061179481985,
+          4.873474014885912,
+          5303.10614600312
+        ],
+        [
+          -75.28602618961209,
+          4.878998657578097,
+          5303.2537441868335
+        ],
+        [
+          -75.28144047704941,
+          4.884523262265296,
+          5303.500896223821
+        ],
+        [
+          -75.27685463632876,
+          4.890047853556673,
+          5303.847604582086
+        ],
+        [
+          -75.28405657863534,
+          4.896060909751497,
+          5303.25447823666
+        ],
+        [
+          -75.29125429015718,
+          4.9020733021817255,
+          5302.831584464759
+        ],
+        [
+          -75.29845815635694,
+          4.908086036573883,
+          5302.578240211122
+        ],
+        [
+          -75.30565791729518,
+          4.914098107684773,
+          5302.495031690225
+        ],
+        [
+          -75.31285927952901,
+          4.920111632080391,
+          5302.581754159182
+        ],
+        [
+          -75.32005850277807,
+          4.926122321798905,
+          5302.838268180378
+        ],
+        [
+          -75.32726224236247,
+          4.93213552003143,
+          5303.264839320444
+        ],
+        [
+          -75.33446213074596,
+          4.938148058945299,
+          5303.861289306544
+        ],
+        [
+          -75.33904762245251,
+          4.932622734725629,
+          5303.5111649520695
+        ],
+        [
+          -75.34363127382758,
+          4.927099616859882,
+          5303.260682133026
+        ],
+        [
+          -75.3482167623951,
+          4.921574316133867,
+          5303.109643499367
+        ],
+        [
+          -75.3528022765697,
+          4.916048989767155,
+          5303.058168170974
+        ],
+        [
+          -75.35738783630498,
+          4.910523613161864,
+          5303.106259029359
+        ],
+        [
+          -75.36197166079232,
+          4.905000349548333,
+          5303.253843639977
+        ],
+        [
+          -75.36655737692598,
+          4.899474799657694,
+          5303.501043731347
+        ],
+        [
+          -75.371143197314,
+          4.893949125371818,
+          5303.847829196602
+        ],
+        [
+          -75.36394050730834,
+          4.887936075069604,
+          5303.254684934393
+        ],
+        [
+          -75.35673956775086,
+          4.881924486467892,
+          5302.831602947786
+        ],
+        [
+          -75.34954033693113,
+          4.875914358504061,
+          5302.578459911048
+        ],
+        [
+          -75.34233892697708,
+          4.869901427909214,
+          5302.49518063385
+        ],
+        [
+          -75.33513911561523,
+          4.86388995880438,
+          5302.581805973314
+        ],
+        [
+          -75.3279369882128,
+          4.8578756909811585,
+          5302.838472043164
+        ],
+        [
+          -75.32073740259685,
+          4.8518661009848785,
+          5303.264765392989
+        ],
+        [
+          -75.31353715090493,
+          4.845851538676137,
+          5303.86134475749
+        ],
+        [
+          -75.30895177121741,
+          4.851376741472572,
+          5303.51118682418
+        ],
+        [
+          -75.30436638516248,
+          4.856901782282773,
+          5303.26059747953
+        ],
+        [
+          -75.29978097293792,
+          4.862426686027206,
+          5303.109570212662
+        ],
+        [
+          -75.29519731327382,
+          4.86794930951692,
+          5303.058101010509
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.371143197314,
+    4.845851538676137,
+    -75.27685463632876,
+    4.938148058945299
+  ],
+  "properties": {
+    "created": "2024-12-17T09:52:43.709268Z",
+    "updated": "2024-12-17T09:52:43.709268Z",
+    "start_datetime": "2023-10-30T14:22:32Z",
+    "end_datetime": "2023-10-30T14:22:36Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 38.277974059130294,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799994318978861,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3338242894339254,
+    "sar:resolution_azimuth": 0.3282445272633916,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-10-30T14:22:32Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-30"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/NEVADO%20DEL%20RUIZ%2C%20Colombia/3d6230c6-d934-4156-8286-0dedc8b4d71f/2023-10-30-14-22-31_UMBRA-05/2023-10-30-14-22-31_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/NEVADO DEL RUIZ, Colombia/3d6230c6-d934-4156-8286-0dedc8b4d71f/2023-10-30-14-22-31_UMBRA-05/2023-10-30-14-22-31_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/NEVADO DEL RUIZ, Colombia/3d6230c6-d934-4156-8286-0dedc8b4d71f/2023-10-30-14-22-31_UMBRA-05/2023-10-30-14-22-31_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/NEVADO DEL RUIZ, Colombia/3d6230c6-d934-4156-8286-0dedc8b4d71f/2023-10-30-14-22-31_UMBRA-05/2023-10-30-14-22-31_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Volcanoes/NEVADO DEL RUIZ, Colombia/3d6230c6-d934-4156-8286-0dedc8b4d71f/2023-10-30-14-22-31_UMBRA-05/2023-10-30-14-22-31_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

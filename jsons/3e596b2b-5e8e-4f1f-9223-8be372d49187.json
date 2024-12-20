@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3e596b2b-5e8e-4f1f-9223-8be372d49187",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.13478357305311,
+          41.101995937202965,
+          230.2589649464935
+        ],
+        [
+          -85.13782795214257,
+          41.10586627414381,
+          230.35759393591434
+        ],
+        [
+          -85.14086833768467,
+          41.10973510067687,
+          230.4954693969339
+        ],
+        [
+          -85.14598593602132,
+          41.107432944302666,
+          230.35829236917198
+        ],
+        [
+          -85.15110474807675,
+          41.10513358502269,
+          230.2604400459677
+        ],
+        [
+          -85.15622002915578,
+          41.10283090481806,
+          230.201650345698
+        ],
+        [
+          -85.16133417759798,
+          41.10052796394083,
+          230.18203513044864
+        ],
+        [
+          -85.16644959584498,
+          41.098227826590055,
+          230.20170604251325
+        ],
+        [
+          -85.17156153246196,
+          41.0959243687683,
+          230.26040302217007
+        ],
+        [
+          -85.17667238856811,
+          41.093620653656146,
+          230.3582386141643
+        ],
+        [
+          -85.18178456941408,
+          41.09131974840357,
+          230.4953251266852
+        ],
+        [
+          -85.17874115163968,
+          41.08745020399426,
+          230.35797747783363
+        ],
+        [
+          -85.17569622530792,
+          41.08358221917106,
+          230.2598316418007
+        ],
+        [
+          -85.17265943525706,
+          41.07971372232535,
+          230.20114200282842
+        ],
+        [
+          -85.16961871199159,
+          41.075843697741014,
+          230.18158426508307
+        ],
+        [
+          -85.1665764709632,
+          41.071975209732734,
+          230.2012032326311
+        ],
+        [
+          -85.1635327142075,
+          41.06810825258831,
+          230.259981633164
+        ],
+        [
+          -85.16049462857755,
+          41.06423767080641,
+          230.35820045880973
+        ],
+        [
+          -85.15744285773405,
+          41.06036759084006,
+          230.4955099048093
+        ],
+        [
+          -85.15233361144931,
+          41.06266927457786,
+          230.3578993305564
+        ],
+        [
+          -85.1472232866188,
+          41.064970691516955,
+          230.25943780504167
+        ],
+        [
+          -85.142114353517,
+          41.06727491982126,
+          230.20001190155745
+        ],
+        [
+          -85.1370018183784,
+          41.06957579867771,
+          230.1798841804266
+        ],
+        [
+          -85.13188815208909,
+          41.071876407186366,
+          230.19894226361066
+        ],
+        [
+          -85.12677333684705,
+          41.07417674413685,
+          230.25719916820526
+        ],
+        [
+          -85.12165735471443,
+          41.07647680830501,
+          230.35466830059886
+        ],
+        [
+          -85.11654018761612,
+          41.078776598452635,
+          230.4913634620607
+        ],
+        [
+          -85.1195769792325,
+          41.08264489265813,
+          230.35461530648172
+        ],
+        [
+          -85.12262448031224,
+          41.086515746947775,
+          230.25677216984332
+        ],
+        [
+          -85.12565803589844,
+          41.09038705658386,
+          230.19861513283104
+        ],
+        [
+          -85.12869739868053,
+          41.094254802963455,
+          230.17949475720525
+        ],
+        [
+          -85.13174984401404,
+          41.09812819317722,
+          230.19948151893914
+        ],
+        [
+          -85.13478357305311,
+          41.101995937202965,
+          230.2589649464935
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.18178456941408,
+    41.06036759084006,
+    -85.11654018761612,
+    41.10973510067687
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:41.855938Z",
+    "updated": "2024-12-17T09:53:41.855938Z",
+    "start_datetime": "2023-06-29T04:26:28.705197Z",
+    "end_datetime": "2023-06-29T04:26:31.061275Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 24.286751586385492,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600003757048398,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.9030596830438749,
+    "sar:resolution_azimuth": 0.43318980633720416,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-29T04:26:28.705197Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-29"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Fort%20Wayne%2C%20IN/12b2898f-13f8-47e3-a5dc-ae2e8be9df59/2023-06-29-04-26-27_UMBRA-06/2023-06-29-04-26-27_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fort Wayne, IN/12b2898f-13f8-47e3-a5dc-ae2e8be9df59/2023-06-29-04-26-27_UMBRA-06/2023-06-29-04-26-27_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fort Wayne, IN/12b2898f-13f8-47e3-a5dc-ae2e8be9df59/2023-06-29-04-26-27_UMBRA-06/2023-06-29-04-26-27_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fort Wayne, IN/12b2898f-13f8-47e3-a5dc-ae2e8be9df59/2023-06-29-04-26-27_UMBRA-06/2023-06-29-04-26-27_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Fort Wayne, IN/12b2898f-13f8-47e3-a5dc-ae2e8be9df59/2023-06-29-04-26-27_UMBRA-06/2023-06-29-04-26-27_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

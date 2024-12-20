@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "af90ebca-7e88-44c7-8d27-d0a55ae8942a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.480668384560154,
+          -26.1215565191343,
+          1657.7678477380564
+        ],
+        [
+          29.50631516224941,
+          -26.08282988417726,
+          1657.7632842734
+        ],
+        [
+          29.463436275751043,
+          -26.05967100183107,
+          1657.76809657266
+        ],
+        [
+          29.437780432935718,
+          -26.098390136755103,
+          1657.763283254304
+        ],
+        [
+          29.480668384560154,
+          -26.1215565191343,
+          1657.7678477380564
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.437780432935718,
+    -26.1215565191343,
+    29.50631516224941,
+    -26.05967100183107
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:17.485837Z",
+    "updated": "2024-12-17T09:48:17.485837Z",
+    "start_datetime": "2024-03-27T20:50:14Z",
+    "end_datetime": "2024-03-27T20:50:18.078588Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_07",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 21.436151756050265,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799986666650511,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5000000000000011,
+    "sar:resolution_azimuth": 0.5,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-03-27T20:50:14Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-03-27"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati%20Power%20Station%2C%20S%20Africa/538ca2c2-fa46-44d2-ae35-f3b4d1318748/2024-03-27-20-50-13_UMBRA-07/2024-03-27-20-50-13_UMBRA-07_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/538ca2c2-fa46-44d2-ae35-f3b4d1318748/2024-03-27-20-50-13_UMBRA-07/2024-03-27-20-50-13_UMBRA-07_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/538ca2c2-fa46-44d2-ae35-f3b4d1318748/2024-03-27-20-50-13_UMBRA-07/2024-03-27-20-50-13_UMBRA-07_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/538ca2c2-fa46-44d2-ae35-f3b4d1318748/2024-03-27-20-50-13_UMBRA-07/2024-03-27-20-50-13_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/538ca2c2-fa46-44d2-ae35-f3b4d1318748/2024-03-27-20-50-13_UMBRA-07/2024-03-27-20-50-13_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati Power Station, S Africa/538ca2c2-fa46-44d2-ae35-f3b4d1318748/2024-03-27-20-50-13_UMBRA-07/2024-03-27-20-50-13_UMBRA-07_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

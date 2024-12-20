@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "502e0b32-9b32-445e-bf9c-3a19f1b44885",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          115.47940826365179,
+          9.924961733903817,
+          0.442489929497242
+        ],
+        [
+          115.48204782848826,
+          9.921276682854808,
+          0.30474965646862984
+        ],
+        [
+          115.4846855677485,
+          9.917591737944159,
+          0.2064266400411725
+        ],
+        [
+          115.48732506601336,
+          9.913905503565054,
+          0.14739159308373928
+        ],
+        [
+          115.48996899358319,
+          9.910219890191788,
+          0.12758559454232454
+        ],
+        [
+          115.49260488541204,
+          9.906533862900396,
+          0.14737723022699356
+        ],
+        [
+          115.4952452263617,
+          9.902848455935212,
+          0.2063948456197977
+        ],
+        [
+          115.4978873438813,
+          9.899161757429358,
+          0.3048061989247799
+        ],
+        [
+          115.5005241436221,
+          9.895476552569086,
+          0.4425881579518318
+        ],
+        [
+          115.50424262688168,
+          9.898093239897056,
+          0.3051089644432068
+        ],
+        [
+          115.50795891613639,
+          9.900712170426075,
+          0.2068201918154955
+        ],
+        [
+          115.5116774369704,
+          9.903328651665301,
+          0.14792284835129976
+        ],
+        [
+          115.51539377820096,
+          9.905947384133336,
+          0.1282051056623459
+        ],
+        [
+          115.51911236688751,
+          9.908563679309152,
+          0.14788296073675156
+        ],
+        [
+          115.52282615005332,
+          9.911180311835027,
+          0.20667616929858923
+        ],
+        [
+          115.52654747664607,
+          9.91379836304662,
+          0.3049796996638179
+        ],
+        [
+          115.53026138359365,
+          9.916414835338013,
+          0.44227967504411936
+        ],
+        [
+          115.52762438770688,
+          9.920100304761938,
+          0.30560087133198977
+        ],
+        [
+          115.52498564640528,
+          9.923785868800438,
+          0.20819036290049553
+        ],
+        [
+          115.52234514651705,
+          9.927471528810024,
+          0.15007537696510553
+        ],
+        [
+          115.51970549776489,
+          9.931159207217357,
+          0.13139614090323448
+        ],
+        [
+          115.51706498911165,
+          9.934843681234733,
+          0.15199963469058275
+        ],
+        [
+          115.51442531198461,
+          9.938530174320237,
+          0.21204115264117718
+        ],
+        [
+          115.51178738917123,
+          9.942215385154944,
+          0.31142538972198963
+        ],
+        [
+          115.509147657834,
+          9.945900696397171,
+          0.4501368207857013
+        ],
+        [
+          115.5054278294713,
+          9.943283386144534,
+          0.31170354038476944
+        ],
+        [
+          115.50170934814793,
+          9.940666971495821,
+          0.21260812040418386
+        ],
+        [
+          115.49799315163327,
+          9.93804814475169,
+          0.15268585458397865
+        ],
+        [
+          115.49427472384234,
+          9.935431587405487,
+          0.13214962370693684
+        ],
+        [
+          115.4905612131556,
+          9.932814517397826,
+          0.1507547702640295
+        ],
+        [
+          115.48684281472093,
+          9.930197795951623,
+          0.20875463914126158
+        ],
+        [
+          115.48312308648427,
+          9.927580031525348,
+          0.30608307011425495
+        ],
+        [
+          115.47940826365179,
+          9.924961733903817,
+          0.442489929497242
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    115.47940826365179,
+    9.895476552569086,
+    115.53026138359365,
+    9.945900696397171
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:27.752916Z",
+    "updated": "2024-12-17T09:54:27.752916Z",
+    "start_datetime": "2023-07-02T02:02:52.022114Z",
+    "end_datetime": "2023-07-02T02:02:55.865702Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.74693936287996,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600001952319872,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3985698028501193,
+    "sar:resolution_azimuth": 0.3919006417768098,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-07-02T02:02:52.022114Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-02"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Sansha%20Meiji%20Airport%2C%20CHN/c9c8cc4b-58e1-4559-b6be-810b6019663b/2023-07-02-02-02-51_UMBRA-05/2023-07-02-02-02-51_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sansha Meiji Airport, CHN/c9c8cc4b-58e1-4559-b6be-810b6019663b/2023-07-02-02-02-51_UMBRA-05/2023-07-02-02-02-51_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sansha Meiji Airport, CHN/c9c8cc4b-58e1-4559-b6be-810b6019663b/2023-07-02-02-02-51_UMBRA-05/2023-07-02-02-02-51_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sansha Meiji Airport, CHN/c9c8cc4b-58e1-4559-b6be-810b6019663b/2023-07-02-02-02-51_UMBRA-05/2023-07-02-02-02-51_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Sansha Meiji Airport, CHN/c9c8cc4b-58e1-4559-b6be-810b6019663b/2023-07-02-02-02-51_UMBRA-05/2023-07-02-02-02-51_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

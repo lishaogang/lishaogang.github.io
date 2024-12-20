@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "17e63e4d-7b16-4142-8a62-cc1808f44438",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.88095691270502,
+          -37.84799969629956,
+          6.641557680442929
+        ],
+        [
+          144.88527448135596,
+          -37.850926551134215,
+          6.504369521513581
+        ],
+        [
+          144.88959353804512,
+          -37.85385086009115,
+          6.406318704597652
+        ],
+        [
+          144.89391528013354,
+          -37.85677735636625,
+          6.347453258931637
+        ],
+        [
+          144.89823553480758,
+          -37.85970428151897,
+          6.327878165990114
+        ],
+        [
+          144.90255728852563,
+          -37.862628654603824,
+          6.3474411172792315
+        ],
+        [
+          144.9068775614271,
+          -37.865553454357105,
+          6.40625427197665
+        ],
+        [
+          144.9111963553492,
+          -37.868478681149625,
+          6.504298955202103
+        ],
+        [
+          144.91551784046393,
+          -37.87140609441251,
+          6.641655660234392
+        ],
+        [
+          144.91920814464245,
+          -37.867977857322124,
+          6.504194541834295
+        ],
+        [
+          144.92289531730705,
+          -37.86455363495719,
+          6.406124925240874
+        ],
+        [
+          144.92658533182282,
+          -37.861127450473504,
+          6.347251002676785
+        ],
+        [
+          144.93027520942286,
+          -37.8577022865342,
+          6.327657140791416
+        ],
+        [
+          144.93396375584908,
+          -37.85427339951812,
+          6.3472175328060985
+        ],
+        [
+          144.93765337476438,
+          -37.85085026663262,
+          6.406150599941611
+        ],
+        [
+          144.9413416669128,
+          -37.847423405310494,
+          6.504250819794834
+        ],
+        [
+          144.94502862600694,
+          -37.84399281479125,
+          6.641576680354774
+        ],
+        [
+          144.94070690006976,
+          -37.84107206023562,
+          6.504921055398881
+        ],
+        [
+          144.93638961147678,
+          -37.83814576807391,
+          6.4076486844569445
+        ],
+        [
+          144.9320637087438,
+          -37.83522115767306,
+          6.3493331195786595
+        ],
+        [
+          144.92774762860122,
+          -37.83229749541053,
+          6.330433319322765
+        ],
+        [
+          144.92342588578853,
+          -37.82937252833587,
+          6.350658291019499
+        ],
+        [
+          144.91910683243992,
+          -37.82644974921758,
+          6.410051153972745
+        ],
+        [
+          144.91478506025024,
+          -37.82352268469582,
+          6.508805884048343
+        ],
+        [
+          144.910465972764,
+          -37.8205978102556,
+          6.646704839542508
+        ],
+        [
+          144.9067793236066,
+          -37.82402172100113,
+          6.508797333575785
+        ],
+        [
+          144.90309254739452,
+          -37.8274466356737,
+          6.410054569132626
+        ],
+        [
+          144.89940563766152,
+          -37.83087255795267,
+          6.350495965220034
+        ],
+        [
+          144.89571441006322,
+          -37.834297738917655,
+          6.330268673598766
+        ],
+        [
+          144.89202721437837,
+          -37.83772568588584,
+          6.349144589155912
+        ],
+        [
+          144.88833865889373,
+          -37.8411499207216,
+          6.407345247454941
+        ],
+        [
+          144.88464577621642,
+          -37.844573418667494,
+          6.504906280897558
+        ],
+        [
+          144.88095691270502,
+          -37.84799969629956,
+          6.641557680442929
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.88095691270502,
+    -37.87140609441251,
+    144.94502862600694,
+    -37.8205978102556
+  ],
+  "properties": {
+    "created": "2024-12-17T09:49:02.782207Z",
+    "updated": "2024-12-17T09:49:02.782207Z",
+    "start_datetime": "2023-04-16T23:56:18.454053Z",
+    "end_datetime": "2023-04-16T23:56:22.624050Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 58.84105273115786,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600007418193856,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.45350867328361644,
+    "sar:resolution_azimuth": 0.45936236508912426,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-04-16T23:56:18.454053Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-04-16"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne%2C%20Australia/20894f33-cdfd-4338-b9cc-c59c0fe44f02/2023-04-16-23-56-16_UMBRA-04/2023-04-16-23-56-16_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/20894f33-cdfd-4338-b9cc-c59c0fe44f02/2023-04-16-23-56-16_UMBRA-04/2023-04-16-23-56-16_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/20894f33-cdfd-4338-b9cc-c59c0fe44f02/2023-04-16-23-56-16_UMBRA-04/2023-04-16-23-56-16_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/20894f33-cdfd-4338-b9cc-c59c0fe44f02/2023-04-16-23-56-16_UMBRA-04/2023-04-16-23-56-16_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne, Australia/20894f33-cdfd-4338-b9cc-c59c0fe44f02/2023-04-16-23-56-16_UMBRA-04/2023-04-16-23-56-16_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

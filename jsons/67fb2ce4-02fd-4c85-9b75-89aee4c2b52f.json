@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "67fb2ce4-02fd-4c85-9b75-89aee4c2b52f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -105.63747953015762,
+          37.972933921075494,
+          4274.501515461132
+        ],
+        [
+          -105.63246833405803,
+          37.97080429714274,
+          4274.364707591943
+        ],
+        [
+          -105.62745760607763,
+          37.968675555434245,
+          4274.267050221562
+        ],
+        [
+          -105.62244839112864,
+          37.96654586660387,
+          4274.20859517809
+        ],
+        [
+          -105.61743824109301,
+          37.96441462566672,
+          4274.189316034317
+        ],
+        [
+          -105.61242991332719,
+          37.962286695528476,
+          4274.20910121873
+        ],
+        [
+          -105.60742169379836,
+          37.96015538040253,
+          4274.268138863146
+        ],
+        [
+          -105.60241146576084,
+          37.95802433973049,
+          4274.3663246147335
+        ],
+        [
+          -105.59740408355785,
+          37.95589477652593,
+          4274.503582901321
+        ],
+        [
+          -105.59471194169416,
+          37.959860056731344,
+          4274.365967364982
+        ],
+        [
+          -105.59202019040644,
+          37.96382536219147,
+          4274.267588460818
+        ],
+        [
+          -105.58932882402387,
+          37.96779069978049,
+          4274.208441529423
+        ],
+        [
+          -105.58663540844952,
+          37.971755478514936,
+          4274.188590944745
+        ],
+        [
+          -105.5839447950881,
+          37.97572090189276,
+          4274.207898435183
+        ],
+        [
+          -105.58125212151064,
+          37.97968578195511,
+          4274.266501009464
+        ],
+        [
+          -105.57855738237237,
+          37.9836501282319,
+          4274.364405131899
+        ],
+        [
+          -105.57586542891933,
+          37.987615139009925,
+          4274.501453577541
+        ],
+        [
+          -105.58087545507256,
+          37.98974634048574,
+          4274.3646698482335
+        ],
+        [
+          -105.58588590936087,
+          37.99187842084313,
+          4274.267062871717
+        ],
+        [
+          -105.59089539642082,
+          37.99400894896828,
+          4274.208610612899
+        ],
+        [
+          -105.59590532661038,
+          37.99614035784771,
+          4274.18933006376
+        ],
+        [
+          -105.60091673924032,
+          37.99827081291485,
+          4274.20916634053
+        ],
+        [
+          -105.60592861549591,
+          38.00040215113348,
+          4274.268204527907
+        ],
+        [
+          -105.6109395461244,
+          38.002531943304305,
+          4274.366349299438
+        ],
+        [
+          -105.61595095565222,
+          38.00466262056977,
+          4274.5036925897
+        ],
+        [
+          -105.61864259336268,
+          38.000696519167754,
+          4274.366030332632
+        ],
+        [
+          -105.6213346210161,
+          37.99673049967906,
+          4274.267635259777
+        ],
+        [
+          -105.62402704408358,
+          37.992764555157116,
+          4274.208510603756
+        ],
+        [
+          -105.62671741809723,
+          37.98879807881567,
+          4274.188590600155
+        ],
+        [
+          -105.62940819847556,
+          37.98483166181727,
+          4274.207941600122
+        ],
+        [
+          -105.6320983441123,
+          37.98086712549115,
+          4274.266537632793
+        ],
+        [
+          -105.63478750042252,
+          37.97690020317346,
+          4274.364346396178
+        ],
+        [
+          -105.63747953015762,
+          37.972933921075494,
+          4274.501515461132
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -105.63747953015762,
+    37.95589477652593,
+    -105.57586542891933,
+    38.00466262056977
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:34.243654Z",
+    "updated": "2024-12-17T09:53:34.243654Z",
+    "start_datetime": "2024-01-12T05:54:49Z",
+    "end_datetime": "2024-01-12T05:54:54.768971Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.50443557888786,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799964111996815,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2022646103265791,
+    "sar:resolution_azimuth": 0.19348639988457048,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-01-12T05:54:49Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-01-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Challenger%20Point%2C%20CO/9693040c-1fe6-4ce0-aa0d-7b37721b451e/2024-01-12-05-54-48_UMBRA-06/2024-01-12-05-54-48_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Challenger Point, CO/9693040c-1fe6-4ce0-aa0d-7b37721b451e/2024-01-12-05-54-48_UMBRA-06/2024-01-12-05-54-48_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Challenger Point, CO/9693040c-1fe6-4ce0-aa0d-7b37721b451e/2024-01-12-05-54-48_UMBRA-06/2024-01-12-05-54-48_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Challenger Point, CO/9693040c-1fe6-4ce0-aa0d-7b37721b451e/2024-01-12-05-54-48_UMBRA-06/2024-01-12-05-54-48_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Challenger Point, CO/9693040c-1fe6-4ce0-aa0d-7b37721b451e/2024-01-12-05-54-48_UMBRA-06/2024-01-12-05-54-48_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

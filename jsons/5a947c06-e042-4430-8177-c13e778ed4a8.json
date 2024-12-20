@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5a947c06-e042-4430-8177-c13e778ed4a8",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.71914376230013,
+          13.701172022054319,
+          -29.537777912056235
+        ],
+        [
+          100.73928504028906,
+          13.660491649233721,
+          -29.53273031559062
+        ],
+        [
+          100.78088930768843,
+          13.680180828337656,
+          -29.537463603166962
+        ],
+        [
+          100.760753505477,
+          13.720864520871608,
+          -29.53273253193125
+        ],
+        [
+          100.71914376230013,
+          13.701172022054319,
+          -29.537777912056235
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.71914376230013,
+    13.660491649233721,
+    100.78088930768843,
+    13.720864520871608
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:11.937955Z",
+    "updated": "2024-12-17T09:51:11.937955Z",
+    "start_datetime": "2024-06-29T02:48:20Z",
+    "end_datetime": "2024-06-29T02:48:30.375370Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.367392889605554,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599993798299693,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.44680221712359675,
+    "sar:resolution_azimuth": 0.18128865245528328,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-06-29T02:48:20Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-06-29"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi%20International%20Airport%2C%20Thailand/836a0ed9-1b61-4408-91ca-26a302d10a9e/2024-06-29-02-48-19_UMBRA-05/2024-06-29-02-48-19_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/836a0ed9-1b61-4408-91ca-26a302d10a9e/2024-06-29-02-48-19_UMBRA-05/2024-06-29-02-48-19_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/836a0ed9-1b61-4408-91ca-26a302d10a9e/2024-06-29-02-48-19_UMBRA-05/2024-06-29-02-48-19_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/836a0ed9-1b61-4408-91ca-26a302d10a9e/2024-06-29-02-48-19_UMBRA-05/2024-06-29-02-48-19_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/836a0ed9-1b61-4408-91ca-26a302d10a9e/2024-06-29-02-48-19_UMBRA-05/2024-06-29-02-48-19_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi International Airport, Thailand/836a0ed9-1b61-4408-91ca-26a302d10a9e/2024-06-29-02-48-19_UMBRA-05/2024-06-29-02-48-19_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

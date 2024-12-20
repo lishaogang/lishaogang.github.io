@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "8e76594e-2a76-4635-85c5-34f990699c62",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.00689200193128,
+          -49.18913228306603,
+          17.429256035263375
+        ],
+        [
+          -74.05008706730787,
+          -49.22406620421787,
+          17.426564908471722
+        ],
+        [
+          -73.99673323992123,
+          -49.252365668343984,
+          17.42937504240491
+        ],
+        [
+          -73.9535511354623,
+          -49.21741197370648,
+          17.42656524779328
+        ],
+        [
+          -74.00689200193128,
+          -49.18913228306603,
+          17.429256035263375
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.05008706730787,
+    -49.252365668343984,
+    -73.9535511354623,
+    -49.18913228306603
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:31.157502Z",
+    "updated": "2024-12-17T09:53:31.157502Z",
+    "start_datetime": "2024-05-15T02:36:19Z",
+    "end_datetime": "2024-05-15T02:36:32.642992Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.02738773768462,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79997441440355,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.1982601245414332,
+    "sar:resolution_azimuth": 0.10473431723308467,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-05-15T02:36:19Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Bruggen_Glacier_Chile/f7333fdf-5c4a-4cf5-98f6-b294ea521e24/2024-05-15-02-36-18_UMBRA-05/2024-05-15-02-36-18_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bruggen_Glacier_Chile/f7333fdf-5c4a-4cf5-98f6-b294ea521e24/2024-05-15-02-36-18_UMBRA-05/2024-05-15-02-36-18_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bruggen_Glacier_Chile/f7333fdf-5c4a-4cf5-98f6-b294ea521e24/2024-05-15-02-36-18_UMBRA-05/2024-05-15-02-36-18_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bruggen_Glacier_Chile/f7333fdf-5c4a-4cf5-98f6-b294ea521e24/2024-05-15-02-36-18_UMBRA-05/2024-05-15-02-36-18_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bruggen_Glacier_Chile/f7333fdf-5c4a-4cf5-98f6-b294ea521e24/2024-05-15-02-36-18_UMBRA-05/2024-05-15-02-36-18_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bruggen_Glacier_Chile/f7333fdf-5c4a-4cf5-98f6-b294ea521e24/2024-05-15-02-36-18_UMBRA-05/2024-05-15-02-36-18_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

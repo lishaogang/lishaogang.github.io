@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "44a49b20-ca91-4955-8de3-fd70bad96402",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.9622559380993,
+          40.81739209969423,
+          26.0559487901628
+        ],
+        [
+          -73.96595448361512,
+          40.81387259208786,
+          25.9180002855137
+        ],
+        [
+          -73.96965212174938,
+          40.810355629965755,
+          25.8193930266425
+        ],
+        [
+          -73.97334744060129,
+          40.80683649787984,
+          25.75990746356547
+        ],
+        [
+          -73.9770454401584,
+          40.80331691803998,
+          25.73970264196396
+        ],
+        [
+          -73.98074253758054,
+          40.799799865700635,
+          25.75877925287932
+        ],
+        [
+          -73.98444094383494,
+          40.79627764729927,
+          25.817077424377203
+        ],
+        [
+          -73.98813485113638,
+          40.79276092057182,
+          25.91454457771033
+        ],
+        [
+          -73.99183009343443,
+          40.78923901551209,
+          26.051289642229676
+        ],
+        [
+          -73.98719737229368,
+          40.78643073090764,
+          25.914020551368594
+        ],
+        [
+          -73.98257075059927,
+          40.783622433076744,
+          25.816125323064625
+        ],
+        [
+          -73.97794161720847,
+          40.78081536174119,
+          25.757299223914742
+        ],
+        [
+          -73.97330861880627,
+          40.778004803699055,
+          25.73766995128244
+        ],
+        [
+          -73.9686780681425,
+          40.7751972094908,
+          25.757218376733363
+        ],
+        [
+          -73.96405356656047,
+          40.77238959760004,
+          25.815996939316392
+        ],
+        [
+          -73.95942519121498,
+          40.76957849611277,
+          25.914056324400008
+        ],
+        [
+          -73.95479427391255,
+          40.76676862366541,
+          26.051279965788126
+        ],
+        [
+          -73.95110209116613,
+          40.77028806176715,
+          25.913892038166523
+        ],
+        [
+          -73.94740762938065,
+          40.773805289202976,
+          25.81582231912762
+        ],
+        [
+          -73.94370726917889,
+          40.77732330294425,
+          25.757025722414255
+        ],
+        [
+          -73.94000956454111,
+          40.78084085152178,
+          25.737439474090934
+        ],
+        [
+          -73.93631450253652,
+          40.78435793773168,
+          25.757019105367362
+        ],
+        [
+          -73.9326184840007,
+          40.78787755726839,
+          25.815799921751022
+        ],
+        [
+          -73.92892014867145,
+          40.79139500004502,
+          25.913893940858543
+        ],
+        [
+          -73.9252194837656,
+          40.79491027389468,
+          26.051283444277942
+        ],
+        [
+          -73.92984743401377,
+          40.79772264926273,
+          25.91469444707036
+        ],
+        [
+          -73.93447644675112,
+          40.80053326329491,
+          25.81727427430451
+        ],
+        [
+          -73.9391065255555,
+          40.80334211798739,
+          25.759007540531456
+        ],
+        [
+          -73.94373907336669,
+          40.80615392718932,
+          25.739984869025648
+        ],
+        [
+          -73.94836773523336,
+          40.80896225653968,
+          25.76015057787299
+        ],
+        [
+          -73.9529988887137,
+          40.811773539498894,
+          25.819591488689184
+        ],
+        [
+          -73.95762615624498,
+          40.81458134322559,
+          25.918116631917655
+        ],
+        [
+          -73.9622559380993,
+          40.81739209969423,
+          26.0559487901628
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -73.99183009343443,
+    40.76676862366541,
+    -73.9252194837656,
+    40.81739209969423
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:08.498030Z",
+    "updated": "2024-12-17T09:54:08.498030Z",
+    "start_datetime": "2023-04-10T15:09:06.054630Z",
+    "end_datetime": "2023-04-10T15:09:08.742723Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 39.16278331222838,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599994675954804,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.48766124351627826,
+    "sar:resolution_azimuth": 0.49805384068494396,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-04-10T15:09:06.054630Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-04-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/NYC%20Manhattan%20Mosaic/Central%20Park%20North%2C%20NYC/2023-04-10-15-09-02_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Central Park North, NYC/2023-04-10-15-09-02_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Central Park North, NYC/2023-04-10-15-09-02_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Central Park North, NYC/2023-04-10-15-09-02_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/NYC Manhattan Mosaic/Central Park North, NYC/2023-04-10-15-09-02_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

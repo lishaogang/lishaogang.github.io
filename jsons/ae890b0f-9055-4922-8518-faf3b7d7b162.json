@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "ae890b0f-9055-4922-8518-faf3b7d7b162",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -84.3858032070587,
+          33.80601569035493,
+          253.49425117783377
+        ],
+        [
+          -84.43282371063086,
+          33.783857758563975,
+          253.49047313471766
+        ],
+        [
+          -84.40628893227013,
+          33.74460227827641,
+          253.4945002314435
+        ],
+        [
+          -84.35928304650255,
+          33.76675024580455,
+          253.49047433627672
+        ],
+        [
+          -84.3858032070587,
+          33.80601569035493,
+          253.49425117783377
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -84.43282371063086,
+    33.74460227827641,
+    -84.35928304650255,
+    33.80601569035493
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:49.092846Z",
+    "updated": "2024-12-17T09:53:49.092846Z",
+    "start_datetime": "2024-02-22T16:20:27Z",
+    "end_datetime": "2024-02-22T16:20:43.348301Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 22.746781234780542,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799994207220152,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4999999999999997,
+    "sar:resolution_azimuth": 0.12500000000000003,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 4,
+    "sar:observation_direction": "right",
+    "datetime": "2024-02-22T16:20:27Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-22"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Georgia_Tech/486876cf-8911-4897-ac97-5032cb4ec595/2024-02-22-16-20-26_UMBRA-08/2024-02-22-16-20-26_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Georgia_Tech/486876cf-8911-4897-ac97-5032cb4ec595/2024-02-22-16-20-26_UMBRA-08/2024-02-22-16-20-26_UMBRA-08_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Georgia_Tech/486876cf-8911-4897-ac97-5032cb4ec595/2024-02-22-16-20-26_UMBRA-08/2024-02-22-16-20-26_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Georgia_Tech/486876cf-8911-4897-ac97-5032cb4ec595/2024-02-22-16-20-26_UMBRA-08/2024-02-22-16-20-26_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Georgia_Tech/486876cf-8911-4897-ac97-5032cb4ec595/2024-02-22-16-20-26_UMBRA-08/2024-02-22-16-20-26_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Georgia_Tech/486876cf-8911-4897-ac97-5032cb4ec595/2024-02-22-16-20-26_UMBRA-08/2024-02-22-16-20-26_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

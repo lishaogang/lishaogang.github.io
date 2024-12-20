@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "bbb6e6bd-6f34-4698-b9ea-3ea4738e59c5",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.83529063717272,
+          3.7132690941513893,
+          115.0155118418716
+        ],
+        [
+          -66.80429937835174,
+          3.680472293295372,
+          115.02232595612166
+        ],
+        [
+          -66.7716522064422,
+          3.711605446754446,
+          115.01600185832461
+        ],
+        [
+          -66.80264334616444,
+          3.744403373133169,
+          115.02232539359423
+        ],
+        [
+          -66.83529063717272,
+          3.7132690941513893,
+          115.0155118418716
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -66.83529063717272,
+    3.680472293295372,
+    -66.7716522064422,
+    3.744403373133169
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:04.023047Z",
+    "updated": "2024-12-17T09:53:04.023047Z",
+    "start_datetime": "2024-02-04T02:50:09Z",
+    "end_datetime": "2024-02-04T02:50:12.213025Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.038653587423326,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600007899105549,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 1.0,
+    "sar:resolution_azimuth": 0.5,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-02-04T02:50:09Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-04"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana%2C%20Venezuela/68e46808-068b-4f4d-a510-6e4975adc762/2024-02-04-02-50-08_UMBRA-06/2024-02-04-02-50-08_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/68e46808-068b-4f4d-a510-6e4975adc762/2024-02-04-02-50-08_UMBRA-06/2024-02-04-02-50-08_UMBRA-06_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/68e46808-068b-4f4d-a510-6e4975adc762/2024-02-04-02-50-08_UMBRA-06/2024-02-04-02-50-08_UMBRA-06_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/68e46808-068b-4f4d-a510-6e4975adc762/2024-02-04-02-50-08_UMBRA-06/2024-02-04-02-50-08_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/68e46808-068b-4f4d-a510-6e4975adc762/2024-02-04-02-50-08_UMBRA-06/2024-02-04-02-50-08_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/68e46808-068b-4f4d-a510-6e4975adc762/2024-02-04-02-50-08_UMBRA-06/2024-02-04-02-50-08_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

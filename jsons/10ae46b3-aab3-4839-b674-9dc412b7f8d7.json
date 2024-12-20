@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "10ae46b3-aab3-4839-b674-9dc412b7f8d7",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.13522766643837,
+          40.55311969885464,
+          1753.0523005874768
+        ],
+        [
+          -112.18636430994351,
+          40.53065534031085,
+          1753.0491307201269
+        ],
+        [
+          -112.15692499685498,
+          40.4916463727908,
+          1753.0525495477982
+        ],
+        [
+          -112.10580817433363,
+          40.51409786260347,
+          1753.0491318961951
+        ],
+        [
+          -112.13522766643837,
+          40.55311969885464,
+          1753.0523005874768
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.18636430994351,
+    40.4916463727908,
+    -112.10580817433363,
+    40.55311969885464
+  ],
+  "properties": {
+    "created": "2024-12-17T09:46:46.091781Z",
+    "updated": "2024-12-17T09:46:46.091781Z",
+    "start_datetime": "2024-06-05T17:02:18Z",
+    "end_datetime": "2024-06-05T17:02:21.575206Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.01976942497015,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799979891628027,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3947437137091921,
+    "sar:resolution_azimuth": 0.3776000757086817,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-06-05T17:02:18Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-06-05"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham%20Copper%20Mine/c2d19fef-9c9d-4c1f-aa64-9685dfb726a0/2024-06-05-17-02-17_UMBRA-05/2024-06-05-17-02-17_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/c2d19fef-9c9d-4c1f-aa64-9685dfb726a0/2024-06-05-17-02-17_UMBRA-05/2024-06-05-17-02-17_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/c2d19fef-9c9d-4c1f-aa64-9685dfb726a0/2024-06-05-17-02-17_UMBRA-05/2024-06-05-17-02-17_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/c2d19fef-9c9d-4c1f-aa64-9685dfb726a0/2024-06-05-17-02-17_UMBRA-05/2024-06-05-17-02-17_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/c2d19fef-9c9d-4c1f-aa64-9685dfb726a0/2024-06-05-17-02-17_UMBRA-05/2024-06-05-17-02-17_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham Copper Mine/c2d19fef-9c9d-4c1f-aa64-9685dfb726a0/2024-06-05-17-02-17_UMBRA-05/2024-06-05-17-02-17_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

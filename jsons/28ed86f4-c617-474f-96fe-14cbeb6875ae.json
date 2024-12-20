@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "28ed86f4-c617-474f-96fe-14cbeb6875ae",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.7942531328661,
+          39.10472287644884,
+          1538.9009127354875
+        ],
+        [
+          -111.85173431575178,
+          39.100057387198014,
+          1538.9002168057548
+        ],
+        [
+          -111.84573235715786,
+          39.0552709722177,
+          1538.9011607235936
+        ],
+        [
+          -111.78828711123313,
+          39.059933548565205,
+          1538.9002195431265
+        ],
+        [
+          -111.7942531328661,
+          39.10472287644884,
+          1538.9009127354875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.85173431575178,
+    39.0552709722177,
+    -111.78828711123313,
+    39.10472287644884
+  ],
+  "properties": {
+    "created": "2024-12-17T09:47:14.671215Z",
+    "updated": "2024-12-17T09:47:14.671215Z",
+    "start_datetime": "2024-08-31T17:02:04Z",
+    "end_datetime": "2024-08-31T17:02:08.643980Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 29.366414541879294,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799987704260275,
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4414233324185808,
+    "sar:resolution_azimuth": 0.193061195705385,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-08-31T17:02:04Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-08-31"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield%2C%20Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield, Utah/842628b5-c6a6-4280-9a6d-84f8df41ecc4/2024-08-31-17-02-03_UMBRA-06/2024-08-31-17-02-03_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "5bf1a46e-1f95-4c07-b315-e79a5983bf2f",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -97.02903673508568,
+          47.42402427080214,
+          255.6884184507653
+        ],
+        [
+          -97.02999518273828,
+          47.42847983750641,
+          255.5511164823547
+        ],
+        [
+          -97.03095781521219,
+          47.43292688651854,
+          255.45315898954868
+        ],
+        [
+          -97.03192627407377,
+          47.437373414088306,
+          255.39426779188216
+        ],
+        [
+          -97.03289025842169,
+          47.441827316157664,
+          255.37472496181726
+        ],
+        [
+          -97.03384657244636,
+          47.446272631556454,
+          255.3945628767833
+        ],
+        [
+          -97.03482219494889,
+          47.45072552635637,
+          255.45331664942205
+        ],
+        [
+          -97.03577827703558,
+          47.45516974576556,
+          255.5515358792618
+        ],
+        [
+          -97.03674175396536,
+          47.45962145497072,
+          255.68904920388013
+        ],
+        [
+          -97.0432997863478,
+          47.458964950091065,
+          255.5519651491195
+        ],
+        [
+          -97.04986806517813,
+          47.458315161085885,
+          255.45416325237602
+        ],
+        [
+          -97.05641970889981,
+          47.45765591127236,
+          255.39528413955122
+        ],
+        [
+          -97.06298160698715,
+          47.457003384053195,
+          255.37572526559234
+        ],
+        [
+          -97.06954032407663,
+          47.456349490754405,
+          255.39524835068733
+        ],
+        [
+          -97.07610773451506,
+          47.4556943319345,
+          255.45398702844977
+        ],
+        [
+          -97.08266010637541,
+          47.455037708680216,
+          255.55159635841846
+        ],
+        [
+          -97.08922117562955,
+          47.45437981894981,
+          255.68846183270216
+        ],
+        [
+          -97.08825270882797,
+          47.44992711385942,
+          255.55108017195016
+        ],
+        [
+          -97.08729165122911,
+          47.44548192147156,
+          255.4532806519419
+        ],
+        [
+          -97.0863127212371,
+          47.44103605417564,
+          255.3942084973678
+        ],
+        [
+          -97.0853498744896,
+          47.43658175495711,
+          255.3747600670904
+        ],
+        [
+          -97.08438260286145,
+          47.43213486720381,
+          255.39443357195705
+        ],
+        [
+          -97.08340930459885,
+          47.427687380435074,
+          255.4531930759549
+        ],
+        [
+          -97.08244183192421,
+          47.42323936458405,
+          255.55131387431175
+        ],
+        [
+          -97.08148018105891,
+          47.418790808303996,
+          255.68879516329616
+        ],
+        [
+          -97.07492237499066,
+          47.419441636330426,
+          255.55195232480764
+        ],
+        [
+          -97.06836304393737,
+          47.420099128750984,
+          255.45398358814418
+        ],
+        [
+          -97.06181239931007,
+          47.42075534109182,
+          255.39524860214442
+        ],
+        [
+          -97.05525857289162,
+          47.421410203256556,
+          255.3756321668625
+        ],
+        [
+          -97.04870155725932,
+          47.42206371389825,
+          255.3951835501939
+        ],
+        [
+          -97.04214298648674,
+          47.42272386417032,
+          255.45367170404643
+        ],
+        [
+          -97.03559146121187,
+          47.42337474347127,
+          255.5514562409371
+        ],
+        [
+          -97.02903673508568,
+          47.42402427080214,
+          255.6884184507653
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -97.08922117562955,
+    47.418790808303996,
+    -97.02903673508568,
+    47.45962145497072
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:03.023485Z",
+    "updated": "2024-12-17T09:51:03.023485Z",
+    "start_datetime": "2023-11-12T16:04:20Z",
+    "end_datetime": "2023-11-12T16:04:21.669705Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 47.10080844529469,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600000146718232,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8296469275141442,
+    "sar:resolution_azimuth": 0.8461580731705238,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-12T16:04:20Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sugar%20Beet%20processing%20plant%2C%20ND/bb1d37d0-e4e8-4b26-bd84-62f6cdfaddb9/2023-11-12-16-04-19_UMBRA-05/2023-11-12-16-04-19_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sugar Beet processing plant, ND/bb1d37d0-e4e8-4b26-bd84-62f6cdfaddb9/2023-11-12-16-04-19_UMBRA-05/2023-11-12-16-04-19_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sugar Beet processing plant, ND/bb1d37d0-e4e8-4b26-bd84-62f6cdfaddb9/2023-11-12-16-04-19_UMBRA-05/2023-11-12-16-04-19_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sugar Beet processing plant, ND/bb1d37d0-e4e8-4b26-bd84-62f6cdfaddb9/2023-11-12-16-04-19_UMBRA-05/2023-11-12-16-04-19_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sugar Beet processing plant, ND/bb1d37d0-e4e8-4b26-bd84-62f6cdfaddb9/2023-11-12-16-04-19_UMBRA-05/2023-11-12-16-04-19_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

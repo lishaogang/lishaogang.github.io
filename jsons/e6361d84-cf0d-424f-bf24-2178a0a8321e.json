@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e6361d84-cf0d-424f-bf24-2178a0a8321e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.348091368206233,
+          27.259301104127175,
+          494.26403095852584
+        ],
+        [
+          4.346374046944801,
+          27.263543432864527,
+          494.12656399887055
+        ],
+        [
+          4.344660004492461,
+          27.267787552280268,
+          494.02854637335986
+        ],
+        [
+          4.3429410526332255,
+          27.272028523691567,
+          493.9697171309963
+        ],
+        [
+          4.341224461901768,
+          27.276274011843253,
+          493.95034027006477
+        ],
+        [
+          4.339506293117022,
+          27.280516209322222,
+          493.9702465450391
+        ],
+        [
+          4.337792300267386,
+          27.284757511740736,
+          494.02957223169506
+        ],
+        [
+          4.336071567475652,
+          27.28900112763164,
+          494.1281467555091
+        ],
+        [
+          4.3343550049639665,
+          27.29324386240492,
+          494.2661403529346
+        ],
+        [
+          4.329605283190641,
+          27.291711235942877,
+          494.12878589425236
+        ],
+        [
+          4.324858170205381,
+          27.290176206273575,
+          494.03054045978934
+        ],
+        [
+          4.32010943639213,
+          27.28864164870032,
+          493.9714864855632
+        ],
+        [
+          4.31535997494938,
+          27.28710485014602,
+          493.9515581810847
+        ],
+        [
+          4.310611309437966,
+          27.28557107853723,
+          493.97092293482274
+        ],
+        [
+          4.305861905773234,
+          27.284035067549038,
+          494.0294347787276
+        ],
+        [
+          4.301114176004981,
+          27.282499374539807,
+          494.127114161849
+        ],
+        [
+          4.29636480018975,
+          27.28096416010365,
+          494.2640583217144
+        ],
+        [
+          4.298084002160972,
+          27.276720989703783,
+          494.12657267041504
+        ],
+        [
+          4.299804012953744,
+          27.272477097995303,
+          494.0284140491858
+        ],
+        [
+          4.30152061553793,
+          27.268235352219506,
+          493.9697307003662
+        ],
+        [
+          4.303241342545101,
+          27.263992716439652,
+          493.9502596091479
+        ],
+        [
+          4.30495957739919,
+          27.259749490225264,
+          493.9702253630385
+        ],
+        [
+          4.306677711820326,
+          27.25550823493564,
+          494.0294936252758
+        ],
+        [
+          4.30839335444459,
+          27.251266372126768,
+          494.1281605036929
+        ],
+        [
+          4.310113145244932,
+          27.24702359165211,
+          494.26611193083227
+        ],
+        [
+          4.31486090095318,
+          27.24855653554387,
+          494.1287834048271
+        ],
+        [
+          4.31960605971177,
+          27.250092678803718,
+          494.0305224508047
+        ],
+        [
+          4.324352889173136,
+          27.251629142669273,
+          493.9714162880555
+        ],
+        [
+          4.3291023358699885,
+          27.253163203162384,
+          493.95160229690373
+        ],
+        [
+          4.333850142305293,
+          27.254697733738098,
+          493.97095313761383
+        ],
+        [
+          4.338596311146266,
+          27.256232733489878,
+          494.02943576686084
+        ],
+        [
+          4.343345118500872,
+          27.257765327538223,
+          494.12722459901124
+        ],
+        [
+          4.348091368206233,
+          27.259301104127175,
+          494.26403095852584
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.29636480018975,
+    27.24702359165211,
+    4.348091368206233,
+    27.29324386240492
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:41.545169Z",
+    "updated": "2024-12-17T09:53:41.545169Z",
+    "start_datetime": "2024-01-14T09:12:46Z",
+    "end_datetime": "2024-01-14T09:12:50.726455Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.11463149063198,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799958930583673,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.28187107749999984,
+    "sar:resolution_azimuth": 0.2720033475653715,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-01-14T09:12:46Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-01-14"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Foggaret%20Ezzaouia%2C%20Algeria/1dff214d-46a3-4a48-bdb4-d402a9aecb90/2024-01-14-09-12-45_UMBRA-05/2024-01-14-09-12-45_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Foggaret Ezzaouia, Algeria/1dff214d-46a3-4a48-bdb4-d402a9aecb90/2024-01-14-09-12-45_UMBRA-05/2024-01-14-09-12-45_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Foggaret Ezzaouia, Algeria/1dff214d-46a3-4a48-bdb4-d402a9aecb90/2024-01-14-09-12-45_UMBRA-05/2024-01-14-09-12-45_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Foggaret Ezzaouia, Algeria/1dff214d-46a3-4a48-bdb4-d402a9aecb90/2024-01-14-09-12-45_UMBRA-05/2024-01-14-09-12-45_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Foggaret Ezzaouia, Algeria/1dff214d-46a3-4a48-bdb4-d402a9aecb90/2024-01-14-09-12-45_UMBRA-05/2024-01-14-09-12-45_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

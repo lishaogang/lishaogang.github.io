@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c7d088df-2c26-4aba-9c8e-b90ee44689d9",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.03628090326218,
+          37.35510948681586,
+          59.94135300349444
+        ],
+        [
+          -122.03755317248373,
+          37.35071875338336,
+          59.80337890982628
+        ],
+        [
+          -122.03882716405839,
+          37.34633192411368,
+          59.70488066319376
+        ],
+        [
+          -122.04010088641678,
+          37.34194102672978,
+          59.645585399121046
+        ],
+        [
+          -122.041371844826,
+          37.337553050141196,
+          59.6255837418139
+        ],
+        [
+          -122.04264703388952,
+          37.33316195881541,
+          59.64499223791063
+        ],
+        [
+          -122.04391945443616,
+          37.328773770203114,
+          59.703644511289895
+        ],
+        [
+          -122.04519036978017,
+          37.32438497749807,
+          59.8015556121245
+        ],
+        [
+          -122.0464597846701,
+          37.31999557131327,
+          59.93873457610607
+        ],
+        [
+          -122.04096708875463,
+          37.31898064845772,
+          59.801748243160546
+        ],
+        [
+          -122.03547058270415,
+          37.31796472925969,
+          59.70381911005825
+        ],
+        [
+          -122.02997601788393,
+          37.31694528921492,
+          59.64518760610372
+        ],
+        [
+          -122.02448081857254,
+          37.31592932036191,
+          59.62558299861848
+        ],
+        [
+          -122.01898625987774,
+          37.314913325306634,
+          59.64512422028929
+        ],
+        [
+          -122.01348788294398,
+          37.31389633239073,
+          59.70386902149767
+        ],
+        [
+          -122.00799587063074,
+          37.31287677734908,
+          59.80182209890336
+        ],
+        [
+          -122.00250318884159,
+          37.311860694163464,
+          59.93876453302801
+        ],
+        [
+          -122.00122739911957,
+          37.316250582223326,
+          59.80119718145579
+        ],
+        [
+          -121.99995137034492,
+          37.320636350890716,
+          59.70306574832648
+        ],
+        [
+          -121.9986769880888,
+          37.32502598834839,
+          59.644087431021035
+        ],
+        [
+          -121.9974010848548,
+          37.32941502995788,
+          59.624473478645086
+        ],
+        [
+          -121.99612810297295,
+          37.33380444621119,
+          59.64408918842673
+        ],
+        [
+          -121.99484914488195,
+          37.338192322727224,
+          59.703180860728025
+        ],
+        [
+          -121.99357754972034,
+          37.34258154762219,
+          59.80136488750577
+        ],
+        [
+          -121.99229996930504,
+          37.34696925158062,
+          59.939010037109256
+        ],
+        [
+          -121.99779783237496,
+          37.347988361033494,
+          59.80224542040378
+        ],
+        [
+          -122.00329310062915,
+          37.34900296850011,
+          59.704579264856875
+        ],
+        [
+          -122.00879221813862,
+          37.35002201549294,
+          59.64613376930356
+        ],
+        [
+          -122.01428751111744,
+          37.351040073690996,
+          59.626874902285635
+        ],
+        [
+          -122.01978791667429,
+          37.352059062456675,
+          59.6467914422974
+        ],
+        [
+          -122.02528574168113,
+          37.35307355865098,
+          59.70572911109775
+        ],
+        [
+          -122.03078298898279,
+          37.354091535241324,
+          59.80395421385765
+        ],
+        [
+          -122.03628090326218,
+          37.35510948681586,
+          59.94135300349444
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.0464597846701,
+    37.311860694163464,
+    -121.99229996930504,
+    37.35510948681586
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:36.558366Z",
+    "updated": "2024-12-17T09:53:36.558366Z",
+    "start_datetime": "2023-03-24T18:17:25.907616Z",
+    "end_datetime": "2023-03-24T18:17:28.426064Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 35.177754304003216,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.60000289109303,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.46309128968185065,
+    "sar:resolution_azimuth": 0.45426170412863537,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-03-24T18:17:25.907616Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-03-24"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Cupertino%2C%20CA%20%28Apple%20HQ%29/2023-03-24-18-17-23_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cupertino, CA (Apple HQ)/2023-03-24-18-17-23_UMBRA-04.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cupertino, CA (Apple HQ)/2023-03-24-18-17-23_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cupertino, CA (Apple HQ)/2023-03-24-18-17-23_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Cupertino, CA (Apple HQ)/2023-03-24-18-17-23_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

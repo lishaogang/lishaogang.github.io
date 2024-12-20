@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "ea5c0e53-8369-489a-959c-c48149a631ba",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -63.889487948856406,
+          44.73760335406918,
+          91.30247475393116
+        ],
+        [
+          -63.89377358932895,
+          44.73430248764819,
+          91.16486566327512
+        ],
+        [
+          -63.898060227777655,
+          44.7309969042931,
+          91.06627419125289
+        ],
+        [
+          -63.90233946537869,
+          44.72769278727617,
+          91.00687569379807
+        ],
+        [
+          -63.90662164338763,
+          44.72438847051491,
+          90.9867003383115
+        ],
+        [
+          -63.91090678686176,
+          44.72108395081657,
+          91.00579265132546
+        ],
+        [
+          -63.91519492104376,
+          44.71777922502011,
+          91.06419769953936
+        ],
+        [
+          -63.91946948730661,
+          44.714474478169244,
+          91.1614503050223
+        ],
+        [
+          -63.92375320025248,
+          44.71117095456469,
+          91.29817656055093
+        ],
+        [
+          -63.91912181247213,
+          44.70811558475943,
+          91.16110666561872
+        ],
+        [
+          -63.91448470181844,
+          44.7050647551347,
+          91.06300069857389
+        ],
+        [
+          -63.909854756537435,
+          44.70200921921858,
+          91.00431676581502
+        ],
+        [
+          -63.90521905843088,
+          44.69895821862886,
+          90.98459018208086
+        ],
+        [
+          -63.90059050148765,
+          44.69590250106749,
+          91.00427192170173
+        ],
+        [
+          -63.89595439241261,
+          44.69284678934313,
+          91.06306126341224
+        ],
+        [
+          -63.89132287885486,
+          44.68979396160892,
+          91.16097857803106
+        ],
+        [
+          -63.88669416518632,
+          44.686739487288804,
+          91.29813870415092
+        ],
+        [
+          -63.88240693834147,
+          44.69004459901514,
+          91.16088746674359
+        ],
+        [
+          -63.878126941481035,
+          44.69334637958649,
+          91.06294297706336
+        ],
+        [
+          -63.87384557968086,
+          44.6966510143752,
+          91.00408150628209
+        ],
+        [
+          -63.86956109140815,
+          44.699953988338436,
+          90.98451078590006
+        ],
+        [
+          -63.86527949055386,
+          44.703256737108944,
+          91.00407579354942
+        ],
+        [
+          -63.860994733300146,
+          44.7065578394792,
+          91.06290899030864
+        ],
+        [
+          -63.856708618068296,
+          44.709861832333544,
+          91.16094011534005
+        ],
+        [
+          -63.85241934547366,
+          44.71316419840447,
+          91.29829284269363
+        ],
+        [
+          -63.85705353827828,
+          44.7162216230377,
+          91.16158463712782
+        ],
+        [
+          -63.86168444942617,
+          44.71927597983062,
+          91.06417049467564
+        ],
+        [
+          -63.86631391151392,
+          44.722331799372796,
+          91.00599816441536
+        ],
+        [
+          -63.87095218811935,
+          44.72538740664642,
+          90.98685464356095
+        ],
+        [
+          -63.87558718071253,
+          44.72843995538116,
+          91.00691184960306
+        ],
+        [
+          -63.88021657962801,
+          44.731497079962196,
+          91.06637185998261
+        ],
+        [
+          -63.884852954604796,
+          44.73454947669552,
+          91.16479174606502
+        ],
+        [
+          -63.889487948856406,
+          44.73760335406918,
+          91.30247475393116
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -63.92375320025248,
+    44.686739487288804,
+    -63.85241934547366,
+    44.73760335406918
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:33.887554Z",
+    "updated": "2024-12-17T09:54:33.887554Z",
+    "start_datetime": "2023-06-01T03:24:00.151623Z",
+    "end_datetime": "2023-06-01T03:24:02.437983Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 23.168120827642483,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800001261814032,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5108428669737834,
+    "sar:resolution_azimuth": 0.5152506947793565,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-06-01T03:24:00.151623Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-01"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Tantallon%20Wildfire%2C%20Nova%20Scotia%2C%20Canada/db7fe2f5-a6fc-44a4-b533-3fbdf9486cb2/2023-06-01-03-23-58_UMBRA-06/2023-06-01-03-23-58_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tantallon Wildfire, Nova Scotia, Canada/db7fe2f5-a6fc-44a4-b533-3fbdf9486cb2/2023-06-01-03-23-58_UMBRA-06/2023-06-01-03-23-58_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tantallon Wildfire, Nova Scotia, Canada/db7fe2f5-a6fc-44a4-b533-3fbdf9486cb2/2023-06-01-03-23-58_UMBRA-06/2023-06-01-03-23-58_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tantallon Wildfire, Nova Scotia, Canada/db7fe2f5-a6fc-44a4-b533-3fbdf9486cb2/2023-06-01-03-23-58_UMBRA-06/2023-06-01-03-23-58_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Tantallon Wildfire, Nova Scotia, Canada/db7fe2f5-a6fc-44a4-b533-3fbdf9486cb2/2023-06-01-03-23-58_UMBRA-06/2023-06-01-03-23-58_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "3deb3240-8779-4407-91a1-49e5ef51ad77",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.45849969434822,
+          33.25259591241597,
+          314.5020313793462
+        ],
+        [
+          -112.50929232311437,
+          33.2380738022809,
+          314.4993394495303
+        ],
+        [
+          -112.49200720511313,
+          33.19539625782333,
+          314.5022800591442
+        ],
+        [
+          -112.44123638343277,
+          33.20991141716431,
+          314.49934138809914
+        ],
+        [
+          -112.45849969434822,
+          33.25259591241597,
+          314.5020313793462
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.50929232311437,
+    33.19539625782333,
+    -112.44123638343277,
+    33.25259591241597
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:23.900518Z",
+    "updated": "2024-12-17T09:54:23.900518Z",
+    "start_datetime": "2024-05-15T17:19:29Z",
+    "end_datetime": "2024-05-15T17:19:31.637511Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 31.264174170260425,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800002492382191,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4029059133155951,
+    "sar:resolution_azimuth": 0.38799277359033624,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-15T17:19:29Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-15"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/RainbowValley_AZ/9384c3f0-ceca-4431-9618-2dea19a19f87/2024-05-15-17-19-28_UMBRA-04/2024-05-15-17-19-28_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/RainbowValley_AZ/9384c3f0-ceca-4431-9618-2dea19a19f87/2024-05-15-17-19-28_UMBRA-04/2024-05-15-17-19-28_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/RainbowValley_AZ/9384c3f0-ceca-4431-9618-2dea19a19f87/2024-05-15-17-19-28_UMBRA-04/2024-05-15-17-19-28_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/RainbowValley_AZ/9384c3f0-ceca-4431-9618-2dea19a19f87/2024-05-15-17-19-28_UMBRA-04/2024-05-15-17-19-28_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/RainbowValley_AZ/9384c3f0-ceca-4431-9618-2dea19a19f87/2024-05-15-17-19-28_UMBRA-04/2024-05-15-17-19-28_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/RainbowValley_AZ/9384c3f0-ceca-4431-9618-2dea19a19f87/2024-05-15-17-19-28_UMBRA-04/2024-05-15-17-19-28_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

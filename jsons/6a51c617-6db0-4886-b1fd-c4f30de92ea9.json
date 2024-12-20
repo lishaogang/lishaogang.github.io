@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "6a51c617-6db0-4886-b1fd-c4f30de92ea9",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.86071892742044,
+          46.91731451948643,
+          248.28680775407702
+        ],
+        [
+          -96.85908512887977,
+          46.912952266177015,
+          248.1493310239166
+        ],
+        [
+          -96.85746237518931,
+          46.90859822893739,
+          248.05155070777982
+        ],
+        [
+          -96.85582626353953,
+          46.904240012269675,
+          247.99261269997805
+        ],
+        [
+          -96.8542003148164,
+          46.89988175873484,
+          247.9731903169304
+        ],
+        [
+          -96.85257315226643,
+          46.895525523742336,
+          247.99295873288065
+        ],
+        [
+          -96.85094474620354,
+          46.89117130794608,
+          248.0518720569089
+        ],
+        [
+          -96.8493264390536,
+          46.88681705301416,
+          248.1501669967547
+        ],
+        [
+          -96.84769474513983,
+          46.88245862285954,
+          248.2875720197335
+        ],
+        [
+          -96.84132533313984,
+          46.88357175813894,
+          248.15038971416652
+        ],
+        [
+          -96.83497862733496,
+          46.884692863210475,
+          248.0523131005466
+        ],
+        [
+          -96.82861835959179,
+          46.885803368688535,
+          247.99367120303214
+        ],
+        [
+          -96.82226864855929,
+          46.8869156481849,
+          247.97406695131212
+        ],
+        [
+          -96.81590688143346,
+          46.88803384541246,
+          247.99345980212092
+        ],
+        [
+          -96.80955488168048,
+          46.88914556156862,
+          248.05207926221192
+        ],
+        [
+          -96.80320210788885,
+          46.890261123972174,
+          248.14967453759164
+        ],
+        [
+          -96.79684778314059,
+          46.89137228251762,
+          248.28651191852987
+        ],
+        [
+          -96.79846736110738,
+          46.89573315308979,
+          248.14935789257288
+        ],
+        [
+          -96.80008491155643,
+          46.90008779172729,
+          248.05159875936806
+        ],
+        [
+          -96.80172451328676,
+          46.904448535705576,
+          247.99247729219496
+        ],
+        [
+          -96.80335088197748,
+          46.90880513192399,
+          247.97297221701592
+        ],
+        [
+          -96.80497608632716,
+          46.9131637477006,
+          247.99276357050985
+        ],
+        [
+          -96.80658806050724,
+          46.917518212037564,
+          248.05198224447668
+        ],
+        [
+          -96.80822220119798,
+          46.92187878507528,
+          248.15015195403248
+        ],
+        [
+          -96.80984313245173,
+          46.92623520582444,
+          248.28769776411355
+        ],
+        [
+          -96.81620934507893,
+          46.925121583370604,
+          248.15055943187326
+        ],
+        [
+          -96.82256278028174,
+          46.92400564214421,
+          248.05261709261686
+        ],
+        [
+          -96.82892679549188,
+          46.92289148288034,
+          247.9938174644485
+        ],
+        [
+          -96.83527801323139,
+          46.92177499387379,
+          247.97405729535967
+        ],
+        [
+          -96.84163984960352,
+          46.920660289039354,
+          247.99353616219014
+        ],
+        [
+          -96.84798886827522,
+          46.91954324349035,
+          248.05189789272845
+        ],
+        [
+          -96.85435986227989,
+          46.918425928107496,
+          248.1498029017821
+        ],
+        [
+          -96.86071892742044,
+          46.91731451948643,
+          248.28680775407702
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.86071892742044,
+    46.88245862285954,
+    -96.79684778314059,
+    46.92623520582444
+  ],
+  "properties": {
+    "created": "2024-12-17T09:49:31.154671Z",
+    "updated": "2024-12-17T09:49:31.154671Z",
+    "start_datetime": "2023-11-19T16:43:24Z",
+    "end_datetime": "2023-11-19T16:43:27.218483Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 48.939620670739444,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.600014836003538,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8005104318434453,
+    "sar:resolution_azimuth": 0.8236988766333799,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-19T16:43:24Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-19"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North%20Dakota%20State%20University%20Plot/a74e2f07-6606-4996-9f9a-846871e81c0a/2023-11-19-16-43-23_UMBRA-04/2023-11-19-16-43-23_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/a74e2f07-6606-4996-9f9a-846871e81c0a/2023-11-19-16-43-23_UMBRA-04/2023-11-19-16-43-23_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/a74e2f07-6606-4996-9f9a-846871e81c0a/2023-11-19-16-43-23_UMBRA-04/2023-11-19-16-43-23_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/a74e2f07-6606-4996-9f9a-846871e81c0a/2023-11-19-16-43-23_UMBRA-04/2023-11-19-16-43-23_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North Dakota State University Plot/a74e2f07-6606-4996-9f9a-846871e81c0a/2023-11-19-16-43-23_UMBRA-04/2023-11-19-16-43-23_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c8d524d7-8bd6-4ef0-94a9-97df78b0bf22",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.77696050232143,
+          45.33972734441247,
+          51.353097022511065
+        ],
+        [
+          -122.78230787349406,
+          45.337272994758294,
+          51.41141066234559
+        ],
+        [
+          -122.78765125817426,
+          45.334817149676034,
+          51.508785299025476
+        ],
+        [
+          -122.7929985455662,
+          45.33236123352942,
+          51.64546678587794
+        ],
+        [
+          -122.78951736167255,
+          45.32859225902932,
+          51.50818692333996
+        ],
+        [
+          -122.78603655540144,
+          45.324822744876954,
+          51.41011769324541
+        ],
+        [
+          -122.78255612071094,
+          45.32105269142765,
+          51.351269270293415
+        ],
+        [
+          -122.77907605156753,
+          45.317282099039915,
+          51.331651906482875
+        ],
+        [
+          -122.77559373104147,
+          45.313512159914396,
+          51.351199658587575
+        ],
+        [
+          -122.77211700045044,
+          45.30974180104703,
+          51.41006784234196
+        ],
+        [
+          -122.76863799977421,
+          45.30597209719922,
+          51.508085194043815
+        ],
+        [
+          -122.7651593339276,
+          45.30220185690457,
+          51.645338552072644
+        ],
+        [
+          -122.75981610726653,
+          45.304655429034774,
+          51.5082915071398
+        ],
+        [
+          -122.75447413452233,
+          45.30711011503268,
+          51.4103513751179
+        ],
+        [
+          -122.74912816630686,
+          45.30956330119878,
+          51.35164321772754
+        ],
+        [
+          -122.7437860440009,
+          45.31201641152562,
+          51.33205709327012
+        ],
+        [
+          -122.73843993380797,
+          45.31447053235594,
+          51.35164774861187
+        ],
+        [
+          -122.73309503139039,
+          45.316923275312696,
+          51.41041150689125
+        ],
+        [
+          -122.72774873017318,
+          45.31937583994448,
+          51.50836377032101
+        ],
+        [
+          -122.72240361465141,
+          45.32182703186196,
+          51.64544437918812
+        ],
+        [
+          -122.72587828540719,
+          45.325599660923416,
+          51.508698338642716
+        ],
+        [
+          -122.72935588944252,
+          45.32937055009259,
+          51.41110121551901
+        ],
+        [
+          -122.7328338859988,
+          45.333143397836636,
+          51.352746391668916
+        ],
+        [
+          -122.73631219920439,
+          45.33691320192618,
+          51.333584492094815
+        ],
+        [
+          -122.73979092349927,
+          45.34068496281845,
+          51.35368012264371
+        ],
+        [
+          -122.7432700222719,
+          45.344456179477994,
+          51.41299419850111
+        ],
+        [
+          -122.74674692054873,
+          45.34822804615679,
+          51.51159243006259
+        ],
+        [
+          -122.750226787382,
+          45.35199817276177,
+          51.64931191224605
+        ],
+        [
+          -122.75557575687775,
+          45.34954459314455,
+          51.51173816341907
+        ],
+        [
+          -122.76092334872584,
+          45.3470908433983,
+          51.41334319580346
+        ],
+        [
+          -122.76626956776344,
+          45.344636919732125,
+          51.354111646302044
+        ],
+        [
+          -122.77161701118614,
+          45.342181626661926,
+          51.334028048440814
+        ],
+        [
+          -122.77696050232143,
+          45.33972734441247,
+          51.353097022511065
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.7929985455662,
+    45.30220185690457,
+    -122.72240361465141,
+    45.35199817276177
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:45.651271Z",
+    "updated": "2024-12-17T09:54:45.651271Z",
+    "start_datetime": "2023-09-07T18:32:25Z",
+    "end_datetime": "2023-09-07T18:32:31.773673Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 48.721105115002445,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799983511562461,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.2628070376838938,
+    "sar:resolution_azimuth": 0.2605872437804204,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-09-07T18:32:25Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-09-07"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Wilsonville%2C%20OR/ac822fd3-e41c-40da-a73f-9ac595d5ecb6/2023-09-07-18-32-24_UMBRA-05/2023-09-07-18-32-24_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Wilsonville, OR/ac822fd3-e41c-40da-a73f-9ac595d5ecb6/2023-09-07-18-32-24_UMBRA-05/2023-09-07-18-32-24_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Wilsonville, OR/ac822fd3-e41c-40da-a73f-9ac595d5ecb6/2023-09-07-18-32-24_UMBRA-05/2023-09-07-18-32-24_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Wilsonville, OR/ac822fd3-e41c-40da-a73f-9ac595d5ecb6/2023-09-07-18-32-24_UMBRA-05/2023-09-07-18-32-24_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Wilsonville, OR/ac822fd3-e41c-40da-a73f-9ac595d5ecb6/2023-09-07-18-32-24_UMBRA-05/2023-09-07-18-32-24_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

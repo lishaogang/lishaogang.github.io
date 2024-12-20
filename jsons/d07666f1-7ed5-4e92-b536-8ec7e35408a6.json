@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "d07666f1-7ed5-4e92-b536-8ec7e35408a6",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          150.68109064692683,
+          -33.8938829510153,
+          107.09544151848723
+        ],
+        [
+          150.7269735707001,
+          -33.91772623606802,
+          107.09964387929861
+        ],
+        [
+          150.75555016940436,
+          -33.87945997591132,
+          107.09568707563565
+        ],
+        [
+          150.70967977627373,
+          -33.85562718462649,
+          107.09964744110955
+        ],
+        [
+          150.68109064692683,
+          -33.8938829510153,
+          107.09544151848723
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    150.68109064692683,
+    -33.91772623606802,
+    150.75555016940436,
+    -33.85562718462649
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:20.067154Z",
+    "updated": "2024-12-17T09:51:20.067154Z",
+    "start_datetime": "2024-02-26T11:55:08Z",
+    "end_datetime": "2024-02-26T11:55:14.030717Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 15.511189407247471,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799952471978031,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.5000000000000008,
+    "sar:resolution_azimuth": 0.24999999999999997,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "right",
+    "datetime": "2024-02-26T11:55:08Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-26"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney%20International%20Airport%2C%20Australia/04bb2580-b703-44be-a3f0-057829d414d6/2024-02-26-11-55-07_UMBRA-04/2024-02-26-11-55-07_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney International Airport, Australia/04bb2580-b703-44be-a3f0-057829d414d6/2024-02-26-11-55-07_UMBRA-04/2024-02-26-11-55-07_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney International Airport, Australia/04bb2580-b703-44be-a3f0-057829d414d6/2024-02-26-11-55-07_UMBRA-04/2024-02-26-11-55-07_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney International Airport, Australia/04bb2580-b703-44be-a3f0-057829d414d6/2024-02-26-11-55-07_UMBRA-04/2024-02-26-11-55-07_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney International Airport, Australia/04bb2580-b703-44be-a3f0-057829d414d6/2024-02-26-11-55-07_UMBRA-04/2024-02-26-11-55-07_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney International Airport, Australia/04bb2580-b703-44be-a3f0-057829d414d6/2024-02-26-11-55-07_UMBRA-04/2024-02-26-11-55-07_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

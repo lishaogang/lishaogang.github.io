@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "79f1a8d8-7a83-4cdd-82e6-3739835daa4b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          50.52103218420611,
+          26.00004930780316,
+          -14.275220377548875
+        ],
+        [
+          50.54710251189307,
+          26.03855006231762,
+          -14.27988038756983
+        ],
+        [
+          50.504478507424466,
+          26.062103035405098,
+          -14.275050926266177
+        ],
+        [
+          50.478416888615726,
+          26.0235947188394,
+          -14.279879924109338
+        ],
+        [
+          50.52103218420611,
+          26.00004930780316,
+          -14.275220377548875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    50.478416888615726,
+    26.00004930780316,
+    50.54710251189307,
+    26.062103035405098
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:28.631436Z",
+    "updated": "2024-12-17T09:53:28.631436Z",
+    "start_datetime": "2024-03-02T17:58:16Z",
+    "end_datetime": "2024-03-02T17:58:43.179509Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 43.18758565308631,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799989470397122,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3500010000000003,
+    "sar:resolution_azimuth": 0.11666699999999999,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 3,
+    "sar:observation_direction": "right",
+    "datetime": "2024-03-02T17:58:16Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-03-02"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Bahrain_Grand_Prix/cdf8be11-8035-414a-a08b-e02eb96a002a/2024-03-02-17-58-15_UMBRA-05/2024-03-02-17-58-15_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bahrain_Grand_Prix/cdf8be11-8035-414a-a08b-e02eb96a002a/2024-03-02-17-58-15_UMBRA-05/2024-03-02-17-58-15_UMBRA-05_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bahrain_Grand_Prix/cdf8be11-8035-414a-a08b-e02eb96a002a/2024-03-02-17-58-15_UMBRA-05/2024-03-02-17-58-15_UMBRA-05_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bahrain_Grand_Prix/cdf8be11-8035-414a-a08b-e02eb96a002a/2024-03-02-17-58-15_UMBRA-05/2024-03-02-17-58-15_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bahrain_Grand_Prix/cdf8be11-8035-414a-a08b-e02eb96a002a/2024-03-02-17-58-15_UMBRA-05/2024-03-02-17-58-15_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Bahrain_Grand_Prix/cdf8be11-8035-414a-a08b-e02eb96a002a/2024-03-02-17-58-15_UMBRA-05/2024-03-02-17-58-15_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

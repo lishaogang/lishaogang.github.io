@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "2fc0ddf3-e26d-43ed-aaa7-f7254b8504b0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.8062761024528,
+          3.6924132397327636,
+          120.80949639249593
+        ],
+        [
+          -66.80256560873667,
+          3.6898469598540165,
+          120.90872830338776
+        ],
+        [
+          -66.79885235484764,
+          3.687284099431084,
+          121.04716870747507
+        ],
+        [
+          -66.79629824557423,
+          3.6910112295262456,
+          120.90927744098008
+        ],
+        [
+          -66.79375074355787,
+          3.6947292260603573,
+          120.81100495811552
+        ],
+        [
+          -66.79119038058754,
+          3.6984572855739044,
+          120.75200428441167
+        ],
+        [
+          -66.78864403509459,
+          3.702181391983492,
+          120.73218445200473
+        ],
+        [
+          -66.78608634919969,
+          3.705905703093784,
+          120.75205690041184
+        ],
+        [
+          -66.78353370822799,
+          3.709630732467552,
+          120.81115656346083
+        ],
+        [
+          -66.78098610290802,
+          3.713356481949426,
+          120.90942444093525
+        ],
+        [
+          -66.7784360651893,
+          3.717077756061713,
+          121.04711761977524
+        ],
+        [
+          -66.78214017733083,
+          3.719645132424447,
+          120.90980849973857
+        ],
+        [
+          -66.78585045810613,
+          3.7222112658081756,
+          120.81153319031
+        ],
+        [
+          -66.78955942925043,
+          3.7247709627305263,
+          120.75248445942998
+        ],
+        [
+          -66.79326565437908,
+          3.727334102742623,
+          120.73285129107535
+        ],
+        [
+          -66.79696914301863,
+          3.7299006936064196,
+          120.7526256237179
+        ],
+        [
+          -66.80067883603904,
+          3.732466047005742,
+          120.8115685172379
+        ],
+        [
+          -66.80438720513632,
+          3.7350249794706056,
+          120.9095566123724
+        ],
+        [
+          -66.80809285274435,
+          3.7375873757598272,
+          121.04693374875933
+        ],
+        [
+          -66.81064321249652,
+          3.733866272770519,
+          120.9082689518109
+        ],
+        [
+          -66.81319862663624,
+          3.730145866149921,
+          120.80903094727546
+        ],
+        [
+          -66.81575155657951,
+          3.72642098455076,
+          120.74896214343607
+        ],
+        [
+          -66.81830202288377,
+          3.7226916338401432,
+          120.7281231014058
+        ],
+        [
+          -66.82085614973187,
+          3.7189728519434073,
+          120.74696885515004
+        ],
+        [
+          -66.82340782303116,
+          3.7152496022159056,
+          120.80500911921263
+        ],
+        [
+          -66.8259570633898,
+          3.7115218904947938,
+          120.90230490732938
+        ],
+        [
+          -66.82851142109506,
+          3.7077948791658533,
+          121.03923508711159
+        ],
+        [
+          -66.82480539552998,
+          3.7052323535678227,
+          120.90278540644795
+        ],
+        [
+          -66.82109663422746,
+          3.702673281198587,
+          120.80542452726513
+        ],
+        [
+          -66.81739562294844,
+          3.7001031065796717,
+          120.74778704810888
+        ],
+        [
+          -66.81368287968533,
+          3.6975410679187117,
+          120.72893676441163
+        ],
+        [
+          -66.80997637895824,
+          3.6949777777172566,
+          120.7495451271534
+        ],
+        [
+          -66.8062761024528,
+          3.6924132397327636,
+          120.80949639249593
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -66.82851142109506,
+    3.687284099431084,
+    -66.7784360651893,
+    3.7375873757598272
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:06.860093Z",
+    "updated": "2024-12-17T09:53:06.860093Z",
+    "start_datetime": "2023-08-24T02:07:17Z",
+    "end_datetime": "2023-08-24T02:07:18.588158Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 44.52782394586585,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.60000270162709,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 1.1046868214187735,
+    "sar:resolution_azimuth": 1.1345177283668415,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-24T02:07:17Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-08-24"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana%2C%20Venezuela/8c3991a8-25a9-4bac-af4e-9b0619f8cfc8/2023-08-24-02-07-16_UMBRA-04/2023-08-24-02-07-16_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/8c3991a8-25a9-4bac-af4e-9b0619f8cfc8/2023-08-24-02-07-16_UMBRA-04/2023-08-24-02-07-16_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/8c3991a8-25a9-4bac-af4e-9b0619f8cfc8/2023-08-24-02-07-16_UMBRA-04/2023-08-24-02-07-16_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/8c3991a8-25a9-4bac-af4e-9b0619f8cfc8/2023-08-24-02-07-16_UMBRA-04/2023-08-24-02-07-16_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana, Venezuela/8c3991a8-25a9-4bac-af4e-9b0619f8cfc8/2023-08-24-02-07-16_UMBRA-04/2023-08-24-02-07-16_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b8263b18-3e38-4327-a5da-4695af09ee23",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.277539146465473,
+          48.86095024159706,
+          85.32997220180687
+        ],
+        [
+          2.2094252262767737,
+          48.862381544463425,
+          85.33023933624632
+        ],
+        [
+          2.207288286758125,
+          48.8174392770455,
+          85.33014608346421
+        ],
+        [
+          2.2753413601194152,
+          48.81600924286677,
+          85.33024222649821
+        ],
+        [
+          2.277539146465473,
+          48.86095024159706,
+          85.32997220180687
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.207288286758125,
+    48.81600924286677,
+    2.277539146465473,
+    48.862381544463425
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:30.803914Z",
+    "updated": "2024-12-17T09:53:30.803914Z",
+    "start_datetime": "2024-05-29T20:39:03Z",
+    "end_datetime": "2024-05-29T20:39:25.252645Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.46789442547939,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799995888140984,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.25674333209226646,
+    "sar:resolution_azimuth": 0.04883627990447294,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 5,
+    "sar:observation_direction": "left",
+    "datetime": "2024-05-29T20:39:03Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-29"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/BoulogneBillancourt_France/8c158e4b-389c-486f-9597-0f19bf516c2a/2024-05-29-20-39-02_UMBRA-04/2024-05-29-20-39-02_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/BoulogneBillancourt_France/8c158e4b-389c-486f-9597-0f19bf516c2a/2024-05-29-20-39-02_UMBRA-04/2024-05-29-20-39-02_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/BoulogneBillancourt_France/8c158e4b-389c-486f-9597-0f19bf516c2a/2024-05-29-20-39-02_UMBRA-04/2024-05-29-20-39-02_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

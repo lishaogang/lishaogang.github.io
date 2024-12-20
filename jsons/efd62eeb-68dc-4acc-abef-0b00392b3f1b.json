@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "efd62eeb-68dc-4acc-abef-0b00392b3f1b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          119.21066188622635,
+          -5.4154137130339945,
+          15.783562487922609
+        ],
+        [
+          119.2108127034531,
+          -5.410895304061629,
+          15.645199821330607
+        ],
+        [
+          119.210973945872,
+          -5.406374738396247,
+          15.546600734815001
+        ],
+        [
+          119.21113053603209,
+          -5.401858238780315,
+          15.487373812124133
+        ],
+        [
+          119.21129049881408,
+          -5.397336811725686,
+          15.467676225118339
+        ],
+        [
+          119.21144579461958,
+          -5.39281942959626,
+          15.487290902994573
+        ],
+        [
+          119.21160414046588,
+          -5.388301013932976,
+          15.54646292515099
+        ],
+        [
+          119.21175814631073,
+          -5.383782705124224,
+          15.644930204376578
+        ],
+        [
+          119.21191521226527,
+          -5.37926334154961,
+          15.78299113549292
+        ],
+        [
+          119.20740499066966,
+          -5.379107838547203,
+          15.64570657722652
+        ],
+        [
+          119.20289632476067,
+          -5.378951137853198,
+          15.54771385062486
+        ],
+        [
+          119.19838919685947,
+          -5.3787932415721915,
+          15.488973299972713
+        ],
+        [
+          119.19388358944309,
+          -5.378634151777972,
+          15.469445900060236
+        ],
+        [
+          119.189371789204,
+          -5.378478929822836,
+          15.488972664810717
+        ],
+        [
+          119.18486187037874,
+          -5.378318584593103,
+          15.547900095582008
+        ],
+        [
+          119.18035271652893,
+          -5.378164907302042,
+          15.645789601840079
+        ],
+        [
+          119.17584540963689,
+          -5.378006110779733,
+          15.783004372380674
+        ],
+        [
+          119.17568908933434,
+          -5.382522071236382,
+          15.644955694675446
+        ],
+        [
+          119.1755353914856,
+          -5.387040920046551,
+          15.546172085218132
+        ],
+        [
+          119.1753773959711,
+          -5.3915598602839925,
+          15.486992700956762
+        ],
+        [
+          119.1752151038863,
+          -5.396078906157141,
+          15.46742380131036
+        ],
+        [
+          119.17506273905123,
+          -5.400599734722562,
+          15.486986439675093
+        ],
+        [
+          119.17490639799115,
+          -5.405116765049342,
+          15.546118868514895
+        ],
+        [
+          119.17474544894496,
+          -5.409637855849372,
+          15.644943941384554
+        ],
+        [
+          119.17458777142618,
+          -5.414154044690274,
+          15.78298713825643
+        ],
+        [
+          119.17909480710999,
+          -5.414312257818653,
+          15.645930564962327
+        ],
+        [
+          119.18360329909775,
+          -5.414469297445872,
+          15.547972781583667
+        ],
+        [
+          119.18811296932694,
+          -5.41462907566836,
+          15.489288686774671
+        ],
+        [
+          119.1926244246581,
+          -5.414783761174436,
+          15.469637443311512
+        ],
+        [
+          119.19712975884455,
+          -5.414942330694044,
+          15.489317717961967
+        ],
+        [
+          119.20164393643834,
+          -5.415098567667767,
+          15.548194712027907
+        ],
+        [
+          119.20615229406602,
+          -5.415254777153824,
+          15.646214870736003
+        ],
+        [
+          119.21066188622635,
+          -5.4154137130339945,
+          15.783562487922609
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    119.17458777142618,
+    -5.4154137130339945,
+    119.21191521226527,
+    -5.378006110779733
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:03.948378Z",
+    "updated": "2024-12-17T09:54:03.948378Z",
+    "start_datetime": "2023-06-11T02:28:02.963043Z",
+    "end_datetime": "2023-06-11T02:28:05.222038Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 22.831419475937025,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599987349472942,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8844886789582204,
+    "sar:resolution_azimuth": 0.47767124086177576,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2023-06-11T02:28:02.963043Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Mattirobaji%2C%20Indonesia%20%28Island%29/eec05e9f-3943-446b-a8c5-51bfdb3656a6/2023-06-11-02-28-01_UMBRA-06/2023-06-11-02-28-01_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mattirobaji, Indonesia (Island)/eec05e9f-3943-446b-a8c5-51bfdb3656a6/2023-06-11-02-28-01_UMBRA-06/2023-06-11-02-28-01_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mattirobaji, Indonesia (Island)/eec05e9f-3943-446b-a8c5-51bfdb3656a6/2023-06-11-02-28-01_UMBRA-06/2023-06-11-02-28-01_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mattirobaji, Indonesia (Island)/eec05e9f-3943-446b-a8c5-51bfdb3656a6/2023-06-11-02-28-01_UMBRA-06/2023-06-11-02-28-01_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Mattirobaji, Indonesia (Island)/eec05e9f-3943-446b-a8c5-51bfdb3656a6/2023-06-11-02-28-01_UMBRA-06/2023-06-11-02-28-01_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "425bb33d-e6a4-4667-af38-bf5fbe301b2c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.17756093833877,
+          1.7846237982554776,
+          72.39477578923106
+        ],
+        [
+          -78.18128980715888,
+          1.7871373324766682,
+          72.258236579597
+        ],
+        [
+          -78.18502627759075,
+          1.7896479997163004,
+          72.1605667611584
+        ],
+        [
+          -78.18877034763646,
+          1.7921557962550214,
+          72.1018899017945
+        ],
+        [
+          -78.19251009202694,
+          1.7946661724435007,
+          72.08271883428097
+        ],
+        [
+          -78.19624551958445,
+          1.797179126509581,
+          72.10299657285213
+        ],
+        [
+          -78.19998072720446,
+          1.7996884078698785,
+          72.1624046061188
+        ],
+        [
+          -78.20372355227362,
+          1.8021948012560438,
+          72.26093766838312
+        ],
+        [
+          -78.2074579915379,
+          1.8047100147210595,
+          72.3991317320615
+        ],
+        [
+          -78.20994978686949,
+          1.80094825183029,
+          72.26074053067714
+        ],
+        [
+          -78.21244741926476,
+          1.7971822054784508,
+          72.16167918406427
+        ],
+        [
+          -78.21494274260674,
+          1.793424370727461,
+          72.10226165875793
+        ],
+        [
+          -78.21743609509186,
+          1.7896614475378165,
+          72.08202778361738
+        ],
+        [
+          -78.21993122345661,
+          1.7859004723037504,
+          72.10127194877714
+        ],
+        [
+          -78.2224281359428,
+          1.7821414358767291,
+          72.15997788310051
+        ],
+        [
+          -78.22492306770941,
+          1.7783773028991325,
+          72.25798227824271
+        ],
+        [
+          -78.22741577363527,
+          1.774621337695633,
+          72.39522743131965
+        ],
+        [
+          -78.2236795478284,
+          1.7721085701564578,
+          72.25831161625683
+        ],
+        [
+          -78.2199390643664,
+          1.7695983768722097,
+          72.1604827735573
+        ],
+        [
+          -78.2162021238352,
+          1.7670915350875152,
+          72.10198519658297
+        ],
+        [
+          -78.21246492378656,
+          1.7645810390723962,
+          72.08282289095223
+        ],
+        [
+          -78.2087274492976,
+          1.762066899910234,
+          72.10305417701602
+        ],
+        [
+          -78.20498568554302,
+          1.7595553495010057,
+          72.16247725952417
+        ],
+        [
+          -78.20124745536856,
+          1.757047155317492,
+          72.26109579298645
+        ],
+        [
+          -78.19751676259415,
+          1.7545360971560102,
+          72.39904673304409
+        ],
+        [
+          -78.19501784990513,
+          1.7583020540001175,
+          72.26055440306664
+        ],
+        [
+          -78.19252874117844,
+          1.76205749401524,
+          72.16172096226364
+        ],
+        [
+          -78.19002956509928,
+          1.7658203068279517,
+          72.10217870492488
+        ],
+        [
+          -78.18753619466219,
+          1.7695788280145435,
+          72.08199988305569
+        ],
+        [
+          -78.18504056064927,
+          1.7733455094461816,
+          72.10112888086587
+        ],
+        [
+          -78.18254693541284,
+          1.7771009126801116,
+          72.15970538463444
+        ],
+        [
+          -78.18005102372919,
+          1.78086449068983,
+          72.25768818613142
+        ],
+        [
+          -78.17756093833877,
+          1.7846237982554776,
+          72.39477578923106
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.22741577363527,
+    1.7545360971560102,
+    -78.17756093833877,
+    1.8047100147210595
+  ],
+  "properties": {
+    "created": "2024-12-17T09:48:51.908917Z",
+    "updated": "2024-12-17T09:48:51.908917Z",
+    "start_datetime": "2023-10-03T02:29:24Z",
+    "end_datetime": "2023-10-03T02:29:26Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 45.16251418624438,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.6000099722296,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.8847947301370078,
+    "sar:resolution_azimuth": 0.9056438910498553,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-10-03T02:29:24Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-03"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui%20Payan%2C%20Colombia/6b6d823c-51c1-42e6-875d-a45264f2f9b1/2023-10-03-02-29-23_UMBRA-05/2023-10-03-02-29-23_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/6b6d823c-51c1-42e6-875d-a45264f2f9b1/2023-10-03-02-29-23_UMBRA-05/2023-10-03-02-29-23_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/6b6d823c-51c1-42e6-875d-a45264f2f9b1/2023-10-03-02-29-23_UMBRA-05/2023-10-03-02-29-23_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/6b6d823c-51c1-42e6-875d-a45264f2f9b1/2023-10-03-02-29-23_UMBRA-05/2023-10-03-02-29-23_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui Payan, Colombia/6b6d823c-51c1-42e6-875d-a45264f2f9b1/2023-10-03-02-29-23_UMBRA-05/2023-10-03-02-29-23_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

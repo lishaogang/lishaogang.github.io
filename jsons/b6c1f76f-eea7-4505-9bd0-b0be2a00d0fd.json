@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "b6c1f76f-eea7-4505-9bd0-b0be2a00d0fd",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -151.0663198848461,
+          63.07398393563051,
+          6095.102479598485
+        ],
+        [
+          -151.06084539830735,
+          63.07025412304397,
+          6094.965742603876
+        ],
+        [
+          -151.05537609959225,
+          63.06652147178369,
+          6094.868159191683
+        ],
+        [
+          -151.04990411025327,
+          63.06278984929869,
+          6094.809594140388
+        ],
+        [
+          -151.0444402642945,
+          63.059057554802344,
+          6094.7902227938175
+        ],
+        [
+          -151.03897074849598,
+          63.0553240968396,
+          6094.80987229757
+        ],
+        [
+          -151.03350687889386,
+          63.05159297957216,
+          6094.868590688333
+        ],
+        [
+          -151.02804274848714,
+          63.04785983940759,
+          6094.966434856877
+        ],
+        [
+          -151.02257587141125,
+          63.04412768958353,
+          6095.103298369795
+        ],
+        [
+          -151.01435563960743,
+          63.04660604359866,
+          6094.966503176838
+        ],
+        [
+          -151.00612346378506,
+          63.04908451657115,
+          6094.868740708567
+        ],
+        [
+          -150.9978985072712,
+          63.05156277362517,
+          6094.810030643828
+        ],
+        [
+          -150.98966700431285,
+          63.05404030901051,
+          6094.790426741354
+        ],
+        [
+          -150.98143728433217,
+          63.056518469696584,
+          6094.809843367897
+        ],
+        [
+          -150.97320640065905,
+          63.058995069776984,
+          6094.868352736346
+        ],
+        [
+          -150.9649743370769,
+          63.06147010810262,
+          6094.965937203728
+        ],
+        [
+          -150.95673862401955,
+          63.06394661081226,
+          6095.102603374049
+        ],
+        [
+          -150.96219881519048,
+          63.067683418603444,
+          6094.965821920894
+        ],
+        [
+          -150.9676586960211,
+          63.07141819710123,
+          6094.868180745281
+        ],
+        [
+          -150.9731212187576,
+          63.07515314248874,
+          6094.809609997086
+        ],
+        [
+          -150.97858100502393,
+          63.078889102272115,
+          6094.790213280357
+        ],
+        [
+          -150.98404588105615,
+          63.08262221229637,
+          6094.8098016008735
+        ],
+        [
+          -150.9895080343362,
+          63.08635635190122,
+          6094.868541610427
+        ],
+        [
+          -150.9949758652779,
+          63.09009286936778,
+          6094.966433234513
+        ],
+        [
+          -151.00044581272826,
+          63.093824367172225,
+          6095.103218863718
+        ],
+        [
+          -151.00868592107665,
+          63.09134621605333,
+          6094.9663893403485
+        ],
+        [
+          -151.01692240075803,
+          63.08886952953787,
+          6094.868704563007
+        ],
+        [
+          -151.02516007886828,
+          63.0863882472136,
+          6094.809935217723
+        ],
+        [
+          -151.0333941508302,
+          63.08390843026779,
+          6094.790300858207
+        ],
+        [
+          -151.04163003342583,
+          63.0814292276161,
+          6094.809796107002
+        ],
+        [
+          -151.04985633740492,
+          63.07894713319137,
+          6094.868194223382
+        ],
+        [
+          -151.0580928877465,
+          63.07646697874091,
+          6094.965889027342
+        ],
+        [
+          -151.0663198848461,
+          63.07398393563051,
+          6095.102479598485
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -151.0663198848461,
+    63.04412768958353,
+    -150.95673862401955,
+    63.093824367172225
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:37.299617Z",
+    "updated": "2024-12-17T09:53:37.299617Z",
+    "start_datetime": "2023-10-04T07:04:21Z",
+    "end_datetime": "2023-10-04T07:04:25Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 39.545494777396144,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799995086970743,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.31421344369048354,
+    "sar:resolution_azimuth": 0.30853497246047945,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-10-04T07:04:21Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-10-04"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Denali%2C%20Alaska/0161ba00-0cbf-48fd-8653-49d73925b372/2023-10-04-07-04-20_UMBRA-04/2023-10-04-07-04-20_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Denali, Alaska/0161ba00-0cbf-48fd-8653-49d73925b372/2023-10-04-07-04-20_UMBRA-04/2023-10-04-07-04-20_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Denali, Alaska/0161ba00-0cbf-48fd-8653-49d73925b372/2023-10-04-07-04-20_UMBRA-04/2023-10-04-07-04-20_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Denali, Alaska/0161ba00-0cbf-48fd-8653-49d73925b372/2023-10-04-07-04-20_UMBRA-04/2023-10-04-07-04-20_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Denali, Alaska/0161ba00-0cbf-48fd-8653-49d73925b372/2023-10-04-07-04-20_UMBRA-04/2023-10-04-07-04-20_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

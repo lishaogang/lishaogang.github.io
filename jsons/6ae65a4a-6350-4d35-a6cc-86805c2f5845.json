@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "6ae65a4a-6350-4d35-a6cc-86805c2f5845",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -88.53207519321096,
+          43.9866579752502,
+          244.6703082602471
+        ],
+        [
+          -88.53021650547018,
+          43.99095227717358,
+          244.8073175828904
+        ],
+        [
+          -88.53616622570203,
+          43.99229518219634,
+          244.67027239035815
+        ],
+        [
+          -88.54211066863962,
+          43.99363862128862,
+          244.57251395191997
+        ],
+        [
+          -88.54806074291814,
+          43.994981779477705,
+          244.51377685833722
+        ],
+        [
+          -88.55401100390563,
+          43.99632506133764,
+          244.4942121002823
+        ],
+        [
+          -88.55996235067343,
+          43.99766641392339,
+          244.51374657917768
+        ],
+        [
+          -88.56590847184984,
+          43.99900828361888,
+          244.57244820334017
+        ],
+        [
+          -88.57186023769461,
+          44.000349866217924,
+          244.6703054457903
+        ],
+        [
+          -88.57781222261171,
+          44.00169156090246,
+          244.80734325945377
+        ],
+        [
+          -88.57966768910762,
+          43.99739678798433,
+          244.66992552299052
+        ],
+        [
+          -88.58152565367193,
+          43.99310096621551,
+          244.5717746578157
+        ],
+        [
+          -88.5833852319909,
+          43.988806138720086,
+          244.51295025926083
+        ],
+        [
+          -88.58524189734582,
+          43.98451064679597,
+          244.49331161100417
+        ],
+        [
+          -88.58709478243767,
+          43.98021653509706,
+          244.51284138858318
+        ],
+        [
+          -88.58895557350297,
+          43.97592093994471,
+          244.5718263555318
+        ],
+        [
+          -88.59080805662832,
+          43.97162506556668,
+          244.6698515349999
+        ],
+        [
+          -88.5926675771597,
+          43.96732973875485,
+          244.80734153930098
+        ],
+        [
+          -88.58671871792076,
+          43.96598851487247,
+          244.67062153760344
+        ],
+        [
+          -88.58077548915026,
+          43.96464699566823,
+          244.57317130826414
+        ],
+        [
+          -88.57482707479991,
+          43.963305999861056,
+          244.51472344063222
+        ],
+        [
+          -88.56887886878108,
+          43.961965122295695,
+          244.49542334396392
+        ],
+        [
+          -88.5629317185943,
+          43.96062232363543,
+          244.51534334942698
+        ],
+        [
+          -88.55698933053277,
+          43.959281276447435,
+          244.5743235098198
+        ],
+        [
+          -88.55104256139204,
+          43.95793872774975,
+          244.672496907413
+        ],
+        [
+          -88.54509596833023,
+          43.95659630874541,
+          244.80980986729264
+        ],
+        [
+          -88.54323885119744,
+          43.960890742762054,
+          244.6720833480358
+        ],
+        [
+          -88.54137878217873,
+          43.96518449809464,
+          244.5736720925197
+        ],
+        [
+          -88.53952033425637,
+          43.969479206964465,
+          244.51444320660084
+        ],
+        [
+          -88.5376589263158,
+          43.97377325033217,
+          244.4945375500247
+        ],
+        [
+          -88.53579912812297,
+          43.97806826428271,
+          244.5138327423483
+        ],
+        [
+          -88.53393636157949,
+          43.982362625936766,
+          244.57246022019535
+        ],
+        [
+          -88.53207519321096,
+          43.9866579752502,
+          244.6703082602471
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -88.5926675771597,
+    43.95659630874541,
+    -88.53021650547018,
+    44.00169156090246
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:16.480599Z",
+    "updated": "2024-12-17T09:54:16.480599Z",
+    "start_datetime": "2023-07-25T02:40:13Z",
+    "end_datetime": "2023-07-25T02:40:18.444685Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 37.632314244110795,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599998147110455,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4520700646987114,
+    "sar:resolution_azimuth": 0.25783484143614616,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2023-07-25T02:40:13Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-25"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Oshkosh%2C%20WI/a9efac8f-4656-445e-bd4a-755660521be4/2023-07-25-02-40-12_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Oshkosh, WI/a9efac8f-4656-445e-bd4a-755660521be4/2023-07-25-02-40-12_UMBRA-05.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Oshkosh, WI/a9efac8f-4656-445e-bd4a-755660521be4/2023-07-25-02-40-12_UMBRA-05.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Oshkosh, WI/a9efac8f-4656-445e-bd4a-755660521be4/2023-07-25-02-40-12_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Oshkosh, WI/a9efac8f-4656-445e-bd4a-755660521be4/2023-07-25-02-40-12_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

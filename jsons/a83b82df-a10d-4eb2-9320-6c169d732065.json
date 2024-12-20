@@ -1,0 +1,275 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "a83b82df-a10d-4eb2-9320-6c169d732065",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          89.30355636001994,
+          40.75351278192214,
+          987.3737002676353
+        ],
+        [
+          89.30406758846703,
+          40.757996697442465,
+          987.2361846780404
+        ],
+        [
+          89.30457602303117,
+          40.76248074207583,
+          987.137859987095
+        ],
+        [
+          89.30508681889424,
+          40.766968098750226,
+          987.0788204139099
+        ],
+        [
+          89.30559438883097,
+          40.77145194684894,
+          987.0590297495946
+        ],
+        [
+          89.30610859862861,
+          40.77593498017452,
+          987.0786718046293
+        ],
+        [
+          89.30661575412852,
+          40.78042231582559,
+          987.13743383158
+        ],
+        [
+          89.3071291006739,
+          40.78490519394032,
+          987.2355855274945
+        ],
+        [
+          89.30764012073456,
+          40.789391902839995,
+          987.3730406435207
+        ],
+        [
+          89.30173756122512,
+          40.789781201582656,
+          987.2360657732934
+        ],
+        [
+          89.29583338564933,
+          40.7901663482486,
+          987.1380960475653
+        ],
+        [
+          89.28993322814897,
+          40.79055416190753,
+          987.0794352283701
+        ],
+        [
+          89.28403190722325,
+          40.7909414800869,
+          987.0598875293508
+        ],
+        [
+          89.2781341212179,
+          40.7913278146765,
+          987.0794365769252
+        ],
+        [
+          89.27223046067041,
+          40.79171414256061,
+          987.1381475422531
+        ],
+        [
+          89.2663307871144,
+          40.79210315266943,
+          987.2360629923642
+        ],
+        [
+          89.26042946686987,
+          40.79248800603321,
+          987.3729867944494
+        ],
+        [
+          89.25992188500594,
+          40.78800155742946,
+          987.2354386318475
+        ],
+        [
+          89.25941150790808,
+          40.78351528574472,
+          987.1372720189393
+        ],
+        [
+          89.25890347653757,
+          40.77903236791859,
+          987.0783917428926
+        ],
+        [
+          89.25839688958575,
+          40.77454546256583,
+          987.0587081732228
+        ],
+        [
+          89.25789263733466,
+          40.770061901636026,
+          987.0782570168376
+        ],
+        [
+          89.25738514597188,
+          40.76557481658324,
+          987.1371991066262
+        ],
+        [
+          89.25687528383989,
+          40.76109153659251,
+          987.2354382136837
+        ],
+        [
+          89.25637158107511,
+          40.756603765991436,
+          987.3728989474475
+        ],
+        [
+          89.26226954644942,
+          40.75621861210387,
+          987.236032050103
+        ],
+        [
+          89.26816633356962,
+          40.75583296804523,
+          987.1383176902309
+        ],
+        [
+          89.27406664849792,
+          40.75544635989702,
+          987.0797088565305
+        ],
+        [
+          89.27996109177187,
+          40.7550597347925,
+          987.0602663941681
+        ],
+        [
+          89.2858594967244,
+          40.75467580663727,
+          987.0798210781068
+        ],
+        [
+          89.29176103206956,
+          40.75428724662867,
+          987.1387026403099
+        ],
+        [
+          89.29765670290779,
+          40.75389867031796,
+          987.2366557633504
+        ],
+        [
+          89.30355636001994,
+          40.75351278192214,
+          987.3737002676353
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    89.25637158107511,
+    40.75351278192214,
+    89.30764012073456,
+    40.79248800603321
+  ],
+  "properties": {
+    "created": "2024-12-17T09:54:01.764365Z",
+    "updated": "2024-12-17T09:54:01.764365Z",
+    "start_datetime": "2023-04-26T03:40:11.014564Z",
+    "end_datetime": "2023-04-26T03:40:13.713872Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 41.825158974365785,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.59999130817596,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.4455968537206207,
+    "sar:resolution_azimuth": 0.4499107429261116,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-04-26T03:40:11.014564Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-04-26"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Lop%20Nur%20Runway%2C%20Xinjiang%2C%20China/31108f6c-701e-4483-8200-3cd18a2ab1e3/2023-04-26-03-40-09_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lop Nur Runway, Xinjiang, China/31108f6c-701e-4483-8200-3cd18a2ab1e3/2023-04-26-03-40-09_UMBRA-04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lop Nur Runway, Xinjiang, China/31108f6c-701e-4483-8200-3cd18a2ab1e3/2023-04-26-03-40-09_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lop Nur Runway, Xinjiang, China/31108f6c-701e-4483-8200-3cd18a2ab1e3/2023-04-26-03-40-09_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

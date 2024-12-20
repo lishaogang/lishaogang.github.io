@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "67f05168-5fc1-415a-abab-d7910d381791",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -77.0802915608792,
+          3.7786906352727123,
+          45.906691962853074
+        ],
+        [
+          -77.08078818151024,
+          3.774199489686896,
+          45.7686773724854
+        ],
+        [
+          -77.08128163644922,
+          3.7697080473954196,
+          45.669958770275116
+        ],
+        [
+          -77.08178141440155,
+          3.765215347492482,
+          45.61084217298776
+        ],
+        [
+          -77.082269720705,
+          3.760713436280846,
+          45.59073187597096
+        ],
+        [
+          -77.082763194378,
+          3.7562200879693908,
+          45.610340596176684
+        ],
+        [
+          -77.0832630064125,
+          3.751725462537359,
+          45.6696360995993
+        ],
+        [
+          -77.08375966850251,
+          3.747230491804119,
+          45.76829344313592
+        ],
+        [
+          -77.08425194978123,
+          3.742745015321668,
+          45.90596154239029
+        ],
+        [
+          -77.07977501754311,
+          3.7422483105497886,
+          45.76877229101956
+        ],
+        [
+          -77.07530240644448,
+          3.7417498956333723,
+          45.67098184861243
+        ],
+        [
+          -77.07082462700322,
+          3.7412506957713756,
+          45.61233337689191
+        ],
+        [
+          -77.06635115191366,
+          3.7407497873647317,
+          45.59303166437894
+        ],
+        [
+          -77.06188072969437,
+          3.7402570484968805,
+          45.612623730674386
+        ],
+        [
+          -77.05740513087483,
+          3.739763530768797,
+          45.67144555505365
+        ],
+        [
+          -77.05293503713762,
+          3.73925843480078,
+          45.769803076051176
+        ],
+        [
+          -77.04845853294982,
+          3.738762435460503,
+          45.90715702343732
+        ],
+        [
+          -77.04796424238661,
+          3.7432644308189693,
+          45.76867204438895
+        ],
+        [
+          -77.04746803109113,
+          3.747756174687128,
+          45.67005623038858
+        ],
+        [
+          -77.04697808407927,
+          3.752246648065467,
+          45.61066045239568
+        ],
+        [
+          -77.04648379305105,
+          3.7567466531748894,
+          45.590759499929845
+        ],
+        [
+          -77.04598753114534,
+          3.7612364455908454,
+          45.610433891415596
+        ],
+        [
+          -77.04548695001536,
+          3.765735789589119,
+          45.669776452705264
+        ],
+        [
+          -77.04499378106897,
+          3.770224016973294,
+          45.76814966183156
+        ],
+        [
+          -77.04450572447409,
+          3.7747208700292796,
+          45.90594070684165
+        ],
+        [
+          -77.04897246231664,
+          3.7752210130101487,
+          45.76920490898192
+        ],
+        [
+          -77.05345285971484,
+          3.775718507579989,
+          45.671173953451216
+        ],
+        [
+          -77.05792808545898,
+          3.776215234912972,
+          45.61249339021742
+        ],
+        [
+          -77.06239813042134,
+          3.7767111994945743,
+          45.59302681591362
+        ],
+        [
+          -77.06687243976236,
+          3.7772054543855678,
+          45.61264931689948
+        ],
+        [
+          -77.07135103043706,
+          3.7776979961965527,
+          45.67146677337587
+        ],
+        [
+          -77.07582332586043,
+          3.778199612999568,
+          45.76975644938648
+        ],
+        [
+          -77.0802915608792,
+          3.7786906352727123,
+          45.906691962853074
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -77.08425194978123,
+    3.738762435460503,
+    -77.04450572447409,
+    3.7786906352727123
+  ],
+  "properties": {
+    "created": "2024-12-17T09:51:55.193863Z",
+    "updated": "2024-12-17T09:51:55.193863Z",
+    "start_datetime": "2023-09-11T02:48:57Z",
+    "end_datetime": "2023-09-11T02:48:58Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 35.56440505706004,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.60000259440858,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 1.1814168476849445,
+    "sar:resolution_azimuth": 1.2070473122201022,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-09-11T02:48:57Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-09-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal%2C%20Colombia/7162d7b3-09be-4672-b503-2279bf7781f3/2023-09-11-02-48-56_UMBRA-05/2023-09-11-02-48-56_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/7162d7b3-09be-4672-b503-2279bf7781f3/2023-09-11-02-48-56_UMBRA-05/2023-09-11-02-48-56_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/7162d7b3-09be-4672-b503-2279bf7781f3/2023-09-11-02-48-56_UMBRA-05/2023-09-11-02-48-56_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/7162d7b3-09be-4672-b503-2279bf7781f3/2023-09-11-02-48-56_UMBRA-05/2023-09-11-02-48-56_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal, Colombia/7162d7b3-09be-4672-b503-2279bf7781f3/2023-09-11-02-48-56_UMBRA-05/2023-09-11-02-48-56_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

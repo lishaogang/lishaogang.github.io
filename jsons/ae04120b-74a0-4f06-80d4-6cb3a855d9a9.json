@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "ae04120b-74a0-4f06-80d4-6cb3a855d9a9",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.515327760858078,
+          13.477985199738571,
+          804.1110299751163
+        ],
+        [
+          22.515943850751295,
+          13.485386527903302,
+          804.1639205832034
+        ],
+        [
+          22.516559132240012,
+          13.492789421172256,
+          804.3232610169798
+        ],
+        [
+          22.51717631383921,
+          13.500191350347933,
+          804.589256326668
+        ],
+        [
+          22.517792444427556,
+          13.507592076621828,
+          804.9616039488465
+        ],
+        [
+          22.506619582786858,
+          13.508483257139858,
+          804.1536994837224
+        ],
+        [
+          22.495445690485028,
+          13.509374673561332,
+          803.5766997234896
+        ],
+        [
+          22.484270456332965,
+          13.510263462475537,
+          803.230500113219
+        ],
+        [
+          22.47309701419566,
+          13.51115269753218,
+          803.1153570599854
+        ],
+        [
+          22.461922370353832,
+          13.512042095773051,
+          803.2311911787838
+        ],
+        [
+          22.4507464717705,
+          13.512931636135663,
+          803.5780754769221
+        ],
+        [
+          22.4395719272815,
+          13.513818697138012,
+          804.1557731870562
+        ],
+        [
+          22.42839918614638,
+          13.514708961710333,
+          804.964514744468
+        ],
+        [
+          22.42778319363493,
+          13.507306620363002,
+          804.5915636252612
+        ],
+        [
+          22.427171864617737,
+          13.499903559801577,
+          804.3247338077053
+        ],
+        [
+          22.42655670467548,
+          13.492501836275293,
+          804.1647718558088
+        ],
+        [
+          22.425943291288405,
+          13.485099078272414,
+          804.1111589604989
+        ],
+        [
+          22.425328947671186,
+          13.477697849665121,
+          804.1641373084858
+        ],
+        [
+          22.424716347046914,
+          13.47029552937036,
+          804.3234757622704
+        ],
+        [
+          22.424102583633776,
+          13.462891823733544,
+          804.5894742943347
+        ],
+        [
+          22.423487878129947,
+          13.45548955138613,
+          804.9620352396742
+        ],
+        [
+          22.434661139391654,
+          13.454603614960712,
+          804.1538043050095
+        ],
+        [
+          22.445832815282497,
+          13.453714979747962,
+          803.5767685938627
+        ],
+        [
+          22.457003172612524,
+          13.45282651649448,
+          803.2306808335707
+        ],
+        [
+          22.468174973771315,
+          13.451935684590936,
+          803.1155941700563
+        ],
+        [
+          22.47934578420878,
+          13.451047908629308,
+          803.2312537860125
+        ],
+        [
+          22.490518161628305,
+          13.450157817335933,
+          803.5780045213178
+        ],
+        [
+          22.501689449242903,
+          13.449267992533345,
+          804.1556448657066
+        ],
+        [
+          22.512859487285088,
+          13.44837563146274,
+          804.9642761033028
+        ],
+        [
+          22.51347659804854,
+          13.45577923430074,
+          804.5911328401417
+        ],
+        [
+          22.514092438683896,
+          13.463178620816198,
+          804.3245889255777
+        ],
+        [
+          22.51471062181094,
+          13.470582574686711,
+          804.1645658677444
+        ],
+        [
+          22.515327760858078,
+          13.477985199738571,
+          804.1110299751163
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    22.423487878129947,
+    13.44837563146274,
+    22.517792444427556,
+    13.514708961710333
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:48.224074Z",
+    "updated": "2024-12-17T09:53:48.224074Z",
+    "start_datetime": "2023-11-10T08:27:22Z",
+    "end_datetime": "2023-11-10T08:27:26.604888Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_06",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 42.001609543739825,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799992523679974,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.28505370525172496,
+    "sar:resolution_azimuth": 0.27815347370736987,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2023-11-10T08:27:22Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-11-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Geneina%2C%20Sudan/1ddc9a69-bb22-4cf1-8c2a-2707fa877ec0/2023-11-10-08-27-21_UMBRA-06/2023-11-10-08-27-21_UMBRA-06_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Geneina, Sudan/1ddc9a69-bb22-4cf1-8c2a-2707fa877ec0/2023-11-10-08-27-21_UMBRA-06/2023-11-10-08-27-21_UMBRA-06_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Geneina, Sudan/1ddc9a69-bb22-4cf1-8c2a-2707fa877ec0/2023-11-10-08-27-21_UMBRA-06/2023-11-10-08-27-21_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Geneina, Sudan/1ddc9a69-bb22-4cf1-8c2a-2707fa877ec0/2023-11-10-08-27-21_UMBRA-06/2023-11-10-08-27-21_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Geneina, Sudan/1ddc9a69-bb22-4cf1-8c2a-2707fa877ec0/2023-11-10-08-27-21_UMBRA-06/2023-11-10-08-27-21_UMBRA-06_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

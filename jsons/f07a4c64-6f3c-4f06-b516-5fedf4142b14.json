@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "f07a4c64-6f3c-4f06-b516-5fedf4142b14",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          14.446977454316446,
+          48.02954059393905,
+          313.7590683987364
+        ],
+        [
+          14.451872549816438,
+          48.02646725559882,
+          313.89660643041134
+        ],
+        [
+          14.456458394611008,
+          48.02974764098546,
+          313.7595329824835
+        ],
+        [
+          14.461039174561245,
+          48.03302856706625,
+          313.6615746319294
+        ],
+        [
+          14.465622283970756,
+          48.03630933459741,
+          313.6027955925092
+        ],
+        [
+          14.470207729691708,
+          48.03958994183735,
+          313.5832173982635
+        ],
+        [
+          14.474795518573611,
+          48.04287038703819,
+          313.6028616577387
+        ],
+        [
+          14.479378276032334,
+          48.046151373197816,
+          313.66155724972486
+        ],
+        [
+          14.483967539209612,
+          48.04943353113894,
+          313.75958291068673
+        ],
+        [
+          14.488554109387449,
+          48.05271081233949,
+          313.89672191627324
+        ],
+        [
+          14.483663008503745,
+          48.05578691512224,
+          313.75964068528265
+        ],
+        [
+          14.478767695921658,
+          48.05886320514694,
+          313.66164640244097
+        ],
+        [
+          14.473875553210638,
+          48.061938982728876,
+          313.6029284093529
+        ],
+        [
+          14.468982436126009,
+          48.0650129150028,
+          313.58333306759596
+        ],
+        [
+          14.464089229124937,
+          48.068088385229736,
+          313.60295284353197
+        ],
+        [
+          14.45919177019677,
+          48.071164055494165,
+          313.66173149552196
+        ],
+        [
+          14.454293317209375,
+          48.07423789016029,
+          313.7596454396844
+        ],
+        [
+          14.449398019016956,
+          48.077311238389456,
+          313.8967331238091
+        ],
+        [
+          14.444814717853394,
+          48.07403050612613,
+          313.7591321785003
+        ],
+        [
+          14.440225500761004,
+          48.07074691487026,
+          313.66063549462706
+        ],
+        [
+          14.435639538944526,
+          48.067466536681266,
+          313.6014364082366
+        ],
+        [
+          14.4310517937364,
+          48.06418464643728,
+          313.5814108187333
+        ],
+        [
+          14.426469683528529,
+          48.0609005616662,
+          313.60044494550675
+        ],
+        [
+          14.42188665647526,
+          48.05761834574886,
+          313.65872546099126
+        ],
+        [
+          14.41730271049703,
+          48.054337997041735,
+          313.7562311226502
+        ],
+        [
+          14.412720207651866,
+          48.051054113647695,
+          313.8928716946393
+        ],
+        [
+          14.41761555294769,
+          48.04798221764395,
+          313.7562406864017
+        ],
+        [
+          14.42250985884776,
+          48.044908492079244,
+          313.65880309138447
+        ],
+        [
+          14.427407292914596,
+          48.0418342760289,
+          313.6004719110206
+        ],
+        [
+          14.432297196868861,
+          48.03876228084764,
+          313.58139999583364
+        ],
+        [
+          14.437193487255787,
+          48.03568775536951,
+          313.6014424385503
+        ],
+        [
+          14.442089678718371,
+          48.03261475270408,
+          313.66062610503286
+        ],
+        [
+          14.446977454316446,
+          48.02954059393905,
+          313.7590683987364
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    14.412720207651866,
+    48.02646725559882,
+    14.488554109387449,
+    48.077311238389456
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:19.519534Z",
+    "updated": "2024-12-17T09:53:19.519534Z",
+    "start_datetime": "2023-07-24T20:20:19Z",
+    "end_datetime": "2023-07-24T20:20:23.530732Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_05",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 46.05344250427762,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.59998519322835,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.358407352844964,
+    "sar:resolution_azimuth": 0.36460690303552123,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-07-24T20:20:19Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-24"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/25-cm%20resolution%20images/BMW%20Plants/Steyr%2C%20Austria/5f234478-78d7-44c5-8c81-e7982b387112/2023-07-24-20-20-18_UMBRA-05/2023-07-24-20-20-18_UMBRA-05_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Steyr, Austria/5f234478-78d7-44c5-8c81-e7982b387112/2023-07-24-20-20-18_UMBRA-05/2023-07-24-20-20-18_UMBRA-05_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Steyr, Austria/5f234478-78d7-44c5-8c81-e7982b387112/2023-07-24-20-20-18_UMBRA-05/2023-07-24-20-20-18_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Steyr, Austria/5f234478-78d7-44c5-8c81-e7982b387112/2023-07-24-20-20-18_UMBRA-05/2023-07-24-20-20-18_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/Steyr, Austria/5f234478-78d7-44c5-8c81-e7982b387112/2023-07-24-20-20-18_UMBRA-05/2023-07-24-20-20-18_UMBRA-05_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

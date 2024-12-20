@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "09fc1a32-2447-487e-a2de-e6f38109119a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          121.74124304451564,
+          29.53088431425181,
+          19.262923100211122
+        ],
+        [
+          121.7757069403946,
+          29.51103331748431,
+          19.266057497622
+        ],
+        [
+          121.79841337335742,
+          29.541171091744523,
+          19.26331456479468
+        ],
+        [
+          121.76394369123932,
+          29.56102788609367,
+          19.266056311515257
+        ],
+        [
+          121.74124304451564,
+          29.53088431425181,
+          19.262923100211122
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    121.74124304451564,
+    29.51103331748431,
+    121.79841337335742,
+    29.56102788609367
+  ],
+  "properties": {
+    "created": "2024-12-17T09:56:34.974676Z",
+    "updated": "2024-12-17T09:56:34.974676Z",
+    "start_datetime": "2024-02-17T02:46:15Z",
+    "end_datetime": "2024-02-17T02:46:20.614068Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_07",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 17.539865064450623,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599988822592422,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 1.0000000000000036,
+    "sar:resolution_azimuth": 0.25,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 4,
+    "sar:observation_direction": "left",
+    "datetime": "2024-02-17T02:46:15Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-02-17"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ship_detection_testdata/ecc9e9fd-1c40-4ad0-942c-d2b697d48c70/2024-02-17-02-46-14_UMBRA-07/2024-02-17-02-46-14_UMBRA-07_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

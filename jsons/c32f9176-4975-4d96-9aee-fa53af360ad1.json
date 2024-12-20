@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c32f9176-4975-4d96-9aee-fa53af360ad1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -100.86903021484694,
+          21.96174432789959,
+          1824.3732104934752
+        ],
+        [
+          -100.86682719062371,
+          21.95772408620527,
+          1824.3936019316316
+        ],
+        [
+          -100.86462561924982,
+          21.953704045754634,
+          1824.4533756896853
+        ],
+        [
+          -100.86242549676356,
+          21.949684203426433,
+          1824.552511740476
+        ],
+        [
+          -100.86022284797832,
+          21.945663045133,
+          1824.6910056397319
+        ],
+        [
+          -100.85591244938452,
+          21.94771758755555,
+          1824.5537091782317
+        ],
+        [
+          -100.85160375674062,
+          21.94977230924752,
+          1824.4556397320703
+        ],
+        [
+          -100.84729546812967,
+          21.95182482090798,
+          1824.39685498178
+        ],
+        [
+          -100.84298620631073,
+          21.95387838569514,
+          1824.3772374046966
+        ],
+        [
+          -100.83867597037676,
+          21.955933004212845,
+          1824.3968192497268
+        ],
+        [
+          -100.83436612845902,
+          21.957985408443186,
+          1824.4556685471907
+        ],
+        [
+          -100.83005530787395,
+          21.960038865173868,
+          1824.5537363449112
+        ],
+        [
+          -100.8257461748483,
+          21.962092500097317,
+          1824.6909519257024
+        ],
+        [
+          -100.82794638545836,
+          21.96611083856815,
+          1824.553281233646
+        ],
+        [
+          -100.83014932713283,
+          21.970131769834445,
+          1824.4548271456733
+        ],
+        [
+          -100.83234972766631,
+          21.974151384391813,
+          1824.39582002908
+        ],
+        [
+          -100.83455156170236,
+          21.978171204937727,
+          1824.3761095898226
+        ],
+        [
+          -100.83675216732645,
+          21.98219211538942,
+          1824.395803890191
+        ],
+        [
+          -100.83895421507923,
+          21.986213240318275,
+          1824.454829053022
+        ],
+        [
+          -100.84115639076721,
+          21.99023218931235,
+          1824.5531352655962
+        ],
+        [
+          -100.84335734665125,
+          21.994252244205693,
+          1824.6908457037061
+        ],
+        [
+          -100.8476676964685,
+          21.992199072609033,
+          1824.5528813879937
+        ],
+        [
+          -100.85197973232378,
+          21.9901460611799,
+          1824.454135521315
+        ],
+        [
+          -100.85628947080701,
+          21.98809170478891,
+          1824.3945617219433
+        ],
+        [
+          -100.86059823308727,
+          21.986038394500785,
+          1824.3742212383077
+        ],
+        [
+          -100.86490868965569,
+          21.98398524498839,
+          1824.3931161630899
+        ],
+        [
+          -100.86921952681786,
+          21.981929869920084,
+          1824.4511892655864
+        ],
+        [
+          -100.8735293952442,
+          21.97987554173371,
+          1824.5484903380275
+        ],
+        [
+          -100.87783829561619,
+          21.977822259840963,
+          1824.6849873177707
+        ],
+        [
+          -100.87563608654062,
+          21.973801791242327,
+          1824.5480239326134
+        ],
+        [
+          -100.87343266987452,
+          21.96978242425227,
+          1824.4503690805286
+        ],
+        [
+          -100.87123071404186,
+          21.965763270816886,
+          1824.3921047775075
+        ],
+        [
+          -100.86903021484694,
+          21.96174432789959,
+          1824.3732104934752
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -100.87783829561619,
+    21.945663045133,
+    -100.8257461748483,
+    21.994252244205693
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:19.185971Z",
+    "updated": "2024-12-17T09:53:19.185971Z",
+    "start_datetime": "2023-07-24T04:23:33Z",
+    "end_datetime": "2023-07-24T04:23:37.649639Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 51.75361791240525,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.599986706511116,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3201831609346189,
+    "sar:resolution_azimuth": 0.3239013937114724,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-07-24T04:23:33Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-24"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/25-cm%20resolution%20images/BMW%20Plants/San%20Luis%20Potosi%2C%20Mexico/bb926899-700f-47d0-b312-9b29c4cce9d6/2023-07-24-04-23-32_UMBRA-04/2023-07-24-04-23-32_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/San Luis Potosi, Mexico/bb926899-700f-47d0-b312-9b29c4cce9d6/2023-07-24-04-23-32_UMBRA-04/2023-07-24-04-23-32_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/San Luis Potosi, Mexico/bb926899-700f-47d0-b312-9b29c4cce9d6/2023-07-24-04-23-32_UMBRA-04/2023-07-24-04-23-32_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/San Luis Potosi, Mexico/bb926899-700f-47d0-b312-9b29c4cce9d6/2023-07-24-04-23-32_UMBRA-04/2023-07-24-04-23-32_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/BMW Plants/San Luis Potosi, Mexico/bb926899-700f-47d0-b312-9b29c4cce9d6/2023-07-24-04-23-32_UMBRA-04/2023-07-24-04-23-32_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

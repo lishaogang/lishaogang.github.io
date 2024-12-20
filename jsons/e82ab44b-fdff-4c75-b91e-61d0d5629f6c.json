@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "e82ab44b-fdff-4c75-b91e-61d0d5629f6c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.34521712240435,
+          -34.594999037474985,
+          47.64206789605575
+        ],
+        [
+          -58.39278023123749,
+          -34.57299036749169,
+          47.64596470974676
+        ],
+        [
+          -58.41941134186682,
+          -34.61231956457731,
+          47.64223833686277
+        ],
+        [
+          -58.37183282856799,
+          -34.63433847201053,
+          47.645961612874146
+        ],
+        [
+          -58.34521712240435,
+          -34.594999037474985,
+          47.64206789605575
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -58.41941134186682,
+    -34.63433847201053,
+    -58.34521712240435,
+    -34.57299036749169
+  ],
+  "properties": {
+    "created": "2024-12-17T09:46:50.745344Z",
+    "updated": "2024-12-17T09:46:50.745344Z",
+    "start_datetime": "2024-05-11T01:43:23Z",
+    "end_datetime": "2024-05-11T01:43:27.762707Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.63635917813326,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799982607364655,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.27287871825931287,
+    "sar:resolution_azimuth": 0.25750794538734006,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "left",
+    "datetime": "2024-05-11T01:43:23Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-05-11"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos%20Aires%2C%20ARG/238e236e-2909-4db9-a60f-1a9fb9db2a98/2024-05-11-01-43-22_UMBRA-04/2024-05-11-01-43-22_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos Aires, ARG/238e236e-2909-4db9-a60f-1a9fb9db2a98/2024-05-11-01-43-22_UMBRA-04/2024-05-11-01-43-22_UMBRA-04_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos Aires, ARG/238e236e-2909-4db9-a60f-1a9fb9db2a98/2024-05-11-01-43-22_UMBRA-04/2024-05-11-01-43-22_UMBRA-04_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos Aires, ARG/238e236e-2909-4db9-a60f-1a9fb9db2a98/2024-05-11-01-43-22_UMBRA-04/2024-05-11-01-43-22_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos Aires, ARG/238e236e-2909-4db9-a60f-1a9fb9db2a98/2024-05-11-01-43-22_UMBRA-04/2024-05-11-01-43-22_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos Aires, ARG/238e236e-2909-4db9-a60f-1a9fb9db2a98/2024-05-11-01-43-22_UMBRA-04/2024-05-11-01-43-22_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "c3343a5c-16ce-4cf6-b77b-ac367fa591ee",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.81027085125527,
+          39.01993346996888,
+          31.692089293152094
+        ],
+        [
+          125.80692508886291,
+          39.030886255983546,
+          31.57044310402125
+        ],
+        [
+          125.80358055504139,
+          39.041839279577516,
+          31.694536805152893
+        ],
+        [
+          125.80023350745617,
+          39.05279286965732,
+          32.06416926346719
+        ],
+        [
+          125.79688468295532,
+          39.06374448584971,
+          32.67922779917717
+        ],
+        [
+          125.7935325118252,
+          39.07469961189151,
+          33.54010047856718
+        ],
+        [
+          125.77948552754954,
+          39.072085234038845,
+          32.683010718785226
+        ],
+        [
+          125.76543538637567,
+          39.06947168758064,
+          32.07069792132825
+        ],
+        [
+          125.75138640930349,
+          39.06685611992774,
+          31.70307750068605
+        ],
+        [
+          125.73733771040655,
+          39.06424124141111,
+          31.58039222843945
+        ],
+        [
+          125.72329067819469,
+          39.06162171290625,
+          31.70217247400433
+        ],
+        [
+          125.7092480727484,
+          39.059000050927764,
+          32.06848582345992
+        ],
+        [
+          125.69520171515728,
+          39.056379358454386,
+          32.67992130666971
+        ],
+        [
+          125.6811595171518,
+          39.05375659553897,
+          33.53583262581378
+        ],
+        [
+          125.6845227365152,
+          39.04280556598801,
+          32.676944989711046
+        ],
+        [
+          125.68788938849266,
+          39.03185769458987,
+          32.06344063393772
+        ],
+        [
+          125.69125382049674,
+          39.02090782238242,
+          31.695554841309786
+        ],
+        [
+          125.69461609924056,
+          39.009955811429506,
+          31.5733923278749
+        ],
+        [
+          125.69797826940277,
+          38.99900676063232,
+          31.696730461902916
+        ],
+        [
+          125.70133753502448,
+          38.988058014159535,
+          32.06571393366903
+        ],
+        [
+          125.70469478548236,
+          38.97710672998901,
+          32.68048482760787
+        ],
+        [
+          125.70805564285321,
+          38.96615785833018,
+          33.54038329422474
+        ],
+        [
+          125.72208122653018,
+          38.96877690601911,
+          32.682867906056345
+        ],
+        [
+          125.73611012395028,
+          38.97139659808125,
+          32.06973420176655
+        ],
+        [
+          125.75013968554956,
+          38.97401436303547,
+          31.701363487169147
+        ],
+        [
+          125.76417003686076,
+          38.97663017380005,
+          31.57773794233799
+        ],
+        [
+          125.77820130482588,
+          38.97924400320489,
+          31.698847630992532
+        ],
+        [
+          125.79223361782257,
+          38.98185582398708,
+          32.06469060014933
+        ],
+        [
+          125.80626710569129,
+          38.98446560878615,
+          32.67527302354574
+        ],
+        [
+          125.82029817926781,
+          38.987073518166156,
+          33.53029330447316
+        ],
+        [
+          125.81695878952613,
+          38.99802848289632,
+          32.67206007614732
+        ],
+        [
+          125.81361416757791,
+          39.00898098712891,
+          32.059207363054156
+        ],
+        [
+          125.81027085125527,
+          39.01993346996888,
+          31.692089293152094
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.6811595171518,
+    38.96615785833018,
+    125.82029817926781,
+    39.07469961189151
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:20.177060Z",
+    "updated": "2024-12-17T09:53:20.177060Z",
+    "start_datetime": "2023-07-26T01:18:09Z",
+    "end_datetime": "2023-07-26T01:18:12.634445Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 34.34313403706837,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.800003001233563,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3387455414093205,
+    "sar:resolution_azimuth": 0.3305858039061233,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-07-26T01:18:09Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-07-26"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/25-cm%20resolution%20images/Kim%20Il%20Sung%20Square%2C%20Pyongyang%20North%20Korea/067615cf-04ac-40b5-b7ad-094f2bed1ffa/2023-07-26-01-18-08_UMBRA-04/2023-07-26-01-18-08_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Kim Il Sung Square, Pyongyang North Korea/067615cf-04ac-40b5-b7ad-094f2bed1ffa/2023-07-26-01-18-08_UMBRA-04/2023-07-26-01-18-08_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Kim Il Sung Square, Pyongyang North Korea/067615cf-04ac-40b5-b7ad-094f2bed1ffa/2023-07-26-01-18-08_UMBRA-04/2023-07-26-01-18-08_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Kim Il Sung Square, Pyongyang North Korea/067615cf-04ac-40b5-b7ad-094f2bed1ffa/2023-07-26-01-18-08_UMBRA-04/2023-07-26-01-18-08_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/25-cm resolution images/Kim Il Sung Square, Pyongyang North Korea/067615cf-04ac-40b5-b7ad-094f2bed1ffa/2023-07-26-01-18-08_UMBRA-04/2023-07-26-01-18-08_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

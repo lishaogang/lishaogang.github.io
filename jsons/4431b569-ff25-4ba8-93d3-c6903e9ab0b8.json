@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "4431b569-ff25-4ba8-93d3-c6903e9ab0b8",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -84.02924135586007,
+          30.58732407683298,
+          57.55075606610626
+        ],
+        [
+          -84.02965700434092,
+          30.591819257008325,
+          57.68864422850311
+        ],
+        [
+          -84.03485290073219,
+          30.591459633507185,
+          57.551604880951345
+        ],
+        [
+          -84.04004887100712,
+          30.591098944435092,
+          57.45368523988873
+        ],
+        [
+          -84.04524491863828,
+          30.590737189827056,
+          57.39488960709423
+        ],
+        [
+          -84.05044127503842,
+          30.590376862001783,
+          57.37530969828367
+        ],
+        [
+          -84.05563771620034,
+          30.59001547116995,
+          57.39486274495721
+        ],
+        [
+          -84.06083447401025,
+          30.589655512114483,
+          57.453640702180564
+        ],
+        [
+          -84.06603132393882,
+          30.589294492578997,
+          57.55156100168824
+        ],
+        [
+          -84.07122826939704,
+          30.58893241259083,
+          57.68862848356366
+        ],
+        [
+          -84.07081065777732,
+          30.584436898916426,
+          57.5508795036003
+        ],
+        [
+          -84.07039350426467,
+          30.579940881282134,
+          57.452491918578744
+        ],
+        [
+          -84.06997417731897,
+          30.575446722118734,
+          57.393411555327475
+        ],
+        [
+          -84.06955506850706,
+          30.570949548178586,
+          57.37367905303836
+        ],
+        [
+          -84.06913952074167,
+          30.566454475480487,
+          57.39341210946441
+        ],
+        [
+          -84.06872155991877,
+          30.561958744650184,
+          57.45243327319622
+        ],
+        [
+          -84.06830405049352,
+          30.557462475374212,
+          57.55084127839655
+        ],
+        [
+          -84.0678843749474,
+          30.552968038161563,
+          57.68848811369389
+        ],
+        [
+          -84.06269218998548,
+          30.55333053773068,
+          57.5513054067269
+        ],
+        [
+          -84.05749697402078,
+          30.55368936278893,
+          57.453341875225306
+        ],
+        [
+          -84.05230234681007,
+          30.5540521305201,
+          57.39440569560975
+        ],
+        [
+          -84.04710754905504,
+          30.554411346292515,
+          57.37475394457579
+        ],
+        [
+          -84.04191308047872,
+          30.554772002752244,
+          57.39420748874545
+        ],
+        [
+          -84.03671893689466,
+          30.555134096158298,
+          57.45276171434671
+        ],
+        [
+          -84.03152461257378,
+          30.55549263868104,
+          57.550587504170835
+        ],
+        [
+          -84.02633060578177,
+          30.55585261558427,
+          57.687505471520126
+        ],
+        [
+          -84.026745846239,
+          30.560349111052197,
+          57.54988986905664
+        ],
+        [
+          -84.02716151752112,
+          30.564845060589732,
+          57.45163974259049
+        ],
+        [
+          -84.02757762196804,
+          30.56934047163299,
+          57.39274152275175
+        ],
+        [
+          -84.02799128349308,
+          30.573835220641616,
+          57.373267732560635
+        ],
+        [
+          -84.02840849806348,
+          30.578332065013804,
+          57.393052473664284
+        ],
+        [
+          -84.02882326895194,
+          30.58282825929762,
+          57.452273765578866
+        ],
+        [
+          -84.02924135586007,
+          30.58732407683298,
+          57.55075606610626
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -84.07122826939704,
+    30.552968038161563,
+    -84.02633060578177,
+    30.591819257008325
+  ],
+  "properties": {
+    "created": "2024-12-17T09:53:57.335361Z",
+    "updated": "2024-12-17T09:53:57.335361Z",
+    "start_datetime": "2023-06-30T15:06:10.408277Z",
+    "end_datetime": "2023-06-30T15:06:14.477150Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_04",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 44.70692808668263,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799965129350312,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.3033632246725917,
+    "sar:resolution_azimuth": 0.29913989509072825,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 1,
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-30T15:06:10.408277Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2023-06-30"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Lean%20County%20Sold%20Waste%20Management%20Facility%2C%20Tallahassee%2C%20FL/ed64a6a0-7fcc-4e79-969a-094a7f618440/2023-06-30-15-06-09_UMBRA-04/2023-06-30-15-06-09_UMBRA-04_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lean County Sold Waste Management Facility, Tallahassee, FL/ed64a6a0-7fcc-4e79-969a-094a7f618440/2023-06-30-15-06-09_UMBRA-04/2023-06-30-15-06-09_UMBRA-04_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lean County Sold Waste Management Facility, Tallahassee, FL/ed64a6a0-7fcc-4e79-969a-094a7f618440/2023-06-30-15-06-09_UMBRA-04/2023-06-30-15-06-09_UMBRA-04_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lean County Sold Waste Management Facility, Tallahassee, FL/ed64a6a0-7fcc-4e79-969a-094a7f618440/2023-06-30-15-06-09_UMBRA-04/2023-06-30-15-06-09_UMBRA-04_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Lean County Sold Waste Management Facility, Tallahassee, FL/ed64a6a0-7fcc-4e79-969a-094a7f618440/2023-06-30-15-06-09_UMBRA-04/2023-06-30-15-06-09_UMBRA-04_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}
