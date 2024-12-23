@@ -195,7 +195,7 @@ def parse_json_to_map(json_folder, out_html_path, max_item=0, static_path=''):
 
     folium_map = folium.Map(
                             height=map_size,
-                            max_bounds=True,
+                            # max_bounds=True,
                             location=[0, 0], 
                             zoom_start=3, 
                             prefer_canvas=True,
