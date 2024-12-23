@@ -33,9 +33,10 @@ python flask_app.py
 ![alt text](assets/readme.md/multi_img_download.gif)
 
 
-
+# 参数
+0. 如需同步最新数据，修改`flask_app.py`中的`update_json`为`True`，并重新启动Flask APP
 
 # 注意
 0. 本工具使用folium生成网页，网页中的部分资源加载需要科学上网
 1. 下载链接中可能包含空格，如使用终端工具下载，注意使用引号包含链接
-2. SATC目录中少部分影像资源
+2. SATC目录中少部分影像资源链接以失效，暂未作处理
