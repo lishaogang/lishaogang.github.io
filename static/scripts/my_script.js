@@ -13,7 +13,7 @@ function copyUrls(urls, image_count=1) {
     let urls_str = '';
     // 遍历URL数组， 将每个URL添加到HTML字符串中
     for(let url of urls) {
-        urls_str += '<a href="'+ url +'" target="_blank">'+ url +'</a><br/><br/>';
+        urls_str += 'wget <a href="'+ url +'" target="_blank">'+ '"' + url + '"' +'</a><br/><br/>';
     }
     html_str += urls_str;
     
