@@ -17,7 +17,7 @@ logger.info('Flask app started')
 app = Flask(__name__, template_folder=template_path, static_folder=static_path)
 
 # 获取所有影像坐标及其对应资源url
-update_json = False
+update_json = True
 urls_infos = create_map(os.path.join(template_path, out_html_path), 
                         update_json=update_json, 
                         static_path=static_path)

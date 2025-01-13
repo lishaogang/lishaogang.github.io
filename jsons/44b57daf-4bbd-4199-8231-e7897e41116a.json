@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "44b57daf-4bbd-4199-8231-e7897e41116a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.83319667340395,
+          42.76303208460554,
+          197.7804139973188
+        ],
+        [
+          -78.77868908473074,
+          42.742728400335686,
+          197.78333778202867
+        ],
+        [
+          -78.75110745074228,
+          42.78288817379532,
+          197.78053520474066
+        ],
+        [
+          -78.80564126274493,
+          42.80320483959245,
+          197.7833344464313
+        ],
+        [
+          -78.83319667340395,
+          42.76303208460554,
+          197.7804139973188
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.83319667340395,
+    42.742728400335686,
+    -78.75110745074228,
+    42.80320483959245
+  ],
+  "properties": {
+    "created": "2025-01-13T06:57:07.661923Z",
+    "updated": "2025-01-13T06:57:07.661923Z",
+    "start_datetime": "2025-01-10T16:22:17Z",
+    "end_datetime": "2025-01-10T16:22:28.297169Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 33.5112477592485,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799951714463532,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.21843537576362956,
+    "sar:resolution_azimuth": 0.09028268834405231,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2025-01-10T16:22:17Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2025-01-10"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New%20Highmark%20Stadium%2C%20New%20York%2C%20United%20States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New Highmark Stadium, New York, United States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New Highmark Stadium, New York, United States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New Highmark Stadium, New York, United States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New Highmark Stadium, New York, United States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New Highmark Stadium, New York, United States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New Highmark Stadium, New York, United States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

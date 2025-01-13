@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "2d09b819-bfbf-4cb7-a688-3234680be334",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.56023156929471,
+          8.997743440208914,
+          14.315960116707059
+        ],
+        [
+          -79.60560086374905,
+          8.994695346679851,
+          14.31515462408877
+        ],
+        [
+          -79.60253255536288,
+          8.949589652407804,
+          14.316083907175132
+        ],
+        [
+          -79.55716883829633,
+          8.952637376931413,
+          14.315155768336695
+        ],
+        [
+          -79.56023156929471,
+          8.997743440208914,
+          14.315960116707059
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -79.60560086374905,
+    8.949589652407804,
+    -79.55716883829633,
+    8.997743440208914
+  ],
+  "properties": {
+    "created": "2025-01-13T06:57:28.966310Z",
+    "updated": "2025-01-13T06:57:28.966310Z",
+    "start_datetime": "2025-01-12T03:35:19Z",
+    "end_datetime": "2025-01-12T03:35:33.090062Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_09",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 44.169740734396285,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.79996717418544,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.21365124621743878,
+    "sar:resolution_azimuth": 0.09337580898382497,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2025-01-12T03:35:19Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2025-01-12"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama%20Canal%2C%20Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CPHD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama Canal, Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_CPHD.cphd",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama Canal, Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_CSI-SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama Canal, Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama Canal, Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama Canal, Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama Canal, Panama/54ca569e-57d2-446a-bc0d-ba2105519fc2/2025-01-12-03-35-18_UMBRA-09/2025-01-12-03-35-18_UMBRA-09_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

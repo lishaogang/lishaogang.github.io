@@ -1,0 +1,135 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "7e5a0c5c-865d-4eab-8616-a857a2330399",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.06672782851859,
+          21.70596505524833,
+          14.638617499113963
+        ],
+        [
+          39.11305215916124,
+          21.718824082022753,
+          14.635568102227124
+        ],
+        [
+          39.09929340261511,
+          21.762113381795665,
+          14.638738261902072
+        ],
+        [
+          39.05295642367994,
+          21.749250571237834,
+          14.635567200435812
+        ],
+        [
+          39.06672782851859,
+          21.70596505524833,
+          14.638617499113963
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    39.05295642367994,
+    21.70596505524833,
+    39.11305215916124,
+    21.762113381795665
+  ],
+  "properties": {
+    "created": "2025-01-13T06:55:43.251257Z",
+    "updated": "2025-01-13T06:55:43.251257Z",
+    "start_datetime": "2024-12-20T08:26:39Z",
+    "end_datetime": "2024-12-20T08:26:51.805682Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_09",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 32.159034710790316,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799993259366602,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.20412235235585663,
+    "sar:resolution_azimuth": 0.10068955794216206,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 2,
+    "sar:observation_direction": "left",
+    "datetime": "2024-12-20T08:26:39Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2024-12-20"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah%20Tower%2C%20Saudi%20Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah Tower, Saudi Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah Tower, Saudi Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah Tower, Saudi Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

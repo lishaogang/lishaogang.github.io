@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "7f40db7e-8e11-487e-8fbb-3985338f542b",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -115.1154232527492,
+          36.09930807644076,
+          611.0769471342281
+        ],
+        [
+          -115.16953948784214,
+          36.109401280539394,
+          611.078912669405
+        ],
+        [
+          -115.18195604498203,
+          36.065482425602056,
+          611.0771204782901
+        ],
+        [
+          -115.1278683086449,
+          36.05539475888788,
+          611.0789159657443
+        ],
+        [
+          -115.1154232527492,
+          36.09930807644076,
+          611.0769471342281
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -115.18195604498203,
+    36.05539475888788,
+    -115.1154232527492,
+    36.109401280539394
+  ],
+  "properties": {
+    "created": "2025-01-13T07:01:41.256875Z",
+    "updated": "2025-01-13T07:01:41.256875Z",
+    "start_datetime": "2025-01-04T05:29:45Z",
+    "end_datetime": "2025-01-04T05:30:14.022400Z",
+    "license": "CC-BY-4.0",
+    "providers": [
+      {
+        "name": "umbra",
+        "roles": [
+          "host",
+          "processor",
+          "producer",
+          "licensor"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "constellation": "umbra",
+    "platform": "UMBRA_08",
+    "mission": "umbra-sample-data",
+    "view:incidence_angle": 36.33841139163041,
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:frequency_band": "X",
+    "sar:center_frequency": 9.799995556357318,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_range": 0.25339799156480214,
+    "sar:resolution_azimuth": 0.04352609575019607,
+    "sar:looks_range": 1,
+    "sar:looks_azimuth": 5,
+    "sar:observation_direction": "left",
+    "datetime": "2025-01-04T05:29:45Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "2025-01-04"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_METADATA.json",
+      "type": "application/json",
+      "title": "metadata",
+      "description": "Extended Umbra Metadata: https://docs.canopy.umbra.space/reference/get_schema",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "CSI_TIFF": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_CSI.tif",
+      "type": "image/tiff",
+      "title": "CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "GEC",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SIDD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_SIDD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}
